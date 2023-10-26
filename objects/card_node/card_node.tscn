@@ -1,8 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://dolpjwec18lut"]
 
-[ext_resource type="Script" path="res://objects/card.gd" id="1_d5lag"]
+[ext_resource type="Script" path="res://objects/card_node/card_node.gd" id="1_qtq8f"]
 
-[node name="Card" type="PanelContainer"]
+[node name="CardNode" type="PanelContainer"]
+custom_minimum_size = Vector2(682, 426)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -10,10 +11,11 @@ offset_right = -470.0
 offset_bottom = -222.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_d5lag")
+script = ExtResource("1_qtq8f")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 2
+mouse_filter = 2
 
 [node name="Content" type="RichTextLabel" parent="Control"]
 unique_name_in_owner = true
@@ -26,6 +28,7 @@ offset_top = -16.0
 offset_bottom = 16.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 bbcode_enabled = true
 text = "[center]1"
 fit_content = true
@@ -33,6 +36,7 @@ scroll_active = false
 
 [node name="Number" type="Label" parent="Control"]
 unique_name_in_owner = true
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.744868

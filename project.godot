@@ -11,13 +11,10 @@ config_version=5
 [application]
 
 config/name="Deck"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/main/main.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
+run/low_processor_mode=true
 config/icon="res://icon.svg"
-
-[autoload]
-
-CardManager="*res://objects/card_manager.gd"
 
 [importer_defaults]
 

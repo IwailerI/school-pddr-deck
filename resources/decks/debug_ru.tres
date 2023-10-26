@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="Deck" load_steps=7 format=3 uid="uid://dgeu44lduvjyl"]
+
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_esf2b"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="2_5pu4y"]
+
+[sub_resource type="Resource" id="Resource_paotp"]
+script = ExtResource("2_5pu4y")
+question_text = "Самое маленькое натуральное число?"
+answer_text = "1"
+
+[sub_resource type="Resource" id="Resource_xu4pu"]
+script = ExtResource("2_5pu4y")
+question_text = "Какие числа являются натуральными?"
+answer_text = "Целые положительные числа."
+
+[sub_resource type="Resource" id="Resource_tbbcd"]
+script = ExtResource("2_5pu4y")
+question_text = "Чему равна сумма первых 100 натуральных чисел?"
+answer_text = "5050"
+
+[sub_resource type="Resource" id="Resource_yrnu5"]
+script = ExtResource("2_5pu4y")
+question_text = "Разложить выражение на множители:
+[img]uid://c420kfdsjxum4[/img]"
+answer_text = "[img]uid://1q1g7dwdvg4b[/img]"
+
+[resource]
+script = ExtResource("1_esf2b")
+name = "A Deck"
+static_cards = Array[ExtResource("2_5pu4y")]([SubResource("Resource_paotp"), SubResource("Resource_xu4pu"), SubResource("Resource_tbbcd"), SubResource("Resource_yrnu5")])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])
