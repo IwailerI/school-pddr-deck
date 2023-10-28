@@ -1,0 +1,107 @@
+[gd_scene load_steps=10 format=3 uid="uid://ev4e0m0nn74c"]
+
+[ext_resource type="Theme" uid="uid://enhsopwx32o3" path="res://resources/themes/main_theme.tres" id="1_aruor"]
+[ext_resource type="Script" path="res://scenes/viewer/viewer.gd" id="1_vv58s"]
+[ext_resource type="PackedScene" uid="uid://dolpjwec18lut" path="res://objects/card_node/card_node.tscn" id="2_1kk8a"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_7jvv8"]
+device = -1
+keycode = 4194319
+
+[sub_resource type="InputEventKey" id="InputEventKey_8o35p"]
+device = -1
+keycode = 4194322
+
+[sub_resource type="Shortcut" id="Shortcut_n74vk"]
+events = [SubResource("InputEventKey_7jvv8"), SubResource("InputEventKey_8o35p")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_fflrb"]
+device = -1
+keycode = 4194321
+
+[sub_resource type="InputEventKey" id="InputEventKey_dcqey"]
+device = -1
+keycode = 4194320
+
+[sub_resource type="Shortcut" id="Shortcut_dtebu"]
+events = [SubResource("InputEventKey_fflrb"), SubResource("InputEventKey_dcqey")]
+
+[node name="Viewer" type="HBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_aruor")
+script = ExtResource("1_vv58s")
+
+[node name="ButtonLeft" type="Button" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 2
+focus_mode = 0
+shortcut = SubResource("Shortcut_n74vk")
+text = "<<"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+layout_mode = 2
+alignment = 1
+
+[node name="CardNumber" type="SpinBox" parent="VBoxContainer2/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+min_value = 1.0
+value = 1.0
+rounded = true
+alignment = 2
+
+[node name="DeckSize" type="Label" parent="VBoxContainer2/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "/124"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Card" parent="VBoxContainer2/CenterContainer" instance=ExtResource("2_1kk8a")]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="CheckBoxDynamic" type="CheckBox" parent="VBoxContainer2/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "Dynamic"
+
+[node name="ButtonExit" type="Button" parent="VBoxContainer2/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "Exit"
+
+[node name="ButtonRight" type="Button" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+focus_mode = 0
+shortcut = SubResource("Shortcut_dtebu")
+text = ">>"

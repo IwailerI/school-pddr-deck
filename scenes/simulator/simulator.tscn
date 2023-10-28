@@ -1,0 +1,78 @@
+[gd_scene load_steps=5 format=3 uid="uid://bk2jugtns1bx4"]
+
+[ext_resource type="Script" path="res://scenes/simulator/simulator.gd" id="1_1ues8"]
+[ext_resource type="Theme" uid="uid://enhsopwx32o3" path="res://resources/themes/main_theme.tres" id="1_q4iqe"]
+[ext_resource type="PackedScene" uid="uid://dolpjwec18lut" path="res://objects/card_node/card_node.tscn" id="2_vr30v"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hid4b"]
+
+[node name="Main" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_q4iqe")
+script = ExtResource("1_1ues8")
+
+[node name="CardsLeftLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+text = "???/???"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Card" parent="CenterContainer" instance=ExtResource("2_vr30v")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="EmptyState" type="PanelContainer" parent="CenterContainer"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(682, 426)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_hid4b")
+
+[node name="Label" type="Label" parent="CenterContainer/EmptyState"]
+layout_mode = 2
+text = "Tap to draw a card!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EmptyDeck" type="PanelContainer" parent="CenterContainer"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(682, 426)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_hid4b")
+
+[node name="Label" type="Label" parent="CenterContainer/EmptyDeck"]
+layout_mode = 2
+text = "Deck has ended. Tap to reshuffle."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="ButtonReset" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Reset"
+
+[node name="ButtonExit" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Exit"

@@ -10,11 +10,20 @@ config_version=5
 
 [application]
 
-config/name="Deck"
-run/main_scene="res://scenes/main/main.tscn"
+config/name="Deck Companion"
+config/tags=PackedStringArray("high_priority")
+run/main_scene="res://scenes/lobby/lobby.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 run/low_processor_mode=true
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://assets/images/icon.png"
+config/icon="res://assets/images/icon.png"
+boot_splash/minimum_display_time=1500
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [importer_defaults]
 
@@ -25,7 +34,7 @@ texture={
 "compress/lossy_quality": 0.7,
 "compress/mode": 0,
 "compress/normal_map": 0,
-"detect_3d/compress_to": 1,
+"detect_3d/compress_to": 0,
 "editor/convert_colors_with_editor_theme": false,
 "editor/scale_with_editor_scale": false,
 "mipmaps/generate": false,
@@ -38,5 +47,10 @@ texture={
 "process/size_limit": 0,
 "roughness/mode": 0,
 "roughness/src_normal": "",
-"svg/scale": 2.0
+"svg/scale": 1.8
 }
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+environment/defaults/default_clear_color=Color(0.0941176, 0.0941176, 0.0941176, 1)

@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="Deck" load_steps=21 format=3 uid="uid://mr1xoe7gmu45"]
+
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_klnq2"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="2_w62ly"]
+
+[sub_resource type="Resource" id="Resource_2yhrx"]
+script = ExtResource("2_w62ly")
+question_text = "Назовите самое маленькое натуральное число?"
+answer_text = "1"
+
+[sub_resource type="Resource" id="Resource_qk8fh"]
+script = ExtResource("2_w62ly")
+question_text = "Какие числа являются натуральными?"
+answer_text = "Целые положительные числа."
+
+[sub_resource type="Resource" id="Resource_pqjly"]
+script = ExtResource("2_w62ly")
+question_text = "Переведите 36[img]uid://dmf66x2hoqpgi[/img] в [img]uid://bvkbkheanq2nc[/img]."
+answer_text = "10 [img]uid://bvkbkheanq2nc[/img]"
+
+[sub_resource type="Resource" id="Resource_iibsf"]
+script = ExtResource("2_w62ly")
+question_text = "Переведите 2 [img]res://assets/equations/hactar.svg[/img] в [img]res://assets/equations/m_per_s.svg[/img]"
+answer_text = "20000 [img]res://assets/equations/m_squared.svg[/img]"
+
+[sub_resource type="Resource" id="Resource_f5th0"]
+script = ExtResource("2_w62ly")
+question_text = "Переведите из 200 [img]uid://bfkk1k6povmux[/img] в [img]uid://00l3am26g558[/img]."
+answer_text = "200 [img]uid://00l3am26g558[/img]"
+
+[sub_resource type="Resource" id="Resource_fpwvn"]
+script = ExtResource("2_w62ly")
+question_text = "Переведите 75 kPa в Pa"
+answer_text = "75000 Pa"
+
+[sub_resource type="Resource" id="Resource_akfn1"]
+script = ExtResource("2_w62ly")
+question_text = "Переведите 1.98μm в m."
+answer_text = "0.000098m"
+
+[sub_resource type="Resource" id="Resource_mmep6"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число 50 римскими цифрами."
+answer_text = "L"
+
+[sub_resource type="Resource" id="Resource_de486"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число 100 римскими цифрами."
+answer_text = "C"
+
+[sub_resource type="Resource" id="Resource_g4d8u"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число 500 римскими цифрами."
+answer_text = "D"
+
+[sub_resource type="Resource" id="Resource_w6h8e"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число 1000 римскими цифрами."
+answer_text = "M"
+
+[sub_resource type="Resource" id="Resource_g3d8h"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число 90 римскими цифрами."
+answer_text = "XC"
+
+[sub_resource type="Resource" id="Resource_4xik2"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число L арабскими цифрами. "
+answer_text = "50"
+
+[sub_resource type="Resource" id="Resource_1f1sc"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число C арабскими цифрами."
+answer_text = "100"
+
+[sub_resource type="Resource" id="Resource_wbw4p"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число D арабскими цифрами. "
+answer_text = "500"
+
+[sub_resource type="Resource" id="Resource_dxhpo"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число M арабскими цифрами. "
+answer_text = "1000"
+
+[sub_resource type="Resource" id="Resource_ss38a"]
+script = ExtResource("2_w62ly")
+question_text = "Запишите число DCLXVI арабскими цифрами. "
+answer_text = "666"
+
+[sub_resource type="Resource" id="Resource_y5eu7"]
+script = ExtResource("2_w62ly")
+question_text = "0 / [img height=25]uid://3mv0vnygyr4y[/img] = ?"
+answer_text = "0"
+
+[resource]
+script = ExtResource("1_klnq2")
+name = "Russian"
+static_cards = Array[ExtResource("2_w62ly")]([SubResource("Resource_2yhrx"), SubResource("Resource_qk8fh"), SubResource("Resource_pqjly"), SubResource("Resource_iibsf"), SubResource("Resource_f5th0"), SubResource("Resource_fpwvn"), SubResource("Resource_akfn1"), SubResource("Resource_mmep6"), SubResource("Resource_de486"), SubResource("Resource_g4d8u"), SubResource("Resource_w6h8e"), SubResource("Resource_g3d8h"), SubResource("Resource_4xik2"), SubResource("Resource_1f1sc"), SubResource("Resource_wbw4p"), SubResource("Resource_dxhpo"), SubResource("Resource_ss38a"), SubResource("Resource_y5eu7")])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])

@@ -2,8 +2,6 @@ class_name CardNode
 extends PanelContainer
 
 
-signal clicked
-
 var _cached_answer := ""
 @onready var _content: RichTextLabel = %Content
 @onready var _number: Label = %Number
@@ -28,14 +26,3 @@ func show_answer() -> void:
 
 func set_number_visible(visibility: bool):
 	_number.visible =  visibility
-
-
-func _gui_input(event: InputEvent):
-	if event is InputEventMouseButton:
-		if event.button_index == MOUSE_BUTTON_LEFT and event.is_pressed():
-			accept_event()
-			clicked.emit()
-	elif event is InputEventScreenTouch:
-		if event.pressed:
-			accept_event()
-			clicked.emit()

@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1ehuuhnvba58"]
+
+[ext_resource type="Script" path="res://scenes/deck_picker/deck_picker.gd" id="1_b12q2"]
+[ext_resource type="Resource" uid="uid://dgeu44lduvjyl" path="res://resources/decks/debug_ru.tres" id="2_37lph"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kxewd"]
+
+[node name="DeckPicker" type="PanelContainer"]
+script = ExtResource("1_b12q2")
+decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("2_37lph")])
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Select a deck:"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="DeckContainer" type="HFlowContainer" parent="VBoxContainer/ScrollContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(384, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer/ScrollContainer/DeckContainer"]
+custom_minimum_size = Vector2(190, 190)
+layout_mode = 2
+text = "Default (12)"
+icon = SubResource("CompressedTexture2D_kxewd")
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
