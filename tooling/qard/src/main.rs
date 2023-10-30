@@ -1,6 +1,13 @@
-use std::path::PathBuf;
+use std::{
+    fmt::{format, Debug, Display},
+    fs,
+    path::{Path, PathBuf},
+    str::FromStr,
+};
 
-use clap::{Parser, ValueEnum};
+use clap::Parser;
+use parse_qard::ParseError;
+use serde::{ser::SerializeTuple, Serialize, Serializer};
 
 #[derive(Parser)]
 #[command(name = "QardCompiler")]
@@ -22,18 +29,9 @@ struct Cli {
     #[arg(short, long)]
     resource_dir: Option<PathBuf>,
 
-    /// What mode to run the program in
-    #[arg(short, long, value_enum)]
-    mode: Mode,
-}
-
-#[derive(Copy, Clone, PartialEq, Eq, PartialOrd, Ord, ValueEnum)]
-enum Mode {
-    /// Only render latex equations, parsed from input.
-    RenderOnly,
-
-    /// Compiler everything.
-    All,
+    /// Whether output json file will be minified or not.
+    #[arg(short, long, default_value_t = false)]
+    compact: bool,
 }
 
 #[derive(Clone, PartialEq, Eq, Debug)]
@@ -42,6 +40,7 @@ pub struct Card {
     answer: String,
 }
 
+#[derive(Serialize)]
 pub struct RichText(Vec<RichTextComponent>);
 
 pub enum RichTextComponent {
@@ -56,14 +55,113 @@ pub struct RichCard {
     answer: RichText,
 }
 
-fn main() {
+fn main() -> Result<(), String> {
     let cli = Cli::parse();
 
-    let r1 = parse_qard::parse(todo!());
-    let r2 = latex::enrich_text(vec![], todo!(), todo!());
+    let input = cli.input;
+    if !input.exists() {
+        return Err("Input file does not exist!".to_owned());
+    }
+
+    let output = match cli.output {
+        Some(v) => v,
+        None => PathBuf::from_str("./a.json").unwrap(),
+    };
+
+    let resource_dir = match cli.resource_dir {
+        Some(v) => v,
+        None => PathBuf::from_str("./resources/").unwrap(),
+    };
+
+    let source = fs::read_to_string(input).map_err(|_| "Unable to open input file.")?;
+
+    let cards = parse_qard::parse(&source).map_err(|e| format!("{e:?}"))?;
+
+    let rich_cards =
+        latex::enrich_text(cards, &resource_dir, true).map_err(|e| format!("{e:?}"))?;
+
+    compiler::compile(rich_cards, &output, !cli.compact).map_err(|e| format!("{e:?}"))?;
+
+    println!("All done!");
+
+    Ok(())
+}
+
+impl Serialize for RichTextComponent {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        let mut tuple = serializer.serialize_tuple(2)?;
+        match self {
+            Self::Text(text) => {
+                tuple.serialize_element("text")?;
+                tuple.serialize_element(text)?;
+            }
+            Self::Latex(hash) => {
+                tuple.serialize_element("latex")?;
+                tuple.serialize_element(&latex::hash_to_hex(*hash))?;
+            }
+        }
+        tuple.end()
+    }
+}
+
+impl Serialize for RichCard {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: Serializer,
+    {
+        let mut tuple = serializer.serialize_tuple(2)?;
+        tuple.serialize_element(&self.question)?;
+        tuple.serialize_element(&self.answer)?;
+        tuple.end()
+    }
+}
+
+mod compiler {
+    use std::{fs, io, path::Path};
+
+    use crate::RichCard;
+
+    #[derive(Debug)]
+    pub enum Error {
+        Io(io::Error),
+        Serde(serde_json::Error),
+    }
+
+    impl From<io::Error> for Error {
+        fn from(value: io::Error) -> Self {
+            Self::Io(value)
+        }
+    }
+
+    impl From<serde_json::Error> for Error {
+        fn from(value: serde_json::Error) -> Self {
+            Self::Serde(value)
+        }
+    }
+
+    pub fn compile<I>(data: I, output: &Path, pretty: bool) -> Result<(), Error>
+    where
+        I: IntoIterator<Item = RichCard>,
+    {
+        let file_out = fs::File::create(output)?;
+        let data = data.into_iter().collect::<Vec<_>>();
+
+        if pretty {
+            serde_json::to_writer_pretty(file_out, &data)?;
+        } else {
+            serde_json::to_writer(file_out, &data)?;
+        }
+
+        Ok(())
+    }
 }
 
 mod parse_qard {
+    use std::fmt::Debug;
+
     use super::Card;
 
     #[derive(Clone, Copy, PartialEq, Eq, Debug)]
@@ -72,9 +170,17 @@ mod parse_qard {
         Answer,
     }
 
-    #[derive(Clone, Copy, PartialEq, Eq, Debug)]
+    #[derive(Clone, Copy, PartialEq, Eq)]
     pub enum ParseError {
         SyntaxError(usize),
+    }
+
+    impl Debug for ParseError {
+        fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+            match self {
+                Self::SyntaxError(line) => write!(f, "Syntax error near line {line}"),
+            }
+        }
     }
 
     /// Parses data into cards.
@@ -355,7 +461,15 @@ mod parse_qard {
                 R::Question(0, " abcdef")
             );
             assert_eq!(
-                parse_qard_line("Q: abcdef Q:", None),
+                parse_qard_line("asd asdQ: abcdef", None),
+                R::Question(0, " abcdef")
+            );
+            assert_eq!(
+                parse_qard_line(" sdfgdfs dfgQ: abcdef", None),
+                R::Question(0, " abcdef")
+            );
+            assert_eq!(
+                parse_qard_line("1.2. Q: abcdef Q:", None),
                 R::Question(0, " abcdef Q:")
             );
             assert_eq!(
@@ -486,15 +600,18 @@ mod parse_qard {
 }
 
 mod latex {
+    use indicatif::ProgressBar;
     use regex::Regex;
     use std::{
-        collections::{HashMap, HashSet},
+        collections::HashSet,
         ffi::OsStr,
-        fs::{self, File},
+        fs::{self},
         io, iter,
         path::{Path, PathBuf},
         process::Command,
         str::FromStr,
+        sync::mpsc::{channel, Receiver, Sender},
+        thread::{self, Thread},
     };
 
     use crate::{Card, RichCard, RichText};
@@ -649,38 +766,77 @@ mod latex {
         I: IntoIterator<Item = S, IntoIter = II>,
         II: ExactSizeIterator<Item = S>,
     {
-        use indicatif::ProgressIterator;
+        const THREAD_COUNT: usize = 32;
 
-        let iter: Box<dyn Iterator<Item = S>> = if show_progress {
-            Box::new(data.into_iter().progress())
-        } else {
-            Box::new(data.into_iter())
+        let display = |total: usize, chan: Receiver<bool>| {
+            // draw bar
+            let bar = ProgressBar::new(total as u64);
+
+            while let Ok(_) = chan.recv() {
+                bar.inc(1);
+            }
         };
 
-        for expression in iter {
-            let expression: String = expression.into();
-            let mut path =
-                resources.join(PathBuf::from_str(&hash_to_hex(hash_string(&expression))).unwrap());
-            path.set_extension("png");
-            let output = Command::new("klatexformula")
-                .args(["-l", &expression])
-                .args(["-o", path.to_str().unwrap()])
-                .args(["-f", "#ffffff"])
-                .args(["-X", "250"])
-                .args(["-m", "..."])
-                .output()?;
+        let work = |data: Vec<String>,
+                    resources: PathBuf,
+                    chan: Sender<bool>|
+         -> Result<Vec<String>, Error> {
+            let mut bad = vec![];
+            for expression in data {
+                let mut path = resources
+                    .join(PathBuf::from_str(&hash_to_hex(hash_string(&expression))).unwrap());
+                path.set_extension("png");
+                let output = Command::new("klatexformula")
+                    .args(["-l", &expression])
+                    .args(["-o", path.to_str().unwrap()])
+                    .args(["-f", "#ffffff"])
+                    .args(["-X", "250"])
+                    .args(["-m", "..."])
+                    .output()?;
 
-            if !output.status.success() {
-                return Err(Error::LatexRenderFailed(
-                    String::from_utf8_lossy(&output.stderr).into_owned(),
-                ));
+                if !output.status.success() {
+                    bad.push(expression);
+                }
+
+                chan.send(true).unwrap();
             }
+
+            Ok(bad)
+        };
+
+        let mut split_data: Vec<Vec<String>> = vec![];
+        split_data.resize_with(THREAD_COUNT, || vec![]);
+        let mut total = 0;
+        for (i, e) in data
+            .into_iter()
+            .map(|x| <S as Into<String>>::into(x))
+            .enumerate()
+        {
+            total += 1;
+            split_data[i % THREAD_COUNT].push(e);
+        }
+
+        let (sender, receiver) = channel();
+        let mut join_handles = vec![];
+        for _i in 0..THREAD_COUNT {
+            let d = split_data.pop().unwrap();
+            let r = resources.to_owned();
+            let rx = sender.clone();
+            join_handles.push(thread::spawn(move || work(d, r, rx)))
+        }
+
+        if show_progress {
+            thread::spawn(move || display(total, receiver));
+        }
+
+        for handle in join_handles {
+            handle.join().unwrap().unwrap();
         }
 
         Ok(())
     }
 
-    fn hash_string(s: &str) -> u64 {
+    pub fn hash_string(s: &str) -> u64 {
         let mut hasher = std::collections::hash_map::DefaultHasher::new();
         use std::hash::Hasher;
 
@@ -689,11 +845,11 @@ mod latex {
         hasher.finish()
     }
 
-    fn hash_to_hex(hash: u64) -> String {
+    pub fn hash_to_hex(hash: u64) -> String {
         format!("{hash:016x}")
     }
 
-    fn hex_to_hash(s: &str) -> Option<u64> {
+    pub fn hex_to_hash(s: &str) -> Option<u64> {
         u64::from_str_radix(s, 16).ok()
     }
 
