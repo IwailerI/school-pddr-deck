@@ -1,12 +1,7 @@
-use std::{
-    fmt::{format, Debug, Display},
-    fs,
-    path::{Path, PathBuf},
-    str::FromStr,
-};
+use std::{fmt::Debug, fs, path::PathBuf, str::FromStr};
 
 use clap::Parser;
-use parse_qard::ParseError;
+
 use serde::{ser::SerializeTuple, Serialize, Serializer};
 
 #[derive(Parser)]
@@ -274,7 +269,7 @@ mod parse_qard {
     }
 
     /// Parses one qard line.
-    fn parse_qard_line<'a>(line: &'a str, delim: Option<(Delim, usize)>) -> QardLineResult<'a> {
+    fn parse_qard_line(line: &str, delim: Option<(Delim, usize)>) -> QardLineResult<'_> {
         use Delim as D;
         use QardLineResult as R;
 
@@ -338,7 +333,7 @@ mod parse_qard {
 
     /// Strips all character from the end of string up to and including c.
     /// If c is not found, returns ""
-    fn strip_up_to<'a>(s: &'a str, c: char) -> &'a str {
+    fn strip_up_to(s: &str, c: char) -> &str {
         let mut found = false;
         s.trim_end_matches(|x| {
             if x == c {
@@ -354,10 +349,7 @@ mod parse_qard {
     /// Returns trimmed string, type of delimiter and order of delimiter.
     /// If rank is None, all ranks of delimiters are respected.
     /// If rank is Some, only delimiters of given rank are respected.
-    fn trim_until_delim<'a>(
-        data: &'a str,
-        wanted_rank: Option<usize>,
-    ) -> Option<(&'a str, Delim, usize)> {
+    fn trim_until_delim(data: &str, wanted_rank: Option<usize>) -> Option<(&str, Delim, usize)> {
         let mut rank = 0_usize;
         let mut delim_type = None;
         for (i, c) in data.char_indices() {
@@ -522,7 +514,7 @@ mod parse_qard {
 
         #[test]
         fn test_parse() {
-            const DATA: &'static str = r"
+            const DATA: &str = r"
         Q: Переведите $36\frac{km}{h}$ в $\frac{m}{s}$. A: $10 \frac{m}{s}$ (: 3.6)
         Q: Переведем $2 ha$ в $m^2$ A: $20000m^2$
         Q: Переведите из $200 cm^3$ в $ml$ A: $200ml$
@@ -591,7 +583,7 @@ mod parse_qard {
 
         #[test]
         fn test_invalid_parse() {
-            const DATA: &'static str = r"
+            const DATA: &str = r"
             Q: DSKJF";
 
             assert_eq!(parse(DATA), Err(ParseError::SyntaxError(1)))
@@ -611,18 +603,18 @@ mod latex {
         process::Command,
         str::FromStr,
         sync::mpsc::{channel, Receiver, Sender},
-        thread::{self, Thread},
+        thread::{self},
     };
 
     use crate::{Card, RichCard, RichText};
 
-    const BLOCK_MATH_PATTERN: &'static str = r"\$\$.+\$\$";
-    const INLINE_MATH_PATTERN: &'static str = r"\$(?:[^$\\]|\\.)+\$";
+    const BLOCK_MATH_PATTERN: &str = r"\$\$.+\$\$";
+    const INLINE_MATH_PATTERN: &str = r"\$(?:[^$\\]|\\.)+\$";
 
     #[derive(Debug)]
     pub enum Error {
         IO(io::Error),
-        LatexRenderFailed(String),
+        // LatexRenderFailed(String),
     }
 
     impl From<io::Error> for Error {
@@ -633,7 +625,7 @@ mod latex {
 
     /// Searches for all latex expressions, renders them (if needed) and transforms text into
     /// rich text/
-    pub fn enrich_text<'a, I>(
+    pub fn enrich_text<I>(
         cards: I,
         resources: &Path,
         show_progress: bool,
@@ -772,7 +764,7 @@ mod latex {
             // draw bar
             let bar = ProgressBar::new(total as u64);
 
-            while let Ok(_) = chan.recv() {
+            while chan.recv().is_ok() {
                 bar.inc(1);
             }
         };
@@ -805,7 +797,7 @@ mod latex {
         };
 
         let mut split_data: Vec<Vec<String>> = vec![];
-        split_data.resize_with(THREAD_COUNT, || vec![]);
+        split_data.resize_with(THREAD_COUNT, std::vec::Vec::new);
         let mut total = 0;
         for (i, e) in data
             .into_iter()
