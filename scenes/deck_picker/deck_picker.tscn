@@ -1,13 +1,50 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1ehuuhnvba58"]
+[gd_scene load_steps=13 format=3 uid="uid://b1ehuuhnvba58"]
 
 [ext_resource type="Script" path="res://scenes/deck_picker/deck_picker.gd" id="1_b12q2"]
-[ext_resource type="Resource" uid="uid://dgeu44lduvjyl" path="res://resources/decks/debug_ru.tres" id="2_37lph"]
+[ext_resource type="Script" path="res://objects/card/dynamic/divisibility.gd" id="2_qmafm"]
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="3_i831x"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="4_wcfnc"]
+
+[sub_resource type="Resource" id="Resource_8s3xd"]
+script = ExtResource("2_qmafm")
+
+[sub_resource type="Resource" id="Resource_paotp"]
+script = ExtResource("4_wcfnc")
+question_text = "Самое маленькое натуральное число?"
+answer_text = "1"
+
+[sub_resource type="Resource" id="Resource_xu4pu"]
+script = ExtResource("4_wcfnc")
+question_text = "Какие числа являются натуральными?"
+answer_text = "Целые положительные числа."
+
+[sub_resource type="Resource" id="Resource_tbbcd"]
+script = ExtResource("4_wcfnc")
+question_text = "Чему равна сумма первых 100 натуральных чисел?"
+answer_text = "5050"
+
+[sub_resource type="Resource" id="Resource_yrnu5"]
+script = ExtResource("4_wcfnc")
+question_text = "Разложить выражение на множители:
+[img]uid://c420kfdsjxum4[/img]"
+answer_text = "[img]uid://1q1g7dwdvg4b[/img]"
+
+[sub_resource type="Resource" id="Resource_8tab1"]
+script = ExtResource("4_wcfnc")
+question_text = "Робинзон Крузо плывёт на бригантине со скоростью 12km/h против Бразильского течения скорость которого =2km/h. С какой скоростью Робинзон Крузо плывёт за рабами для своей плантации?"
+answer_text = "10km/h"
+
+[sub_resource type="Resource" id="Resource_a2h3e"]
+script = ExtResource("3_i831x")
+name = "Debug RU"
+static_cards = Array[ExtResource("4_wcfnc")]([SubResource("Resource_paotp"), SubResource("Resource_xu4pu"), SubResource("Resource_tbbcd"), SubResource("Resource_yrnu5"), SubResource("Resource_8tab1")])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([SubResource("Resource_8s3xd")])
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kxewd"]
 
 [node name="DeckPicker" type="PanelContainer"]
 script = ExtResource("1_b12q2")
-decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("2_37lph")])
+decks = Array[ExtResource("3_i831x")]([SubResource("Resource_a2h3e")])
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2

@@ -1,33 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://4mg1pxcwq0wp"]
+[gd_scene load_steps=5 format=3 uid="uid://4mg1pxcwq0wp"]
 
 [ext_resource type="Script" path="res://scenes/lobby/lobby.gd" id="1_2x82t"]
 [ext_resource type="Theme" uid="uid://enhsopwx32o3" path="res://resources/themes/main_theme.tres" id="1_q1mrh"]
 [ext_resource type="PackedScene" uid="uid://b1ehuuhnvba58" path="res://scenes/deck_picker/deck_picker.tscn" id="1_vt2ml"]
-[ext_resource type="Resource" uid="uid://dgeu44lduvjyl" path="res://resources/decks/debug_ru.tres" id="4_8lafq"]
-[ext_resource type="Resource" uid="uid://mr1xoe7gmu45" path="res://resources/decks/production_deck.tres" id="5_n5ghu"]
-[ext_resource type="Script" path="res://objects/card/deck.gd" id="6_qxsej"]
-[ext_resource type="Script" path="res://objects/card/static_card.gd" id="7_0qgx0"]
-
-[sub_resource type="Resource" id="Resource_vltmt"]
-script = ExtResource("7_0qgx0")
-question_text = "Чем будет являться график зависимости [img]uid://cpy6q7dcgvb00[/img]"
-answer_text = "окружность с радиусом [img]uid://c7b4rc7cvwowi[/img] и центром в [img]uid://1ympj0wthqc[/img]"
-
-[sub_resource type="Resource" id="Resource_qyxns"]
-script = ExtResource("7_0qgx0")
-question_text = "Чем будет являться график зависимости [img]uid://qvv2q2w4tqmx[/img]"
-answer_text = "круг с радиусом [img]uid://c7b4rc7cvwowi[/img] и центром в [img]uid://1ympj0wthqc[/img]"
-
-[sub_resource type="Resource" id="Resource_5pxct"]
-script = ExtResource("7_0qgx0")
-question_text = "[img]uid://bkq8ue8n2jltr[/img]. Каков радиус окружности?"
-answer_text = "[img]uid://b7isx7mhlavcd[/img]"
-
-[sub_resource type="Resource" id="Resource_nuw2g"]
-script = ExtResource("6_qxsej")
-name = "Auto generate deck"
-static_cards = Array[ExtResource("7_0qgx0")]([SubResource("Resource_vltmt"), SubResource("Resource_qyxns"), SubResource("Resource_5pxct")])
-dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])
+[ext_resource type="Resource" uid="uid://brkea565t3i6d" path="res://resources/decks/prod_ru.tres" id="4_t21sb"]
 
 [node name="lobby" type="VBoxContainer"]
 anchors_preset = 15
@@ -53,7 +29,7 @@ size_flags_vertical = 3
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
-decks = Array[ExtResource("6_qxsej")]([ExtResource("4_8lafq"), ExtResource("5_n5ghu"), SubResource("Resource_nuw2g")])
+decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("4_t21sb")])
 
 [node name="PanelContainer" type="PanelContainer" parent="HBoxContainer"]
 layout_mode = 2

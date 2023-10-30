@@ -1,0 +1,1737 @@
+[gd_resource type="Resource" script_class="Deck" load_steps=339 format=3 uid="uid://brkea565t3i6d"]
+
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_pr6pf"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="2_0ftco"]
+
+[sub_resource type="Resource" id="Resource_ee6hh"]
+script = ExtResource("2_0ftco")
+question_text = "Назовите самое маленькое натуральное число."
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_a78of"]
+script = ExtResource("2_0ftco")
+question_text = "Какие числа являются натуральными?"
+answer_text = "Целые положительные числа."
+
+[sub_resource type="Resource" id="Resource_yschs"]
+script = ExtResource("2_0ftco")
+question_text = "Переведите [img]uid://bw22ox1yqw5hj[/img] в [img]uid://mp0ruijlfkck[/img]."
+answer_text = "[img]uid://dlg0cfpepuunl[/img]"
+
+[sub_resource type="Resource" id="Resource_vybhk"]
+script = ExtResource("2_0ftco")
+question_text = "Переведем [img]uid://bx28qyanu1jmy[/img] в [img]uid://dlvka56sp05t2[/img]."
+answer_text = "[img]uid://bgvolmbbm5xt4[/img]"
+
+[sub_resource type="Resource" id="Resource_emya0"]
+script = ExtResource("2_0ftco")
+question_text = "Переведите из [img]uid://sjdc2ojvoi4m[/img] в [img]uid://bdh360vdlpltd[/img]."
+answer_text = "[img]uid://cfiqaxwjgkwqy[/img]"
+
+[sub_resource type="Resource" id="Resource_ntwd8"]
+script = ExtResource("2_0ftco")
+question_text = "Переведите [img]uid://bylbus4hlv8eu[/img] в [img]uid://bvi0xi32filyw[/img]."
+answer_text = "[img]uid://cyxkytgfvyuer[/img]"
+
+[sub_resource type="Resource" id="Resource_cy47f"]
+script = ExtResource("2_0ftco")
+question_text = "Переведите [img]uid://ketemi087ua[/img] в [img]uid://uskjgk21wtdr[/img]."
+answer_text = "[img]uid://bveu332no2oq3[/img]"
+
+[sub_resource type="Resource" id="Resource_ef7jy"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://dgals3ih5wy2a[/img] римскими цифрами."
+answer_text = "[img]uid://su2g324m76id[/img]"
+
+[sub_resource type="Resource" id="Resource_c78l3"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://cfc0o6bo7s20[/img] римскими цифрами."
+answer_text = "[img]uid://bouvdu3ly6ncj[/img]"
+
+[sub_resource type="Resource" id="Resource_ty5jl"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://7nuj1ryqlmwc[/img] римскими цифрами."
+answer_text = "[img]uid://cjjblgn1hmyrw[/img]"
+
+[sub_resource type="Resource" id="Resource_vhfgu"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://beuitt41s2elr[/img] римскими цифрами."
+answer_text = "[img]uid://dwtsarpptvos3[/img]"
+
+[sub_resource type="Resource" id="Resource_l8vmo"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://cps1kyaq5vqj8[/img] римскими цифрами."
+answer_text = "[img]uid://s41u7nlrm7b1[/img]"
+
+[sub_resource type="Resource" id="Resource_jt2w6"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://su2g324m76id[/img] арабскими цифрами."
+answer_text = "[img]uid://dgals3ih5wy2a[/img]"
+
+[sub_resource type="Resource" id="Resource_lwvpo"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://bouvdu3ly6ncj[/img] арабскими цифрами."
+answer_text = "[img]uid://cfc0o6bo7s20[/img]"
+
+[sub_resource type="Resource" id="Resource_rvocu"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://cjjblgn1hmyrw[/img] арабскими цифрами."
+answer_text = "[img]uid://7nuj1ryqlmwc[/img]"
+
+[sub_resource type="Resource" id="Resource_r4fhh"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://dwtsarpptvos3[/img] арабскими цифрами."
+answer_text = "[img]uid://beuitt41s2elr[/img]"
+
+[sub_resource type="Resource" id="Resource_pmf5n"]
+script = ExtResource("2_0ftco")
+question_text = "Запишите число [img]uid://b4dbh7fbpql4p[/img] арабскими цифрами."
+answer_text = "[img]uid://cwws180b5d3ya[/img]"
+
+[sub_resource type="Resource" id="Resource_fllu8"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://8l1ssg1v6hrg[/img]"
+answer_text = "0"
+
+[sub_resource type="Resource" id="Resource_ba186"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна сумма первых [img]uid://cfc0o6bo7s20[/img] натуральных чисел?"
+answer_text = "[img]uid://budai61xyaeoe[/img]"
+
+[sub_resource type="Resource" id="Resource_56iqq"]
+script = ExtResource("2_0ftco")
+question_text = "Округлите число [img]uid://c6fqu47y13gtt[/img] до целого числа."
+answer_text = "[img]uid://cps1kyaq5vqj8[/img]"
+
+[sub_resource type="Resource" id="Resource_eaqll"]
+script = ExtResource("2_0ftco")
+question_text = "Округлите число [img]uid://c1qeykehuk5ff[/img] до десятых."
+answer_text = "[img]uid://dqr84gbg57cxm[/img]"
+
+[sub_resource type="Resource" id="Resource_yvh7h"]
+script = ExtResource("2_0ftco")
+question_text = "Округлите число [img]uid://bcgqei8u85ekt[/img] до сотен."
+answer_text = "[img]uid://cvj47xiwg0kpg[/img]"
+
+[sub_resource type="Resource" id="Resource_ogoqj"]
+script = ExtResource("2_0ftco")
+question_text = "Округлите число [img]uid://d25awnluumn6c[/img] до тысячных."
+answer_text = "[img]uid://cipks1ebkqxn4[/img]"
+
+[sub_resource type="Resource" id="Resource_gocrl"]
+script = ExtResource("2_0ftco")
+question_text = "Округлите число [img]uid://bx1wsajutdrqe[/img] до десятых."
+answer_text = "[img]uid://1jr8sth03to4[/img]"
+
+[sub_resource type="Resource" id="Resource_rup78"]
+script = ExtResource("2_0ftco")
+question_text = "Назовите хотя бы 1 основное понятие Евклидовой планиметрии?"
+answer_text = "Точка, прямая, плоскость."
+
+[sub_resource type="Resource" id="Resource_ynls6"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://db6p2japj8u3u[/img]. Какого типа этот угол?"
+answer_text = "Острый."
+
+[sub_resource type="Resource" id="Resource_x32nv"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://cmp2li3dpknh2[/img]. Какого типа этот угол?"
+answer_text = "Прямой."
+
+[sub_resource type="Resource" id="Resource_3u3st"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://cmuut23dclpei[/img] . Какого типа этот угол?"
+answer_text = "Тупой."
+
+[sub_resource type="Resource" id="Resource_0gcns"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://loymb5shqo0b[/img]. Какого типа этот угол?"
+answer_text = "Развёрнутый."
+
+[sub_resource type="Resource" id="Resource_fbsns"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://b1k4v8wcrb1cx[/img]. Какого типа этот угол?"
+answer_text = "Выпуклый или открытый."
+
+[sub_resource type="Resource" id="Resource_gn83d"]
+script = ExtResource("2_0ftco")
+question_text = "Дан угол [img]uid://daukke0linjvd[/img]. Какого типа этот угол?"
+answer_text = "Полный."
+
+[sub_resource type="Resource" id="Resource_6ovrt"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется фигура у которой 2 стороны и 1 вершина?"
+answer_text = "Угол."
+
+[sub_resource type="Resource" id="Resource_t1axn"]
+script = ExtResource("2_0ftco")
+question_text = "Сумма углов треугольника со сторонами [img]uid://dr368qk5ne7nd[/img]?"
+answer_text = "[img]uid://d0ptmlr2dyjte[/img]"
+
+[sub_resource type="Resource" id="Resource_nh5ea"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://ctx3ogghu8ciu[/img]"
+answer_text = "[img]uid://b8mjujmtjmkby[/img]"
+
+[sub_resource type="Resource" id="Resource_33tq1"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит решить уравнение?"
+answer_text = "Найти все корни или доказать что таких нет.
+
+Среднее арифметическое ==(?)=="
+
+[sub_resource type="Resource" id="Resource_veucf"]
+script = ExtResource("2_0ftco")
+question_text = "Вставьте пропущенное слово: _______ определяется как число, равное сумме всех чисел множества, делённой на их количество."
+answer_text = "Среднее арифметическое."
+
+[sub_resource type="Resource" id="Resource_mohcj"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое смешанное число?"
+answer_text = "Сумма целой и дробной части."
+
+[sub_resource type="Resource" id="Resource_03ekr"]
+script = ExtResource("2_0ftco")
+question_text = "Вставьте пропущенное слово: _______ это число, состоящее из натурального числа и обыкновенной дроби."
+answer_text = "Смешанное число."
+
+[sub_resource type="Resource" id="Resource_dsnqr"]
+script = ExtResource("2_0ftco")
+question_text = "Какая дробь неправильная?"
+answer_text = "Дробь, в которой числитель больше знаменателя или равен ему. [img]uid://cshrufwjqed5r[/img]"
+
+[sub_resource type="Resource" id="Resource_bsvx0"]
+script = ExtResource("2_0ftco")
+question_text = "Представьте [img]uid://vnc6r81lhyh8[/img] как смешанное число."
+answer_text = "[img]uid://cc37n00l64l0p[/img]"
+
+[sub_resource type="Resource" id="Resource_v3ao3"]
+script = ExtResource("2_0ftco")
+question_text = "Выделите целую часть из [img]uid://vnc6r81lhyh8[/img]"
+answer_text = "[img]uid://di5y3ndbdxla6[/img]"
+
+[sub_resource type="Resource" id="Resource_hpcmk"]
+script = ExtResource("2_0ftco")
+question_text = "Представьте [img]uid://7krji315yr8c[/img] как смешанное число"
+answer_text = "[img]uid://f328r615gv0c[/img]"
+
+[sub_resource type="Resource" id="Resource_18284"]
+script = ExtResource("2_0ftco")
+question_text = "Выделите целую часть из [img]uid://msrtbutvn7hi[/img]"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_dyapm"]
+script = ExtResource("2_0ftco")
+question_text = "Представьте [img]uid://d24fbjwk2kd0l[/img] как неправильную дробь."
+answer_text = "[img]uid://c0x62375yhjyp[/img]"
+
+[sub_resource type="Resource" id="Resource_wcm2o"]
+script = ExtResource("2_0ftco")
+question_text = "Представьте [img]uid://gmmlew56h1w6[/img] как неправильную дробь."
+answer_text = "[img]uid://dwn04dbns3x4m[/img]"
+
+[sub_resource type="Resource" id="Resource_8eg6i"]
+script = ExtResource("2_0ftco")
+question_text = "Выразить [img]uid://82khqva8vcl[/img] из [img]uid://dvkimbp8h2fvq[/img]"
+answer_text = "[img]uid://54xghgsqki6k[/img]"
+
+[sub_resource type="Resource" id="Resource_wg3qh"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое многоугольник? (Точное определение)"
+answer_text = "Часть плоски, ограниченная замкнутой ломаной."
+
+[sub_resource type="Resource" id="Resource_kojj2"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое круг (disk)?"
+answer_text = "Часть плоскости ограниченная окружностью."
+
+[sub_resource type="Resource" id="Resource_fxtdo"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое хорда?"
+answer_text = "Отрезок соединяющий [img]uid://dsg7prgqjqbj2[/img] точки на окружности."
+
+[sub_resource type="Resource" id="Resource_sa2cy"]
+script = ExtResource("2_0ftco")
+question_text = "Как выразить [img]uid://dgk2gfxdxgd25[/img]"
+answer_text = "[img]uid://cylvqf354uage[/img]. [img]uid://c35bddcby2ebx[/img] - длина окружности, [img]uid://b7dstn4x5rmrd[/img] - диаметр, [img]uid://bq5xwunp1f2gt[/img] - радиус."
+
+[sub_resource type="Resource" id="Resource_8seh8"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое промилле?"
+answer_text = "[img]uid://cueu7xtxtdmv4[/img]"
+
+[sub_resource type="Resource" id="Resource_33ml1"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое обратное число для [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "Обратное число к данному числу x — это число, произведение которого с x даёт [img]uid://cjsaekmc20eti[/img]."
+
+[sub_resource type="Resource" id="Resource_j0xmi"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое противоположное число для [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "Противоположное число по отношению к числу x — это число, которое при сложении с x даёт ноль."
+
+[sub_resource type="Resource" id="Resource_1kuej"]
+script = ExtResource("2_0ftco")
+question_text = "Что больше? [img]uid://di75vohpqoloe[/img] или [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://cvydftgleb7ba[/img]"
+
+[sub_resource type="Resource" id="Resource_ukyue"]
+script = ExtResource("2_0ftco")
+question_text = "Что больше? [img]uid://bdqnjecvbbg40[/img] или [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://cvydftgleb7ba[/img]"
+
+[sub_resource type="Resource" id="Resource_ssbmv"]
+script = ExtResource("2_0ftco")
+question_text = "Что больше? [img]uid://yjm1hj2bbeic[/img] или [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://yjm1hj2bbeic[/img]"
+
+[sub_resource type="Resource" id="Resource_71h14"]
+script = ExtResource("2_0ftco")
+question_text = "Вставьте пропущенное слово: _______ это натуральное число, имеющее ровно два различных натуральных делителя (оно само и [img]uid://cjsaekmc20eti[/img])."
+answer_text = "Простое число."
+
+[sub_resource type="Resource" id="Resource_fg6wi"]
+script = ExtResource("2_0ftco")
+question_text = "Самое маленькое просто число?"
+answer_text = "2"
+
+[sub_resource type="Resource" id="Resource_yy8e0"]
+script = ExtResource("2_0ftco")
+question_text = "Может ли простое число быть чётным?"
+answer_text = "Да, единственное простое чётное число это [img]uid://dsg7prgqjqbj2[/img]."
+
+[sub_resource type="Resource" id="Resource_edw65"]
+script = ExtResource("2_0ftco")
+question_text = "Делится ли [img]uid://rl0lkeysabfd[/img] на [img]uid://cdn1iopck7bjs[/img]?"
+answer_text = "Да, поскольку сумма цифр [img]uid://gmi4hkyn4obi[/img] чья сумма цифр равна [img]uid://b2pqerdrt7iok[/img], что равно [img]uid://dtngav0go7jgh[/img], что равно [img]uid://djabkji8yfbsj[/img], что определённо делиться на 3, так как [img]uid://b0qwdhahxoi0p[/img]"
+
+[sub_resource type="Resource" id="Resource_flqjk"]
+script = ExtResource("2_0ftco")
+question_text = "Делится ли [img]uid://c1pi72f4w1vrm[/img] на [img]uid://b2pqerdrt7iok[/img]?"
+answer_text = "Да, поскольку сумма цифр делится на [img]uid://cdn1iopck7bjs[/img] ([img]uid://cucoxwnvnwh38[/img]) и последняя цифра делитса на [img]uid://dsg7prgqjqbj2[/img] ([img]uid://dx52agl7rcobh[/img])."
+
+[sub_resource type="Resource" id="Resource_2u1yn"]
+script = ExtResource("2_0ftco")
+question_text = "Делится ли [img]uid://bli24wbmqetrf[/img] на [img]uid://b2pqerdrt7iok[/img]?"
+answer_text = "Нет, поскольку сумма цифр не делится на [img]uid://cdn1iopck7bjs[/img]."
+
+[sub_resource type="Resource" id="Resource_5jjix"]
+script = ExtResource("2_0ftco")
+question_text = "Делится ли [img]uid://bm3e54lv5grry[/img] на [img]uid://teakw34s8g53[/img]?"
+answer_text = "Да, поскольку сумма цифр [img]uid://mi2kiih7ftii[/img] и последняя цифра [img]uid://b0ru4cnp64yhj[/img]. Если число делится на [img]uid://cdn1iopck7bjs[/img] и на [img]uid://xt1seclevjl7[/img], то оно делится и на [img]uid://teakw34s8g53[/img]."
+
+[sub_resource type="Resource" id="Resource_e5v1w"]
+script = ExtResource("2_0ftco")
+question_text = "Делится ли [img]uid://bnip7pacic0tc[/img] на [img]uid://di5y3ndbdxla6[/img]?"
+answer_text = "Нет, поскольку [img]uid://cnkqbpwdw0m00[/img] не делиться на [img]uid://di5y3ndbdxla6[/img]."
+
+[sub_resource type="Resource" id="Resource_6ucrr"]
+script = ExtResource("2_0ftco")
+question_text = "Разложите [img]uid://cdqcua8dty468[/img] на простые сомножители."
+answer_text = "[img]uid://b5u1005q1mc2x[/img]"
+
+[sub_resource type="Resource" id="Resource_kcghi"]
+script = ExtResource("2_0ftco")
+question_text = "Разложить число [img]uid://cfq0eannb5pkw[/img] на простые сомножители."
+answer_text = "[img]uid://ct6rqvbqs671l[/img]"
+
+[sub_resource type="Resource" id="Resource_4juxn"]
+script = ExtResource("2_0ftco")
+question_text = "Разложить число [img]uid://ctgc8vcppnhlo[/img] на простые сомножители."
+answer_text = "[img]uid://bybay74evxxp[/img]"
+
+[sub_resource type="Resource" id="Resource_hdysw"]
+script = ExtResource("2_0ftco")
+question_text = "Какие числа являются взаимнопростыми?"
+answer_text = "Те, чей наибольший общий делитель [img]uid://cjsaekmc20eti[/img]."
+
+[sub_resource type="Resource" id="Resource_dkg7x"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое расстояние от точки до прямой?"
+answer_text = "Длина перпендикуляра опущенного из точки на прямую."
+
+[sub_resource type="Resource" id="Resource_vy8jt"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое смежные углы?"
+answer_text = "Углы имеющие общую вершину и одну общую сторону."
+
+[sub_resource type="Resource" id="Resource_jvddr"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое вертикальные углы?"
+answer_text = "Пара углов с общей вершиной, которые образованы при пересечении двух прямых таким образом, что стороны одного из них являются продолжением сторон другого. Иными словами – они противоположны."
+
+[sub_resource type="Resource" id="Resource_gaa3b"]
+script = ExtResource("2_0ftco")
+question_text = "В чём смысл жизни?"
+answer_text = "42. (Этот вопрос не считается, вытащи ещё одну карточку.)"
+
+[sub_resource type="Resource" id="Resource_mdh0g"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько пар смежных углов образуют 2 пересекающиеся прямые?"
+answer_text = "4"
+
+[sub_resource type="Resource" id="Resource_3wm5q"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько пар вертикальных углов образуют 2 пересекающиеся прямые?"
+answer_text = "2"
+
+[sub_resource type="Resource" id="Resource_axdlo"]
+script = ExtResource("2_0ftco")
+question_text = "Робинзон Крузо плывёт на бригантине со скоростью [img]uid://d331sqg56sq8l[/img] против Бразильского течения скорость которого [img]uid://dsf5bygsretrv[/img]. С какой скоростью Робинзон Крузо плывёт за рабами для своей плантации?"
+answer_text = "Со скоростью [img]uid://cqyhxgjdf87t7[/img]."
+
+[sub_resource type="Resource" id="Resource_t188u"]
+script = ExtResource("2_0ftco")
+question_text = "Робинзон Крузо плывёт на шлюпе со скоростью [img]uid://cqc8nktkvdr5a[/img] по Канарскому течению скорость которого [img]uid://byxjbrmkvgcil[/img]. С какой скоростью Робинзон Крузо сбегает из рабства?"
+answer_text = "Со скоростью [img]uid://cqk17n2y7ej03[/img]."
+
+[sub_resource type="Resource" id="Resource_rbfs2"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется [img]uid://82khqva8vcl[/img] в [img]uid://bx0fnbae8wi3v[/img]?"
+answer_text = "База или основание, мы сами не уверены."
+
+[sub_resource type="Resource" id="Resource_jbwnk"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется [img]uid://bs3bnvjqvic3p[/img] в [img]uid://bx0fnbae8wi3v[/img]?"
+answer_text = "Показатель (степени)."
+
+[sub_resource type="Resource" id="Resource_nm17h"]
+script = ExtResource("2_0ftco")
+question_text = "Робинзон Крузо, чтобы впечатлить своих товарищей, решил посчитать расстояние между Лондоном и Эдинбургом. Расстояние на карте [img]uid://rdw6x02bur8m[/img], а масштаб - [img]uid://c7v67ic36u47n[/img]. Каково расстояние между Лондоном и Эдинбургом?"
+answer_text = "[img]uid://bmip4tkdmcngo[/img]"
+
+[sub_resource type="Resource" id="Resource_0shi6"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равно расстояние на числовом луче между точками [img]uid://bs3bnvjqvic3p[/img] и [img]uid://82khqva8vcl[/img]?"
+answer_text = "[img]uid://bhaye4uavltky[/img]."
+
+[sub_resource type="Resource" id="Resource_8di5u"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое ось абсцисс?"
+answer_text = "Ось x."
+
+[sub_resource type="Resource" id="Resource_j750i"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое ось ординат?"
+answer_text = "Ось y."
+
+[sub_resource type="Resource" id="Resource_6jhnu"]
+script = ExtResource("2_0ftco")
+question_text = "Какой квадрант находится справа снизу?"
+answer_text = "[img]uid://c3es3ke86arut[/img]"
+
+[sub_resource type="Resource" id="Resource_uwb15"]
+script = ExtResource("2_0ftco")
+question_text = "Какой квадрант находится справа снизу?"
+answer_text = "[img]uid://c3es3ke86arut[/img]"
+
+[sub_resource type="Resource" id="Resource_d8a1w"]
+script = ExtResource("2_0ftco")
+question_text = "Какой квадрант находится слева сверху?"
+answer_text = "[img]uid://bhxwr3eh30gew[/img]"
+
+[sub_resource type="Resource" id="Resource_88cug"]
+script = ExtResource("2_0ftco")
+question_text = "Какой квадрант находится слева сверху?"
+answer_text = "[img]uid://bhxwr3eh30gew[/img]"
+
+[sub_resource type="Resource" id="Resource_2tuha"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое теорема?"
+answer_text = "Математическое утверждение, истинность которого устанавливается путём доказательства."
+
+[sub_resource type="Resource" id="Resource_t5te7"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое аксиома?"
+answer_text = "Математическое утверждение не требующее доказательства."
+
+[sub_resource type="Resource" id="Resource_ima85"]
+script = ExtResource("2_0ftco")
+question_text = "На сколько полуплоскостей делят плоскость 2 пересекающиеся прямых?"
+answer_text = "[img]uid://di5y3ndbdxla6[/img]"
+
+[sub_resource type="Resource" id="Resource_x0tp0"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое признак?"
+answer_text = "Достаточное условие для принадлежности объекта некоторому классу."
+
+[sub_resource type="Resource" id="Resource_ibsra"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое свойство?"
+answer_text = "Утверждение или закон, который описывает определенное поведение или характеристику математического объекта."
+
+[sub_resource type="Resource" id="Resource_i6gvx"]
+script = ExtResource("2_0ftco")
+question_text = "Петя хочет построить треугольник. Он измерил длины трех отрезков: [img]uid://cy0g8h8n6saon[/img]. Помогите Пете определить, сможет ли он построить треугольник с этими сторонами."
+answer_text = "Сможет."
+
+[sub_resource type="Resource" id="Resource_bipig"]
+script = ExtResource("2_0ftco")
+question_text = "Каков тип треугольника со сторонами [img]uid://camihe366aaw0[/img]?"
+answer_text = "Тупоугольный разносторонний треугольник."
+
+[sub_resource type="Resource" id="Resource_lkd88"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько общих точек может быть у [img]uid://dsg7prgqjqbj2[/img] окружностей?
+А: [img]uid://bp4i8wju6fwsm[/img]
+
+Q: Какие окружности являются концентрическими?"
+answer_text = "Окружности, имеющие общий центр."
+
+[sub_resource type="Resource" id="Resource_8hdcq"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое кольцо (фигура в планиметрии)?"
+answer_text = "Плоская геометрическая фигура, ограниченная двумя концентрическими окружностями."
+
+[sub_resource type="Resource" id="Resource_alr5s"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое угол?"
+answer_text = "Геометрическая фигура, образованная двумя лучами с совпадающими вершинами."
+
+[sub_resource type="Resource" id="Resource_d7ppr"]
+script = ExtResource("2_0ftco")
+question_text = "Переведите [img]uid://lw6bxffmisku[/img] в секунды."
+answer_text = "[img]uid://dqnkq8vrdctbw[/img]"
+
+[sub_resource type="Resource" id="Resource_fmfwv"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое биссектриса угла?"
+answer_text = "Луч, исходящий из вершины угла и делящий этот угол на два равных угла."
+
+[sub_resource type="Resource" id="Resource_qsiyg"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое медиана в треугольнике?"
+answer_text = "Отрезок в треугольнике, соединяющий вершину треугольника с серединой стороны, противоположной этой вершине."
+
+[sub_resource type="Resource" id="Resource_ov7jk"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое высота в треугольнике?
+А: Перпендикуляр, опущенный из вершины треугольника на прямую содержащую противоположную сторону.
+
+Q: Что такое серединные перпендикуляр?
+А: Прямая, перпендикулярная данному отрезку и проходящая через его середину.
+
+Q: Что такое соответственные углы?
+А: Это два угла, образованные при сечении двух прямых третьей, один во внешней области, один во внутренней области, и которые лежат на одной стороне секущей.
+
+Q: Что такое внутренние накрестлежащие углы?"
+answer_text = "Это два угла во внутренней области двух прямых и на разных сторонах секущей. Накрест лежащие углы попарно равны."
+
+[sub_resource type="Resource" id="Resource_sprwl"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое внутренние односторонние углы?"
+answer_text = "Это углы, которые лежат по одну сторону от секущей внутри параллельных прямых."
+
+[sub_resource type="Resource" id="Resource_qdxvm"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое выборка (в статистике)?
+А: Часть генеральной совокупности элементов, которая охватывается экспериментом.
+
+Q: Что такое генеральная совокупность (в статистке)?
+А: Совокупность всех объектов, относительно которых предполагается делать выводы при изучении конкретной задачи.
+
+Q: Как посчитать вероятность события с равновероятностными исходами?"
+answer_text = "Поделить количество желаемых исходов на количество всех исходов."
+
+[sub_resource type="Resource" id="Resource_s1uk5"]
+script = ExtResource("2_0ftco")
+question_text = "Какова вероятность неизбежного события?"
+answer_text = "1"
+
+[sub_resource type="Resource" id="Resource_r12xc"]
+script = ExtResource("2_0ftco")
+question_text = "Какова вероятность невозможного события?"
+answer_text = "0"
+
+[sub_resource type="Resource" id="Resource_hrj3a"]
+script = ExtResource("2_0ftco")
+question_text = "Каков интервал вероятности случайного события?"
+answer_text = "[img]uid://b6pgfcbsnou8v[/img]"
+
+[sub_resource type="Resource" id="Resource_cq8iu"]
+script = ExtResource("2_0ftco")
+question_text = "Решените [img]uid://bdg8t786kfi7e[/img]."
+answer_text = "[img]uid://b6uwqfuoxv5ep[/img]"
+
+[sub_resource type="Resource" id="Resource_t0l4b"]
+script = ExtResource("2_0ftco")
+question_text = "Решите [img]uid://bk74obgnw5khr[/img]"
+answer_text = "[img]uid://bpw572iji1tbi[/img]"
+
+[sub_resource type="Resource" id="Resource_dqsrp"]
+script = ExtResource("2_0ftco")
+question_text = "Какой многоугольник является выпуклым?"
+answer_text = "Многоугольник, у которого все углы меньше [img]uid://d0ptmlr2dyjte[/img]."
+
+[sub_resource type="Resource" id="Resource_kh6xj"]
+script = ExtResource("2_0ftco")
+question_text = "Какой многоугольник является вогнутый?"
+answer_text = "Многоугольник, который имеет хотя бы 1 угол, больший [img]uid://d0ptmlr2dyjte[/img]."
+
+[sub_resource type="Resource" id="Resource_7qdmw"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли круг вогнутым?"
+answer_text = "Нет, круг выпуклый. (Между 2 любыми точками можно провести прямую, все точки которой будут содержаться в фигуре.)"
+
+[sub_resource type="Resource" id="Resource_sjgno"]
+script = ExtResource("2_0ftco")
+question_text = "Назовите теорему Пифагора словами."
+answer_text = "В прямоугольном треугольнике квадрат гипотенузы равен сумме квадратов двух других сторон."
+
+[sub_resource type="Resource" id="Resource_egx3e"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равен внешний угол треугольника?"
+answer_text = "[img]uid://br6657fr7rtxn[/img]"
+
+[sub_resource type="Resource" id="Resource_om85i"]
+script = ExtResource("2_0ftco")
+question_text = "Где будет лежать центр вписанной в треугольник окружности?"
+answer_text = "На пересечении биссектрис."
+
+[sub_resource type="Resource" id="Resource_ygq0w"]
+script = ExtResource("2_0ftco")
+question_text = "Где будет лежать центра описанной около треугольника окружности?"
+answer_text = "На пересечении серединных перпендикуляров."
+
+[sub_resource type="Resource" id="Resource_rbeuy"]
+script = ExtResource("2_0ftco")
+question_text = "Вставьте пропущенное слово: Что такое функция? Вид зависимости где каждому значению аргумента принадлежит ___ значение функции."
+answer_text = "Максимум 1."
+
+[sub_resource type="Resource" id="Resource_e0pgn"]
+script = ExtResource("2_0ftco")
+question_text = "Чем отличается область определения и область значения функции?
+А: Областью определения функции [img]uid://m00c3ciflloj[/img] называется множество всех допустимых значений переменной [img]uid://cv14m2jh2d2fw[/img]. Функция может быть определена только для тех аргументов, при которых выражение [img]uid://m00c3ciflloj[/img] имеет смысл.
+
+Q: Назовите хотя бы 3 варианта задачи графика."
+answer_text = "Словами, таблицей, пиктограммой, диаграммой, формулой, графиком."
+
+[sub_resource type="Resource" id="Resource_vlhqy"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://eq3vu767phr2[/img] Выразите координаты точки пересечения прямой с осью x."
+answer_text = "[img]uid://qvejta2hng0o[/img]"
+
+[sub_resource type="Resource" id="Resource_blqe5"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://eq3vu767phr2[/img] Выразите координаты точки пересечения с осью y."
+answer_text = "[img]uid://df2er7vaq6k0j[/img]"
+
+[sub_resource type="Resource" id="Resource_ac2ba"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти [img]uid://5e14ricor42c[/img] если даны 2 точки [img]uid://pa58im15dj66[/img] и [img]uid://t8ay0fhvvj8c[/img] линейной функции?"
+answer_text = "[img]uid://bxyexmhe8lt1i[/img]"
+
+[sub_resource type="Resource" id="Resource_n4uob"]
+script = ExtResource("2_0ftco")
+question_text = "Какие 2 линейных функции параллельны?"
+answer_text = "Те для которых выполняется условие [img]uid://bi7gsu3xusay[/img]."
+
+[sub_resource type="Resource" id="Resource_m2ddi"]
+script = ExtResource("2_0ftco")
+question_text = "Какие 2 линейных функции перпендикулярны?"
+answer_text = "Те для которых выполняется условие [img]uid://c0gv4tws70qkt[/img]."
+
+[sub_resource type="Resource" id="Resource_h5j5q"]
+script = ExtResource("2_0ftco")
+question_text = "Какой симметрией обладает равнобедренный треугольник?"
+answer_text = "Осевой."
+
+[sub_resource type="Resource" id="Resource_fcnrj"]
+script = ExtResource("2_0ftco")
+question_text = "Какой симметрией обладает окружность?"
+answer_text = "Центровой."
+
+[sub_resource type="Resource" id="Resource_u7mbu"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое стандартный вид числа?"
+answer_text = "[img]uid://bbojrtecps840[/img] где [img]uid://bi5jnq0uelfgl[/img]"
+
+[sub_resource type="Resource" id="Resource_shg0l"]
+script = ExtResource("2_0ftco")
+question_text = "Можно ли представить 0 в стандартном виде?
+А: Нет.
+
+Q: Представить число [img]uid://c2jlc28suk81q[/img] в стандартном виде."
+answer_text = "[img]uid://bbojisknypc4f[/img]"
+
+[sub_resource type="Resource" id="Resource_lup6t"]
+script = ExtResource("2_0ftco")
+question_text = "Какова степень многочлена [img]uid://b1vq0w33fau11[/img]?
+А: [img]uid://xt1seclevjl7[/img]
+
+Q: Какова степень многочлена [img]uid://vb1bwqk8koht[/img]?
+А: [img]uid://boe53ymn8g8au[/img]
+
+Q: Какова степень одночлена [img]uid://bmgsuam7k8pgb[/img]?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_1bkqj"]
+script = ExtResource("2_0ftco")
+question_text = "Какова степень одночлена [img]uid://bvtho4gc0fgob[/img]?"
+answer_text = "[img]uid://boe53ymn8g8au[/img]"
+
+[sub_resource type="Resource" id="Resource_ll4hw"]
+script = ExtResource("2_0ftco")
+question_text = "Как определить степень многочлена?"
+answer_text = "Найти наибольшую из степеней одночленов."
+
+[sub_resource type="Resource" id="Resource_c7bd1"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bue44662j4ety[/img]"
+answer_text = "[img]uid://bjfm4yfyylxwr[/img]"
+
+[sub_resource type="Resource" id="Resource_swioo"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://begvw0xmmhhxj[/img]"
+answer_text = "[img]uid://di4rnethy8ukm[/img]"
+
+[sub_resource type="Resource" id="Resource_j5uwt"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://df7wuenei1io3[/img]"
+answer_text = "[img]uid://brpdba7h02epg[/img]"
+
+[sub_resource type="Resource" id="Resource_3k0wu"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://c1qoxguym2yj8[/img]"
+answer_text = "[img]uid://wvfq5n0kla2[/img]"
+
+[sub_resource type="Resource" id="Resource_vhd8c"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cd5n3tc1rqc02[/img]"
+answer_text = "[img]uid://c0xrhew8chrcs[/img]"
+
+[sub_resource type="Resource" id="Resource_6qic3"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dg5sqynqgj66d[/img]"
+answer_text = "[img]uid://8ebo8ycr0tn7[/img]"
+
+[sub_resource type="Resource" id="Resource_c3qxw"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dqb24wex3g7fi[/img] разложить на множители."
+answer_text = "[img]uid://dbmquaxruibbe[/img][img]uid://b4k1rco41pse8[/img][img]uid://bcm5wrho0qf8s[/img]a(x-x_1)(x-x_2)$."
+
+[sub_resource type="Resource" id="Resource_ics3p"]
+script = ExtResource("2_0ftco")
+question_text = "Назовите хотя бы 2 способа разложения на множители."
+answer_text = "Вынесение общего множителя за скобки, группировка, формула сокращённого умножения, разложения квадратным трёхчленом."
+
+[sub_resource type="Resource" id="Resource_eu8es"]
+script = ExtResource("2_0ftco")
+question_text = "Разложите на множители: [img]uid://cxqbsp6e00wli[/img]."
+answer_text = "[img]uid://kkwnmogwc33a[/img]"
+
+[sub_resource type="Resource" id="Resource_bbfbt"]
+script = ExtResource("2_0ftco")
+question_text = "Разложите на множители: [img]uid://b7v03qlkaialt[/img]."
+answer_text = "[img]uid://dai255oumjxwg[/img]"
+
+[sub_resource type="Resource" id="Resource_m5nbd"]
+script = ExtResource("2_0ftco")
+question_text = "Разложите на множители: [img]uid://ci0654o1x3q6v[/img]."
+answer_text = "[img]uid://dlcwyisqd66rx[/img]"
+
+[sub_resource type="Resource" id="Resource_vuct1"]
+script = ExtResource("2_0ftco")
+question_text = "Разложите на множители: [img]uid://dcoily7b0i3bo[/img]."
+answer_text = "[img]uid://dqjqk47mfhspq[/img]"
+
+[sub_resource type="Resource" id="Resource_7x4de"]
+script = ExtResource("2_0ftco")
+question_text = "Сумма углов [img]uid://c8bx0r2ai1blx[/img]-угольника?"
+answer_text = "[img]uid://dc7wtb7wbek8[/img]"
+
+[sub_resource type="Resource" id="Resource_xsu45"]
+script = ExtResource("2_0ftco")
+question_text = "Сумма углов [img]uid://ddviox486wjek[/img]. Сколько углов у этого многоугольников?"
+answer_text = "5"
+
+[sub_resource type="Resource" id="Resource_vvnig"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое параллелограмм?"
+answer_text = "Четырёхугольник, противолежащие стороны которого попарно параллельны."
+
+[sub_resource type="Resource" id="Resource_wroxx"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти площадь параллелограмма со стороной [img]uid://b16xh7mn4c1rk[/img] и высотой [img]uid://c8bx0r2ai1blx[/img]"
+answer_text = "[img]uid://baxd6lyhn5kxd[/img]"
+
+[sub_resource type="Resource" id="Resource_tdyd7"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое прямоугольник?"
+answer_text = "Параллелограмм, у которого все углы прямые."
+
+[sub_resource type="Resource" id="Resource_jn70p"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое квадрат?"
+answer_text = "Прямоугольник, у которого все стороны равны."
+
+[sub_resource type="Resource" id="Resource_glfl8"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое ромб?"
+answer_text = "Параллелограмм, у которого все стороны равны."
+
+[sub_resource type="Resource" id="Resource_sxvr8"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://bjnmmgkpqvluj[/img]?"
+answer_text = "Ветвь параболы."
+
+[sub_resource type="Resource" id="Resource_pyjd3"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое квадратный корень?"
+answer_text = "Квадратный корень из числа [img]uid://bs3bnvjqvic3p[/img] — число, дающее [img]uid://bs3bnvjqvic3p[/img] при возведении в квадрат.
+
+Q Чем отличается обычный квадратный корень от арифметического?
+A: Арифметический квадратный корень (в отличии от обычного ) всегда больше либо равен 0."
+
+[sub_resource type="Resource" id="Resource_imabc"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое арифметическая последовательность?"
+answer_text = "Последовательность чисел, в которой каждое число, начиная со второго, получается из предыдущего добавлением к нему константы (**шага**, или **разности** прогрессии)."
+
+[sub_resource type="Resource" id="Resource_qho7m"]
+script = ExtResource("2_0ftco")
+question_text = "Какая общая формула члена n-ого арифметической прогрессии?"
+answer_text = "[img]uid://bhbnxelh24nld[/img]"
+
+[sub_resource type="Resource" id="Resource_xynn1"]
+script = ExtResource("2_0ftco")
+question_text = "Какая рекуррентная формула n-ого члена арифметической прогрессии?"
+answer_text = "[img]uid://q14ld4il7ouu[/img]"
+
+[sub_resource type="Resource" id="Resource_qk7mg"]
+script = ExtResource("2_0ftco")
+question_text = "В чём разница между рекуррентной и общей формулой последовательности?
+А: Рекуррентная формула выражает каждый член последовательности через некоторое количество предыдущих членов, а общая формула последовательности выражает каждый член через 1ый член последовательности.
+
+Q: Растёт ли арифметическая последовательность где [img]uid://dw3iqa7s3lhqg[/img]?"
+answer_text = "Да."
+
+[sub_resource type="Resource" id="Resource_rit3g"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти сумму первых [img]uid://rdy22m3e8xue[/img] членов арифметической прогрессии?"
+answer_text = "[img]uid://dnil7dl7pkt4f[/img]"
+
+[sub_resource type="Resource" id="Resource_bc2fj"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое геометрическая последовательность?"
+answer_text = "Числовая последовательность, каждый член которой отличается от предыдущего в одно и тоже число раз."
+
+[sub_resource type="Resource" id="Resource_q7ouw"]
+script = ExtResource("2_0ftco")
+question_text = "Какая общая формула n-ого члена геометрической прогрессии?"
+answer_text = "[img]uid://deinulocfa4iq[/img]"
+
+[sub_resource type="Resource" id="Resource_ib7me"]
+script = ExtResource("2_0ftco")
+question_text = "Какая рекурентная формула n-ого члена геометрической прогрессии?"
+answer_text = "[img]uid://b6lasuqmoqu4u[/img]"
+
+[sub_resource type="Resource" id="Resource_2uk2t"]
+script = ExtResource("2_0ftco")
+question_text = "Растёт ли геометрическая последовательность где [img]uid://bkb73srmpvway[/img]?"
+answer_text = "Да."
+
+[sub_resource type="Resource" id="Resource_r7gnq"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна сумма первых 10 членов арифметической прогрессии, заданной по формуле [img]uid://dura0aerabuoi[/img]?"
+answer_text = "[img]uid://bnglkby6xd877[/img]"
+
+[sub_resource type="Resource" id="Resource_uqumk"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна сумма наименьших [img]uid://xt1seclevjl7[/img] простых чисел?"
+answer_text = "[img]uid://d3ukdfpb2um4v[/img]"
+
+[sub_resource type="Resource" id="Resource_upxr1"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна площадь сектора в [img]uid://ufmk341f4vrc[/img] если [img]uid://s6ihitrldb2h[/img]?"
+answer_text = "[img]uid://11dlqp3g68j2[/img]"
+
+[sub_resource type="Resource" id="Resource_p8pqt"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти площадь равностороннего треугольника?"
+answer_text = "[img]uid://bb2ubf6wfuqhg[/img]"
+
+[sub_resource type="Resource" id="Resource_ebkj3"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько корней будет у уравнения [img]uid://c8uynq73qn585[/img]?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_8lgw2"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько корней будет у уравнения [img]uid://c4lnv8p1t33ji[/img]?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_p2w7m"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько корней будет у уравнения [img]uid://tylked5gxa54[/img], [img]uid://df0thhlt5xg3m[/img]?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_iu41i"]
+script = ExtResource("2_0ftco")
+question_text = "Решите уравнение [img]uid://tvke5sefw7p7[/img]."
+answer_text = "[img]uid://dnfg0km12ps32[/img]"
+
+[sub_resource type="Resource" id="Resource_dc0nc"]
+script = ExtResource("2_0ftco")
+question_text = "Решите уравнение [img]uid://b13s6v72rnf1m[/img]."
+answer_text = "[img]uid://bn0b17am0nr4w[/img]"
+
+[sub_resource type="Resource" id="Resource_72eu8"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна область значения и область определения функции [img]uid://dakj1wxi3f8rc[/img]?"
+answer_text = "[img]uid://dgifvsviih2lj[/img]"
+
+[sub_resource type="Resource" id="Resource_wksut"]
+script = ExtResource("2_0ftco")
+question_text = "Найти координаты вершины параболы функции [img]uid://brntc5gcb4eqx[/img]"
+answer_text = "[img]uid://ck0ia2mh2c8uu[/img]"
+
+[sub_resource type="Resource" id="Resource_tfwdk"]
+script = ExtResource("2_0ftco")
+question_text = "Найти сумму корней уравнения [img]uid://r34cc3j6k7tc[/img]"
+answer_text = "[img]uid://c6lcs5bhpfl2t[/img]"
+
+[sub_resource type="Resource" id="Resource_x3mg4"]
+script = ExtResource("2_0ftco")
+question_text = "Найти сумму корней уравнения [img]uid://d0p4wm3d35jte[/img]"
+answer_text = "[img]uid://cj1vbdwjamugf[/img]"
+
+[sub_resource type="Resource" id="Resource_rc3h6"]
+script = ExtResource("2_0ftco")
+question_text = "Решить уравнение [img]uid://dsfttomaijys1[/img]"
+answer_text = "решений нет."
+
+[sub_resource type="Resource" id="Resource_v5is4"]
+script = ExtResource("2_0ftco")
+question_text = "Решить уравнение [img]uid://ingbfl8dkm4j[/img]."
+answer_text = "[img]uid://dk27i2sxhov55[/img]"
+
+[sub_resource type="Resource" id="Resource_g3kft"]
+script = ExtResource("2_0ftco")
+question_text = "Решить уравнение [img]uid://ds4m85gp0qu8r[/img]."
+answer_text = "[img]uid://dq668va2bpdws[/img]"
+
+[sub_resource type="Resource" id="Resource_uje8w"]
+script = ExtResource("2_0ftco")
+question_text = "Дан равнобедренный прямоугольный треугольник, на против угла [img]uid://dhxm082hd6svd[/img] сторона [img]uid://cnnawsy8g1p4q[/img]. Чему равна гипотенуза?"
+answer_text = "[img]uid://by2bsmcvhsi4y[/img]"
+
+[sub_resource type="Resource" id="Resource_mn68a"]
+script = ExtResource("2_0ftco")
+question_text = "Дан треугольник с углами [img]uid://ufmk341f4vrc[/img], [img]uid://bbi53eju1312f[/img], [img]uid://bbtvygxrsy5bp[/img], на против угла [img]uid://ufmk341f4vrc[/img] сторона [img]uid://b16xh7mn4c1rk[/img]. Чему равны 2 другие стороны?"
+answer_text = "[img]uid://b2026yhotumdm[/img]."
+
+[sub_resource type="Resource" id="Resource_ljpje"]
+script = ExtResource("2_0ftco")
+question_text = "Самая длинная сторона треугольник в квадрате больше суммы квадратов двух других сторон. Какого типа этот треугольник?"
+answer_text = "Тупоугольный."
+
+[sub_resource type="Resource" id="Resource_8ixww"]
+script = ExtResource("2_0ftco")
+question_text = "Самая длинная сторона треугольник в квадрате меньше суммы квадратов двух других сторон. Какого типа этот треугольник?"
+answer_text = "Остроугольный."
+
+[sub_resource type="Resource" id="Resource_7lihr"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое трапеция?"
+answer_text = "Трапеция - четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны."
+
+[sub_resource type="Resource" id="Resource_lvftv"]
+script = ExtResource("2_0ftco")
+question_text = "Какая трапеция однобедренная?"
+answer_text = "диогонали одинаковые"
+
+[sub_resource type="Resource" id="Resource_jil2c"]
+script = ExtResource("2_0ftco")
+question_text = "Какая трапеция равнобедренная?"
+answer_text = "Трапеция, у которой боковые стороны равны."
+
+[sub_resource type="Resource" id="Resource_aeymi"]
+script = ExtResource("2_0ftco")
+question_text = "Какая трапеция прямоугольная?"
+answer_text = "Трапеция, у которой одна боковая сторона перпендикулярна основания."
+
+[sub_resource type="Resource" id="Resource_twf0p"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое центральная линия в треугольнике?"
+answer_text = "Отрезок соединяющий центры 2 сторон."
+
+[sub_resource type="Resource" id="Resource_iqrrl"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое центральная линия в трапеции?"
+answer_text = "Отрезок соединяющий центры 2 боковых сторон."
+
+[sub_resource type="Resource" id="Resource_ya1fg"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти площадь трапеции?"
+answer_text = "[img]uid://c1ubfoum7wf26[/img]"
+
+[sub_resource type="Resource" id="Resource_0ec1y"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое среднее арифметическое?
+А: Средним арифметическим нескольких чисел называют сумму этих чисел, делённую на количество слагаемых.
+
+Q: Что такое медиана (в статистике)?"
+answer_text = "Число, которое находится в середине числого набора, если его упорядочить по возрастанию."
+
+[sub_resource type="Resource" id="Resource_4ar8x"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое мода (в статистике)?"
+answer_text = "Значение во множестве наблюдений, которое встречается наиболее часто."
+
+[sub_resource type="Resource" id="Resource_0lc2i"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое амплитуда (в статистике)?
+А: Разница между самым высоким и самым низким значением.
+
+Q: Чему равно относительная частота числа 5 на [img]uid://csyfon0ey1mv5[/img]?"
+answer_text = "[img]uid://cr2x61tvois7l[/img]"
+
+[sub_resource type="Resource" id="Resource_qramn"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равно среднее значение на [img]uid://dpp1doah6xn0[/img]?"
+answer_text = "55"
+
+[sub_resource type="Resource" id="Resource_ar6h3"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равна медиана на [img]uid://bykhqkltdkwj0[/img]?"
+answer_text = "[img]uid://b2x64twl0mgk7[/img]"
+
+[sub_resource type="Resource" id="Resource_31wnm"]
+script = ExtResource("2_0ftco")
+question_text = "Определить область значения [img]uid://b1fdhivebd1k4[/img]"
+answer_text = "[img]uid://c4ntse4rjn78h[/img]"
+
+[sub_resource type="Resource" id="Resource_dbb3y"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://b4x0gb2oucjtm[/img]"
+answer_text = "[img]uid://kufqlq5m4823[/img]"
+
+[sub_resource type="Resource" id="Resource_kysjn"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://4c5c2omlx5hy[/img]"
+answer_text = "[img]uid://hxrr4hknfafg[/img]"
+
+[sub_resource type="Resource" id="Resource_o2rty"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://caxgf416mtnok[/img]"
+answer_text = "[img]uid://dk7iahpa0wini[/img]"
+
+[sub_resource type="Resource" id="Resource_dt2ud"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://b5ld5xpj6px3o[/img]"
+answer_text = "[img]uid://cu4kfqwmdyy4v[/img]"
+
+[sub_resource type="Resource" id="Resource_6tfai"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cchoax7sxxebw[/img]"
+answer_text = "[img]uid://cob51021t7lq6[/img]"
+
+[sub_resource type="Resource" id="Resource_nxdb6"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ce5mqjpimq2fk[/img]"
+answer_text = "[img]uid://dyl0x7vtvthj3[/img]"
+
+[sub_resource type="Resource" id="Resource_ri7y7"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://bm0d7dg28jbi4[/img]"
+answer_text = "[img]uid://dvbp47tgydgig[/img]"
+
+[sub_resource type="Resource" id="Resource_lx6ru"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cstbdyguf6bjr[/img]"
+answer_text = "[img]uid://bbmmps5sxalil[/img]"
+
+[sub_resource type="Resource" id="Resource_s7hxv"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cbdwscrf0udc0[/img]"
+answer_text = "[img]uid://bjr8n8pyp3apw[/img]"
+
+[sub_resource type="Resource" id="Resource_1hae1"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ddlc4yjp34xwe[/img]"
+answer_text = "[img]uid://de3dlxqlja4nn[/img]"
+
+[sub_resource type="Resource" id="Resource_odr21"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли график выражения [img]uid://cohdvj5anp220[/img] функцией или зависимостью?"
+answer_text = "Функция."
+
+[sub_resource type="Resource" id="Resource_6inl8"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли график выражения [img]uid://julqdum7qlkg[/img] функцией или зависимостью?"
+answer_text = "Зависимость."
+
+[sub_resource type="Resource" id="Resource_6i5uo"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли график выражения [img]uid://d1npn8woev3cf[/img] функцией или зависимостью?"
+answer_text = "Функция."
+
+[sub_resource type="Resource" id="Resource_3i0cd"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли график выражения [img]uid://cj4kq6vvmnnj6[/img] функцией или зависимостью?"
+answer_text = "Зависимость."
+
+[sub_resource type="Resource" id="Resource_88i4u"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график линейной функции?"
+answer_text = "Прямая."
+
+[sub_resource type="Resource" id="Resource_moocl"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график квадратичной функции?"
+answer_text = "Парабола."
+
+[sub_resource type="Resource" id="Resource_agf26"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график выражения [img]uid://bjnmmgkpqvluj[/img]?"
+answer_text = "Ветвь параболы."
+
+[sub_resource type="Resource" id="Resource_q862k"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график обратной пропорциональности?"
+answer_text = "Гипербола."
+
+[sub_resource type="Resource" id="Resource_dib5r"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график экспоненциальное функции?"
+answer_text = "Экспонента."
+
+[sub_resource type="Resource" id="Resource_77v0m"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://8srt4xi511fa[/img]?"
+answer_text = "Синусоида или косинусоида."
+
+[sub_resource type="Resource" id="Resource_yokvv"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://bpoej7u8a5gl[/img]?"
+answer_text = "Синусоида или косинусоида."
+
+[sub_resource type="Resource" id="Resource_q0u3m"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график зависимости [img]uid://bar2yj72va2nn[/img]?"
+answer_text = "Окружность."
+
+[sub_resource type="Resource" id="Resource_2j44j"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое график функции?"
+answer_text = "Множество точек координаты которых соответствуют значениям аргумента и функции."
+
+[sub_resource type="Resource" id="Resource_26ov0"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое координаты точки?"
+answer_text = "Пара чисел показывающая местоположение точки на координатной плоскости."
+
+[sub_resource type="Resource" id="Resource_2vp8d"]
+script = ExtResource("2_0ftco")
+question_text = "Найдите ось симметрии функции [img]uid://cr030imn4d1o2[/img]."
+answer_text = "[img]uid://d2s2xcigmcbra[/img]"
+
+[sub_resource type="Resource" id="Resource_8w1ip"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://jaeyupxtd0b7[/img], найти координату x вершины."
+answer_text = "[img]uid://d0e0qibtpav7w[/img]"
+
+[sub_resource type="Resource" id="Resource_uvl0n"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bboy2617wi5pi[/img], найти координату x вершины."
+answer_text = "[img]uid://cq70gb0kxeq86[/img]"
+
+[sub_resource type="Resource" id="Resource_iv3fq"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dfxoxcb5fclb5[/img]."
+answer_text = "[img]uid://b1opvwe2iequ3[/img]"
+
+[sub_resource type="Resource" id="Resource_hctme"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://2slyd7x565ko[/img]"
+answer_text = "[img]uid://hbua6qj84sry[/img]"
+
+[sub_resource type="Resource" id="Resource_ycaed"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое касательная?"
+answer_text = "Прямая которая имеет ровно одну общую точку с окружностью."
+
+[sub_resource type="Resource" id="Resource_uw7ap"]
+script = ExtResource("2_0ftco")
+question_text = "Какое взаимное расположение касательной и радиуса проведённого в точку пересечения?"
+answer_text = "Они перпендикулярны."
+
+[sub_resource type="Resource" id="Resource_bk7bp"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dg8xu41vtcnss[/img]"
+answer_text = "[img]uid://qixdr2u0cby2[/img]"
+
+[sub_resource type="Resource" id="Resource_gmcaa"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cin17qxpt2vy4[/img]"
+answer_text = "[img]uid://bu0rbrqsr4bup[/img]"
+
+[sub_resource type="Resource" id="Resource_k8mb6"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое векториальная величина?"
+answer_text = "Величина, которая кроме числового значения имеет и направление."
+
+[sub_resource type="Resource" id="Resource_unegp"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое скалярная величина?"
+answer_text = "Величина, которая имеет только числовое значение."
+
+[sub_resource type="Resource" id="Resource_gfeo3"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое вектор?"
+answer_text = "Ориентированный отрезок."
+
+[sub_resource type="Resource" id="Resource_wtu18"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое модуль вектора?"
+answer_text = "Длина отрезка или длина вектора."
+
+[sub_resource type="Resource" id="Resource_r8gdc"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое длина вектора?"
+answer_text = "Длина направленного отрезка, определяющего вектор."
+
+[sub_resource type="Resource" id="Resource_8lt0e"]
+script = ExtResource("2_0ftco")
+question_text = "Какие вектора коллинеарны?"
+answer_text = "Лежащие на параллельных или одной прямой."
+
+[sub_resource type="Resource" id="Resource_rr35m"]
+script = ExtResource("2_0ftco")
+question_text = "Какие вектора противоположные?"
+answer_text = "Вектора с равными модулями и противоположными направлениями."
+
+[sub_resource type="Resource" id="Resource_ptk0b"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит [img]uid://b0fpeccfgj1m5[/img]?"
+answer_text = "Вектора коллинеарны."
+
+[sub_resource type="Resource" id="Resource_c62qq"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит [img]uid://cdivhmqvk426[/img]?"
+answer_text = "Вектора противоположны."
+
+[sub_resource type="Resource" id="Resource_u38fb"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит [img]uid://b2oiwtr8fm5c2[/img]?"
+answer_text = "Вектора сонаправленны."
+
+[sub_resource type="Resource" id="Resource_u2whl"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит [img]uid://d2qu65oyu1fho[/img]?"
+answer_text = "Вектора противонаправлены."
+
+[sub_resource type="Resource" id="Resource_3qi10"]
+script = ExtResource("2_0ftco")
+question_text = "Что значит [img]uid://cois2tuxbdtm[/img]?"
+answer_text = "Вектора равны."
+
+[sub_resource type="Resource" id="Resource_3g6io"]
+script = ExtResource("2_0ftco")
+question_text = "Робинзон Крузо и Пятница тянут поверженного пирата: один на восток, с силой [img]uid://b5cttwdbi7qc8[/img], другой толкает на север с силой [img]uid://bdwkr3gx5fif5[/img]. Какова общая сила и примерное направление поверженного пирата?"
+answer_text = "[img]uid://bmp1kol6qxcsc[/img] на северо-восток."
+
+[sub_resource type="Resource" id="Resource_st35h"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cr2hriovnb0ll[/img]"
+answer_text = "[img]uid://cao4gvm2q8cvn[/img]"
+
+[sub_resource type="Resource" id="Resource_ywufx"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cki1ocardnwl7[/img]"
+answer_text = "[img]uid://bl143l7xb2g0g[/img]"
+
+[sub_resource type="Resource" id="Resource_qnaw4"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dr3mijp1hniwx[/img]"
+answer_text = "[img]uid://5yeqje75r7oq[/img]"
+
+[sub_resource type="Resource" id="Resource_60sur"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://by3j26r8cf6n7[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_qsjt6"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://ms5ep8vwknsj[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_c6bt6"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://iadycuvjcmuj[/img]"
+answer_text = "[img]uid://c6lcs5bhpfl2t[/img]"
+
+[sub_resource type="Resource" id="Resource_0kvap"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://c1lqyoe8hypkg[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_57207"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cebthxx42oiak[/img]"
+answer_text = "[img]uid://5yeqje75r7oq[/img]"
+
+[sub_resource type="Resource" id="Resource_l5s7d"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://c61gquk28u8ku[/img]"
+answer_text = "[img]uid://bl143l7xb2g0g[/img]"
+
+[sub_resource type="Resource" id="Resource_hh5d5"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://b388u4pihilbr[/img]"
+answer_text = "[img]uid://cao4gvm2q8cvn[/img]"
+
+[sub_resource type="Resource" id="Resource_rywec"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dit76dx3vn7nj[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_he4bh"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dt3kh273mf6uh[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_kckrx"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bpnifjbnna6qd[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_3plcx"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://23b2auxrshgj[/img]"
+answer_text = "[img]uid://c6lcs5bhpfl2t[/img]"
+
+[sub_resource type="Resource" id="Resource_b1hob"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое геометрическая проекция вектора?
+А: Вектор, полученный путем проведения перпендикуляров из концов вектора к выбранной оси.
+
+Q: Дан вектор [img]uid://cd86ymhkly6r8[/img] найти [img]uid://rbjk0kwreywj[/img]"
+answer_text = "[img]uid://dw2673886cfd6[/img]"
+
+[sub_resource type="Resource" id="Resource_w418e"]
+script = ExtResource("2_0ftco")
+question_text = "Как найти середину отрезка?"
+answer_text = "Нужно найти среднее арифметическое координат двух концов отрезка."
+
+[sub_resource type="Resource" id="Resource_x1mdy"]
+script = ExtResource("2_0ftco")
+question_text = "Дана точка [img]uid://cwl6m8wjjy1r6[/img] и вектор [img]uid://dvw2y53loo0p2[/img]. Найти координаты середины отрезка [img]uid://b5rln8xghi08l[/img]."
+answer_text = "[img]uid://ewa1gvy6qia8[/img]"
+
+[sub_resource type="Resource" id="Resource_tonci"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько вершин у параболы?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_1148s"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равно [img]uid://bmv68bvthfd2i[/img] в [img]uid://by3vj5l66tvg6[/img]?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_uin17"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равно [img]uid://cv83go3ouwni4[/img] в [img]uid://by3vj5l66tvg6[/img]?"
+answer_text = "[img]uid://kampw8imf4ry[/img]"
+
+[sub_resource type="Resource" id="Resource_ohigu"]
+script = ExtResource("2_0ftco")
+question_text = "Выразите [img]uid://bmv68bvthfd2i[/img] и [img]uid://cv83go3ouwni4[/img] из [img]uid://dsndmiv3bvg2j[/img]?"
+answer_text = "[img]uid://b70nvq8l8n684[/img]; [img]uid://cghmgt2otqhcd[/img]"
+
+[sub_resource type="Resource" id="Resource_th18g"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое приращение функции?"
+answer_text = "[img]uid://cn0buifxjl2mn[/img]"
+
+[sub_resource type="Resource" id="Resource_81q2x"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое приращение аргумента функции?"
+answer_text = "[img]uid://b8qx4rdvykjes[/img]"
+
+[sub_resource type="Resource" id="Resource_h64yi"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dte7dyvoyegnh[/img]. Чем является график данного соотношения?"
+answer_text = "Прямая."
+
+[sub_resource type="Resource" id="Resource_wfprr"]
+script = ExtResource("2_0ftco")
+question_text = "Чем является график [img]uid://dte7dyvoyegnh[/img]?"
+answer_text = "Прямая."
+
+[sub_resource type="Resource" id="Resource_kv45f"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cqbp0w2kwyiip[/img]. Преобразовать в вид [img]uid://fs8twoxp64ji[/img]"
+answer_text = "[img]uid://ddenyu63c88gi[/img]"
+
+[sub_resource type="Resource" id="Resource_fpcdk"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cqbnp12fgklfp[/img]. Преобразовать в вид [img]uid://fs8twoxp64ji[/img]"
+answer_text = "[img]uid://dkyedcs15rvg8[/img]"
+
+[sub_resource type="Resource" id="Resource_nri5x"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://duw82jpb10x5[/img]. Преобразовать в вид [img]uid://dte7dyvoyegnh[/img]"
+answer_text = "[img]uid://ctyaool0k6d5e[/img]"
+
+[sub_resource type="Resource" id="Resource_duiau"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://c5ejvapmaqxne[/img][img]uid://2cqr4ofxam1w[/img][img]uid://5bo1cle1ln3r[/img]D(f) = ?$"
+answer_text = "[img]uid://b558w0k7qu2ps[/img]"
+
+[sub_resource type="Resource" id="Resource_3y2fa"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://c5ejvapmaqxne[/img][img]uid://2cqr4ofxam1w[/img][img]uid://5bo1cle1ln3r[/img]E(f) = ?$"
+answer_text = "[img]uid://dgakrn8n01f8q[/img]"
+
+[sub_resource type="Resource" id="Resource_yvn7q"]
+script = ExtResource("2_0ftco")
+question_text = "Прямая проходит через точки [img]uid://ca6q35ojs120x[/img] и [img]uid://dtqgq87hyq0iy[/img]. Представить прямую в виде [img]uid://eq3vu767phr2[/img]."
+answer_text = "[img]uid://dw6bmwewpvlae[/img]"
+
+[sub_resource type="Resource" id="Resource_wt34u"]
+script = ExtResource("2_0ftco")
+question_text = "Прямая проходит через начало координат и точку [img]uid://bo0ljc0v87d85[/img]. Представить прямую в виде [img]uid://eq3vu767phr2[/img]"
+answer_text = "[img]uid://ban15ii6canl[/img]"
+
+[sub_resource type="Resource" id="Resource_76dap"]
+script = ExtResource("2_0ftco")
+question_text = "Чем являться график зависимости [img]uid://dd4uga2wgapgl[/img]?"
+answer_text = "Окружность с радиусом [img]uid://bq5xwunp1f2gt[/img] и центром в [img]uid://7kolr2mtros0[/img]."
+
+[sub_resource type="Resource" id="Resource_8fbji"]
+script = ExtResource("2_0ftco")
+question_text = "Чем являться график зависимости [img]uid://thb2smk0li5f[/img]?"
+answer_text = "Круг с радиусом [img]uid://bq5xwunp1f2gt[/img] и центром в [img]uid://7kolr2mtros0[/img]."
+
+[sub_resource type="Resource" id="Resource_etgkt"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dyhue8v0qbad4[/img]. Каков радиус окружности?"
+answer_text = "[img]uid://fecmic8xuse[/img]"
+
+[sub_resource type="Resource" id="Resource_hi7ou"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dyhue8v0qbad4[/img]. В какой точке находится центр окружности?"
+answer_text = "[img]uid://clukcm1u0m00e[/img]"
+
+[sub_resource type="Resource" id="Resource_mddjc"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько может быть точек пересечения у окружности и гиперболы?"
+answer_text = "0, 1, 2, 3, 4"
+
+[sub_resource type="Resource" id="Resource_uc1oj"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько может быть точек пересечения у графиков [img]uid://dmvglag7tb6u8[/img] и [img]uid://oowoot6cvrfi[/img]"
+answer_text = "0, 1, 2, 3, 4"
+
+[sub_resource type="Resource" id="Resource_j2cup"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько точек пересечению у [img]uid://cs8ia54de3qwi[/img] и [img]uid://bkkop3ijkjo3g[/img]"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_ex5rx"]
+script = ExtResource("2_0ftco")
+question_text = "Даны [img]uid://1l4yh2v4r1em[/img] концентрических не совпадающих окружностей и 1 прямая. Сколько может быть точек пересечения?"
+answer_text = "[img]uid://bb0cxj1xe35xg[/img]"
+
+[sub_resource type="Resource" id="Resource_c52hl"]
+script = ExtResource("2_0ftco")
+question_text = "Чем является график функции [img]uid://bdj0adj5d4w5b[/img]"
+answer_text = "Гипербола."
+
+[sub_resource type="Resource" id="Resource_w4n8d"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько может быть точек пересечения у параболы и окружности?"
+answer_text = "[img]uid://c1ux2su52ucxt[/img]"
+
+[sub_resource type="Resource" id="Resource_2tq7u"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько может быть точек пересечения у 2 окружностей?"
+answer_text = "[img]uid://bp4i8wju6fwsm[/img]"
+
+[sub_resource type="Resource" id="Resource_frxao"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько точек пересечения может быть у 2 концентрических окружностей?"
+answer_text = "[img]uid://b1x7rxcaubd1u[/img]"
+
+[sub_resource type="Resource" id="Resource_nl5w4"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое множество?"
+answer_text = "Набор разных элементов (не имеющий порядка)"
+
+[sub_resource type="Resource" id="Resource_p7wij"]
+script = ExtResource("2_0ftco")
+question_text = "Множество [img]uid://gewml6t0fhwo[/img] является бесконечным или конечным?"
+answer_text = "Конечным."
+
+[sub_resource type="Resource" id="Resource_iol3y"]
+script = ExtResource("2_0ftco")
+question_text = "Множество [img]uid://bpleb87sfmlmt[/img] является бесконечным или конечным?"
+answer_text = "Бесконечным."
+
+[sub_resource type="Resource" id="Resource_vqk5i"]
+script = ExtResource("2_0ftco")
+question_text = "Множество [img]uid://dvjdivetpw074[/img] является бесконечным или конечным?"
+answer_text = "Бесконечным."
+
+[sub_resource type="Resource" id="Resource_3lk64"]
+script = ExtResource("2_0ftco")
+question_text = "Множество [img]uid://ft672diddyof[/img] является бесконечным или конечным?"
+answer_text = "Конечным."
+
+[sub_resource type="Resource" id="Resource_dpo7h"]
+script = ExtResource("2_0ftco")
+question_text = "Множество [img]uid://cq0kjam8636vy[/img] является бесконечным или конечным?"
+answer_text = "Бесконечным."
+
+[sub_resource type="Resource" id="Resource_bckv1"]
+script = ExtResource("2_0ftco")
+question_text = "Как правильно записать множество [img]uid://cdfhgyse05u4t[/img] без интервала?"
+answer_text = "[img]uid://btkwu8eunwrj5[/img]"
+
+[sub_resource type="Resource" id="Resource_h8o0u"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://dbsgqlrie5bq2[/img]?"
+answer_text = "Пересечение (симметричная разность) множеств [img]uid://bnuvlbakopmov[/img] и [img]uid://dp7fntkgibvr0[/img]."
+
+[sub_resource type="Resource" id="Resource_qpt61"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://bc06hfmdj1urd[/img]?"
+answer_text = "Объединение множеств [img]uid://bnuvlbakopmov[/img] и [img]uid://dp7fntkgibvr0[/img]."
+
+[sub_resource type="Resource" id="Resource_2f6kx"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://bba2pvaq61b4t[/img]?"
+answer_text = "Разность множеств [img]uid://bnuvlbakopmov[/img] и [img]uid://dp7fntkgibvr0[/img]"
+
+[sub_resource type="Resource" id="Resource_u7qlu"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://chr5al0trxgm8[/img]?"
+answer_text = "Множество натуральных чисел."
+
+[sub_resource type="Resource" id="Resource_cnsai"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://cps70aesmuqp8[/img]?"
+answer_text = "Множество целых чисел."
+
+[sub_resource type="Resource" id="Resource_rh6v4"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://drt6nmokv103d[/img]?"
+answer_text = "Множество рациональных чисел."
+
+[sub_resource type="Resource" id="Resource_l7qwg"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://cxtc8na51050o[/img]?"
+answer_text = "Множество действительных чисел."
+
+[sub_resource type="Resource" id="Resource_owpvp"]
+script = ExtResource("2_0ftco")
+question_text = "Что означает [img]uid://crfd0hnx0ca3r[/img]?"
+answer_text = "Множество комплексных чисел."
+
+[sub_resource type="Resource" id="Resource_lgqdv"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли часть плоскости ограниченная параболой выпуклой или вогнутой фигурой?"
+answer_text = "Выпуклой."
+
+[sub_resource type="Resource" id="Resource_m5o8d"]
+script = ExtResource("2_0ftco")
+question_text = "Является ли парабола выпуклой или вогнутой фигурой?"
+answer_text = "Вогнутая."
+
+[sub_resource type="Resource" id="Resource_14sti"]
+script = ExtResource("2_0ftco")
+question_text = "Решение [img]uid://baot4cfbl1o3y[/img], предположим что ([img]uid://bl8lrmch08idq[/img])."
+answer_text = "[img]uid://bpw572iji1tbi[/img]"
+
+[sub_resource type="Resource" id="Resource_ee1s1"]
+script = ExtResource("2_0ftco")
+question_text = "Какое равенство является строгим?"
+answer_text = "С [img]uid://b3jp80st1sw2n[/img] или [img]uid://btw2m2bkhswpd[/img]."
+
+[sub_resource type="Resource" id="Resource_yp2tn"]
+script = ExtResource("2_0ftco")
+question_text = "Какая точка соответствует строгому неравенству (закрашенная/незакрашеная)?"
+answer_text = "Незакрашеная."
+
+[sub_resource type="Resource" id="Resource_ojwsm"]
+script = ExtResource("2_0ftco")
+question_text = "Какая скобка интервала соответствует строгому неравенству?"
+answer_text = "Круглая (())."
+
+[sub_resource type="Resource" id="Resource_o2usm"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dji07i8rd4hpk[/img] выразите [img]uid://cv14m2jh2d2fw[/img]."
+answer_text = "[img]uid://kl8tw06fr07t[/img]"
+
+[sub_resource type="Resource" id="Resource_o4pot"]
+script = ExtResource("2_0ftco")
+question_text = "Чем отличается [img]uid://hh7bxfi3rfo[/img] от [img]uid://ddvnhmma8u1ar[/img]?"
+answer_text = "[img]uid://bnuvlbakopmov[/img] (элемент) принаждлежит [img]uid://dp7fntkgibvr0[/img] и [img]uid://bnuvlbakopmov[/img] (множество) является подмножеством [img]uid://dp7fntkgibvr0[/img]."
+
+[sub_resource type="Resource" id="Resource_jk6ai"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://bgostbcf0n6oe[/img][img]uid://b5rt1mvktdhxs[/img]$?"
+answer_text = "Прямая."
+
+[sub_resource type="Resource" id="Resource_v28yy"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://dnty1utr4emp[/img][img]uid://b5kcjsp0mfgfo[/img]$?"
+answer_text = "Парабола."
+
+[sub_resource type="Resource" id="Resource_u4n2e"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://ccube8c2y1utt[/img][img]uid://b0g0mgl08yvql[/img]$?"
+answer_text = "Ветвь параболы."
+
+[sub_resource type="Resource" id="Resource_06uu5"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://bs18ljdr8nsb8[/img][img]uid://dkpxk15770ctc[/img]$?"
+answer_text = "Гипербола."
+
+[sub_resource type="Resource" id="Resource_iuk6a"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://cje0oo8eu8gsj[/img][img]uid://bdxbhjagw2e3l[/img]$?"
+answer_text = "Экспонента."
+
+[sub_resource type="Resource" id="Resource_ew32g"]
+script = ExtResource("2_0ftco")
+question_text = "Как называется график функции [img]uid://clu3aw2f260ds[/img][img]uid://cese8fkge52wd[/img]$?"
+answer_text = "Синусоида или косинусоида."
+
+[sub_resource type="Resource" id="Resource_bkunv"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое экспоненциальное уравнение?"
+answer_text = "Уравнение с переменной в показателе."
+
+[sub_resource type="Resource" id="Resource_ljswh"]
+script = ExtResource("2_0ftco")
+question_text = "При каких условиях уравнения [img]uid://bgq7vkajrfplq[/img] и [img]uid://cmefqinngsjdm[/img] эквивалентны?"
+answer_text = "[img]uid://bikan4wpphgb2[/img] и [img]uid://dopiceuuhname[/img]."
+
+[sub_resource type="Resource" id="Resource_2l0ko"]
+script = ExtResource("2_0ftco")
+question_text = "Чему равно [img]uid://51uj262m56ox[/img] (с точностью до [img]uid://cpmj5hljtligy[/img])?"
+answer_text = "[img]uid://51uj262m56ox[/img] ¯\\_(ツ)_/¯"
+
+[sub_resource type="Resource" id="Resource_42np4"]
+script = ExtResource("2_0ftco")
+question_text = "Сколько может быть точек пересечения у 2 линейных функций?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img], [img]uid://cjsaekmc20eti[/img], [img]uid://bvl2ui47xom6a[/img]"
+
+[sub_resource type="Resource" id="Resource_4dh6j"]
+script = ExtResource("2_0ftco")
+question_text = "Сравнить [img]uid://c0tmao8pequh2[/img] и [img]uid://bfs68xe61nuy2[/img] если [img]uid://dtx4eds5clikm[/img] и [img]uid://rmdh0lyd8anu[/img]."
+answer_text = "Больше если [img]uid://yvybh74umw1w[/img]; меньше если [img]uid://dpr26j2wt7tvq[/img]; равно если [img]uid://dilki1c1abmxp[/img]."
+
+[sub_resource type="Resource" id="Resource_4j3dk"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bare4arx84jtv[/img], чему равен [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "[img]uid://cefje1d724he5[/img]"
+
+[sub_resource type="Resource" id="Resource_8vcvf"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bepfhj5mliqmv[/img]"
+answer_text = "[img]uid://82khqva8vcl[/img]"
+
+[sub_resource type="Resource" id="Resource_oixhv"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://mk3ctcj1r3ic[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_he01t"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://de8cy6l5amnn4[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_hjbbn"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://lsd7awwc4rh4[/img]"
+answer_text = "[img]uid://bcwmq3k58pyhg[/img]"
+
+[sub_resource type="Resource" id="Resource_wbgc8"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://ce0l1dmrchbf1[/img]"
+answer_text = "[img]uid://clvxggjvgg7vp[/img]"
+
+[sub_resource type="Resource" id="Resource_e8qek"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://cn2ngjrnf3too[/img]"
+answer_text = "[img]uid://cpcg6fvmo08k[/img]"
+
+[sub_resource type="Resource" id="Resource_0t6br"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://ufycq1uyvoc[/img]"
+answer_text = "[img]uid://ddypiui737l82[/img]"
+
+[sub_resource type="Resource" id="Resource_aar77"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bo8oo2r41e8sg[/img]"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_e2jre"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://b1dnqde5b1ksa[/img]"
+answer_text = "[img]uid://cogbswyj1w6cv[/img]"
+
+[sub_resource type="Resource" id="Resource_vbcpu"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://d2ihuou4tweg2[/img]"
+answer_text = "[img]uid://cogbswyj1w6cv[/img] :D"
+
+[sub_resource type="Resource" id="Resource_jqit7"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://b4tx3r0nnoww[/img]"
+answer_text = "[img]uid://dctho4rmuw4kx[/img]"
+
+[sub_resource type="Resource" id="Resource_8rm0j"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bum5wicekgrpe[/img]"
+answer_text = "[img]uid://c8b6tgouiiq7e[/img]"
+
+[sub_resource type="Resource" id="Resource_6i2us"]
+script = ExtResource("2_0ftco")
+question_text = "Что такое логарифмическое уравнение?"
+answer_text = "Уравнение с логарифмируемыми переменными."
+
+[sub_resource type="Resource" id="Resource_pw68v"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bimsmakwyn4mx[/img]"
+answer_text = "[img]uid://ceyacfqt0dot4[/img]"
+
+[sub_resource type="Resource" id="Resource_sbvip"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bv8y6jyum75ao[/img] = ?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_mjb8h"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://ff8r2la35ykg[/img]"
+answer_text = "[img]uid://c1xikcjtf6n57[/img]"
+
+[sub_resource type="Resource" id="Resource_831o7"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://dkkhyk8d58g66[/img]"
+answer_text = "[img]uid://c1dv8qwuwuo3e[/img]"
+
+[sub_resource type="Resource" id="Resource_ufsy7"]
+script = ExtResource("2_0ftco")
+question_text = "[img]uid://bcpmu8uqh6vtc[/img]"
+answer_text = "[img]uid://chy6uxfvbjxkg[/img]"
+
+[sub_resource type="Resource" id="Resource_renlj"]
+script = ExtResource("2_0ftco")
+question_text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
+answer_text = "A woodchuck would chuck all the wood he could chuck if a woodchuck could chuck wood. ([img]uid://8t6trouf531m[/img])"
+
+[sub_resource type="Resource" id="Resource_qu4q1"]
+script = ExtResource("2_0ftco")
+question_text = "Человек идёт от магазина домой со скоростью [img]uid://c6bxywfsiasj6[/img]. Его собака бегает от него до дома и обратно до него со скоростью [img]uid://cfnjrewj412ck[/img]. Если человек прошёл растояние [img]uid://jrj3aud7f6rf[/img], какое растояние пробежала собака?"
+answer_text = "[img]uid://bvl245faj1whn[/img]"
+
+[resource]
+script = ExtResource("1_pr6pf")
+name = ">:D"
+static_cards = Array[ExtResource("2_0ftco")]([SubResource("Resource_ee6hh"), SubResource("Resource_a78of"), SubResource("Resource_yschs"), SubResource("Resource_vybhk"), SubResource("Resource_emya0"), SubResource("Resource_ntwd8"), SubResource("Resource_cy47f"), SubResource("Resource_ef7jy"), SubResource("Resource_c78l3"), SubResource("Resource_ty5jl"), SubResource("Resource_vhfgu"), SubResource("Resource_l8vmo"), SubResource("Resource_jt2w6"), SubResource("Resource_lwvpo"), SubResource("Resource_rvocu"), SubResource("Resource_r4fhh"), SubResource("Resource_pmf5n"), SubResource("Resource_fllu8"), SubResource("Resource_ba186"), SubResource("Resource_56iqq"), SubResource("Resource_eaqll"), SubResource("Resource_yvh7h"), SubResource("Resource_ogoqj"), SubResource("Resource_gocrl"), SubResource("Resource_rup78"), SubResource("Resource_ynls6"), SubResource("Resource_x32nv"), SubResource("Resource_3u3st"), SubResource("Resource_0gcns"), SubResource("Resource_fbsns"), SubResource("Resource_gn83d"), SubResource("Resource_6ovrt"), SubResource("Resource_t1axn"), SubResource("Resource_nh5ea"), SubResource("Resource_33tq1"), SubResource("Resource_veucf"), SubResource("Resource_mohcj"), SubResource("Resource_03ekr"), SubResource("Resource_dsnqr"), SubResource("Resource_bsvx0"), SubResource("Resource_v3ao3"), SubResource("Resource_hpcmk"), SubResource("Resource_18284"), SubResource("Resource_dyapm"), SubResource("Resource_wcm2o"), SubResource("Resource_8eg6i"), SubResource("Resource_wg3qh"), SubResource("Resource_kojj2"), SubResource("Resource_fxtdo"), SubResource("Resource_sa2cy"), SubResource("Resource_8seh8"), SubResource("Resource_33ml1"), SubResource("Resource_j0xmi"), SubResource("Resource_1kuej"), SubResource("Resource_ukyue"), SubResource("Resource_ssbmv"), SubResource("Resource_71h14"), SubResource("Resource_fg6wi"), SubResource("Resource_yy8e0"), SubResource("Resource_edw65"), SubResource("Resource_flqjk"), SubResource("Resource_2u1yn"), SubResource("Resource_5jjix"), SubResource("Resource_e5v1w"), SubResource("Resource_6ucrr"), SubResource("Resource_kcghi"), SubResource("Resource_4juxn"), SubResource("Resource_hdysw"), SubResource("Resource_dkg7x"), SubResource("Resource_vy8jt"), SubResource("Resource_jvddr"), SubResource("Resource_gaa3b"), SubResource("Resource_mdh0g"), SubResource("Resource_3wm5q"), SubResource("Resource_axdlo"), SubResource("Resource_t188u"), SubResource("Resource_rbfs2"), SubResource("Resource_jbwnk"), SubResource("Resource_nm17h"), SubResource("Resource_0shi6"), SubResource("Resource_8di5u"), SubResource("Resource_j750i"), SubResource("Resource_6jhnu"), SubResource("Resource_uwb15"), SubResource("Resource_d8a1w"), SubResource("Resource_88cug"), SubResource("Resource_2tuha"), SubResource("Resource_t5te7"), SubResource("Resource_ima85"), SubResource("Resource_x0tp0"), SubResource("Resource_ibsra"), SubResource("Resource_i6gvx"), SubResource("Resource_bipig"), SubResource("Resource_lkd88"), SubResource("Resource_8hdcq"), SubResource("Resource_alr5s"), SubResource("Resource_d7ppr"), SubResource("Resource_fmfwv"), SubResource("Resource_qsiyg"), SubResource("Resource_ov7jk"), SubResource("Resource_sprwl"), SubResource("Resource_qdxvm"), SubResource("Resource_s1uk5"), SubResource("Resource_r12xc"), SubResource("Resource_hrj3a"), SubResource("Resource_cq8iu"), SubResource("Resource_t0l4b"), SubResource("Resource_dqsrp"), SubResource("Resource_kh6xj"), SubResource("Resource_7qdmw"), SubResource("Resource_sjgno"), SubResource("Resource_egx3e"), SubResource("Resource_om85i"), SubResource("Resource_ygq0w"), SubResource("Resource_rbeuy"), SubResource("Resource_e0pgn"), SubResource("Resource_vlhqy"), SubResource("Resource_blqe5"), SubResource("Resource_ac2ba"), SubResource("Resource_n4uob"), SubResource("Resource_m2ddi"), SubResource("Resource_h5j5q"), SubResource("Resource_fcnrj"), SubResource("Resource_u7mbu"), SubResource("Resource_shg0l"), SubResource("Resource_lup6t"), SubResource("Resource_1bkqj"), SubResource("Resource_ll4hw"), SubResource("Resource_c7bd1"), SubResource("Resource_swioo"), SubResource("Resource_j5uwt"), SubResource("Resource_3k0wu"), SubResource("Resource_vhd8c"), SubResource("Resource_6qic3"), SubResource("Resource_c3qxw"), SubResource("Resource_ics3p"), SubResource("Resource_eu8es"), SubResource("Resource_bbfbt"), SubResource("Resource_m5nbd"), SubResource("Resource_vuct1"), SubResource("Resource_7x4de"), SubResource("Resource_xsu45"), SubResource("Resource_vvnig"), SubResource("Resource_wroxx"), SubResource("Resource_tdyd7"), SubResource("Resource_jn70p"), SubResource("Resource_glfl8"), SubResource("Resource_sxvr8"), SubResource("Resource_pyjd3"), SubResource("Resource_imabc"), SubResource("Resource_qho7m"), SubResource("Resource_xynn1"), SubResource("Resource_qk7mg"), SubResource("Resource_rit3g"), SubResource("Resource_bc2fj"), SubResource("Resource_q7ouw"), SubResource("Resource_ib7me"), SubResource("Resource_2uk2t"), SubResource("Resource_r7gnq"), SubResource("Resource_uqumk"), SubResource("Resource_upxr1"), SubResource("Resource_p8pqt"), SubResource("Resource_ebkj3"), SubResource("Resource_8lgw2"), SubResource("Resource_p2w7m"), SubResource("Resource_iu41i"), SubResource("Resource_dc0nc"), SubResource("Resource_72eu8"), SubResource("Resource_wksut"), SubResource("Resource_tfwdk"), SubResource("Resource_x3mg4"), SubResource("Resource_rc3h6"), SubResource("Resource_v5is4"), SubResource("Resource_g3kft"), SubResource("Resource_uje8w"), SubResource("Resource_mn68a"), SubResource("Resource_ljpje"), SubResource("Resource_8ixww"), SubResource("Resource_7lihr"), SubResource("Resource_lvftv"), SubResource("Resource_jil2c"), SubResource("Resource_aeymi"), SubResource("Resource_twf0p"), SubResource("Resource_iqrrl"), SubResource("Resource_ya1fg"), SubResource("Resource_0ec1y"), SubResource("Resource_4ar8x"), SubResource("Resource_0lc2i"), SubResource("Resource_qramn"), SubResource("Resource_ar6h3"), SubResource("Resource_31wnm"), SubResource("Resource_dbb3y"), SubResource("Resource_kysjn"), SubResource("Resource_o2rty"), SubResource("Resource_dt2ud"), SubResource("Resource_6tfai"), SubResource("Resource_nxdb6"), SubResource("Resource_ri7y7"), SubResource("Resource_lx6ru"), SubResource("Resource_s7hxv"), SubResource("Resource_1hae1"), SubResource("Resource_odr21"), SubResource("Resource_6inl8"), SubResource("Resource_6i5uo"), SubResource("Resource_3i0cd"), SubResource("Resource_88i4u"), SubResource("Resource_moocl"), SubResource("Resource_agf26"), SubResource("Resource_q862k"), SubResource("Resource_dib5r"), SubResource("Resource_77v0m"), SubResource("Resource_yokvv"), SubResource("Resource_q0u3m"), SubResource("Resource_2j44j"), SubResource("Resource_26ov0"), SubResource("Resource_2vp8d"), SubResource("Resource_8w1ip"), SubResource("Resource_uvl0n"), SubResource("Resource_iv3fq"), SubResource("Resource_hctme"), SubResource("Resource_ycaed"), SubResource("Resource_uw7ap"), SubResource("Resource_bk7bp"), SubResource("Resource_gmcaa"), SubResource("Resource_k8mb6"), SubResource("Resource_unegp"), SubResource("Resource_gfeo3"), SubResource("Resource_wtu18"), SubResource("Resource_r8gdc"), SubResource("Resource_8lt0e"), SubResource("Resource_rr35m"), SubResource("Resource_ptk0b"), SubResource("Resource_c62qq"), SubResource("Resource_u38fb"), SubResource("Resource_u2whl"), SubResource("Resource_3qi10"), SubResource("Resource_3g6io"), SubResource("Resource_st35h"), SubResource("Resource_ywufx"), SubResource("Resource_qnaw4"), SubResource("Resource_60sur"), SubResource("Resource_qsjt6"), SubResource("Resource_c6bt6"), SubResource("Resource_0kvap"), SubResource("Resource_57207"), SubResource("Resource_l5s7d"), SubResource("Resource_hh5d5"), SubResource("Resource_rywec"), SubResource("Resource_he4bh"), SubResource("Resource_kckrx"), SubResource("Resource_3plcx"), SubResource("Resource_b1hob"), SubResource("Resource_w418e"), SubResource("Resource_x1mdy"), SubResource("Resource_tonci"), SubResource("Resource_1148s"), SubResource("Resource_uin17"), SubResource("Resource_ohigu"), SubResource("Resource_th18g"), SubResource("Resource_81q2x"), SubResource("Resource_h64yi"), SubResource("Resource_wfprr"), SubResource("Resource_kv45f"), SubResource("Resource_fpcdk"), SubResource("Resource_nri5x"), SubResource("Resource_duiau"), SubResource("Resource_3y2fa"), SubResource("Resource_yvn7q"), SubResource("Resource_wt34u"), SubResource("Resource_76dap"), SubResource("Resource_8fbji"), SubResource("Resource_etgkt"), SubResource("Resource_hi7ou"), SubResource("Resource_mddjc"), SubResource("Resource_uc1oj"), SubResource("Resource_j2cup"), SubResource("Resource_ex5rx"), SubResource("Resource_c52hl"), SubResource("Resource_w4n8d"), SubResource("Resource_2tq7u"), SubResource("Resource_frxao"), SubResource("Resource_nl5w4"), SubResource("Resource_p7wij"), SubResource("Resource_iol3y"), SubResource("Resource_vqk5i"), SubResource("Resource_3lk64"), SubResource("Resource_dpo7h"), SubResource("Resource_bckv1"), SubResource("Resource_h8o0u"), SubResource("Resource_qpt61"), SubResource("Resource_2f6kx"), SubResource("Resource_u7qlu"), SubResource("Resource_cnsai"), SubResource("Resource_rh6v4"), SubResource("Resource_l7qwg"), SubResource("Resource_owpvp"), SubResource("Resource_lgqdv"), SubResource("Resource_m5o8d"), SubResource("Resource_14sti"), SubResource("Resource_ee1s1"), SubResource("Resource_yp2tn"), SubResource("Resource_ojwsm"), SubResource("Resource_o2usm"), SubResource("Resource_o4pot"), SubResource("Resource_jk6ai"), SubResource("Resource_v28yy"), SubResource("Resource_u4n2e"), SubResource("Resource_06uu5"), SubResource("Resource_iuk6a"), SubResource("Resource_ew32g"), SubResource("Resource_bkunv"), SubResource("Resource_ljswh"), SubResource("Resource_2l0ko"), SubResource("Resource_42np4"), SubResource("Resource_4dh6j"), SubResource("Resource_4j3dk"), SubResource("Resource_8vcvf"), SubResource("Resource_oixhv"), SubResource("Resource_he01t"), SubResource("Resource_hjbbn"), SubResource("Resource_wbgc8"), SubResource("Resource_e8qek"), SubResource("Resource_0t6br"), SubResource("Resource_aar77"), SubResource("Resource_e2jre"), SubResource("Resource_vbcpu"), SubResource("Resource_jqit7"), SubResource("Resource_8rm0j"), SubResource("Resource_6i2us"), SubResource("Resource_pw68v"), SubResource("Resource_sbvip"), SubResource("Resource_mjb8h"), SubResource("Resource_831o7"), SubResource("Resource_ufsy7"), SubResource("Resource_renlj"), SubResource("Resource_qu4q1")])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])

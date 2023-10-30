@@ -25,7 +25,7 @@ struct Cli {
     resource_dir: Option<PathBuf>,
 
     /// Whether output json file will be minified or not.
-    #[arg(short, long, default_value_t = false)]
+    #[arg(short, long, default_value_t = true)]
     compact: bool,
 }
 
@@ -784,6 +784,7 @@ mod latex {
                     .args(["-f", "#ffffff"])
                     .args(["-X", "250"])
                     .args(["-m", "..."])
+                    .args(["-p", r"\usepackage{amsmath}\usepackage{amssymb}\usepackage{amsfonts}\newcommand{\degree}{^\circ}"])
                     .output()?;
 
                 if !output.status.success() {

@@ -839,11 +839,11 @@ A: $y=4x+6$
 Q: $y=3x+7$. Преобразовать в вид $ax + by + c = 0$
 A: $y = -3x + y - 7= 0$
 
-Q: $$f(x)=\begin{cases}2x-6 & \text{если $x\in[-2;3)$} \\ 5-x & \text{если  $x\in[3;+\infty)$}\end{cases}$$
+Q: $$f(x)=\begin{cases}2x-6 & \text{если } x\in[-2;3) \\ 5-x & \text{если } x\in[3;+\infty)\end{cases}$$
 $D(f) = ?$
 A: $D(f)=[-2;+\infty)$
 
-Q: $$f(x)=\begin{cases}2x-6 & \text{если $x\in[-2;3)$} \\ 5-x & \text{если  $x\in[3;+\infty)$}\end{cases}$$
+Q: $$f(x)=\begin{cases}2x-6 & \text{если } x\in[-2;3) \\ 5-x & \text{если } x\in[3;+\infty)\end{cases}$$
 $E(f) = ?$
 A: $E(f) = (-\infty; 2]$
 
