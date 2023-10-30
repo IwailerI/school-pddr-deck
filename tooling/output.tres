@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Deck" load_steps=2 format=3 uid="uid://dko4ygclean4e"]
+
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_ubos4"]
+
+[resource]
+script = ExtResource("1_ubos4")
+name = "Auto generate deck"
+static_cards = Array[Resource("res://objects/card/static_card.gd")]([])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])

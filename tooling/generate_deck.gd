@@ -17,43 +17,43 @@ func _run():
 	# every answer must start with A:
 	# whitespace is preserved
 	# LATEX is preserved due to magic!
-
-	printerr("THIS TOOL SCRIPT IS NOT FINISHED AND NOT TESTED! PLEASE THINK AGAIN!")
-	return
-
 	var file_in := FileAccess.open(INPUT_PATH, FileAccess.READ)
+
 	var raw_strings := parse_input(file_in.get_as_text(true))
+	print("Parsed %s strings" % raw_strings.size())
 
 	var latex := extract_latex(raw_strings)
+	print("Parsed %s latex equations" % latex.size())
 
 	var latex_map := {}
-	var i := 0
 	for string in latex:
-		var path := "res://tooling/resources/equation_%02d.png" % i
-		latex_map[string] = path
-		render_latex(string, path)
+		var h := string.hash()
+		var path := "res://tooling/resources/latex_%x.png" % h
 
-	get_editor_interface().get_resource_filesystem().scan()
+		var id := ResourceLoader.get_resource_uid(path)
+		if id == -1:
+			printerr("Resource at %s has no id!" % path)
+		latex_map[string] = ResourceUID.id_to_text(id)
 
-	for key in latex_map:
-		var id := ResourceUID.create_id()
-		ResourceUID.add_id(id, latex_map[key])
-		latex_map[key] = ResourceUID.id_to_text(ResourceUID.create_id())
+	print("Done getting uid's")
 
-	raw_strings = substitue_latex(raw_strings, latex_map)
-	var card_data := create_resources(raw_strings)
+
+	var strings := substitue_latex(raw_strings, latex_map)
+
+	var card_data := create_resources(strings)
+
 	var deck := create_deck(card_data)
 
-	print("Done!")
+	print("Created a deck ", deck)
 
 
 ## Parses input and returns array of strings starting with either
 ## Q: for questions
 ## or A: for answers.
 func parse_input(input: String) -> Array[String]:
-	var res: Array[String] # contains strings with Q: or A: in the beggining
+	var res: Array[String] = []# contains strings with Q: or A: in the beggining
 	for line in input.split("\n", false):
-		if line.begins_with("Q: ") or line.begins_with("A: "):
+		if line.begins_with("Q:") or line.begins_with("A:"):
 			res.push_back(line.strip_edges())
 		elif not res.is_empty():
 			res[-1] += "\n" + line.strip_edges()
@@ -71,7 +71,9 @@ func extract_latex(from: Array[String]) -> Array[String]:
 		for res in line_regex.search_all(string):
 			formulas[res.strings[0]] = true
 
-	return formulas.keys()
+	var res: Array[String] = []
+	res.assign(formulas.keys())
+	return res
 
 
 ## Renders latex equation (not in math mode btw, still needs $) and returns
@@ -97,18 +99,27 @@ func render_latex(latex: String, path: String):
 func substitue_latex(data: Array[String], latex_map: Dictionary) -> Array[String]:
 	var res: Array[String] = []
 	for string in data:
-		for m in block_regex.search_all(string):
+		var offset := 0
+		var r := block_regex.search(string, offset)
+		while r != null:
 			string = (
 				string
-				.erase(m.get_start(), m.strings[0].length())
-				.insert(m.get_start(), "[img]%s[/img]" % latex_map[m.strings[0]])
+				.erase(r.get_start(), r.strings[0].length())
+				.insert(r.get_start(), "[img]%s[/img]" % latex_map[r.strings[0]])
 			)
-		for m in line_regex.search_all(string):
+			offset = r.get_end() + 1
+			r = block_regex.search(string, offset)
+
+		offset = 0
+		r = line_regex.search(string, offset)
+		while r != null:
 			string = (
 				string
-				.erase(m.get_start(), m.strings[0].length())
-				.insert(m.get_start(), "[img]%s[/img]" % latex_map[m.strings[0]])
+				.erase(r.get_start(), r.strings[0].length())
+				.insert(r.get_start(), "[img]%s[/img]" % latex_map[r.strings[0]])
 			)
+			offset = r.get_end() + 1
+			r = line_regex.search(string, offset)
 		res.push_back(string)
 	return res
 
@@ -117,11 +128,11 @@ func create_resources(data: Array[String]) -> Array[StaticCard]:
 	var res: Array[StaticCard] = []
 	var i := 0
 	while i < data.size():
-		while not data[i].begins_with("Q"):
+		while not data[i].begins_with("Q:"):
 			printerr("\"%s\" is not a valid question!" % data[i].c_escape())
 			i += 1
 
-		assert(data[i+1].begins_with("A"), "not a valid answer!")
+		assert(data[i+1].begins_with("A:"), "not a valid answer!")
 
 		var card := StaticCard.new()
 		card.question_text = data[i].substr(2).strip_edges()
@@ -134,8 +145,9 @@ func create_resources(data: Array[String]) -> Array[StaticCard]:
 
 func create_deck(data: Array[StaticCard]) -> Deck:
 	var d := Deck.new()
-	d.name = "Auto generate deck"
+	d.name = "Auto generated deck"
 	d.static_cards = data
+	d.take_over_path(OUTPUT_PATH)
 
 	ResourceSaver.save(d, OUTPUT_PATH)
 
