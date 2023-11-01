@@ -784,7 +784,7 @@ mod latex {
                     .args(["-f", "#ffffff"])
                     .args(["-X", "250"])
                     .args(["-m", "..."])
-                    .args(["-p", r"\usepackage{amsmath}\usepackage{amssymb}\usepackage{amsfonts}\newcommand{\degree}{^\circ}"])
+                    .args(["-p", r"\usepackage{amsmath}\usepackage{amssymb}\usepackage{amsfonts}\usepackage{gensymb}"])
                     .output()?;
 
                 if !output.status.success() {
