@@ -4,7 +4,7 @@
 [ext_resource type="Theme" uid="uid://enhsopwx32o3" path="res://resources/themes/main_theme.tres" id="1_q1mrh"]
 [ext_resource type="PackedScene" uid="uid://b1ehuuhnvba58" path="res://scenes/deck_picker/deck_picker.tscn" id="1_vt2ml"]
 [ext_resource type="Resource" uid="uid://brkea565t3i6d" path="res://resources/decks/prod_ru_v1.tres" id="4_5fyxm"]
-[ext_resource type="Resource" uid="uid://ps2rud4p3w3r" path="res://resources/decks/prod_ru_v2.tres" id="5_vhl5q"]
+[ext_resource type="Resource" uid="uid://pvim7ds3xsye" path="res://resources/decks/prod_ru_v2.tres" id="5_4pkp3"]
 
 [node name="lobby" type="VBoxContainer"]
 anchors_preset = 15
@@ -18,7 +18,7 @@ metadata/_edit_lock_ = true
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
-text = "Deck simulator v1.0"
+text = "Deck simulator v1.2"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -30,7 +30,7 @@ size_flags_vertical = 3
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
-decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("4_5fyxm"), ExtResource("5_vhl5q")])
+decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("4_5fyxm"), ExtResource("5_4pkp3")])
 
 [node name="PanelContainer" type="PanelContainer" parent="HBoxContainer"]
 layout_mode = 2
@@ -55,6 +55,7 @@ text = "Viewer Mode"
 [node name="CardNumbers" type="CheckBox" parent="HBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
+button_pressed = true
 text = "Show Card Numbers"
 
 [node name="RemainingCards" type="CheckBox" parent="HBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
@@ -65,10 +66,12 @@ text = "Show Amount of Cards Remaining"
 
 [node name="UseDynamicCards" type="CheckBox" parent="HBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
 unique_name_in_owner = true
+visible = false
 layout_mode = 2
 text = "Use Dynamic Cards"
 
 [node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/PanelContainer/ScrollContainer/VBoxContainer"]
+visible = false
 layout_mode = 2
 
 [node name="Label" type="Label" parent="HBoxContainer/PanelContainer/ScrollContainer/VBoxContainer/HBoxContainer"]

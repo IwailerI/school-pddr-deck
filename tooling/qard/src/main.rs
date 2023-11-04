@@ -39,9 +39,10 @@ pub struct Card {
     answer: String,
 }
 
-#[derive(Serialize)]
+#[derive(Serialize, Debug, PartialEq, Eq)]
 pub struct RichText(Vec<RichTextComponent>);
 
+#[derive(Debug, PartialEq, Eq)]
 pub enum RichTextComponent {
     Text(String),
 
@@ -49,6 +50,7 @@ pub enum RichTextComponent {
     Latex(u64),
 }
 
+#[derive(Debug, PartialEq, Eq)]
 pub struct RichCard {
     question: RichText,
     answer: RichText,
@@ -681,7 +683,7 @@ mod latex {
     use crate::{Card, RichCard, RichText};
 
     const BLOCK_MATH_PATTERN: &str = r"\$\$.+?\$\$";
-    const INLINE_MATH_PATTERN: &str = r"(?:[^$]|^)(\$(?:[^$\\]|\\.)+\$)(?:[^$]|$)";
+    const INLINE_MATH_PATTERN: &str = r"(?:[^$]|^)(\$(?:[^$\\]|\\.)+\$)";
 
     #[derive(Debug)]
     pub enum Error {
@@ -749,54 +751,57 @@ mod latex {
             show_progress,
         )?;
 
+        Ok(convert_to_rich(cards))
+    }
+
+    fn convert_to_rich(cards: Vec<Card>) -> Vec<RichCard> {
+        use crate::RichTextComponent as RTC;
+
         let regex_block = Regex::new(BLOCK_MATH_PATTERN).unwrap();
         let regex_inline = Regex::new(INLINE_MATH_PATTERN).unwrap();
 
-        {
-            use crate::RichTextComponent as RTC;
-            Ok(cards
-                .into_iter()
-                .map(|card| {
-                    let mut rc = RichCard {
-                        question: RichText(vec![]),
-                        answer: RichText(vec![]),
-                    };
+        cards
+            .into_iter()
+            .map(|card| {
+                let mut rc = RichCard {
+                    question: RichText(vec![]),
+                    answer: RichText(vec![]),
+                };
 
-                    let convert = |source: &str, target: &mut RichText| {
-                        let mut v: Vec<_> = regex_block
-                            .find_iter(source)
-                            .map(|x| (x.range(), x.as_str().to_owned()))
-                            .chain(regex_inline.captures_iter(source).map(|x| {
-                                let c = x.get(0).unwrap();
-                                (c.range(), c.as_str().to_owned())
-                            }))
-                            .collect();
-                        v.sort_unstable_by(|l, r| l.0.start.cmp(&r.0.start));
-                        let mut i = 0;
-                        for (range, text) in v.into_iter() {
-                            let bounds = range;
-                            if bounds.start > i {
-                                target
-                                    .0
-                                    .push(RTC::Text(source[i..bounds.start].to_string()))
-                            }
+                let convert = |source: &str, target: &mut RichText| {
+                    let mut v: Vec<_> = regex_block
+                        .find_iter(source)
+                        .map(|x| (x.range(), x.as_str().to_owned()))
+                        .chain(regex_inline.captures_iter(source).map(|x| {
+                            let c = x.get(1).unwrap();
+                            (c.range(), c.as_str().to_owned())
+                        }))
+                        .collect();
+                    v.sort_unstable_by(|l, r| l.0.start.cmp(&r.0.start));
+                    let mut i = 0;
+                    for (range, text) in v.into_iter() {
+                        let bounds = range;
+                        if bounds.start > i {
                             target
                                 .0
-                                .push(RTC::Latex(hash_string(text.trim_matches(|c| c != '$'))));
-                            i = bounds.end;
+                                .push(RTC::Text(source[i..bounds.start].to_string()))
                         }
-                        if i < source.len() {
-                            target.0.push(RTC::Text(source[i..].to_string()));
-                        }
-                    };
+                        target
+                            .0
+                            .push(RTC::Latex(hash_string(text.trim_matches(|c| c != '$'))));
+                        i = bounds.end;
+                    }
+                    if i < source.len() {
+                        target.0.push(RTC::Text(source[i..].to_string()));
+                    }
+                };
 
-                    convert(&card.question, &mut rc.question);
-                    convert(&card.answer, &mut rc.answer);
+                convert(&card.question, &mut rc.question);
+                convert(&card.answer, &mut rc.answer);
 
-                    rc
-                })
-                .collect())
-        }
+                rc
+            })
+            .collect()
     }
 
     /// Searches for all latex expressions and returns them.
@@ -1016,6 +1021,70 @@ mod latex {
                     r"$\text{ctg} \beta=\frac{a}{b}$".to_owned(),
                     r"$y=D_{20}x + D_{12}$".to_owned(),
                 ])
+            );
+        }
+
+        #[test]
+        fn test_convert_to_rich() {
+            fn c<S1, S2>(q: S1, a: S2) -> Card
+            where
+                S1: Into<String>,
+                S2: Into<String>,
+            {
+                Card {
+                    answer: a.into(),
+                    question: q.into(),
+                }
+            }
+
+            let data = vec![
+                c(
+                    r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$",
+                    r"$\sin \alpha=\frac{a}{c}$",
+                ),
+                c(r"How do you do $fellow$ kids?", r"$\sin \beta=\frac{b}{c}$"),
+                c(r"jkdhslfslkjdfhshj", r"$$as$$  $s$ $sda$ asd"),
+            ];
+
+            use crate::RichTextComponent as RTC;
+
+            assert_eq!(
+                convert_to_rich(data),
+                vec![
+                    RichCard {
+                        question: RichText(vec![
+                            RTC::Latex(12401561065036509712),
+                            RTC::Text(" с углами ".into()),
+                            RTC::Latex(15995697945151550248),
+                            RTC::Text(" и сторонами ".into()),
+                            RTC::Latex(5206233681529036138),
+                            RTC::Text(". ".into()),
+                            RTC::Latex(16131095731852739553),
+                            RTC::Text(". ".into()),
+                            RTC::Latex(16130633799840544398),
+                        ]),
+                        answer: RichText(vec![RTC::Latex(6420836051647171949)]),
+                    },
+                    RichCard {
+                        question: RichText(vec![
+                            RTC::Text("How do you do ".into()),
+                            RTC::Latex(1831719063848115660),
+                            RTC::Text(" kids?".into()),
+                        ]),
+                        answer: RichText(vec![RTC::Latex(12486462396849526576),]),
+                    },
+                    RichCard {
+                        question: RichText(vec![RTC::Text("jkdhslfslkjdfhshj".into()),]),
+                        answer: RichText(vec![
+                            RTC::Latex(13673530227706961097),
+                            RTC::Text("  ".into()),
+                            RTC::Latex(9841187739635155080),
+                            RTC::Text(" ".into()),
+                            RTC::Latex(16591311224064121595),
+                            RTC::Text(" asd".into()),
+                        ]),
+                    },
+                ]
             );
         }
     }

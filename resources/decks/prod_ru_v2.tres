@@ -1,1787 +1,1790 @@
-[gd_resource type="Resource" script_class="Deck" load_steps=358 format=3 uid="uid://ps2rud4p3w3r"]
+[gd_resource type="Resource" script_class="Deck" load_steps=359 format=3 uid="uid://pvim7ds3xsye"]
 
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_p8d0k"]
 [ext_resource type="Texture2D" uid="uid://cmbra55sv76sr" path="res://assets/images/vibecheck.bmp" id="1_pof3x"]
-[ext_resource type="Script" path="res://objects/card/deck.gd" id="2_pgtur"]
-[ext_resource type="Script" path="res://objects/card/static_card.gd" id="3_xrhcp"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="2_4m8qk"]
 
-[sub_resource type="Resource" id="Resource_2y0li"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qxy33"]
+script = ExtResource("2_4m8qk")
 question_text = "Назовите самое маленькое натуральное число."
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_ep2nd"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_or3vg"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие числа являются натуральными?"
 answer_text = "Целые положительные числа."
 
-[sub_resource type="Resource" id="Resource_akvjn"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://bw22ox1yqw5hj[/img]в[img]uid://mp0ruijlfkck[/img]"
+[sub_resource type="Resource" id="Resource_yslic"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://bw22ox1yqw5hj[/img] в [img]uid://mp0ruijlfkck[/img]."
 answer_text = "[img]uid://rgdmsd6rub00[/img]"
 
-[sub_resource type="Resource" id="Resource_iiktg"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://bx28qyanu1jmy[/img]в[img]uid://dlvka56sp05t2[/img]"
+[sub_resource type="Resource" id="Resource_njfb0"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://bx28qyanu1jmy[/img] в [img]uid://dlvka56sp05t2[/img]"
 answer_text = "[img]uid://bgvolmbbm5xt4[/img]"
 
-[sub_resource type="Resource" id="Resource_ffq85"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://sjdc2ojvoi4m[/img]в[img]uid://bdh360vdlpltd[/img]"
+[sub_resource type="Resource" id="Resource_y32ep"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://sjdc2ojvoi4m[/img] в [img]uid://bdh360vdlpltd[/img]"
 answer_text = "[img]uid://cfiqaxwjgkwqy[/img]"
 
-[sub_resource type="Resource" id="Resource_8mgsa"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://bylbus4hlv8eu[/img]в[img]uid://bvi0xi32filyw[/img]"
+[sub_resource type="Resource" id="Resource_7omii"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://bylbus4hlv8eu[/img] в [img]uid://bvi0xi32filyw[/img]"
 answer_text = "[img]uid://cyxkytgfvyuer[/img]"
 
-[sub_resource type="Resource" id="Resource_nat4u"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://ketemi087ua[/img]в[img]uid://uskjgk21wtdr[/img]"
+[sub_resource type="Resource" id="Resource_7pjn0"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://ketemi087ua[/img] в [img]uid://uskjgk21wtdr[/img]"
 answer_text = "[img]uid://bveu332no2oq3[/img]"
 
-[sub_resource type="Resource" id="Resource_4d6m5"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://dgals3ih5wy2a[/img]римскими цифрами."
+[sub_resource type="Resource" id="Resource_hk054"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://dgals3ih5wy2a[/img] римскими цифрами."
 answer_text = "[img]uid://su2g324m76id[/img]"
 
-[sub_resource type="Resource" id="Resource_p4vc7"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://cfc0o6bo7s20[/img]римскими цифрами."
+[sub_resource type="Resource" id="Resource_s5a0n"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://cfc0o6bo7s20[/img] римскими цифрами."
 answer_text = "[img]uid://bouvdu3ly6ncj[/img]"
 
-[sub_resource type="Resource" id="Resource_wnd0d"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://7nuj1ryqlmwc[/img]римскими цифрами."
+[sub_resource type="Resource" id="Resource_0dvq4"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://7nuj1ryqlmwc[/img] римскими цифрами."
 answer_text = "[img]uid://cjjblgn1hmyrw[/img]"
 
-[sub_resource type="Resource" id="Resource_k5kxd"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://beuitt41s2elr[/img]римскими цифрами."
+[sub_resource type="Resource" id="Resource_lkklp"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://beuitt41s2elr[/img] римскими цифрами."
 answer_text = "[img]uid://dwtsarpptvos3[/img]"
 
-[sub_resource type="Resource" id="Resource_x3a8u"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://cps1kyaq5vqj8[/img]римскими цифрами."
+[sub_resource type="Resource" id="Resource_shdtf"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://cps1kyaq5vqj8[/img] римскими цифрами."
 answer_text = "[img]uid://s41u7nlrm7b1[/img]"
 
-[sub_resource type="Resource" id="Resource_oqbli"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://su2g324m76id[/img]арабскими цифрами."
+[sub_resource type="Resource" id="Resource_357oh"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://su2g324m76id[/img] арабскими цифрами."
 answer_text = "[img]uid://dgals3ih5wy2a[/img]"
 
-[sub_resource type="Resource" id="Resource_vlhq4"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://bouvdu3ly6ncj[/img]арабскими цифрами."
+[sub_resource type="Resource" id="Resource_17qi4"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://bouvdu3ly6ncj[/img] арабскими цифрами."
 answer_text = "[img]uid://cfc0o6bo7s20[/img]"
 
-[sub_resource type="Resource" id="Resource_b1g3p"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://cjjblgn1hmyrw[/img]арабскими цифрами."
+[sub_resource type="Resource" id="Resource_vm3hc"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://cjjblgn1hmyrw[/img] арабскими цифрами."
 answer_text = "[img]uid://7nuj1ryqlmwc[/img]"
 
-[sub_resource type="Resource" id="Resource_0myb5"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://dwtsarpptvos3[/img]арабскими цифрами."
+[sub_resource type="Resource" id="Resource_hrbvx"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://dwtsarpptvos3[/img] арабскими цифрами."
 answer_text = "[img]uid://beuitt41s2elr[/img]"
 
-[sub_resource type="Resource" id="Resource_jswvn"]
-script = ExtResource("3_xrhcp")
-question_text = "Запишите число[img]uid://b4dbh7fbpql4p[/img]арабскими цифрами."
+[sub_resource type="Resource" id="Resource_xs0sm"]
+script = ExtResource("2_4m8qk")
+question_text = "Запишите число [img]uid://b4dbh7fbpql4p[/img] арабскими цифрами."
 answer_text = "[img]uid://cwws180b5d3ya[/img]"
 
-[sub_resource type="Resource" id="Resource_5j4ae"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7bh1x"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://1ix64qm1kb8j[/img]"
 answer_text = "[img]uid://qbl0jdpfc35d[/img]"
 
-[sub_resource type="Resource" id="Resource_chkuq"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна сумма первых[img]uid://cfc0o6bo7s20[/img]натуральных чисел? (Метод Гаусса)"
+[sub_resource type="Resource" id="Resource_gnnpx"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна сумма первых [img]uid://cfc0o6bo7s20[/img] натуральных чисел? (Метод Гаусса)"
 answer_text = "[img]uid://budai61xyaeoe[/img]"
 
-[sub_resource type="Resource" id="Resource_jqwke"]
-script = ExtResource("3_xrhcp")
-question_text = "Округлите число[img]uid://c6fqu47y13gtt[/img]до целого числа."
+[sub_resource type="Resource" id="Resource_7dcno"]
+script = ExtResource("2_4m8qk")
+question_text = "Округлите число [img]uid://c6fqu47y13gtt[/img] до целого числа."
 answer_text = "[img]uid://cps1kyaq5vqj8[/img]"
 
-[sub_resource type="Resource" id="Resource_lr7lq"]
-script = ExtResource("3_xrhcp")
-question_text = "Округлите число[img]uid://c1qeykehuk5ff[/img]до десятой."
+[sub_resource type="Resource" id="Resource_hl60v"]
+script = ExtResource("2_4m8qk")
+question_text = "Округлите число [img]uid://c1qeykehuk5ff[/img] до десятой."
 answer_text = "[img]uid://dqr84gbg57cxm[/img]"
 
-[sub_resource type="Resource" id="Resource_ufkfy"]
-script = ExtResource("3_xrhcp")
-question_text = "Округлите число[img]uid://bcgqei8u85ekt[/img]до сотен."
+[sub_resource type="Resource" id="Resource_id3i6"]
+script = ExtResource("2_4m8qk")
+question_text = "Округлите число [img]uid://bcgqei8u85ekt[/img] до сотен."
 answer_text = "[img]uid://cvj47xiwg0kpg[/img]"
 
-[sub_resource type="Resource" id="Resource_fim5x"]
-script = ExtResource("3_xrhcp")
-question_text = "Округлите число[img]uid://d25awnluumn6c[/img]до тысячных."
+[sub_resource type="Resource" id="Resource_g7tkk"]
+script = ExtResource("2_4m8qk")
+question_text = "Округлите число [img]uid://d25awnluumn6c[/img] до тысячных."
 answer_text = "[img]uid://cipks1ebkqxn4[/img]"
 
-[sub_resource type="Resource" id="Resource_6r4r7"]
-script = ExtResource("3_xrhcp")
-question_text = "Округлите число[img]uid://bx1wsajutdrqe[/img]до десятых."
+[sub_resource type="Resource" id="Resource_rhw2a"]
+script = ExtResource("2_4m8qk")
+question_text = "Округлите число [img]uid://bx1wsajutdrqe[/img] до десятых."
 answer_text = "[img]uid://1jr8sth03to4[/img]"
 
-[sub_resource type="Resource" id="Resource_seyim"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_1751w"]
+script = ExtResource("2_4m8qk")
 question_text = "Назовите хотя бы 1 основное понятие Евклидовой планиметрии?"
 answer_text = "точка / прямая / плоскость."
 
-[sub_resource type="Resource" id="Resource_ywmpi"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://db6p2japj8u3u[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_7hdvl"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://db6p2japj8u3u[/img]. Какого типа этот угол?"
 answer_text = "Острый."
 
-[sub_resource type="Resource" id="Resource_byipw"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://cmp2li3dpknh2[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_g8kjd"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://cmp2li3dpknh2[/img]. Какого типа этот угол?"
 answer_text = "Прямой."
 
-[sub_resource type="Resource" id="Resource_i1mwa"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://cmuut23dclpei[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_5uwgl"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://cmuut23dclpei[/img]. Какого типа этот угол?"
 answer_text = "Тупой."
 
-[sub_resource type="Resource" id="Resource_atwnk"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://loymb5shqo0b[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_y7dj8"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://loymb5shqo0b[/img]. Какого типа этот угол?"
 answer_text = "Развёрнутый."
 
-[sub_resource type="Resource" id="Resource_qjwgq"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://b1k4v8wcrb1cx[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_dit7n"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://b1k4v8wcrb1cx[/img]. Какого типа этот угол?"
 answer_text = "Выпуклый или открытый."
 
-[sub_resource type="Resource" id="Resource_0mala"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан угол[img]uid://daukke0linjvd[/img] Какого типа этот угол?"
+[sub_resource type="Resource" id="Resource_sk5us"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан угол [img]uid://daukke0linjvd[/img]. Какого типа этот угол?"
 answer_text = "Полный."
 
-[sub_resource type="Resource" id="Resource_p7uh4"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_b0kc3"]
+script = ExtResource("2_4m8qk")
 question_text = "У какой фигуры 2 стороны и 1 вершина?"
 answer_text = "у угла."
 
-[sub_resource type="Resource" id="Resource_w03r7"]
-script = ExtResource("3_xrhcp")
-question_text = "Сумма углов треугольника со сторонами[img]uid://2reg0qtpgu5w[/img]"
+[sub_resource type="Resource" id="Resource_1gdcf"]
+script = ExtResource("2_4m8qk")
+question_text = "Сумма углов треугольника со сторонами [img]uid://2reg0qtpgu5w[/img]?"
 answer_text = "[img]uid://d0ptmlr2dyjte[/img]"
 
-[sub_resource type="Resource" id="Resource_6vx4b"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lgb1m"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ctx3ogghu8ciu[/img]"
 answer_text = "[img]uid://b8mjujmtjmkby[/img]"
 
-[sub_resource type="Resource" id="Resource_fkr5r"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7nnns"]
+script = ExtResource("2_4m8qk")
 question_text = "Что значит решить уравнение?"
 answer_text = "Найти корни или доказать что таких нет."
 
-[sub_resource type="Resource" id="Resource_6ckyf"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_8c6bh"]
+script = ExtResource("2_4m8qk")
 question_text = "Что определяется как число, равное сумме всех чисел множества, делённой на их количество?"
 answer_text = "Среднее арифметическое."
 
-[sub_resource type="Resource" id="Resource_7jf3q"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7g8bc"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое смешанное число?"
 answer_text = "Сумма целой и дробной части."
 
-[sub_resource type="Resource" id="Resource_knf2y"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_uxwyp"]
+script = ExtResource("2_4m8qk")
 question_text = "Какое число состоит из натурального числа и обыкновенной дроби?"
 answer_text = "Смешанное."
 
-[sub_resource type="Resource" id="Resource_i5n8n"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_5v1w4"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая дробь неправильная?"
-answer_text = "Дробь, в которой числитель больше знаменателя или равен ему.[img]uid://cshrufwjqed5r[/img]"
+answer_text = "Дробь, в которой числитель больше знаменателя или равен ему. [img]uid://cshrufwjqed5r[/img]"
 
-[sub_resource type="Resource" id="Resource_0kjmu"]
-script = ExtResource("3_xrhcp")
-question_text = "Представьте[img]uid://vnc6r81lhyh8[/img]как смешанное число."
+[sub_resource type="Resource" id="Resource_8k14k"]
+script = ExtResource("2_4m8qk")
+question_text = "Представьте [img]uid://vnc6r81lhyh8[/img] как смешанное число."
 answer_text = "[img]uid://cc37n00l64l0p[/img]"
 
-[sub_resource type="Resource" id="Resource_4wxm7"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна целая часть[img]uid://vnc6r81lhyh8[/img]"
+[sub_resource type="Resource" id="Resource_08s75"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна целая часть [img]uid://vnc6r81lhyh8[/img]?"
 answer_text = "[img]uid://di5y3ndbdxla6[/img]"
 
-[sub_resource type="Resource" id="Resource_503a6"]
-script = ExtResource("3_xrhcp")
-question_text = "Представьте[img]uid://7krji315yr8c[/img]как смешанное число."
+[sub_resource type="Resource" id="Resource_g8is0"]
+script = ExtResource("2_4m8qk")
+question_text = "Представьте [img]uid://7krji315yr8c[/img] как смешанное число."
 answer_text = "[img]uid://f328r615gv0c[/img]"
 
-[sub_resource type="Resource" id="Resource_fgbkc"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна целая часть[img]uid://msrtbutvn7hi[/img]"
+[sub_resource type="Resource" id="Resource_wofhb"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна целая часть [img]uid://msrtbutvn7hi[/img]?"
 answer_text = "[img]uid://b2pqerdrt7iok[/img]"
 
-[sub_resource type="Resource" id="Resource_alcky"]
-script = ExtResource("3_xrhcp")
-question_text = "Представьте[img]uid://d24fbjwk2kd0l[/img]как неправильную дробь."
+[sub_resource type="Resource" id="Resource_0ignv"]
+script = ExtResource("2_4m8qk")
+question_text = "Представьте [img]uid://d24fbjwk2kd0l[/img] как неправильную дробь."
 answer_text = "[img]uid://c0x62375yhjyp[/img]"
 
-[sub_resource type="Resource" id="Resource_4k3n1"]
-script = ExtResource("3_xrhcp")
-question_text = "Представьте[img]uid://gmmlew56h1w6[/img]как неправильную дробь."
+[sub_resource type="Resource" id="Resource_y4jmt"]
+script = ExtResource("2_4m8qk")
+question_text = "Представьте [img]uid://gmmlew56h1w6[/img] как неправильную дробь."
 answer_text = "[img]uid://dwn04dbns3x4m[/img]"
 
-[sub_resource type="Resource" id="Resource_et42d"]
-script = ExtResource("3_xrhcp")
-question_text = "Выразить[img]uid://82khqva8vcl[/img]из[img]uid://dvkimbp8h2fvq[/img]"
+[sub_resource type="Resource" id="Resource_a2amx"]
+script = ExtResource("2_4m8qk")
+question_text = "Выразить [img]uid://82khqva8vcl[/img] из [img]uid://dvkimbp8h2fvq[/img]"
 answer_text = "[img]uid://54xghgsqki6k[/img]"
 
-[sub_resource type="Resource" id="Resource_eivig"]
-script = ExtResource("3_xrhcp")
-question_text = "Выразить[img]uid://82khqva8vcl[/img]из[img]uid://dvkimbp8h2fvq[/img]"
+[sub_resource type="Resource" id="Resource_88nqh"]
+script = ExtResource("2_4m8qk")
+question_text = "Выразить [img]uid://82khqva8vcl[/img] из [img]uid://dvkimbp8h2fvq[/img]"
 answer_text = "[img]uid://drk5s7l3ffb54[/img]"
 
-[sub_resource type="Resource" id="Resource_h4a0y"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_whew6"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое многоугольник? (Точное определение)"
 answer_text = "Часть плоски, ограниченная замкнутой ломаной."
 
-[sub_resource type="Resource" id="Resource_eitvv"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_jsgoo"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое круг (disk)?"
 answer_text = "Часть плоскости ограниченная окружностью."
 
-[sub_resource type="Resource" id="Resource_6uqga"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lvgcy"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое окружность (circle)?"
 answer_text = "Замкнутая линия все точки которой равноудалены от заданной точки, лежащей в той же плоскости, что и кривая центра."
 
-[sub_resource type="Resource" id="Resource_4nruy"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_kknex"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое хорда?"
-answer_text = "Отрезок соединяющий[img]uid://dsg7prgqjqbj2[/img]точки на окружности."
+answer_text = "Отрезок соединяющий [img]uid://dsg7prgqjqbj2[/img] точки на окружности."
 
-[sub_resource type="Resource" id="Resource_cb52n"]
-script = ExtResource("3_xrhcp")
-question_text = "Как выразить[img]uid://dgk2gfxdxgd25[/img]"
+[sub_resource type="Resource" id="Resource_o84n4"]
+script = ExtResource("2_4m8qk")
+question_text = "Как выразить [img]uid://dgk2gfxdxgd25[/img]"
 answer_text = "[img]uid://db5gm75h5jhf0[/img]"
 
-[sub_resource type="Resource" id="Resource_1sx67"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_nfclp"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое промилле?"
-answer_text = "[img]uid://cueu7xtxtdmv4[/img]часть."
+answer_text = "[img]uid://cueu7xtxtdmv4[/img] часть."
 
-[sub_resource type="Resource" id="Resource_ea1dx"]
-script = ExtResource("3_xrhcp")
-question_text = "Что такое обратное число для[img]uid://cv14m2jh2d2fw[/img]"
-answer_text = "Обратное число к данному числу[img]uid://cv14m2jh2d2fw[/img]- это число, произведение которого с[img]uid://cv14m2jh2d2fw[/img]даёт[img]uid://cjsaekmc20eti[/img]"
+[sub_resource type="Resource" id="Resource_8e5w1"]
+script = ExtResource("2_4m8qk")
+question_text = "Что такое обратное число для [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "Обратное число к данному числу [img]uid://cv14m2jh2d2fw[/img] - это число, произведение которого с [img]uid://cv14m2jh2d2fw[/img] даёт [img]uid://cjsaekmc20eti[/img]."
 
-[sub_resource type="Resource" id="Resource_ehkhd"]
-script = ExtResource("3_xrhcp")
-question_text = "Что такое противоположное число для[img]uid://cv14m2jh2d2fw[/img]"
-answer_text = "Противоположное число к данному числу[img]uid://cv14m2jh2d2fw[/img]- это число, сумма которого и[img]uid://cv14m2jh2d2fw[/img]даёт[img]uid://qbl0jdpfc35d[/img]"
+[sub_resource type="Resource" id="Resource_a2dyy"]
+script = ExtResource("2_4m8qk")
+question_text = "Что такое противоположное число для [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "Противоположное число к данному числу [img]uid://cv14m2jh2d2fw[/img] - это число, сумма которого и [img]uid://cv14m2jh2d2fw[/img] даёт [img]uid://qbl0jdpfc35d[/img]."
 
-[sub_resource type="Resource" id="Resource_w2j76"]
-script = ExtResource("3_xrhcp")
-question_text = "Что больше?[img]uid://di75vohpqoloe[/img]или[img]uid://cvydftgleb7ba[/img]"
+[sub_resource type="Resource" id="Resource_bgfp3"]
+script = ExtResource("2_4m8qk")
+question_text = "Что больше? [img]uid://di75vohpqoloe[/img] или [img]uid://cvydftgleb7ba[/img]?"
 answer_text = "[img]uid://cvydftgleb7ba[/img]"
 
-[sub_resource type="Resource" id="Resource_sux7e"]
-script = ExtResource("3_xrhcp")
-question_text = "Что больше?[img]uid://bdqnjecvbbg40[/img]или[img]uid://cvydftgleb7ba[/img]"
+[sub_resource type="Resource" id="Resource_a5275"]
+script = ExtResource("2_4m8qk")
+question_text = "Что больше? [img]uid://bdqnjecvbbg40[/img] или [img]uid://cvydftgleb7ba[/img]?"
 answer_text = "[img]uid://cvydftgleb7ba[/img]"
 
-[sub_resource type="Resource" id="Resource_bomym"]
-script = ExtResource("3_xrhcp")
-question_text = "Что больше?[img]uid://yjm1hj2bbeic[/img]или[img]uid://cvydftgleb7ba[/img]"
+[sub_resource type="Resource" id="Resource_m0p3j"]
+script = ExtResource("2_4m8qk")
+question_text = "Что больше? [img]uid://yjm1hj2bbeic[/img] или [img]uid://cvydftgleb7ba[/img]?"
 answer_text = "[img]uid://yjm1hj2bbeic[/img]"
 
-[sub_resource type="Resource" id="Resource_5ccqe"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_i1u8x"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое просто число?"
-answer_text = "Натуральное число которое имеет ровно[img]uid://dsg7prgqjqbj2[/img]натуральных делителя."
+answer_text = "Натуральное число которое имеет ровно [img]uid://dsg7prgqjqbj2[/img] натуральных делителя."
 
-[sub_resource type="Resource" id="Resource_1w7an"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_55udj"]
+script = ExtResource("2_4m8qk")
 question_text = "Какое самое маленькое просто число?"
 answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
 
-[sub_resource type="Resource" id="Resource_vh7fu"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_kvhh2"]
+script = ExtResource("2_4m8qk")
 question_text = "Может ли простое число быть чётным?"
-answer_text = "Да, например[img]uid://dsg7prgqjqbj2[/img]"
+answer_text = "Да, например [img]uid://dsg7prgqjqbj2[/img]."
 
-[sub_resource type="Resource" id="Resource_nld43"]
-script = ExtResource("3_xrhcp")
-question_text = "Делится ли[img]uid://rl0lkeysabfd[/img]на[img]uid://cdn1iopck7bjs[/img]"
-answer_text = "Да, поскольку сумма цифр равна[img]uid://gmi4hkyn4obi[/img]чья сумма цифр равна[img]uid://b2pqerdrt7iok[/img] что равно[img]uid://dtngav0go7jgh[/img] что равно[img]uid://djabkji8yfbsj[/img] что определённо делиться на 3, так как[img]uid://b0qwdhahxoi0p[/img]"
+[sub_resource type="Resource" id="Resource_ambtk"]
+script = ExtResource("2_4m8qk")
+question_text = "Делится ли [img]uid://rl0lkeysabfd[/img] на [img]uid://cdn1iopck7bjs[/img]?"
+answer_text = "Да, поскольку сумма цифр равна [img]uid://gmi4hkyn4obi[/img] чья сумма цифр равна [img]uid://b2pqerdrt7iok[/img], что равно [img]uid://dtngav0go7jgh[/img], что равно [img]uid://djabkji8yfbsj[/img], что определённо делиться на 3, так как [img]uid://b0qwdhahxoi0p[/img]"
 
-[sub_resource type="Resource" id="Resource_p4h6s"]
-script = ExtResource("3_xrhcp")
-question_text = "Делится ли[img]uid://c1pi72f4w1vrm[/img]на[img]uid://b2pqerdrt7iok[/img]"
-answer_text = "Да, поскольку сумма цифр равна[img]uid://cma6bdc6beskx[/img]  что делится на[img]uid://cdn1iopck7bjs[/img]и последняя цифра равна[img]uid://dsg7prgqjqbj2[/img] что делится на[img]uid://dsg7prgqjqbj2[/img]"
+[sub_resource type="Resource" id="Resource_c8bfb"]
+script = ExtResource("2_4m8qk")
+question_text = "Делится ли [img]uid://c1pi72f4w1vrm[/img] на [img]uid://b2pqerdrt7iok[/img]?"
+answer_text = "Да, поскольку сумма цифр равна [img]uid://cma6bdc6beskx[/img],  что делится на [img]uid://cdn1iopck7bjs[/img] и последняя цифра равна [img]uid://dsg7prgqjqbj2[/img], что делится на [img]uid://dsg7prgqjqbj2[/img]."
 
-[sub_resource type="Resource" id="Resource_ss0lj"]
-script = ExtResource("3_xrhcp")
-question_text = "Делится ли[img]uid://bm3e54lv5grry[/img]на[img]uid://teakw34s8g53[/img]"
-answer_text = "Да, поскольку сумма цифр равна[img]uid://bf7b6x843s8mg[/img] что делится на[img]uid://cdn1iopck7bjs[/img]и последняя цифра равна[img]uid://xt1seclevjl7[/img] что делится на[img]uid://xt1seclevjl7[/img] Рас числа[img]uid://cdn1iopck7bjs[/img]и[img]uid://xt1seclevjl7[/img]взаимно простые, и число делится и на[img]uid://cdn1iopck7bjs[/img]и на[img]uid://xt1seclevjl7[/img] число делится на[img]uid://teakw34s8g53[/img]"
+[sub_resource type="Resource" id="Resource_sk1jh"]
+script = ExtResource("2_4m8qk")
+question_text = "Делится ли [img]uid://bm3e54lv5grry[/img] на [img]uid://teakw34s8g53[/img]?"
+answer_text = "Да, поскольку сумма цифр равна [img]uid://bf7b6x843s8mg[/img], что делится на [img]uid://cdn1iopck7bjs[/img] и последняя цифра равна [img]uid://xt1seclevjl7[/img], что делится на [img]uid://xt1seclevjl7[/img]. Рас числа [img]uid://cdn1iopck7bjs[/img] и [img]uid://xt1seclevjl7[/img] взаимно простые, и число делится и на [img]uid://cdn1iopck7bjs[/img] и на [img]uid://xt1seclevjl7[/img], число делится на [img]uid://teakw34s8g53[/img]."
 
-[sub_resource type="Resource" id="Resource_olbtb"]
-script = ExtResource("3_xrhcp")
-question_text = "Делится ли[img]uid://bnip7pacic0tc[/img]на[img]uid://di5y3ndbdxla6[/img]"
-answer_text = "Нет, поскольку[img]uid://cnkqbpwdw0m00[/img]не делиться на[img]uid://di5y3ndbdxla6[/img]"
+[sub_resource type="Resource" id="Resource_mp65d"]
+script = ExtResource("2_4m8qk")
+question_text = "Делится ли [img]uid://bnip7pacic0tc[/img] на [img]uid://di5y3ndbdxla6[/img]?"
+answer_text = "Нет, поскольку [img]uid://cnkqbpwdw0m00[/img] не делиться на [img]uid://di5y3ndbdxla6[/img]."
 
-[sub_resource type="Resource" id="Resource_coybw"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложите[img]uid://cdqcua8dty468[/img]на простые множители"
-answer_text = "[img]uid://b5u1005q1mc2x[/img] (так как[img]uid://bl2bt3nbfnfo[/img]"
+[sub_resource type="Resource" id="Resource_sgee7"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложите [img]uid://cdqcua8dty468[/img] на простые множители"
+answer_text = "[img]uid://b5u1005q1mc2x[/img], (так как [img]uid://bl2bt3nbfnfo[/img]"
 
-[sub_resource type="Resource" id="Resource_dsq2k"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложить число[img]uid://cfq0eannb5pkw[/img]на простые сомножители?"
-answer_text = "[img]uid://ct6rqvbqs671l[/img](так как[img]uid://k3wr786o3u14[/img]"
+[sub_resource type="Resource" id="Resource_0nk1h"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложить число [img]uid://cfq0eannb5pkw[/img] на простые сомножители?"
+answer_text = "[img]uid://ct6rqvbqs671l[/img] (так как [img]uid://k3wr786o3u14[/img])"
 
-[sub_resource type="Resource" id="Resource_qrayv"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложить число[img]uid://ctgc8vcppnhlo[/img]на простые сомножители?"
-answer_text = "[img]uid://bybay74evxxp[/img](так как [img]uid://bohmr6mf7mxgh[/img])"
+[sub_resource type="Resource" id="Resource_wls83"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложить число [img]uid://ctgc8vcppnhlo[/img] на простые сомножители?"
+answer_text = "[img]uid://bybay74evxxp[/img] (так как  [img]uid://bohmr6mf7mxgh[/img] )"
 
-[sub_resource type="Resource" id="Resource_rrwus"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_d4dyx"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие числа взаимно простые?"
-answer_text = "Целые числа, не имеющие никаких общих натуральных делителей, кроме[img]uid://cjsaekmc20eti[/img]"
+answer_text = "Целые числа, не имеющие никаких общих натуральных делителей, кроме [img]uid://cjsaekmc20eti[/img]."
 
-[sub_resource type="Resource" id="Resource_3wdfp"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_38km0"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое расстояние от точки до прямой?"
 answer_text = "Длина перпендикуляра опущенного из точки на прямую."
 
-[sub_resource type="Resource" id="Resource_c2act"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_pt1qi"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое смежные углы?"
 answer_text = "Углы имеющие общую вершину и одну общую сторону."
 
-[sub_resource type="Resource" id="Resource_ri8kf"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ewt4e"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое вертикальные углы?"
 answer_text = "пара углов с общей вершиной, которые образованы при пересечении двух прямых таким образом, что стороны одного из них являются продолжением сторон другого. Иными словами - они противоположны."
 
-[sub_resource type="Resource" id="Resource_g364a"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_56l6t"]
+script = ExtResource("2_4m8qk")
 question_text = "В чём смысл жизни?"
 answer_text = "42 (это вопрос не считается)"
 
-[sub_resource type="Resource" id="Resource_6ca6g"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько пар смежных углов образуют[img]uid://dsg7prgqjqbj2[/img]пересекающиеся прямые?"
+[sub_resource type="Resource" id="Resource_eya5l"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько пар смежных углов образуют [img]uid://dsg7prgqjqbj2[/img] пересекающиеся прямые?"
 answer_text = "[img]uid://di5y3ndbdxla6[/img]"
 
-[sub_resource type="Resource" id="Resource_1jh8g"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько пар вертикальных углов образуют[img]uid://dsg7prgqjqbj2[/img]пересекающиеся прямые?"
+[sub_resource type="Resource" id="Resource_idg8t"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько пар вертикальных углов образуют [img]uid://dsg7prgqjqbj2[/img] пересекающиеся прямые?"
 answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
 
-[sub_resource type="Resource" id="Resource_jeap8"]
-script = ExtResource("3_xrhcp")
-question_text = "Робинзон Крузо плывёт на бригантине со скоростью[img]uid://d331sqg56sq8l[/img]против Бразильского течения скорость которого[img]uid://dsf5bygsretrv[/img] С какой скоростью Робинзон Крузо плывёт за рабами для своей плантации?"
-answer_text = "Со скоростью[img]uid://cqyhxgjdf87t7[/img]."
+[sub_resource type="Resource" id="Resource_o63dv"]
+script = ExtResource("2_4m8qk")
+question_text = "Робинзон Крузо плывёт на бригантине со скоростью [img]uid://d331sqg56sq8l[/img] против Бразильского течения скорость которого [img]uid://dsf5bygsretrv[/img]. С какой скоростью Робинзон Крузо плывёт за рабами для своей плантации?"
+answer_text = "Со скоростью [img]uid://cqyhxgjdf87t7[/img] ."
 
-[sub_resource type="Resource" id="Resource_hkdr5"]
-script = ExtResource("3_xrhcp")
-question_text = "Робинзон Крузо плывёт на шлюпе со скоростью[img]uid://cqc8nktkvdr5a[/img]по Канарскому течению скорость которого[img]uid://byxjbrmkvgcil[/img] С какой скоростью Робинзон Крузо сбегает из рабства?"
-answer_text = "Со скоростью[img]uid://48060ae2eary[/img]."
+[sub_resource type="Resource" id="Resource_w407r"]
+script = ExtResource("2_4m8qk")
+question_text = "Робинзон Крузо плывёт на шлюпе со скоростью [img]uid://cqc8nktkvdr5a[/img] по Канарскому течению скорость которого [img]uid://byxjbrmkvgcil[/img]. С какой скоростью Робинзон Крузо сбегает из рабства?"
+answer_text = "Со скоростью [img]uid://48060ae2eary[/img] ."
 
-[sub_resource type="Resource" id="Resource_dt4wn"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется[img]uid://82khqva8vcl[/img]в[img]uid://bx0fnbae8wi3v[/img]"
+[sub_resource type="Resource" id="Resource_6x0v0"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется [img]uid://82khqva8vcl[/img] в [img]uid://bx0fnbae8wi3v[/img]?"
 answer_text = "База или основание."
 
-[sub_resource type="Resource" id="Resource_5yup4"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется[img]uid://bs3bnvjqvic3p[/img]в[img]uid://bx0fnbae8wi3v[/img]"
-answer_text = "показатель"
+[sub_resource type="Resource" id="Resource_3g22p"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется [img]uid://bs3bnvjqvic3p[/img] в [img]uid://bx0fnbae8wi3v[/img]?"
+answer_text = "Показатель степени."
 
-[sub_resource type="Resource" id="Resource_u5ucj"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется[img]uid://bs3bnvjqvic3p[/img]в[img]uid://bx0fnbae8wi3v[/img]"
-answer_text = "Показатель степени.
-83. Робинзон Крузо, чтобы впечатлить своих товарищей, решил посчитать расстояние между Лондоном и Эдинбургом. Расстояние на карте[img]uid://rdw6x02bur8m[/img] а масштаб -[img]uid://nilec86hnrwh[/img] Каково расстояние между Лондоном и Эдинбургом во вселенной Робинзона Крузо?"
+[sub_resource type="Resource" id="Resource_pj7t8"]
+script = ExtResource("2_4m8qk")
+question_text = "Робинзон Крузо, чтобы впечатлить своих товарищей, решил посчитать расстояние между Лондоном и Эдинбургом. Расстояние на карте [img]uid://rdw6x02bur8m[/img], а масштаб - [img]uid://c7v67ic36u47n[/img]. Каково расстояние между Лондоном и Эдинбургом во вселенной Робинзона Крузо?"
+answer_text = "[img]uid://bmip4tkdmcngo[/img]"
 
-[sub_resource type="Resource" id="Resource_vb4yj"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно расстояние на числовой прямой между точками[img]uid://bs3bnvjqvic3p[/img]и[img]uid://82khqva8vcl[/img]"
+[sub_resource type="Resource" id="Resource_fibfs"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно расстояние на числовой прямой между точками [img]uid://bs3bnvjqvic3p[/img] и [img]uid://82khqva8vcl[/img]?"
 answer_text = "[img]uid://bhaye4uavltky[/img]"
 
-[sub_resource type="Resource" id="Resource_pstr6"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_s3lrj"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое ось абсцисс?"
 answer_text = "Ось x."
 
-[sub_resource type="Resource" id="Resource_i5kdj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_3hoao"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое ось ординат?"
 answer_text = "Ось y."
 
-[sub_resource type="Resource" id="Resource_erqk2"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_mismj"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой квадрант находится справа снизу?"
-answer_text = "[img]uid://c3es3ke86arut[/img]квадрант."
+answer_text = "[img]uid://c3es3ke86arut[/img] квадрант."
 
-[sub_resource type="Resource" id="Resource_hj3wc"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_15xwl"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой квадрант находится слева сверху?"
-answer_text = "[img]uid://bhxwr3eh30gew[/img]квадрант."
+answer_text = "[img]uid://bhxwr3eh30gew[/img] квадрант."
 
-[sub_resource type="Resource" id="Resource_2s0eo"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_swpoa"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое теорема?"
 answer_text = "Математическое утверждение, истинность которого устанавливается путём доказательства."
 
-[sub_resource type="Resource" id="Resource_thifx"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_up25g"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое аксиома?"
 answer_text = "Математическое утверждение не требующее доказательства."
 
-[sub_resource type="Resource" id="Resource_0jkn8"]
-script = ExtResource("3_xrhcp")
-question_text = "На сколько полуплоскостей делят плоскость[img]uid://dsg7prgqjqbj2[/img]пересекающиеся прямых?"
+[sub_resource type="Resource" id="Resource_2tj0t"]
+script = ExtResource("2_4m8qk")
+question_text = "На сколько полуплоскостей делят плоскость [img]uid://dsg7prgqjqbj2[/img] пересекающиеся прямых?"
 answer_text = "[img]uid://di5y3ndbdxla6[/img]"
 
-[sub_resource type="Resource" id="Resource_5pm5i"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_6db2q"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое признак?"
 answer_text = "Достаточное условие для принадлежности объекта некоторому классу."
 
-[sub_resource type="Resource" id="Resource_i527c"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_710rv"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое свойство?"
-answer_text = "Утверждение или закон, который описывает определенное поведение или характеристику математических объектов.
-94. Петя хочет построить треугольник. Он измерил длины трех отрезков:[img]uid://dtf5hpo66nxfk[/img][img]uid://hir7i3h505ov[/img],[img]uid://di64ftfeoy6le[/img] Помогите Пете определить, сможет ли он построить треугольник с такими сторонами. A: Сможет."
+answer_text = "Утверждение или закон, который описывает определенное поведение или характеристику математических объектов."
 
-[sub_resource type="Resource" id="Resource_cg7no"]
-script = ExtResource("3_xrhcp")
-question_text = "Каков тип треугольника со сторонами[img]uid://camihe366aaw0[/img]"
+[sub_resource type="Resource" id="Resource_yknc6"]
+script = ExtResource("2_4m8qk")
+question_text = "Петя хочет построить треугольник. Он измерил длины трех отрезков: [img]uid://b5cuaqesbo7vv[/img]. Помогите Пете определить, сможет ли он построить треугольник с такими сторонами."
+answer_text = "Сможет."
+
+[sub_resource type="Resource" id="Resource_xl7fp"]
+script = ExtResource("2_4m8qk")
+question_text = "Каков тип треугольника со сторонами [img]uid://camihe366aaw0[/img]?"
 answer_text = "Разносторонний тупоугольный треугольник."
 
-[sub_resource type="Resource" id="Resource_v8ld7"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько общих точек может быть у[img]uid://dsg7prgqjqbj2[/img]окружностей?"
-answer_text = "[img]uid://bp4i8wju6fwsm[/img]"
+[sub_resource type="Resource" id="Resource_wg1rd"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько общих точек может быть у [img]uid://dsg7prgqjqbj2[/img] окружностей?"
+answer_text = "[img]uid://bp4i8wju6fwsm[/img]."
 
-[sub_resource type="Resource" id="Resource_oh4ul"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_66o3y"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие окружности концентрические?"
 answer_text = "Имеющие общий центр."
 
-[sub_resource type="Resource" id="Resource_7tqmu"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_kfiqx"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое кольцо (фигура в планиметрии)?"
 answer_text = "Плоская геометрическая фигура, ограниченная двумя концентрическими окружностями."
 
-[sub_resource type="Resource" id="Resource_d7uw4"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_1jbrr"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое угол?"
 answer_text = "Часть плоскости ограниченная 2 лучами с одинаковой вершиной."
 
-[sub_resource type="Resource" id="Resource_364hj"]
-script = ExtResource("3_xrhcp")
-question_text = "Переведите[img]uid://lw6bxffmisku[/img]в секунды."
+[sub_resource type="Resource" id="Resource_hbhud"]
+script = ExtResource("2_4m8qk")
+question_text = "Переведите [img]uid://lw6bxffmisku[/img] в секунды."
 answer_text = "[img]uid://dbcfwgq2egsmr[/img]"
 
-[sub_resource type="Resource" id="Resource_0h4xl"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_amd7c"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое биссектриса угла?"
 answer_text = "Луч, исходящий из вершины угла и делящий этот угол на два равных угла."
 
-[sub_resource type="Resource" id="Resource_n7x3h"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_wa6vu"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое медиана в треугольнике?"
 answer_text = "Отрезок в треугольнике, соединяющий вершину треугольника с серединой стороны, противоположной этой вершине."
 
-[sub_resource type="Resource" id="Resource_pg1vr"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ufocn"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое высота в треугольнике?"
 answer_text = "Перпендикуляр, опущенный из вершины треугольника на прямую содержащую противоположную сторону."
 
-[sub_resource type="Resource" id="Resource_1yojv"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_igsnf"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое серединные перпендикуляр?"
 answer_text = "Прямая, перпендикулярная данному отрезку и проходящая через его середину."
 
-[sub_resource type="Resource" id="Resource_lp0s3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ittu2"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое выборка?"
 answer_text = "Часть генеральной совокупности элементов, которая охватывается экспериментом."
 
-[sub_resource type="Resource" id="Resource_xgjyf"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_fdba3"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое генеральная совокупность?"
 answer_text = "Совокупность всех объектов, относительно которых предполагается делать выводы при изучении конкретной задачи."
 
-[sub_resource type="Resource" id="Resource_rfg5y"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_xvmsx"]
+script = ExtResource("2_4m8qk")
 question_text = "Как посчитать вероятность исходов равновероятностного события?"
 answer_text = "Поделить количество желаемых исходов на количество всех исходов."
 
-[sub_resource type="Resource" id="Resource_dfn7c"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_cwqhw"]
+script = ExtResource("2_4m8qk")
 question_text = "Какова вероятность неизбежного события?"
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_dcvhe"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_elatd"]
+script = ExtResource("2_4m8qk")
 question_text = "Какова вероятность невозможного события?"
 answer_text = "[img]uid://qbl0jdpfc35d[/img]"
 
-[sub_resource type="Resource" id="Resource_fb4ss"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_yqabl"]
+script = ExtResource("2_4m8qk")
 question_text = "Каков интервал вероятности случайного события?"
 answer_text = "[img]uid://tw8hjsj5e8po[/img]"
 
-[sub_resource type="Resource" id="Resource_ejod0"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_v7o78"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ys2c5loyufou[/img]"
 answer_text = "[img]uid://cq244v03hxteb[/img]"
 
-[sub_resource type="Resource" id="Resource_w8v51"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_51bt1"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://vkkg5ujqxdsj[/img]"
 answer_text = "[img]uid://b5yat8x0bdcv8[/img]"
 
-[sub_resource type="Resource" id="Resource_d5dhm"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_nb0jc"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой многоугольник выпуклый?"
-answer_text = "Многоугольник, у которого все углы меньше[img]uid://d0ptmlr2dyjte[/img]"
+answer_text = "Многоугольник, у которого все углы меньше [img]uid://d0ptmlr2dyjte[/img]."
 
-[sub_resource type="Resource" id="Resource_bl016"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_cwpix"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой многоугольник вогнутый?"
-answer_text = "Многоугольник, который имеет хотя бы[img]uid://cjsaekmc20eti[/img]угол, который меньше[img]uid://d0ptmlr2dyjte[/img]"
+answer_text = "Многоугольник, который имеет хотя бы [img]uid://cjsaekmc20eti[/img] угол, который меньше [img]uid://d0ptmlr2dyjte[/img]."
 
-[sub_resource type="Resource" id="Resource_thhjy"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qyanl"]
+script = ExtResource("2_4m8qk")
 question_text = "Является ли круг вогнутым?"
 answer_text = "Нет, круг выпуклый. (Между 2 любыми точками можно провести прямую, все точки которой будут содержаться в фигуре)"
 
-[sub_resource type="Resource" id="Resource_vrfeq"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0hv13"]
+script = ExtResource("2_4m8qk")
 question_text = "Назовите теорему Пифагора словами."
 answer_text = "В прямоугольном треугольнике квадрат гипотенузы равен сумме квадратов двух других сторон."
 
-[sub_resource type="Resource" id="Resource_ks6ly"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_8xxf1"]
+script = ExtResource("2_4m8qk")
 question_text = "Чему равен внешний угол треугольник?"
 answer_text = "[img]uid://br6657fr7rtxn[/img]"
 
-[sub_resource type="Resource" id="Resource_a1s3y"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_u6apd"]
+script = ExtResource("2_4m8qk")
 question_text = "Где будет лежать центр вписанной в треугольник окружности?"
 answer_text = "На пересечении биссектрис."
 
-[sub_resource type="Resource" id="Resource_g6we0"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_q1p1u"]
+script = ExtResource("2_4m8qk")
 question_text = "Где будет лежать центр описанной около треугольника окружности?"
 answer_text = "На пересечении серединных перпендикуляров."
 
-[sub_resource type="Resource" id="Resource_0ethq"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ipst2"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое функция? Зависимости где каждому значению аргумента принадлежит ___ значение функции."
 answer_text = "Максимум 1."
 
-[sub_resource type="Resource" id="Resource_r1enh"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_cv18n"]
+script = ExtResource("2_4m8qk")
 question_text = "Чем отличается область определения и область значения функции."
-answer_text = "Областью определения функции[img]uid://bw3y5q2iqehf3[/img]называется множество всех допустимых значений переменной[img]uid://cv14m2jh2d2fw[/img] Функция может быть определена только для тех значений, при которых выражение[img]uid://m00c3ciflloj[/img]имеет смысл."
+answer_text = "Областью определения функции [img]uid://bw3y5q2iqehf3[/img] называется множество всех допустимых значений переменной [img]uid://cv14m2jh2d2fw[/img]. Функция может быть определена только для тех значений, при которых выражение [img]uid://m00c3ciflloj[/img] имеет смысл."
 
-[sub_resource type="Resource" id="Resource_i8ulq"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_6rifb"]
+script = ExtResource("2_4m8qk")
 question_text = "Назовите хотя бы 3 варианта задачи графика."
 answer_text = "Словами, таблицей, пиктограммой, диаграммой, формулой, графиком."
 
-[sub_resource type="Resource" id="Resource_dixvn"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://eq3vu767phr2[/img]Найти точку пересечения с осью x."
+[sub_resource type="Resource" id="Resource_ufagf"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://eq3vu767phr2[/img] Найти точку пересечения с осью x."
 answer_text = "[img]uid://qvejta2hng0o[/img]"
 
-[sub_resource type="Resource" id="Resource_jlc06"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://eq3vu767phr2[/img]Найти точку пересечения с осью y."
+[sub_resource type="Resource" id="Resource_kc71c"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://eq3vu767phr2[/img] Найти точку пересечения с осью y."
 answer_text = "[img]uid://df2er7vaq6k0j[/img]"
 
-[sub_resource type="Resource" id="Resource_25aig"]
-script = ExtResource("3_xrhcp")
-question_text = "Как найти[img]uid://5e14ricor42c[/img]если даны 2 точки[img]uid://pa58im15dj66[/img]и[img]uid://t8ay0fhvvj8c[/img]линейной функции?"
+[sub_resource type="Resource" id="Resource_ryo1s"]
+script = ExtResource("2_4m8qk")
+question_text = "Как найти [img]uid://5e14ricor42c[/img] если даны 2 точки [img]uid://pa58im15dj66[/img] и [img]uid://t8ay0fhvvj8c[/img] линейной функции?"
 answer_text = "[img]uid://bxyexmhe8lt1i[/img]"
 
-[sub_resource type="Resource" id="Resource_lgyix"]
-script = ExtResource("3_xrhcp")
-question_text = "Даны прямые[img]uid://dsdi6kpi1k8xl[/img]и[img]uid://dkoxgsuffkhq8[/img] При каком условии они будут параллельны?"
+[sub_resource type="Resource" id="Resource_3mh7d"]
+script = ExtResource("2_4m8qk")
+question_text = "Даны прямые [img]uid://dsdi6kpi1k8xl[/img] и [img]uid://dkoxgsuffkhq8[/img]. При каком условии они будут параллельны?"
 answer_text = "[img]uid://cb1447lgnrt5h[/img]"
 
-[sub_resource type="Resource" id="Resource_sj1lt"]
-script = ExtResource("3_xrhcp")
-question_text = "Даны прямые[img]uid://dsdi6kpi1k8xl[/img]и[img]uid://dkoxgsuffkhq8[/img] При каком условии они будут перпендикулярны?"
+[sub_resource type="Resource" id="Resource_5cu2i"]
+script = ExtResource("2_4m8qk")
+question_text = "Даны прямые [img]uid://dsdi6kpi1k8xl[/img] и [img]uid://dkoxgsuffkhq8[/img]. При каком условии они будут перпендикулярны?"
 answer_text = "[img]uid://hwcmpf4hmei4[/img]"
 
-[sub_resource type="Resource" id="Resource_yblqh"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_a77w1"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой симметрией обладает равнобедренный треугольник: осевой или центровой?"
 answer_text = "Осевой."
 
-[sub_resource type="Resource" id="Resource_fwppq"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_r7wi0"]
+script = ExtResource("2_4m8qk")
 question_text = "Какой симметрией обладает окружность: осевой или центровой?"
 answer_text = "И той и другой."
 
-[sub_resource type="Resource" id="Resource_q88ci"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vo7lh"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое стандартный вид числа?"
 answer_text = "[img]uid://jxpf2lybj4gl[/img]"
 
-[sub_resource type="Resource" id="Resource_0bckk"]
-script = ExtResource("3_xrhcp")
-question_text = "Можно ли представить[img]uid://qbl0jdpfc35d[/img]в стандартном виде?"
+[sub_resource type="Resource" id="Resource_dv0qp"]
+script = ExtResource("2_4m8qk")
+question_text = "Можно ли представить [img]uid://qbl0jdpfc35d[/img] в стандартном виде?"
 answer_text = "Нет."
 
-[sub_resource type="Resource" id="Resource_jlruw"]
-script = ExtResource("3_xrhcp")
-question_text = "Представить число[img]uid://c2jlc28suk81q[/img]в стандартном виде."
+[sub_resource type="Resource" id="Resource_yttrv"]
+script = ExtResource("2_4m8qk")
+question_text = "Представить число [img]uid://c2jlc28suk81q[/img] в стандартном виде."
 answer_text = "[img]uid://bbojisknypc4f[/img]"
 
-[sub_resource type="Resource" id="Resource_vqqvp"]
-script = ExtResource("3_xrhcp")
-question_text = "Какова степень многочлена[img]uid://b1vq0w33fau11[/img]?"
+[sub_resource type="Resource" id="Resource_drk5p"]
+script = ExtResource("2_4m8qk")
+question_text = "Какова степень многочлена [img]uid://b1vq0w33fau11[/img]?"
 answer_text = "[img]uid://xt1seclevjl7[/img]"
 
-[sub_resource type="Resource" id="Resource_icgtq"]
-script = ExtResource("3_xrhcp")
-question_text = "Какова степень многочлена[img]uid://vb1bwqk8koht[/img]?"
-answer_text = "[img]uid://xt1seclevjl7[/img] A:[img]uid://boe53ymn8g8au[/img]"
-
-[sub_resource type="Resource" id="Resource_qmexe"]
-script = ExtResource("3_xrhcp")
-question_text = "Какова степень одночлена[img]uid://bmgsuam7k8pgb[/img]"
-answer_text = "[img]uid://b2pqerdrt7iok[/img]"
-
-[sub_resource type="Resource" id="Resource_rnsot"]
-script = ExtResource("3_xrhcp")
-question_text = "Какова степень одночлена[img]uid://bvtho4gc0fgob[/img]"
+[sub_resource type="Resource" id="Resource_uxfr0"]
+script = ExtResource("2_4m8qk")
+question_text = "Какова степень многочлена [img]uid://vb1bwqk8koht[/img]?"
 answer_text = "[img]uid://boe53ymn8g8au[/img]"
 
-[sub_resource type="Resource" id="Resource_rcctc"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_f0fvv"]
+script = ExtResource("2_4m8qk")
+question_text = "Какова степень одночлена [img]uid://bmgsuam7k8pgb[/img]?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_sqren"]
+script = ExtResource("2_4m8qk")
+question_text = "Какова степень одночлена [img]uid://bvtho4gc0fgob[/img]?"
+answer_text = "[img]uid://boe53ymn8g8au[/img]"
+
+[sub_resource type="Resource" id="Resource_4ar4v"]
+script = ExtResource("2_4m8qk")
 question_text = "Как определить степень многочлена?"
 answer_text = "Найти наибольшую из степеней одночленов."
 
-[sub_resource type="Resource" id="Resource_0uuby"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_im5el"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие одночлены являются подобными?"
 answer_text = "Те которые отличаются только константой (не отличаются буквенной частью)."
 
-[sub_resource type="Resource" id="Resource_8s083"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vifxn"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bue44662j4ety[/img]"
-answer_text = "[img]uid://bjfm4yfyylxwr[/img]"
+answer_text = "[img]uid://bjfm4yfyylxwr[/img]."
 
-[sub_resource type="Resource" id="Resource_36eob"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_chepf"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://begvw0xmmhhxj[/img]"
-answer_text = "[img]uid://di4rnethy8ukm[/img]"
+answer_text = "[img]uid://di4rnethy8ukm[/img]."
 
-[sub_resource type="Resource" id="Resource_tfyka"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_pqry7"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://df7wuenei1io3[/img]"
-answer_text = "[img]uid://brpdba7h02epg[/img]"
+answer_text = "[img]uid://brpdba7h02epg[/img]."
 
-[sub_resource type="Resource" id="Resource_5j4ew"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_204uu"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dtaufag5dp8sj[/img]"
 answer_text = "[img]uid://ofu4jbworeo5[/img]"
 
-[sub_resource type="Resource" id="Resource_af3y6"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_euo22"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://berk4yafw5krs[/img]"
 answer_text = "[img]uid://c0xrhew8chrcs[/img]"
 
-[sub_resource type="Resource" id="Resource_jj86v"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_rcs1k"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bmlauehbiputr[/img]"
 answer_text = "[img]uid://8ebo8ycr0tn7[/img]"
 
-[sub_resource type="Resource" id="Resource_io110"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dqb24wex3g7fi[/img]разложить на множители."
-answer_text = "[img]uid://dbmquaxruibbe[/img]
+[sub_resource type="Resource" id="Resource_qj4l5"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dqb24wex3g7fi[/img] разложить на множители."
+answer_text = "[img width=660]uid://dbmquaxruibbe[/img]
 или
 [img]uid://4tx5sej7sgot[/img]"
 
-[sub_resource type="Resource" id="Resource_h5uhq"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_f7who"]
+script = ExtResource("2_4m8qk")
 question_text = "Назовите хотя бы 2 способа разложения на множители."
 answer_text = "Вынесение общего множителя за скобки, группировка, формула сокращённого умножения, разложения квадратным трёхчленом."
 
-[sub_resource type="Resource" id="Resource_ltklg"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложите на множители:[img]uid://cxqbsp6e00wli[/img]"
+[sub_resource type="Resource" id="Resource_e728d"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложите на множители: [img]uid://cxqbsp6e00wli[/img]"
 answer_text = "[img]uid://kkwnmogwc33a[/img]"
 
-[sub_resource type="Resource" id="Resource_nmh14"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложите на множители:[img]uid://b7v03qlkaialt[/img]"
+[sub_resource type="Resource" id="Resource_q04u7"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложите на множители: [img]uid://b7v03qlkaialt[/img]"
 answer_text = "[img]uid://dai255oumjxwg[/img]"
 
-[sub_resource type="Resource" id="Resource_5bvem"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложите на множители:[img]uid://ci0654o1x3q6v[/img]"
-answer_text = "[img]uid://dlcwyisqd66rx[/img]"
+[sub_resource type="Resource" id="Resource_xkime"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложите на множители: [img]uid://ci0654o1x3q6v[/img]"
+answer_text = "[img width=660]uid://dlcwyisqd66rx[/img]"
 
-[sub_resource type="Resource" id="Resource_0vkog"]
-script = ExtResource("3_xrhcp")
-question_text = "Разложите на множители:[img]uid://dcoily7b0i3bo[/img]"
+[sub_resource type="Resource" id="Resource_7fmvy"]
+script = ExtResource("2_4m8qk")
+question_text = "Разложите на множители: [img]uid://dcoily7b0i3bo[/img]"
 answer_text = "[img]uid://dqjqk47mfhspq[/img]"
 
-[sub_resource type="Resource" id="Resource_i1eqr"]
-script = ExtResource("3_xrhcp")
-question_text = "Сумма углов[img]uid://doofvucas5eu[/img]угольника?"
+[sub_resource type="Resource" id="Resource_6qntp"]
+script = ExtResource("2_4m8qk")
+question_text = "Сумма углов [img]uid://doofvucas5eu[/img]-угольника?"
 answer_text = "[img]uid://c81ds6qxilpmg[/img]"
 
-[sub_resource type="Resource" id="Resource_tswa6"]
-script = ExtResource("3_xrhcp")
-question_text = "Сумма углов =[img]uid://ddviox486wjek[/img] Сколько углов у этого многоугольников?"
+[sub_resource type="Resource" id="Resource_4pbx3"]
+script = ExtResource("2_4m8qk")
+question_text = "Сумма углов = [img]uid://ddviox486wjek[/img]. Сколько углов у этого многоугольников?"
 answer_text = "[img]uid://xt1seclevjl7[/img]"
 
-[sub_resource type="Resource" id="Resource_rle5b"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_pgakq"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое параллелограмм?"
 answer_text = "Четырёхугольник, у которого противолежащие стороны попарно параллельны."
 
-[sub_resource type="Resource" id="Resource_gfmu0"]
-script = ExtResource("3_xrhcp")
-question_text = "Как найти площадь параллелограмма со стороной[img]uid://d2b1kvtet7vpq[/img]и высотой[img]uid://doofvucas5eu[/img]"
+[sub_resource type="Resource" id="Resource_fbrf1"]
+script = ExtResource("2_4m8qk")
+question_text = "Как найти площадь параллелограмма со стороной [img]uid://d2b1kvtet7vpq[/img] и высотой [img]uid://doofvucas5eu[/img]?"
 answer_text = "[img]uid://g0vq1pkhglti[/img]"
 
-[sub_resource type="Resource" id="Resource_v1b4n"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_wheij"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое прямоугольник?"
 answer_text = "Параллелограмм, у которого все углы прямые."
 
-[sub_resource type="Resource" id="Resource_gc1jo"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_q1v0d"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое квадрат?"
 answer_text = "Прямоугольник, у которого все стороны равны."
 
-[sub_resource type="Resource" id="Resource_gtbh5"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0wwe1"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое ромб?"
 answer_text = "Параллелограмм, у которого все стороны равны."
 
-[sub_resource type="Resource" id="Resource_ps6yh"]
-script = ExtResource("3_xrhcp")
-question_text = "Что является графиком [img]uid://bjnmmgkpqvluj[/img]?"
+[sub_resource type="Resource" id="Resource_jcau6"]
+script = ExtResource("2_4m8qk")
+question_text = "Что является графиком  [img]uid://bjnmmgkpqvluj[/img] ?"
 answer_text = "Ветвь параболы."
 
-[sub_resource type="Resource" id="Resource_ipf2p"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_frp88"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое квадратный корень?"
 answer_text = "Квадратный корень из числа a — число x, дающее a при возведении в квадрат."
 
-[sub_resource type="Resource" id="Resource_6cmqi"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ibgvh"]
+script = ExtResource("2_4m8qk")
 question_text = "Чем отличается обычный квадратный корень от арифметического?"
 answer_text = "Арифметический квадратный корень (в отличии от обычного ) всегда не отрицателен."
 
-[sub_resource type="Resource" id="Resource_roi1s"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_5rg36"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое арифметическая последовательность?"
 answer_text = "Последовательность чисел, в которой каждое число, начиная со второго, получается из предыдущего добавлением к нему постоянного числа (шага, или разности прогрессии)."
 
-[sub_resource type="Resource" id="Resource_do4te"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_cbpci"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая общая формула члена арифметической прогрессии?"
 answer_text = "[img]uid://bhbnxelh24nld[/img]"
 
-[sub_resource type="Resource" id="Resource_owdnb"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ikhnv"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая рекуррентная формула члена арифметической прогрессии?"
 answer_text = "[img]uid://q14ld4il7ouu[/img]"
 
-[sub_resource type="Resource" id="Resource_wa802"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_j3n8c"]
+script = ExtResource("2_4m8qk")
 question_text = "В чём разница между рекуррентной и общей формулой последовательности?"
 answer_text = "Рекуррентная формула выражает каждый член последовательности через другие члены, а общая формула последовательности выражает каждый член через его номер."
 
-[sub_resource type="Resource" id="Resource_1ri73"]
-script = ExtResource("3_xrhcp")
-question_text = "Растёт ли арифметическая последовательность где[img]uid://bmnclqd0hsnbr[/img]"
+[sub_resource type="Resource" id="Resource_7i7os"]
+script = ExtResource("2_4m8qk")
+question_text = "Растёт ли арифметическая последовательность где [img]uid://bmnclqd0hsnbr[/img]?"
 answer_text = "Да."
 
-[sub_resource type="Resource" id="Resource_mksdj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_taadb"]
+script = ExtResource("2_4m8qk")
 question_text = "Как найти сумму первых N членов арифметической прогрессии?"
 answer_text = "[img]uid://bqa8g38nr4id1[/img]"
 
-[sub_resource type="Resource" id="Resource_cp5b0"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_8a501"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое геометрическая последовательность?"
 answer_text = "Числовая последовательность, каждый член которой отличается от предыдущего на определённую константу."
 
-[sub_resource type="Resource" id="Resource_f77aj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vc058"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая общая формула члена геометрической прогрессии?"
 answer_text = "[img]uid://dx0dmolckosj6[/img]"
 
-[sub_resource type="Resource" id="Resource_ygo45"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_kufs0"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая рекуррентная формула члена геометрической прогрессии?"
 answer_text = "[img]uid://bse8b71wrm7ra[/img]"
 
-[sub_resource type="Resource" id="Resource_i656m"]
-script = ExtResource("3_xrhcp")
-question_text = "Растёт ли геометрическая последовательность где[img]uid://du1p8cbi15hse[/img]"
+[sub_resource type="Resource" id="Resource_luq1c"]
+script = ExtResource("2_4m8qk")
+question_text = "Растёт ли геометрическая последовательность где [img]uid://du1p8cbi15hse[/img]?"
 answer_text = "Да."
 
-[sub_resource type="Resource" id="Resource_bxx73"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна сумма первых[img]uid://dw2673886cfd6[/img]членов арифметической прогрессии, заданной по формуле[img]uid://dura0aerabuoi[/img]"
+[sub_resource type="Resource" id="Resource_g7nji"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна сумма первых [img]uid://dw2673886cfd6[/img] членов арифметической прогрессии, заданной по формуле [img]uid://dura0aerabuoi[/img]?"
 answer_text = "[img]uid://bnglkby6xd877[/img]"
 
-[sub_resource type="Resource" id="Resource_kiifq"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна сумма наименьших[img]uid://xt1seclevjl7[/img]простых чисел?"
+[sub_resource type="Resource" id="Resource_eqtlg"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна сумма наименьших [img]uid://xt1seclevjl7[/img] простых чисел?"
 answer_text = "[img]uid://d3ukdfpb2um4v[/img]"
 
-[sub_resource type="Resource" id="Resource_cskop"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна площадь сектора в[img]uid://ufmk341f4vrc[/img]а[img]uid://s6ihitrldb2h[/img]"
+[sub_resource type="Resource" id="Resource_pohp7"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна площадь сектора в [img]uid://ufmk341f4vrc[/img] а [img]uid://s6ihitrldb2h[/img]?"
 answer_text = "[img]uid://dwwatrwcr3jtc[/img]"
 
-[sub_resource type="Resource" id="Resource_kqmww"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_3hkq0"]
+script = ExtResource("2_4m8qk")
 question_text = "Как найти площадь равностороннего треугольника?"
 answer_text = "[img]uid://bouvoawnlg282[/img]"
 
-[sub_resource type="Resource" id="Resource_jvt1c"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько корней будет у уравнения[img]uid://cu1j7r1ipt3ia[/img]"
+[sub_resource type="Resource" id="Resource_6b6b4"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько корней будет у уравнения [img]uid://c8uynq73qn585[/img]?"
 answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
 
-[sub_resource type="Resource" id="Resource_kgicj"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько корней будет у уравнения[img]uid://epcdbwkpqxv[/img]"
+[sub_resource type="Resource" id="Resource_wupxp"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько корней будет у уравнения [img]uid://c4lnv8p1t33ji[/img]?"
 answer_text = "[img]uid://qbl0jdpfc35d[/img]"
 
-[sub_resource type="Resource" id="Resource_tlbxv"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько корней будет у уравнения[img]uid://tylked5gxa54[/img][img]uid://dsxvwmlhovv2s[/img]"
+[sub_resource type="Resource" id="Resource_xwt2r"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько корней будет у уравнения [img]uid://tylked5gxa54[/img], [img]uid://df0thhlt5xg3m[/img]?"
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_3rtxp"]
-script = ExtResource("3_xrhcp")
-question_text = "Решите уравнение[img]uid://tvke5sefw7p7[/img]"
+[sub_resource type="Resource" id="Resource_gkky5"]
+script = ExtResource("2_4m8qk")
+question_text = "Решите уравнение [img]uid://tvke5sefw7p7[/img]."
 answer_text = "[img]uid://dmdqj2mqjwut0[/img]"
 
-[sub_resource type="Resource" id="Resource_5kne8"]
-script = ExtResource("3_xrhcp")
-question_text = "Решите уравнение[img]uid://b13s6v72rnf1m[/img]"
+[sub_resource type="Resource" id="Resource_0mu6w"]
+script = ExtResource("2_4m8qk")
+question_text = "Решите уравнение [img]uid://b13s6v72rnf1m[/img]."
 answer_text = "[img]uid://domgaktx1d0mv[/img]"
 
-[sub_resource type="Resource" id="Resource_2b0wb"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна область значения и область определения функции[img]uid://dakj1wxi3f8rc[/img]"
+[sub_resource type="Resource" id="Resource_4u0jx"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна область значения и область определения функции [img]uid://dakj1wxi3f8rc[/img]?"
 answer_text = "[img]uid://bqaxcei4hokwl[/img]"
 
-[sub_resource type="Resource" id="Resource_lqv33"]
-script = ExtResource("3_xrhcp")
-question_text = "Найти координаты вершины параболы функции[img]uid://brntc5gcb4eqx[/img]"
+[sub_resource type="Resource" id="Resource_o7t82"]
+script = ExtResource("2_4m8qk")
+question_text = "Найти координаты вершины параболы функции [img]uid://brntc5gcb4eqx[/img]"
 answer_text = "[img]uid://tb3ytqt8d810[/img]"
 
-[sub_resource type="Resource" id="Resource_uyjvp"]
-script = ExtResource("3_xrhcp")
-question_text = "Найти сумму корней уравнения[img]uid://jjbdbou5qyoj[/img]"
+[sub_resource type="Resource" id="Resource_ipd5r"]
+script = ExtResource("2_4m8qk")
+question_text = "Найти сумму корней уравнения [img]uid://jjbdbou5qyoj[/img]"
 answer_text = "[img]uid://c6lcs5bhpfl2t[/img]"
 
-[sub_resource type="Resource" id="Resource_a2hpx"]
-script = ExtResource("3_xrhcp")
-question_text = "Найти сумму корней уравнения[img]uid://dc6opyt1bnncc[/img]"
+[sub_resource type="Resource" id="Resource_skgvh"]
+script = ExtResource("2_4m8qk")
+question_text = "Найти сумму корней уравнения [img]uid://dc6opyt1bnncc[/img]"
 answer_text = "[img]uid://cj1vbdwjamugf[/img]"
 
-[sub_resource type="Resource" id="Resource_byajh"]
-script = ExtResource("3_xrhcp")
-question_text = "Решить уравнение[img]uid://dsfttomaijys1[/img]"
+[sub_resource type="Resource" id="Resource_tqc1f"]
+script = ExtResource("2_4m8qk")
+question_text = "Решить уравнение [img]uid://dsfttomaijys1[/img]"
 answer_text = "Решений нет."
 
-[sub_resource type="Resource" id="Resource_cae3g"]
-script = ExtResource("3_xrhcp")
-question_text = "Решить уравнение[img]uid://ingbfl8dkm4j[/img]"
+[sub_resource type="Resource" id="Resource_sjdba"]
+script = ExtResource("2_4m8qk")
+question_text = "Решить уравнение [img]uid://ingbfl8dkm4j[/img]."
 answer_text = "[img]uid://dk27i2sxhov55[/img]"
 
-[sub_resource type="Resource" id="Resource_a6pa6"]
-script = ExtResource("3_xrhcp")
-question_text = "Решить уравнение[img]uid://ds4m85gp0qu8r[/img]"
+[sub_resource type="Resource" id="Resource_rcpqw"]
+script = ExtResource("2_4m8qk")
+question_text = "Решить уравнение [img]uid://ds4m85gp0qu8r[/img]."
 answer_text = "[img]uid://dq668va2bpdws[/img]"
 
-[sub_resource type="Resource" id="Resource_sr2n6"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан равнобедренный прямоугольный треугольник, на против угла[img]uid://dhxm082hd6svd[/img]сторона[img]uid://cnnawsy8g1p4q[/img] Чему равна гипотенуза?"
+[sub_resource type="Resource" id="Resource_orpxq"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан равнобедренный прямоугольный треугольник, на против угла [img]uid://dhxm082hd6svd[/img] сторона [img]uid://cnnawsy8g1p4q[/img]. Чему равна гипотенуза?"
 answer_text = "[img]uid://by2bsmcvhsi4y[/img]"
 
-[sub_resource type="Resource" id="Resource_aj0xv"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан треугольник с углами[img]uid://ufmk341f4vrc[/img][img]uid://bbi53eju1312f[/img][img]uid://bbtvygxrsy5bp[/img] на против угла[img]uid://ufmk341f4vrc[/img]сторона[img]uid://b16xh7mn4c1rk[/img] Чему равны 2 другие стороны на против?"
-answer_text = "[img]uid://b2026yhotumdm[/img]"
+[sub_resource type="Resource" id="Resource_oudil"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан треугольник с углами [img]uid://ufmk341f4vrc[/img], [img]uid://bbi53eju1312f[/img], [img]uid://bbtvygxrsy5bp[/img], на против угла [img]uid://ufmk341f4vrc[/img] сторона [img]uid://b16xh7mn4c1rk[/img]. Чему равны 2 другие стороны на против?"
+answer_text = "[img]uid://b2026yhotumdm[/img]."
 
-[sub_resource type="Resource" id="Resource_cm3a1"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_kh0pd"]
+script = ExtResource("2_4m8qk")
 question_text = "Самая длинная сторона треугольник в квадрате больше суммы квадратов двух других сторон. Какого типа этот треугольник?"
 answer_text = "Тупоугольный."
 
-[sub_resource type="Resource" id="Resource_6dy6l"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qxo7e"]
+script = ExtResource("2_4m8qk")
 question_text = "Самая длинная сторона треугольник в квадрате меньше суммы квадратов двух других сторон. Какого типа этот треугольник?"
 answer_text = "Остроугольный."
 
-[sub_resource type="Resource" id="Resource_fi7ec"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_sdatg"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое трапеция?"
 answer_text = "Трапеция - четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны."
 
-[sub_resource type="Resource" id="Resource_nb0mw"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_75hnh"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая трапеция равнобедренная?"
 answer_text = "Трапеция, у которой боковые стороны равны."
 
-[sub_resource type="Resource" id="Resource_xln76"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_k4lwh"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая трапеция произвольная?"
 answer_text = "Трапеция, которая не является ни прямоугольной, ни равнобедренной."
 
-[sub_resource type="Resource" id="Resource_lgduh"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_b8wa2"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая трапеция прямоугольная?"
 answer_text = "Трапеция, у которой одна боковая сторона перпендикулярна основанию."
 
-[sub_resource type="Resource" id="Resource_yo46w"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_xnuyk"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое центральная линия в треугольнике?"
-answer_text = "Отрезок соединяющий центры[img]uid://dsg7prgqjqbj2[/img]сторон."
+answer_text = "Отрезок соединяющий центры [img]uid://dsg7prgqjqbj2[/img] сторон."
 
-[sub_resource type="Resource" id="Resource_01g7j"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_s1st5"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое центральная линия в трапеции?"
-answer_text = "отрезок соединяющий центры[img]uid://dsg7prgqjqbj2[/img]боковых сторон."
+answer_text = "отрезок соединяющий центры [img]uid://dsg7prgqjqbj2[/img] боковых сторон."
 
-[sub_resource type="Resource" id="Resource_2mok7"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_m360g"]
+script = ExtResource("2_4m8qk")
 question_text = "Как найти площадь трапеции?"
 answer_text = "[img]uid://c0np2d2cc6f8i[/img]"
 
-[sub_resource type="Resource" id="Resource_tujhw"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qn1gl"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое медиана (в статистике)?"
 answer_text = "Число, которое находится в середине числогого набора, если его монотонно упорядочить."
 
-[sub_resource type="Resource" id="Resource_o5uh5"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_o6of1"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое мода (в статистике)?"
 answer_text = "Значение во множестве наблюдений, которое встречается наиболее часто."
 
-[sub_resource type="Resource" id="Resource_pq1lf"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7hfgm"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое амплитуда?"
 answer_text = "Разница между максимальным и минимальным значением набора."
 
-[sub_resource type="Resource" id="Resource_d5w5d"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно относительная частота числа[img]uid://xt1seclevjl7[/img]на[img]uid://pfb8kvhwmvsv[/img]"
+[sub_resource type="Resource" id="Resource_e3jia"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно относительная частота числа [img]uid://xt1seclevjl7[/img] на [img]uid://pfb8kvhwmvsv[/img]?"
 answer_text = "[img]uid://cr2x61tvois7l[/img]"
 
-[sub_resource type="Resource" id="Resource_slt0p"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно среднее значение на[img]uid://bvqx41p88805q[/img]"
+[sub_resource type="Resource" id="Resource_wio32"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно среднее значение на [img]uid://bvqx41p88805q[/img]?"
 answer_text = "[img]uid://bnglkby6xd877[/img]"
 
-[sub_resource type="Resource" id="Resource_wfo6a"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равна медиана на[img]uid://cxfcldgmwgs1y[/img]"
+[sub_resource type="Resource" id="Resource_515g7"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равна медиана на [img]uid://cxfcldgmwgs1y[/img]?"
 answer_text = "[img]uid://b2x64twl0mgk7[/img]"
 
-[sub_resource type="Resource" id="Resource_ji452"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_6lhjb"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое алгебраическое дробное выражение?:"
 answer_text = "Выражения, в которых имеется деление на переменную."
 
-[sub_resource type="Resource" id="Resource_hlbdx"]
-script = ExtResource("3_xrhcp")
-question_text = "Определить область значения[img]uid://b1fdhivebd1k4[/img]"
+[sub_resource type="Resource" id="Resource_ecuim"]
+script = ExtResource("2_4m8qk")
+question_text = "Определить область значения [img]uid://b1fdhivebd1k4[/img]"
 answer_text = "[img]uid://u0gs3mexxvnb[/img]"
 
-[sub_resource type="Resource" id="Resource_xg17l"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_d126n"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cr13dv4cje83[/img]"
 answer_text = "[img]uid://cf4u8672foava[/img]"
 
-[sub_resource type="Resource" id="Resource_r5vad"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_bdcaf"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://5o5ikeftk8o2[/img]"
 answer_text = "[img]uid://camlfckltpbdu[/img]"
 
-[sub_resource type="Resource" id="Resource_43jqv"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://caxgf416mtnok[/img]"
+[sub_resource type="Resource" id="Resource_wbh3m"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://caxgf416mtnok[/img]"
 answer_text = "[img]uid://dk7iahpa0wini[/img]"
 
-[sub_resource type="Resource" id="Resource_ibe0d"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://b5ld5xpj6px3o[/img]"
+[sub_resource type="Resource" id="Resource_fcbru"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://b5ld5xpj6px3o[/img]"
 answer_text = "[img]uid://cu4kfqwmdyy4v[/img]"
 
-[sub_resource type="Resource" id="Resource_3g7wb"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://cchoax7sxxebw[/img]"
+[sub_resource type="Resource" id="Resource_uj2no"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cchoax7sxxebw[/img]"
 answer_text = "[img]uid://cob51021t7lq6[/img]"
 
-[sub_resource type="Resource" id="Resource_x1064"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://ce5mqjpimq2fk[/img]"
+[sub_resource type="Resource" id="Resource_slusr"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ce5mqjpimq2fk[/img]"
 answer_text = "[img]uid://dyl0x7vtvthj3[/img]"
 
-[sub_resource type="Resource" id="Resource_4ih7u"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://bm0d7dg28jbi4[/img]"
+[sub_resource type="Resource" id="Resource_pnfyb"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://bm0d7dg28jbi4[/img]"
 answer_text = "[img]uid://dvbp47tgydgig[/img]"
 
-[sub_resource type="Resource" id="Resource_0dkns"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://cstbdyguf6bjr[/img]"
+[sub_resource type="Resource" id="Resource_fydtl"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cstbdyguf6bjr[/img]"
 answer_text = "[img]uid://bbmmps5sxalil[/img]"
 
-[sub_resource type="Resource" id="Resource_nyau5"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://cbdwscrf0udc0[/img]"
+[sub_resource type="Resource" id="Resource_wvdai"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cbdwscrf0udc0[/img]"
 answer_text = "[img]uid://bjr8n8pyp3apw[/img]"
 
-[sub_resource type="Resource" id="Resource_sa4o4"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://r2e2st71oqpa[/img]с углами[img]uid://b5oc0dj4a8vn2[/img]и сторонами[img]uid://2reg0qtpgu5w[/img][img]uid://b8c441anghyyv[/img][img]uid://ddlc4yjp34xwe[/img]"
+[sub_resource type="Resource" id="Resource_yf17b"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://r2e2st71oqpa[/img] с углами [img]uid://b5oc0dj4a8vn2[/img] и сторонами [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ddlc4yjp34xwe[/img]"
 answer_text = "[img]uid://de3dlxqlja4nn[/img]"
 
-[sub_resource type="Resource" id="Resource_weblb"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли данный график выражения[img]uid://cohdvj5anp220[/img]функцией или зависимостью?"
+[sub_resource type="Resource" id="Resource_i3xid"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли данный график выражения [img]uid://cohdvj5anp220[/img] функцией или зависимостью?"
 answer_text = "Функция."
 
-[sub_resource type="Resource" id="Resource_kd31s"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли данный график выражения[img]uid://julqdum7qlkg[/img]функцией или зависимостью?"
+[sub_resource type="Resource" id="Resource_rwc2s"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли данный график выражения [img]uid://julqdum7qlkg[/img] функцией или зависимостью?"
 answer_text = "Зависимость."
 
-[sub_resource type="Resource" id="Resource_u5ucl"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли данный график выражения[img]uid://d1npn8woev3cf[/img]функцией или зависимостью?"
+[sub_resource type="Resource" id="Resource_hdipy"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли данный график выражения [img]uid://d1npn8woev3cf[/img] функцией или зависимостью?"
 answer_text = "Функция."
 
-[sub_resource type="Resource" id="Resource_pp5mt"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли данный график выражения[img]uid://cj4kq6vvmnnj6[/img]функцией или зависимостью?"
+[sub_resource type="Resource" id="Resource_w706w"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли данный график выражения [img]uid://cj4kq6vvmnnj6[/img] функцией или зависимостью?"
 answer_text = "Зависимость."
 
-[sub_resource type="Resource" id="Resource_tym06"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_j6lwn"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график линейной функции?"
 answer_text = "Прямая."
 
-[sub_resource type="Resource" id="Resource_l5k2m"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0pt8d"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график квадратичной функции?"
 answer_text = "Парабола."
 
-[sub_resource type="Resource" id="Resource_2ninb"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется график выражения[img]uid://bjnmmgkpqvluj[/img]"
+[sub_resource type="Resource" id="Resource_5bujp"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется график выражения [img]uid://bjnmmgkpqvluj[/img]?"
 answer_text = "Ветвь параболы."
 
-[sub_resource type="Resource" id="Resource_tokea"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_odfbu"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график обратной пропорциональности?"
 answer_text = "Гипербола."
 
-[sub_resource type="Resource" id="Resource_wn6nc"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_gpfgy"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график экспоненциальное функции?"
 answer_text = "Экспонента."
 
-[sub_resource type="Resource" id="Resource_gu7ht"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется график функции[img]uid://8srt4xi511fa[/img]"
+[sub_resource type="Resource" id="Resource_461bf"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется график функции [img]uid://8srt4xi511fa[/img]?"
 answer_text = "Синусоида или косинусоида."
 
-[sub_resource type="Resource" id="Resource_pe7bj"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется график функции[img]uid://bpoej7u8a5gl[/img]"
+[sub_resource type="Resource" id="Resource_2j23w"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется график функции [img]uid://bpoej7u8a5gl[/img]?"
 answer_text = "Синусоида или косинусоида."
 
-[sub_resource type="Resource" id="Resource_nka1g"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_dp4rj"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое график функции?"
 answer_text = "Множество точек координаты которых соответствуют значениям аргумента и функции."
 
-[sub_resource type="Resource" id="Resource_cod1v"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_buxrx"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое координаты точки?"
 answer_text = "Пара чисел показывающая местоположение точки на координатной плоскости."
 
-[sub_resource type="Resource" id="Resource_2jx8h"]
-script = ExtResource("3_xrhcp")
-question_text = "Найдите ось симметрии функции[img]uid://cr030imn4d1o2[/img]"
+[sub_resource type="Resource" id="Resource_rxx0d"]
+script = ExtResource("2_4m8qk")
+question_text = "Найдите ось симметрии функции [img]uid://cr030imn4d1o2[/img]."
 answer_text = "[img]uid://c74u6c23i0x1i[/img]"
 
-[sub_resource type="Resource" id="Resource_5ue7v"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://jaeyupxtd0b7[/img] найти координату x вершины."
+[sub_resource type="Resource" id="Resource_qc2qs"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://jaeyupxtd0b7[/img], найти координату x вершины."
 answer_text = "[img]uid://dqbiq4areeqpl[/img]"
 
-[sub_resource type="Resource" id="Resource_v0nvt"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://bboy2617wi5pi[/img] найти координату x вершины."
+[sub_resource type="Resource" id="Resource_6krpa"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://bboy2617wi5pi[/img], найти координату x вершины."
 answer_text = "[img]uid://cq70gb0kxeq86[/img]"
 
-[sub_resource type="Resource" id="Resource_xasbv"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_bumqo"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dfxoxcb5fclb5[/img]"
 answer_text = "[img]uid://ceo887vlood6n[/img]"
 
-[sub_resource type="Resource" id="Resource_af14f"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_80wjh"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://2slyd7x565ko[/img]"
 answer_text = "[img]uid://b8o04cblc210r[/img]"
 
-[sub_resource type="Resource" id="Resource_7rmk6"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_pchq0"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое касательная?"
 answer_text = "Прямая которая имеет ровно одну общую точку с окружностью."
 
-[sub_resource type="Resource" id="Resource_pk4vn"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_elcot"]
+script = ExtResource("2_4m8qk")
 question_text = "Какое взаимное расположение касательной и радиуса проведённого в точку пересечения?"
 answer_text = "Они перпендикулярны."
 
-[sub_resource type="Resource" id="Resource_40k3m"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_tcwhi"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dg8xu41vtcnss[/img]"
 answer_text = "[img]uid://cvp4woad45s2h[/img]"
 
-[sub_resource type="Resource" id="Resource_u6qyi"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qa7n6"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cin17qxpt2vy4[/img]"
 answer_text = "[img]uid://cw6sj6nt54g1p[/img]"
 
-[sub_resource type="Resource" id="Resource_2cbu3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_jdprh"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое векториальная величина?"
 answer_text = "Величина которая имеет направление."
 
-[sub_resource type="Resource" id="Resource_cj1sf"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_b4282"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое векториальная величина?"
 answer_text = "Величина, которая кроме числового значения имеет и направление."
 
-[sub_resource type="Resource" id="Resource_u68nh"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_avtl2"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое скалярная величина?"
 answer_text = "Величина которая не имеет направления."
 
-[sub_resource type="Resource" id="Resource_otg6v"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ldp07"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое скалярная величина?"
 answer_text = "Величина, которая имеет только числовое значение."
 
-[sub_resource type="Resource" id="Resource_72gxk"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ksvet"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое вектор?"
 answer_text = "Ориентированный отрезок."
 
-[sub_resource type="Resource" id="Resource_oygk7"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_n7kyk"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое модуль вектора?"
 answer_text = "Длина отрезка или длина вектора."
 
-[sub_resource type="Resource" id="Resource_5ekuj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_wul5j"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое длина вектора?"
 answer_text = "Длина отрезка."
 
-[sub_resource type="Resource" id="Resource_ttakg"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_xayva"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое длина вектора?"
 answer_text = "Длина направленного отрезка, определяющего вектор."
 
-[sub_resource type="Resource" id="Resource_ew6pc"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_o7krv"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие вектора коллинеарны?"
 answer_text = "Лежащие на параллельных или одной прямой."
 
-[sub_resource type="Resource" id="Resource_403oi"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_1g8mh"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие вектора сонаправленные?"
 answer_text = "Коллинеарные векторы, которые направлены в одну сторону."
 
-[sub_resource type="Resource" id="Resource_kxp2d"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_iy7xg"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие вектора противоположно направленные?"
 answer_text = "Коллинеарные векторы, которые не направлены в одну сторону."
 
-[sub_resource type="Resource" id="Resource_gjkc2"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_rouq4"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие вектора противоположные?"
 answer_text = "[img]uid://dt5j3rarpcisv[/img]"
 
-[sub_resource type="Resource" id="Resource_ovyky"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_50464"]
+script = ExtResource("2_4m8qk")
 question_text = "Какие вектора противоположные?"
 answer_text = "Q: Какие вектора противоположные? A: Вектора с равными модулями и противоположными направлениями."
 
-[sub_resource type="Resource" id="Resource_vbe2w"]
-script = ExtResource("3_xrhcp")
-question_text = "Что значит[img]uid://b0fpeccfgj1m5[/img]"
+[sub_resource type="Resource" id="Resource_bojfg"]
+script = ExtResource("2_4m8qk")
+question_text = "Что значит [img]uid://b0fpeccfgj1m5[/img]?"
 answer_text = "Вектора коллинеарны"
 
-[sub_resource type="Resource" id="Resource_3abkx"]
-script = ExtResource("3_xrhcp")
-question_text = "Что значит[img]uid://cdivhmqvk426[/img]"
+[sub_resource type="Resource" id="Resource_q5wx1"]
+script = ExtResource("2_4m8qk")
+question_text = "Что значит [img]uid://cdivhmqvk426[/img]"
 answer_text = "Вектора противоположны."
 
-[sub_resource type="Resource" id="Resource_qk5h7"]
-script = ExtResource("3_xrhcp")
-question_text = "Что значит[img]uid://b2oiwtr8fm5c2[/img]"
+[sub_resource type="Resource" id="Resource_shnhl"]
+script = ExtResource("2_4m8qk")
+question_text = "Что значит [img]uid://b2oiwtr8fm5c2[/img]"
 answer_text = "Вектора сонаправленны."
 
-[sub_resource type="Resource" id="Resource_klck7"]
-script = ExtResource("3_xrhcp")
-question_text = "Что значит[img]uid://d2qu65oyu1fho[/img]"
+[sub_resource type="Resource" id="Resource_6oyu5"]
+script = ExtResource("2_4m8qk")
+question_text = "Что значит [img]uid://d2qu65oyu1fho[/img]"
 answer_text = "Вектора противонаправлены."
 
-[sub_resource type="Resource" id="Resource_ci7ep"]
-script = ExtResource("3_xrhcp")
-question_text = "Что значит[img]uid://cois2tuxbdtm[/img]"
+[sub_resource type="Resource" id="Resource_oo1wv"]
+script = ExtResource("2_4m8qk")
+question_text = "Что значит [img]uid://cois2tuxbdtm[/img]"
 answer_text = "Вектора равны."
 
-[sub_resource type="Resource" id="Resource_gkrl6"]
-script = ExtResource("3_xrhcp")
-question_text = "Робинзон Крузо и Пятница тянут поверженного пирата: один на восток, с силой[img]uid://b5cttwdbi7qc8[/img] другой толкает на север с силой[img]uid://bdwkr3gx5fif5[/img] Какова общая сила и примерное направление поверженного пирата?"
-answer_text = "[img]uid://bmp1kol6qxcsc[/img]на северо-восток."
+[sub_resource type="Resource" id="Resource_p646e"]
+script = ExtResource("2_4m8qk")
+question_text = "Робинзон Крузо и Пятница тянут поверженного пирата: один на восток, с силой [img]uid://b5cttwdbi7qc8[/img], другой толкает на север с силой [img]uid://bdwkr3gx5fif5[/img]. Какова общая сила и примерное направление поверженного пирата?"
+answer_text = "[img]uid://bmp1kol6qxcsc[/img] на северо-восток."
 
-[sub_resource type="Resource" id="Resource_cb3ht"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_h7ukk"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dxggmfdps4y80[/img]"
 answer_text = "[img]uid://bqx24s0vuvaxa[/img]"
 
-[sub_resource type="Resource" id="Resource_44xk2"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_mxf18"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://txd3a4abf1te[/img]"
 answer_text = "[img]uid://exh264ku00n3[/img]"
 
-[sub_resource type="Resource" id="Resource_cc3na"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_regbv"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://b1xvcis64cq68[/img]"
 answer_text = "[img]uid://d2xydxnjex4tq[/img]"
 
-[sub_resource type="Resource" id="Resource_461do"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_negfu"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://b31g3ah4dun1l[/img]"
 answer_text = "[img]uid://c7qbbd2e7lh8u[/img]"
 
-[sub_resource type="Resource" id="Resource_oh0t3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0lkvy"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://c8nsp0vjp0jmw[/img]"
 answer_text = "[img]uid://3l441e42matj[/img]"
 
-[sub_resource type="Resource" id="Resource_a17f5"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_h7vsf"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dfg33bx3q072g[/img]"
 answer_text = "[img]uid://68kvmec3ttwc[/img]"
 
-[sub_resource type="Resource" id="Resource_q2j2j"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_l1g54"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bqvftjh7q5fsl[/img]"
 answer_text = "[img]uid://3l441e42matj[/img]"
 
-[sub_resource type="Resource" id="Resource_x34p3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_54vhp"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cp5e4ao5kjmyb[/img]"
 answer_text = "[img]uid://d2xydxnjex4tq[/img]"
 
-[sub_resource type="Resource" id="Resource_871jw"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7xtcu"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dos5hnqi4oij1[/img]"
 answer_text = "[img]uid://exh264ku00n3[/img]"
 
-[sub_resource type="Resource" id="Resource_hwqps"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_4rurm"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cge7cjayvfi7e[/img]"
 answer_text = "[img]uid://bqx24s0vuvaxa[/img]"
 
-[sub_resource type="Resource" id="Resource_fprvd"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ar8dx"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bn84n322atmyv[/img]"
 answer_text = "[img]uid://3l441e42matj[/img]"
 
-[sub_resource type="Resource" id="Resource_s8x11"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ql0wt"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ctui8otbdv82a[/img]"
 answer_text = "[img]uid://c7qbbd2e7lh8u[/img]"
 
-[sub_resource type="Resource" id="Resource_qbrjj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_f1w71"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://dttb1sggk8suj[/img]"
 answer_text = "[img]uid://3l441e42matj[/img]"
 
-[sub_resource type="Resource" id="Resource_t0bnd"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_m7o2t"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cwmbpr2t6krsq[/img]"
 answer_text = "[img]uid://68kvmec3ttwc[/img]"
 
-[sub_resource type="Resource" id="Resource_u1mq2"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vpa4i"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое проекция вектора?"
 answer_text = "Число, которое равно длине геометрической проекции вектора, если направления геометрической проекции и оси совпадают или число противоположное длине геометрической проекции, если направления геометрической проекции и оси противоположны."
 
-[sub_resource type="Resource" id="Resource_ja4dc"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_xcael"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое геометрическая проекция вектора?"
 answer_text = "Вектор, полученный путем проведения перпендикуляров из концов вектора к выбранной оси."
 
-[sub_resource type="Resource" id="Resource_bl864"]
-script = ExtResource("3_xrhcp")
-question_text = "Дан вектор[img]uid://cd86ymhkly6r8[/img]найти[img]uid://rbjk0kwreywj[/img]"
+[sub_resource type="Resource" id="Resource_51il3"]
+script = ExtResource("2_4m8qk")
+question_text = "Дан вектор [img]uid://cd86ymhkly6r8[/img] найти [img]uid://rbjk0kwreywj[/img]"
 answer_text = "[img]uid://dw2673886cfd6[/img]"
 
-[sub_resource type="Resource" id="Resource_aqn1o"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_84hqd"]
+script = ExtResource("2_4m8qk")
 question_text = "Как найти середину отрезка?"
 answer_text = "Нужно найти среднее арифметическое координат начала и конца вектора."
 
-[sub_resource type="Resource" id="Resource_igire"]
-script = ExtResource("3_xrhcp")
-question_text = "Дана точка[img]uid://cwl6m8wjjy1r6[/img]и вектор[img]uid://dvw2y53loo0p2[/img] Найти координаты середины отрезка[img]uid://b5rln8xghi08l[/img]"
+[sub_resource type="Resource" id="Resource_o017e"]
+script = ExtResource("2_4m8qk")
+question_text = "Дана точка [img]uid://cwl6m8wjjy1r6[/img] и вектор [img]uid://dvw2y53loo0p2[/img]. Найти координаты середины отрезка [img]uid://b5rln8xghi08l[/img]."
 answer_text = "[img]uid://ewa1gvy6qia8[/img]"
 
-[sub_resource type="Resource" id="Resource_bu7vg"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lbo4g"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое вершина параболы?"
 answer_text = "Точка параболы, через которую проходит ось симметрии."
 
-[sub_resource type="Resource" id="Resource_eco4i"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_216cx"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько вершин у параболы?"
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_2dsib"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно[img]uid://bmv68bvthfd2i[/img]в[img]uid://by3vj5l66tvg6[/img]"
+[sub_resource type="Resource" id="Resource_68qtp"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно [img]uid://bmv68bvthfd2i[/img] в [img]uid://by3vj5l66tvg6[/img]?"
 answer_text = "[img]uid://qbl0jdpfc35d[/img]"
 
-[sub_resource type="Resource" id="Resource_s5nyr"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно[img]uid://cv83go3ouwni4[/img]в[img]uid://by3vj5l66tvg6[/img]"
+[sub_resource type="Resource" id="Resource_6hvfm"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно [img]uid://cv83go3ouwni4[/img] в [img]uid://by3vj5l66tvg6[/img]?"
 answer_text = "[img]uid://kampw8imf4ry[/img]"
 
-[sub_resource type="Resource" id="Resource_ij1jq"]
-script = ExtResource("3_xrhcp")
-question_text = "Выразите[img]uid://bmv68bvthfd2i[/img]и[img]uid://cv83go3ouwni4[/img]из[img]uid://dsndmiv3bvg2j[/img]"
+[sub_resource type="Resource" id="Resource_dbxgu"]
+script = ExtResource("2_4m8qk")
+question_text = "Выразите [img]uid://bmv68bvthfd2i[/img] и [img]uid://cv83go3ouwni4[/img] из [img]uid://dsndmiv3bvg2j[/img]?"
 answer_text = "[img]uid://o5xri4xvhfk2[/img]"
 
-[sub_resource type="Resource" id="Resource_tes3o"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_jkvc8"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое приращение функции?"
 answer_text = "[img]uid://cn0buifxjl2mn[/img]"
 
-[sub_resource type="Resource" id="Resource_ymy85"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_x77hi"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое приращение аргумента функции?"
 answer_text = "[img]uid://b8qx4rdvykjes[/img]"
 
-[sub_resource type="Resource" id="Resource_7vv7s"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dte7dyvoyegnh[/img] Чем является график данного соотношения?"
+[sub_resource type="Resource" id="Resource_nbgam"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dte7dyvoyegnh[/img]. Чем является график данного соотношения?"
 answer_text = "Прямая."
 
-[sub_resource type="Resource" id="Resource_h07fh"]
-script = ExtResource("3_xrhcp")
-question_text = "Чем является график[img]uid://dte7dyvoyegnh[/img]"
+[sub_resource type="Resource" id="Resource_wtd8n"]
+script = ExtResource("2_4m8qk")
+question_text = "Чем является график [img]uid://dte7dyvoyegnh[/img]?"
 answer_text = "Прямая."
 
-[sub_resource type="Resource" id="Resource_8ank1"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://cqbp0w2kwyiip[/img] Преобразовать в вид[img]uid://fs8twoxp64ji[/img]"
+[sub_resource type="Resource" id="Resource_m7mdg"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://cqbp0w2kwyiip[/img]. Преобразовать в вид [img]uid://fs8twoxp64ji[/img]"
 answer_text = "[img]uid://0j3rj07nqbxi[/img]"
 
-[sub_resource type="Resource" id="Resource_r1xd6"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://cqbnp12fgklfp[/img] Преобразовать в вид[img]uid://fs8twoxp64ji[/img]"
+[sub_resource type="Resource" id="Resource_is6n1"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://cqbnp12fgklfp[/img]. Преобразовать в вид [img]uid://fs8twoxp64ji[/img]"
 answer_text = "[img]uid://cx6ujgg7wxnxj[/img]"
 
-[sub_resource type="Resource" id="Resource_q2onj"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://duw82jpb10x5[/img] Преобразовать в вид[img]uid://dte7dyvoyegnh[/img]"
+[sub_resource type="Resource" id="Resource_wbyvh"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://duw82jpb10x5[/img]. Преобразовать в вид [img]uid://dte7dyvoyegnh[/img]"
 answer_text = "[img]uid://yexhon2pdq6b[/img]"
 
-[sub_resource type="Resource" id="Resource_akoyq"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dqlxgm2nxiu1j[/img][img]uid://bl4kv6lnacxa3[/img]"
+[sub_resource type="Resource" id="Resource_djqvd"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dqlxgm2nxiu1j[/img] [img]uid://bl4kv6lnacxa3[/img]"
 answer_text = "[img]uid://dfbagrbnngu1b[/img]"
 
-[sub_resource type="Resource" id="Resource_wb8j2"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dqlxgm2nxiu1j[/img][img]uid://dk83uf7kxjktk[/img]"
+[sub_resource type="Resource" id="Resource_4w2fa"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dqlxgm2nxiu1j[/img] [img]uid://dk83uf7kxjktk[/img]"
 answer_text = "[img]uid://b5jtcce2gj5vn[/img]"
 
-[sub_resource type="Resource" id="Resource_q17q1"]
-script = ExtResource("3_xrhcp")
-question_text = "Прямая проходит через точки[img]uid://ca6q35ojs120x[/img]и[img]uid://dtqgq87hyq0iy[/img] Представить прямую в виде[img]uid://eq3vu767phr2[/img]"
+[sub_resource type="Resource" id="Resource_tq21w"]
+script = ExtResource("2_4m8qk")
+question_text = "Прямая проходит через точки [img]uid://ca6q35ojs120x[/img] и [img]uid://dtqgq87hyq0iy[/img]. Представить прямую в виде [img]uid://eq3vu767phr2[/img]."
 answer_text = "[img]uid://dw6bmwewpvlae[/img]"
 
-[sub_resource type="Resource" id="Resource_fs5g1"]
-script = ExtResource("3_xrhcp")
-question_text = "Прямая проходит через начало координат и точку[img]uid://bo0ljc0v87d85[/img] Представить прямую в виде[img]uid://eq3vu767phr2[/img]"
+[sub_resource type="Resource" id="Resource_ba8a4"]
+script = ExtResource("2_4m8qk")
+question_text = "Прямая проходит через начало координат и точку [img]uid://bo0ljc0v87d85[/img]. Представить прямую в виде [img]uid://eq3vu767phr2[/img]"
 answer_text = "[img]uid://ban15ii6canl[/img]"
 
-[sub_resource type="Resource" id="Resource_vaj4s"]
-script = ExtResource("3_xrhcp")
-question_text = "Чем будет являться график зависимости[img]uid://dd4uga2wgapgl[/img]"
-answer_text = "Окружность с радиусом[img]uid://bq5xwunp1f2gt[/img]и центром в[img]uid://7kolr2mtros0[/img]"
+[sub_resource type="Resource" id="Resource_fe11r"]
+script = ExtResource("2_4m8qk")
+question_text = "Чем будет являться график зависимости [img]uid://dd4uga2wgapgl[/img]"
+answer_text = "Окружность с радиусом [img]uid://bq5xwunp1f2gt[/img] и центром в [img]uid://7kolr2mtros0[/img]."
 
-[sub_resource type="Resource" id="Resource_w3lip"]
-script = ExtResource("3_xrhcp")
-question_text = "Чем будет являться график зависимости[img]uid://thb2smk0li5f[/img]"
-answer_text = "Круг с радиусом[img]uid://bq5xwunp1f2gt[/img]и центром в[img]uid://7kolr2mtros0[/img]"
+[sub_resource type="Resource" id="Resource_vq085"]
+script = ExtResource("2_4m8qk")
+question_text = "Чем будет являться график зависимости [img]uid://thb2smk0li5f[/img]"
+answer_text = "Круг с радиусом [img]uid://bq5xwunp1f2gt[/img] и центром в [img]uid://7kolr2mtros0[/img]."
 
-[sub_resource type="Resource" id="Resource_2lb12"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://bgryoqigup0vd[/img] Каков радиус окружности?"
+[sub_resource type="Resource" id="Resource_utuap"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://bgryoqigup0vd[/img]. Каков радиус окружности?"
 answer_text = "[img]uid://kaux4scdydex[/img]"
 
-[sub_resource type="Resource" id="Resource_tnycw"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://bgryoqigup0vd[/img] В какой точке находится центр окружности?"
+[sub_resource type="Resource" id="Resource_acuef"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://bgryoqigup0vd[/img]. В какой точке находится центр окружности?"
 answer_text = "[img]uid://bfmkye1f4w7tk[/img]"
 
-[sub_resource type="Resource" id="Resource_7uhud"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_n1yhn"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько может быть точек пересечения у окружности и гиперболы?"
 answer_text = "[img]uid://c1ux2su52ucxt[/img]"
 
-[sub_resource type="Resource" id="Resource_vfe7o"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько может быть точек пересечения у графиков[img]uid://dmvglag7tb6u8[/img] и[img]uid://oowoot6cvrfi[/img]"
+[sub_resource type="Resource" id="Resource_xjsem"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько может быть точек пересечения у графиков [img]uid://dmvglag7tb6u8[/img]  и [img]uid://oowoot6cvrfi[/img]"
 answer_text = "[img]uid://c1ux2su52ucxt[/img]"
 
-[sub_resource type="Resource" id="Resource_yvhyr"]
-script = ExtResource("3_xrhcp")
-question_text = "Сколько точек пересечению у[img]uid://dfncki1shw32d[/img]и[img]uid://bw88adxfptfsj[/img]"
+[sub_resource type="Resource" id="Resource_us5qy"]
+script = ExtResource("2_4m8qk")
+question_text = "Сколько точек пересечению у [img]uid://dfncki1shw32d[/img] и [img]uid://bw88adxfptfsj[/img]"
 answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
 
-[sub_resource type="Resource" id="Resource_6w0lo"]
-script = ExtResource("3_xrhcp")
-question_text = "Даны[img]uid://cnnawsy8g1p4q[/img]концентрических не совпадающих окружностей и 1 прямая. Сколько может быть точек пересечения?"
+[sub_resource type="Resource" id="Resource_6t55v"]
+script = ExtResource("2_4m8qk")
+question_text = "Даны [img]uid://cnnawsy8g1p4q[/img] концентрических не совпадающих окружностей и 1 прямая. Сколько может быть точек пересечения?"
 answer_text = "[img]uid://bbv3bv7jywk88[/img]"
 
-[sub_resource type="Resource" id="Resource_0tx5r"]
-script = ExtResource("3_xrhcp")
-question_text = "Чем является график функции[img]uid://do1oe4ftorlov[/img]"
+[sub_resource type="Resource" id="Resource_67j7t"]
+script = ExtResource("2_4m8qk")
+question_text = "Чем является график функции [img]uid://do1oe4ftorlov[/img]"
 answer_text = "Гипербола."
 
-[sub_resource type="Resource" id="Resource_uopd7"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_6nha1"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько может быть точек пересечения у параболы и окружности?"
 answer_text = "[img]uid://c1ux2su52ucxt[/img]"
 
-[sub_resource type="Resource" id="Resource_blpj8"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vtnx0"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько точек пересечения может быть у 2 окружностей?"
 answer_text = "[img]uid://bp4i8wju6fwsm[/img]"
 
-[sub_resource type="Resource" id="Resource_tcm1m"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_6ea6e"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько точек пересечения может быть у 2 концентрических окружностей?"
 answer_text = "[img]uid://b1x7rxcaubd1u[/img]"
 
-[sub_resource type="Resource" id="Resource_u5lnr"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lmmvq"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое множество?"
 answer_text = "набор разных элементов"
 
-[sub_resource type="Resource" id="Resource_eci66"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли множество[img]uid://gewml6t0fhwo[/img]бесконечным или конечным?"
+[sub_resource type="Resource" id="Resource_bgnsp"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли множество [img]uid://gewml6t0fhwo[/img] бесконечным или конечным?"
 answer_text = "конечное"
 
-[sub_resource type="Resource" id="Resource_d1v0m"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли множество[img]uid://bpleb87sfmlmt[/img]бесконечным или конечным?"
+[sub_resource type="Resource" id="Resource_5wail"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли множество [img]uid://bpleb87sfmlmt[/img] бесконечным или конечным?"
 answer_text = "бесконечное"
 
-[sub_resource type="Resource" id="Resource_umqym"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли множество[img]uid://dvjdivetpw074[/img]бесконечным или конечным?"
+[sub_resource type="Resource" id="Resource_sbktq"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли множество [img]uid://dvjdivetpw074[/img] бесконечным или конечным?"
 answer_text = "бесконечное"
 
-[sub_resource type="Resource" id="Resource_d8qxr"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли множество[img]uid://ft672diddyof[/img]"
+[sub_resource type="Resource" id="Resource_r2sr3"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли множество [img]uid://ft672diddyof[/img]?"
 answer_text = "конечное"
 
-[sub_resource type="Resource" id="Resource_cmnap"]
-script = ExtResource("3_xrhcp")
-question_text = "Является ли множество[img]uid://cq0kjam8636vy[/img]"
+[sub_resource type="Resource" id="Resource_qgk8a"]
+script = ExtResource("2_4m8qk")
+question_text = "Является ли множество [img]uid://cq0kjam8636vy[/img]?"
 answer_text = "бесконечное"
 
-[sub_resource type="Resource" id="Resource_tmk2y"]
-script = ExtResource("3_xrhcp")
-question_text = "Как правильно записать множество[img]uid://cdfhgyse05u4t[/img]без интервала?"
+[sub_resource type="Resource" id="Resource_mbgoa"]
+script = ExtResource("2_4m8qk")
+question_text = "Как правильно записать множество [img]uid://cdfhgyse05u4t[/img] без интервала?"
 answer_text = "[img]uid://btkwu8eunwrj5[/img]"
 
-[sub_resource type="Resource" id="Resource_2ab67"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://dbsgqlrie5bq2[/img]"
+[sub_resource type="Resource" id="Resource_w0qh8"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://dbsgqlrie5bq2[/img]?"
 answer_text = "пересечение множеств A и B (симметричная разность)"
 
-[sub_resource type="Resource" id="Resource_r5r7l"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://bc06hfmdj1urd[/img]"
+[sub_resource type="Resource" id="Resource_jhr6v"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://bc06hfmdj1urd[/img]?"
 answer_text = "объединение множеств A и B"
 
-[sub_resource type="Resource" id="Resource_hqfke"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://bba2pvaq61b4t[/img]"
+[sub_resource type="Resource" id="Resource_w7vny"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://bba2pvaq61b4t[/img]?"
 answer_text = "Разность множеств A и B"
 
-[sub_resource type="Resource" id="Resource_u6cdj"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://chr5al0trxgm8[/img]"
+[sub_resource type="Resource" id="Resource_3lmp6"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://chr5al0trxgm8[/img]:"
 answer_text = "множество натуральных чисел."
 
-[sub_resource type="Resource" id="Resource_5g2rf"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://cps70aesmuqp8[/img]"
+[sub_resource type="Resource" id="Resource_lsagj"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://cps70aesmuqp8[/img]:"
 answer_text = "множество целых чисел."
 
-[sub_resource type="Resource" id="Resource_pwu82"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://drt6nmokv103d[/img]"
+[sub_resource type="Resource" id="Resource_ldxhw"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://drt6nmokv103d[/img]:"
 answer_text = "множество рациональных чисел."
 
-[sub_resource type="Resource" id="Resource_fugh0"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://cxtc8na51050o[/img]"
+[sub_resource type="Resource" id="Resource_3jr11"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://cxtc8na51050o[/img]:"
 answer_text = "множество действительных чисел."
 
-[sub_resource type="Resource" id="Resource_2y85i"]
-script = ExtResource("3_xrhcp")
-question_text = "Что означает[img]uid://crfd0hnx0ca3r[/img]"
+[sub_resource type="Resource" id="Resource_uo7vi"]
+script = ExtResource("2_4m8qk")
+question_text = "Что означает [img]uid://crfd0hnx0ca3r[/img]:"
 answer_text = "множество комплексных чисел."
 
-[sub_resource type="Resource" id="Resource_iu1l3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_y85uo"]
+script = ExtResource("2_4m8qk")
 question_text = "Является ли часть плоскости ограниченная параболой выпуклой или вогнутой фигурой?"
 answer_text = "выпуклой."
 
-[sub_resource type="Resource" id="Resource_57dwm"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_t58dh"]
+script = ExtResource("2_4m8qk")
 question_text = "Является ли парабола выпуклой или вогнутой фигурой?"
 answer_text = "вогнутая."
 
-[sub_resource type="Resource" id="Resource_twms5"]
-script = ExtResource("3_xrhcp")
-question_text = "Решение[img]uid://baot4cfbl1o3y[/img] предположим что [img]uid://bl8lrmch08idq[/img]."
+[sub_resource type="Resource" id="Resource_l5glf"]
+script = ExtResource("2_4m8qk")
+question_text = "Решение [img]uid://baot4cfbl1o3y[/img], предположим что ([img]uid://bl8lrmch08idq[/img])."
 answer_text = "[img]uid://bpw572iji1tbi[/img]"
 
-[sub_resource type="Resource" id="Resource_ocvo3"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_dl42j"]
+script = ExtResource("2_4m8qk")
 question_text = "Какое равенство является строгим?"
 answer_text = "С > или <"
 
-[sub_resource type="Resource" id="Resource_j2f1y"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lmvel"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая точка соответствует строгому неравенству (закрашенная/незакрашеная)"
 answer_text = "закрашенная"
 
-[sub_resource type="Resource" id="Resource_y68aa"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_swmo4"]
+script = ExtResource("2_4m8qk")
 question_text = "Какая скобка интервала соответствует строгому неравенству?"
 answer_text = "()"
 
-[sub_resource type="Resource" id="Resource_llnxq"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dji07i8rd4hpk[/img]выразите x"
+[sub_resource type="Resource" id="Resource_wx4dc"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dji07i8rd4hpk[/img] выразите x"
 answer_text = "[img]uid://kl8tw06fr07t[/img]"
 
-[sub_resource type="Resource" id="Resource_a6735"]
-script = ExtResource("3_xrhcp")
-question_text = "Чем отличается[img]uid://hh7bxfi3rfo[/img]от[img]uid://ddvnhmma8u1ar[/img]"
+[sub_resource type="Resource" id="Resource_lgus7"]
+script = ExtResource("2_4m8qk")
+question_text = "Чем отличается [img]uid://hh7bxfi3rfo[/img] от [img]uid://ddvnhmma8u1ar[/img]?"
 answer_text = "A (элемент) принаждлежит B и A (множество) является подмножеством B. ==(?)=="
 
-[sub_resource type="Resource" id="Resource_ssawg"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_dpxfa"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график функции [img]uid://bgostbcf0n6oe[/img]"
 answer_text = "прямая"
 
-[sub_resource type="Resource" id="Resource_6dy7v"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_3ibld"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график функции [img]uid://dnty1utr4emp[/img]"
 answer_text = "парабола
-335. Как называется график функции [img]uid://ccube8c2y1utt[/img]A: ветвь параболы"
+335. Как называется график функции [img width=660]uid://ccube8c2y1utt[/img]A: ветвь параболы"
 
-[sub_resource type="Resource" id="Resource_8rj1h"]
-script = ExtResource("3_xrhcp")
-question_text = "Как называется график функции [img]uid://bs18ljdr8nsb8[/img]"
+[sub_resource type="Resource" id="Resource_8ifii"]
+script = ExtResource("2_4m8qk")
+question_text = "Как называется график функции [img width=660]uid://bs18ljdr8nsb8[/img]"
 answer_text = "гипербола"
 
-[sub_resource type="Resource" id="Resource_swlnm"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_xfk2m"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график функции [img]uid://cje0oo8eu8gsj[/img]"
 answer_text = "экспонента"
 
-[sub_resource type="Resource" id="Resource_0xscg"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ww7ag"]
+script = ExtResource("2_4m8qk")
 question_text = "Как называется график функции [img]uid://clu3aw2f260ds[/img]"
 answer_text = "синусоида или косинусоида"
 
-[sub_resource type="Resource" id="Resource_lqh3s"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_40cgc"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое экспоненциальное уравнение?"
 answer_text = "Уравнение с переменной в показателе."
 
-[sub_resource type="Resource" id="Resource_srknq"]
-script = ExtResource("3_xrhcp")
-question_text = "При каких условиях уравнения[img]uid://bgq7vkajrfplq[/img]и[img]uid://cmefqinngsjdm[/img] эквивалентны?"
-answer_text = "[img]uid://bikan4wpphgb2[/img]и[img]uid://dopiceuuhname[/img]"
+[sub_resource type="Resource" id="Resource_5noo0"]
+script = ExtResource("2_4m8qk")
+question_text = "При каких условиях уравнения [img]uid://bgq7vkajrfplq[/img] и [img]uid://cmefqinngsjdm[/img]  эквивалентны?"
+answer_text = "[img]uid://bikan4wpphgb2[/img] и [img]uid://dopiceuuhname[/img]."
 
-[sub_resource type="Resource" id="Resource_tnu2b"]
-script = ExtResource("3_xrhcp")
-question_text = "Чему равно[img]uid://bxkdhjei5u1j8[/img](с точностью до[img]uid://b7pn2j1478qca[/img]в экспоненте)?"
+[sub_resource type="Resource" id="Resource_sj48t"]
+script = ExtResource("2_4m8qk")
+question_text = "Чему равно [img]uid://bxkdhjei5u1j8[/img] (с точностью до [img]uid://b7pn2j1478qca[/img] в экспоненте)?"
 answer_text = "[img]uid://scot53oir6ws[/img]"
 
-[sub_resource type="Resource" id="Resource_gu60k"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_bnlvx"]
+script = ExtResource("2_4m8qk")
 question_text = "Сколько может быть точек пересечения у 2 линейных функций?"
-answer_text = "[img]uid://qbl0jdpfc35d[/img][img]uid://cjsaekmc20eti[/img][img]uid://bvl2ui47xom6a[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img], [img]uid://cjsaekmc20eti[/img], [img]uid://bvl2ui47xom6a[/img]"
 
-[sub_resource type="Resource" id="Resource_vbep8"]
-script = ExtResource("3_xrhcp")
-question_text = "Сравнить[img]uid://c0tmao8pequh2[/img]и[img]uid://bfs68xe61nuy2[/img] если[img]uid://rmdh0lyd8anu[/img]"
+[sub_resource type="Resource" id="Resource_caggf"]
+script = ExtResource("2_4m8qk")
+question_text = "Сравнить [img]uid://c0tmao8pequh2[/img] и [img]uid://bfs68xe61nuy2[/img], если [img]uid://rmdh0lyd8anu[/img]."
 answer_text = "> если a > 1; < если a < 1; = если a = 1"
 
-[sub_resource type="Resource" id="Resource_gdava"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://bare4arx84jtv[/img], чему равен[img]uid://cv14m2jh2d2fw[/img]"
+[sub_resource type="Resource" id="Resource_tfr05"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://bare4arx84jtv[/img] , чему равен [img]uid://cv14m2jh2d2fw[/img]?"
 answer_text = "[img]uid://cefje1d724he5[/img]"
 
-[sub_resource type="Resource" id="Resource_4bcbi"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0inhv"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bepfhj5mliqmv[/img]"
 answer_text = "[img]uid://82khqva8vcl[/img]"
 
-[sub_resource type="Resource" id="Resource_7ob1b"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_0smpf"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://mk3ctcj1r3ic[/img]"
 answer_text = "[img]uid://qbl0jdpfc35d[/img]"
 
-[sub_resource type="Resource" id="Resource_bxogo"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_ghlxj"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://de8cy6l5amnn4[/img]"
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_yb447"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_lotdd"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://lsd7awwc4rh4[/img]"
 answer_text = "[img]uid://bcwmq3k58pyhg[/img]"
 
-[sub_resource type="Resource" id="Resource_vkh68"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_h3khx"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ce0l1dmrchbf1[/img]"
 answer_text = "[img]uid://clvxggjvgg7vp[/img]"
 
-[sub_resource type="Resource" id="Resource_a6i5x"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_4ur4o"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://cn2ngjrnf3too[/img]"
 answer_text = "[img]uid://cpcg6fvmo08k[/img]"
 
-[sub_resource type="Resource" id="Resource_oenvj"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_nnirr"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ufycq1uyvoc[/img]"
 answer_text = "[img]uid://ddypiui737l82[/img]"
 
-[sub_resource type="Resource" id="Resource_48i1l"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_srs74"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bo8oo2r41e8sg[/img]"
 answer_text = "$6"
 
-[sub_resource type="Resource" id="Resource_5pxhx"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_77v37"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://b1dnqde5b1ksa[/img]"
 answer_text = "[img]uid://cogbswyj1w6cv[/img]"
 
-[sub_resource type="Resource" id="Resource_wjvco"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_qdbea"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://d2ihuou4tweg2[/img]"
-answer_text = "[img]uid://cogbswyj1w6cv[/img] :D"
+answer_text = "[img]uid://cogbswyj1w6cv[/img], :D"
 
-[sub_resource type="Resource" id="Resource_ase07"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_7srry"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://b4tx3r0nnoww[/img]"
 answer_text = "[img]uid://dctho4rmuw4kx[/img]"
 
-[sub_resource type="Resource" id="Resource_hpgb1"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_1q3e5"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bum5wicekgrpe[/img]"
 answer_text = "[img]uid://c8b6tgouiiq7e[/img]"
 
-[sub_resource type="Resource" id="Resource_avwpx"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_afcy3"]
+script = ExtResource("2_4m8qk")
 question_text = "Что такое логарифмическое уравнение?"
 answer_text = "Уравнение с логарифмируемыми переменными."
 
-[sub_resource type="Resource" id="Resource_hy1x2"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_n8atu"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bimsmakwyn4mx[/img]"
 answer_text = "[img]uid://ceyacfqt0dot4[/img]"
 
-[sub_resource type="Resource" id="Resource_sr7sx"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://bv8y6jyum75ao[/img]= ?"
+[sub_resource type="Resource" id="Resource_5evao"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://bv8y6jyum75ao[/img] = ?"
 answer_text = "[img]uid://cjsaekmc20eti[/img]"
 
-[sub_resource type="Resource" id="Resource_hhyjt"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_cj4es"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://ff8r2la35ykg[/img]"
 answer_text = "[img]uid://c1xikcjtf6n57[/img]"
 
-[sub_resource type="Resource" id="Resource_petdc"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://dikjh2yr0fj53[/img]"
-answer_text = "..."
+[sub_resource type="Resource" id="Resource_7sjn6"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dwb5rgf6wo010[/img]"
+answer_text = "[img]uid://kkd5ao3sgmay[/img]"
 
-[sub_resource type="Resource" id="Resource_wh0y3"]
-script = ExtResource("3_xrhcp")
-question_text = "[img]uid://boap1xw3dit25[/img]"
-answer_text = "..."
+[sub_resource type="Resource" id="Resource_nsjnc"]
+script = ExtResource("2_4m8qk")
+question_text = "[img]uid://dkkhyk8d58g66[/img]"
+answer_text = "[img]uid://xt1seclevjl7[/img]"
 
-[sub_resource type="Resource" id="Resource_lrxpk"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_vrkb0"]
+script = ExtResource("2_4m8qk")
 question_text = "[img]uid://bcpmu8uqh6vtc[/img]"
 answer_text = "[img]uid://chy6uxfvbjxkg[/img]"
 
-[sub_resource type="Resource" id="Resource_nhe45"]
-script = ExtResource("3_xrhcp")
+[sub_resource type="Resource" id="Resource_t4ksx"]
+script = ExtResource("2_4m8qk")
 question_text = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
-answer_text = "A woodchuck would chuck all the wood he could chuck if a woodchuck could chuck wood. [img]uid://8t6trouf531m[/img]"
+answer_text = "A woodchuck would chuck all the wood he could chuck if a woodchuck could chuck wood. ([img]uid://8t6trouf531m[/img])"
 
-[sub_resource type="Resource" id="Resource_264ud"]
-script = ExtResource("3_xrhcp")
-question_text = "Человек идёт от магазина домой. Его собака бегает от него до дома и обратно до него с двойной скоростью. Если человек прошёл ростояние[img]uid://jrj3aud7f6rf[/img] какое ростояние прошла собака?"
+[sub_resource type="Resource" id="Resource_keb1n"]
+script = ExtResource("2_4m8qk")
+question_text = "Человек идёт от магазина домой. Его собака бегает от него до дома и обратно до него с двойной скоростью. Если человек прошёл ростояние [img]uid://jrj3aud7f6rf[/img], какое ростояние прошла собака?"
 answer_text = "[img]uid://bvl245faj1whn[/img]"
 
 [resource]
-script = ExtResource("2_pgtur")
-name = ">:D (new)"
+script = ExtResource("1_p8d0k")
+name = "v2"
 icon = ExtResource("1_pof3x")
-static_cards = Array[ExtResource("3_xrhcp")]([SubResource("Resource_2y0li"), SubResource("Resource_ep2nd"), SubResource("Resource_akvjn"), SubResource("Resource_iiktg"), SubResource("Resource_ffq85"), SubResource("Resource_8mgsa"), SubResource("Resource_nat4u"), SubResource("Resource_4d6m5"), SubResource("Resource_p4vc7"), SubResource("Resource_wnd0d"), SubResource("Resource_k5kxd"), SubResource("Resource_x3a8u"), SubResource("Resource_oqbli"), SubResource("Resource_vlhq4"), SubResource("Resource_b1g3p"), SubResource("Resource_0myb5"), SubResource("Resource_jswvn"), SubResource("Resource_5j4ae"), SubResource("Resource_chkuq"), SubResource("Resource_jqwke"), SubResource("Resource_lr7lq"), SubResource("Resource_ufkfy"), SubResource("Resource_fim5x"), SubResource("Resource_6r4r7"), SubResource("Resource_seyim"), SubResource("Resource_ywmpi"), SubResource("Resource_byipw"), SubResource("Resource_i1mwa"), SubResource("Resource_atwnk"), SubResource("Resource_qjwgq"), SubResource("Resource_0mala"), SubResource("Resource_p7uh4"), SubResource("Resource_w03r7"), SubResource("Resource_6vx4b"), SubResource("Resource_fkr5r"), SubResource("Resource_6ckyf"), SubResource("Resource_7jf3q"), SubResource("Resource_knf2y"), SubResource("Resource_i5n8n"), SubResource("Resource_0kjmu"), SubResource("Resource_4wxm7"), SubResource("Resource_503a6"), SubResource("Resource_fgbkc"), SubResource("Resource_alcky"), SubResource("Resource_4k3n1"), SubResource("Resource_et42d"), SubResource("Resource_eivig"), SubResource("Resource_h4a0y"), SubResource("Resource_eitvv"), SubResource("Resource_6uqga"), SubResource("Resource_4nruy"), SubResource("Resource_cb52n"), SubResource("Resource_1sx67"), SubResource("Resource_ea1dx"), SubResource("Resource_ehkhd"), SubResource("Resource_w2j76"), SubResource("Resource_sux7e"), SubResource("Resource_bomym"), SubResource("Resource_5ccqe"), SubResource("Resource_1w7an"), SubResource("Resource_vh7fu"), SubResource("Resource_nld43"), SubResource("Resource_p4h6s"), SubResource("Resource_ss0lj"), SubResource("Resource_olbtb"), SubResource("Resource_coybw"), SubResource("Resource_dsq2k"), SubResource("Resource_qrayv"), SubResource("Resource_rrwus"), SubResource("Resource_3wdfp"), SubResource("Resource_c2act"), SubResource("Resource_ri8kf"), SubResource("Resource_g364a"), SubResource("Resource_6ca6g"), SubResource("Resource_1jh8g"), SubResource("Resource_jeap8"), SubResource("Resource_hkdr5"), SubResource("Resource_dt4wn"), SubResource("Resource_5yup4"), SubResource("Resource_u5ucj"), SubResource("Resource_vb4yj"), SubResource("Resource_pstr6"), SubResource("Resource_i5kdj"), SubResource("Resource_erqk2"), SubResource("Resource_hj3wc"), SubResource("Resource_2s0eo"), SubResource("Resource_thifx"), SubResource("Resource_0jkn8"), SubResource("Resource_5pm5i"), SubResource("Resource_i527c"), SubResource("Resource_cg7no"), SubResource("Resource_v8ld7"), SubResource("Resource_oh4ul"), SubResource("Resource_7tqmu"), SubResource("Resource_d7uw4"), SubResource("Resource_364hj"), SubResource("Resource_0h4xl"), SubResource("Resource_n7x3h"), SubResource("Resource_pg1vr"), SubResource("Resource_1yojv"), SubResource("Resource_lp0s3"), SubResource("Resource_xgjyf"), SubResource("Resource_rfg5y"), SubResource("Resource_dfn7c"), SubResource("Resource_dcvhe"), SubResource("Resource_fb4ss"), SubResource("Resource_ejod0"), SubResource("Resource_w8v51"), SubResource("Resource_d5dhm"), SubResource("Resource_bl016"), SubResource("Resource_thhjy"), SubResource("Resource_vrfeq"), SubResource("Resource_ks6ly"), SubResource("Resource_a1s3y"), SubResource("Resource_g6we0"), SubResource("Resource_0ethq"), SubResource("Resource_r1enh"), SubResource("Resource_i8ulq"), SubResource("Resource_dixvn"), SubResource("Resource_jlc06"), SubResource("Resource_25aig"), SubResource("Resource_lgyix"), SubResource("Resource_sj1lt"), SubResource("Resource_yblqh"), SubResource("Resource_fwppq"), SubResource("Resource_q88ci"), SubResource("Resource_0bckk"), SubResource("Resource_jlruw"), SubResource("Resource_vqqvp"), SubResource("Resource_icgtq"), SubResource("Resource_qmexe"), SubResource("Resource_rnsot"), SubResource("Resource_rcctc"), SubResource("Resource_0uuby"), SubResource("Resource_8s083"), SubResource("Resource_36eob"), SubResource("Resource_tfyka"), SubResource("Resource_5j4ew"), SubResource("Resource_af3y6"), SubResource("Resource_jj86v"), SubResource("Resource_io110"), SubResource("Resource_h5uhq"), SubResource("Resource_ltklg"), SubResource("Resource_nmh14"), SubResource("Resource_5bvem"), SubResource("Resource_0vkog"), SubResource("Resource_i1eqr"), SubResource("Resource_tswa6"), SubResource("Resource_rle5b"), SubResource("Resource_gfmu0"), SubResource("Resource_v1b4n"), SubResource("Resource_gc1jo"), SubResource("Resource_gtbh5"), SubResource("Resource_ps6yh"), SubResource("Resource_ipf2p"), SubResource("Resource_6cmqi"), SubResource("Resource_roi1s"), SubResource("Resource_do4te"), SubResource("Resource_owdnb"), SubResource("Resource_wa802"), SubResource("Resource_1ri73"), SubResource("Resource_mksdj"), SubResource("Resource_cp5b0"), SubResource("Resource_f77aj"), SubResource("Resource_ygo45"), SubResource("Resource_i656m"), SubResource("Resource_bxx73"), SubResource("Resource_kiifq"), SubResource("Resource_cskop"), SubResource("Resource_kqmww"), SubResource("Resource_jvt1c"), SubResource("Resource_kgicj"), SubResource("Resource_tlbxv"), SubResource("Resource_3rtxp"), SubResource("Resource_5kne8"), SubResource("Resource_2b0wb"), SubResource("Resource_lqv33"), SubResource("Resource_uyjvp"), SubResource("Resource_a2hpx"), SubResource("Resource_byajh"), SubResource("Resource_cae3g"), SubResource("Resource_a6pa6"), SubResource("Resource_sr2n6"), SubResource("Resource_aj0xv"), SubResource("Resource_cm3a1"), SubResource("Resource_6dy6l"), SubResource("Resource_fi7ec"), SubResource("Resource_nb0mw"), SubResource("Resource_xln76"), SubResource("Resource_lgduh"), SubResource("Resource_yo46w"), SubResource("Resource_01g7j"), SubResource("Resource_2mok7"), SubResource("Resource_tujhw"), SubResource("Resource_o5uh5"), SubResource("Resource_pq1lf"), SubResource("Resource_d5w5d"), SubResource("Resource_slt0p"), SubResource("Resource_wfo6a"), SubResource("Resource_ji452"), SubResource("Resource_hlbdx"), SubResource("Resource_xg17l"), SubResource("Resource_r5vad"), SubResource("Resource_43jqv"), SubResource("Resource_ibe0d"), SubResource("Resource_3g7wb"), SubResource("Resource_x1064"), SubResource("Resource_4ih7u"), SubResource("Resource_0dkns"), SubResource("Resource_nyau5"), SubResource("Resource_sa4o4"), SubResource("Resource_weblb"), SubResource("Resource_kd31s"), SubResource("Resource_u5ucl"), SubResource("Resource_pp5mt"), SubResource("Resource_tym06"), SubResource("Resource_l5k2m"), SubResource("Resource_2ninb"), SubResource("Resource_tokea"), SubResource("Resource_wn6nc"), SubResource("Resource_gu7ht"), SubResource("Resource_pe7bj"), SubResource("Resource_nka1g"), SubResource("Resource_cod1v"), SubResource("Resource_2jx8h"), SubResource("Resource_5ue7v"), SubResource("Resource_v0nvt"), SubResource("Resource_xasbv"), SubResource("Resource_af14f"), SubResource("Resource_7rmk6"), SubResource("Resource_pk4vn"), SubResource("Resource_40k3m"), SubResource("Resource_u6qyi"), SubResource("Resource_2cbu3"), SubResource("Resource_cj1sf"), SubResource("Resource_u68nh"), SubResource("Resource_otg6v"), SubResource("Resource_72gxk"), SubResource("Resource_oygk7"), SubResource("Resource_5ekuj"), SubResource("Resource_ttakg"), SubResource("Resource_ew6pc"), SubResource("Resource_403oi"), SubResource("Resource_kxp2d"), SubResource("Resource_gjkc2"), SubResource("Resource_ovyky"), SubResource("Resource_vbe2w"), SubResource("Resource_3abkx"), SubResource("Resource_qk5h7"), SubResource("Resource_klck7"), SubResource("Resource_ci7ep"), SubResource("Resource_gkrl6"), SubResource("Resource_cb3ht"), SubResource("Resource_44xk2"), SubResource("Resource_cc3na"), SubResource("Resource_461do"), SubResource("Resource_oh0t3"), SubResource("Resource_a17f5"), SubResource("Resource_q2j2j"), SubResource("Resource_x34p3"), SubResource("Resource_871jw"), SubResource("Resource_hwqps"), SubResource("Resource_fprvd"), SubResource("Resource_s8x11"), SubResource("Resource_qbrjj"), SubResource("Resource_t0bnd"), SubResource("Resource_u1mq2"), SubResource("Resource_ja4dc"), SubResource("Resource_bl864"), SubResource("Resource_aqn1o"), SubResource("Resource_igire"), SubResource("Resource_bu7vg"), SubResource("Resource_eco4i"), SubResource("Resource_2dsib"), SubResource("Resource_s5nyr"), SubResource("Resource_ij1jq"), SubResource("Resource_tes3o"), SubResource("Resource_ymy85"), SubResource("Resource_7vv7s"), SubResource("Resource_h07fh"), SubResource("Resource_8ank1"), SubResource("Resource_r1xd6"), SubResource("Resource_q2onj"), SubResource("Resource_akoyq"), SubResource("Resource_wb8j2"), SubResource("Resource_q17q1"), SubResource("Resource_fs5g1"), SubResource("Resource_vaj4s"), SubResource("Resource_w3lip"), SubResource("Resource_2lb12"), SubResource("Resource_tnycw"), SubResource("Resource_7uhud"), SubResource("Resource_vfe7o"), SubResource("Resource_yvhyr"), SubResource("Resource_6w0lo"), SubResource("Resource_0tx5r"), SubResource("Resource_uopd7"), SubResource("Resource_blpj8"), SubResource("Resource_tcm1m"), SubResource("Resource_u5lnr"), SubResource("Resource_eci66"), SubResource("Resource_d1v0m"), SubResource("Resource_umqym"), SubResource("Resource_d8qxr"), SubResource("Resource_cmnap"), SubResource("Resource_tmk2y"), SubResource("Resource_2ab67"), SubResource("Resource_r5r7l"), SubResource("Resource_hqfke"), SubResource("Resource_u6cdj"), SubResource("Resource_5g2rf"), SubResource("Resource_pwu82"), SubResource("Resource_fugh0"), SubResource("Resource_2y85i"), SubResource("Resource_iu1l3"), SubResource("Resource_57dwm"), SubResource("Resource_twms5"), SubResource("Resource_ocvo3"), SubResource("Resource_j2f1y"), SubResource("Resource_y68aa"), SubResource("Resource_llnxq"), SubResource("Resource_a6735"), SubResource("Resource_ssawg"), SubResource("Resource_6dy7v"), SubResource("Resource_8rj1h"), SubResource("Resource_swlnm"), SubResource("Resource_0xscg"), SubResource("Resource_lqh3s"), SubResource("Resource_srknq"), SubResource("Resource_tnu2b"), SubResource("Resource_gu60k"), SubResource("Resource_vbep8"), SubResource("Resource_gdava"), SubResource("Resource_4bcbi"), SubResource("Resource_7ob1b"), SubResource("Resource_bxogo"), SubResource("Resource_yb447"), SubResource("Resource_vkh68"), SubResource("Resource_a6i5x"), SubResource("Resource_oenvj"), SubResource("Resource_48i1l"), SubResource("Resource_5pxhx"), SubResource("Resource_wjvco"), SubResource("Resource_ase07"), SubResource("Resource_hpgb1"), SubResource("Resource_avwpx"), SubResource("Resource_hy1x2"), SubResource("Resource_sr7sx"), SubResource("Resource_hhyjt"), SubResource("Resource_petdc"), SubResource("Resource_wh0y3"), SubResource("Resource_lrxpk"), SubResource("Resource_nhe45"), SubResource("Resource_264ud")])
+static_cards = Array[ExtResource("2_4m8qk")]([SubResource("Resource_qxy33"), SubResource("Resource_or3vg"), SubResource("Resource_yslic"), SubResource("Resource_njfb0"), SubResource("Resource_y32ep"), SubResource("Resource_7omii"), SubResource("Resource_7pjn0"), SubResource("Resource_hk054"), SubResource("Resource_s5a0n"), SubResource("Resource_0dvq4"), SubResource("Resource_lkklp"), SubResource("Resource_shdtf"), SubResource("Resource_357oh"), SubResource("Resource_17qi4"), SubResource("Resource_vm3hc"), SubResource("Resource_hrbvx"), SubResource("Resource_xs0sm"), SubResource("Resource_7bh1x"), SubResource("Resource_gnnpx"), SubResource("Resource_7dcno"), SubResource("Resource_hl60v"), SubResource("Resource_id3i6"), SubResource("Resource_g7tkk"), SubResource("Resource_rhw2a"), SubResource("Resource_1751w"), SubResource("Resource_7hdvl"), SubResource("Resource_g8kjd"), SubResource("Resource_5uwgl"), SubResource("Resource_y7dj8"), SubResource("Resource_dit7n"), SubResource("Resource_sk5us"), SubResource("Resource_b0kc3"), SubResource("Resource_1gdcf"), SubResource("Resource_lgb1m"), SubResource("Resource_7nnns"), SubResource("Resource_8c6bh"), SubResource("Resource_7g8bc"), SubResource("Resource_uxwyp"), SubResource("Resource_5v1w4"), SubResource("Resource_8k14k"), SubResource("Resource_08s75"), SubResource("Resource_g8is0"), SubResource("Resource_wofhb"), SubResource("Resource_0ignv"), SubResource("Resource_y4jmt"), SubResource("Resource_a2amx"), SubResource("Resource_88nqh"), SubResource("Resource_whew6"), SubResource("Resource_jsgoo"), SubResource("Resource_lvgcy"), SubResource("Resource_kknex"), SubResource("Resource_o84n4"), SubResource("Resource_nfclp"), SubResource("Resource_8e5w1"), SubResource("Resource_a2dyy"), SubResource("Resource_bgfp3"), SubResource("Resource_a5275"), SubResource("Resource_m0p3j"), SubResource("Resource_i1u8x"), SubResource("Resource_55udj"), SubResource("Resource_kvhh2"), SubResource("Resource_ambtk"), SubResource("Resource_c8bfb"), SubResource("Resource_sk1jh"), SubResource("Resource_mp65d"), SubResource("Resource_sgee7"), SubResource("Resource_0nk1h"), SubResource("Resource_wls83"), SubResource("Resource_d4dyx"), SubResource("Resource_38km0"), SubResource("Resource_pt1qi"), SubResource("Resource_ewt4e"), SubResource("Resource_56l6t"), SubResource("Resource_eya5l"), SubResource("Resource_idg8t"), SubResource("Resource_o63dv"), SubResource("Resource_w407r"), SubResource("Resource_6x0v0"), SubResource("Resource_3g22p"), SubResource("Resource_pj7t8"), SubResource("Resource_fibfs"), SubResource("Resource_s3lrj"), SubResource("Resource_3hoao"), SubResource("Resource_mismj"), SubResource("Resource_15xwl"), SubResource("Resource_swpoa"), SubResource("Resource_up25g"), SubResource("Resource_2tj0t"), SubResource("Resource_6db2q"), SubResource("Resource_710rv"), SubResource("Resource_yknc6"), SubResource("Resource_xl7fp"), SubResource("Resource_wg1rd"), SubResource("Resource_66o3y"), SubResource("Resource_kfiqx"), SubResource("Resource_1jbrr"), SubResource("Resource_hbhud"), SubResource("Resource_amd7c"), SubResource("Resource_wa6vu"), SubResource("Resource_ufocn"), SubResource("Resource_igsnf"), SubResource("Resource_ittu2"), SubResource("Resource_fdba3"), SubResource("Resource_xvmsx"), SubResource("Resource_cwqhw"), SubResource("Resource_elatd"), SubResource("Resource_yqabl"), SubResource("Resource_v7o78"), SubResource("Resource_51bt1"), SubResource("Resource_nb0jc"), SubResource("Resource_cwpix"), SubResource("Resource_qyanl"), SubResource("Resource_0hv13"), SubResource("Resource_8xxf1"), SubResource("Resource_u6apd"), SubResource("Resource_q1p1u"), SubResource("Resource_ipst2"), SubResource("Resource_cv18n"), SubResource("Resource_6rifb"), SubResource("Resource_ufagf"), SubResource("Resource_kc71c"), SubResource("Resource_ryo1s"), SubResource("Resource_3mh7d"), SubResource("Resource_5cu2i"), SubResource("Resource_a77w1"), SubResource("Resource_r7wi0"), SubResource("Resource_vo7lh"), SubResource("Resource_dv0qp"), SubResource("Resource_yttrv"), SubResource("Resource_drk5p"), SubResource("Resource_uxfr0"), SubResource("Resource_f0fvv"), SubResource("Resource_sqren"), SubResource("Resource_4ar4v"), SubResource("Resource_im5el"), SubResource("Resource_vifxn"), SubResource("Resource_chepf"), SubResource("Resource_pqry7"), SubResource("Resource_204uu"), SubResource("Resource_euo22"), SubResource("Resource_rcs1k"), SubResource("Resource_qj4l5"), SubResource("Resource_f7who"), SubResource("Resource_e728d"), SubResource("Resource_q04u7"), SubResource("Resource_xkime"), SubResource("Resource_7fmvy"), SubResource("Resource_6qntp"), SubResource("Resource_4pbx3"), SubResource("Resource_pgakq"), SubResource("Resource_fbrf1"), SubResource("Resource_wheij"), SubResource("Resource_q1v0d"), SubResource("Resource_0wwe1"), SubResource("Resource_jcau6"), SubResource("Resource_frp88"), SubResource("Resource_ibgvh"), SubResource("Resource_5rg36"), SubResource("Resource_cbpci"), SubResource("Resource_ikhnv"), SubResource("Resource_j3n8c"), SubResource("Resource_7i7os"), SubResource("Resource_taadb"), SubResource("Resource_8a501"), SubResource("Resource_vc058"), SubResource("Resource_kufs0"), SubResource("Resource_luq1c"), SubResource("Resource_g7nji"), SubResource("Resource_eqtlg"), SubResource("Resource_pohp7"), SubResource("Resource_3hkq0"), SubResource("Resource_6b6b4"), SubResource("Resource_wupxp"), SubResource("Resource_xwt2r"), SubResource("Resource_gkky5"), SubResource("Resource_0mu6w"), SubResource("Resource_4u0jx"), SubResource("Resource_o7t82"), SubResource("Resource_ipd5r"), SubResource("Resource_skgvh"), SubResource("Resource_tqc1f"), SubResource("Resource_sjdba"), SubResource("Resource_rcpqw"), SubResource("Resource_orpxq"), SubResource("Resource_oudil"), SubResource("Resource_kh0pd"), SubResource("Resource_qxo7e"), SubResource("Resource_sdatg"), SubResource("Resource_75hnh"), SubResource("Resource_k4lwh"), SubResource("Resource_b8wa2"), SubResource("Resource_xnuyk"), SubResource("Resource_s1st5"), SubResource("Resource_m360g"), SubResource("Resource_qn1gl"), SubResource("Resource_o6of1"), SubResource("Resource_7hfgm"), SubResource("Resource_e3jia"), SubResource("Resource_wio32"), SubResource("Resource_515g7"), SubResource("Resource_6lhjb"), SubResource("Resource_ecuim"), SubResource("Resource_d126n"), SubResource("Resource_bdcaf"), SubResource("Resource_wbh3m"), SubResource("Resource_fcbru"), SubResource("Resource_uj2no"), SubResource("Resource_slusr"), SubResource("Resource_pnfyb"), SubResource("Resource_fydtl"), SubResource("Resource_wvdai"), SubResource("Resource_yf17b"), SubResource("Resource_i3xid"), SubResource("Resource_rwc2s"), SubResource("Resource_hdipy"), SubResource("Resource_w706w"), SubResource("Resource_j6lwn"), SubResource("Resource_0pt8d"), SubResource("Resource_5bujp"), SubResource("Resource_odfbu"), SubResource("Resource_gpfgy"), SubResource("Resource_461bf"), SubResource("Resource_2j23w"), SubResource("Resource_dp4rj"), SubResource("Resource_buxrx"), SubResource("Resource_rxx0d"), SubResource("Resource_qc2qs"), SubResource("Resource_6krpa"), SubResource("Resource_bumqo"), SubResource("Resource_80wjh"), SubResource("Resource_pchq0"), SubResource("Resource_elcot"), SubResource("Resource_tcwhi"), SubResource("Resource_qa7n6"), SubResource("Resource_jdprh"), SubResource("Resource_b4282"), SubResource("Resource_avtl2"), SubResource("Resource_ldp07"), SubResource("Resource_ksvet"), SubResource("Resource_n7kyk"), SubResource("Resource_wul5j"), SubResource("Resource_xayva"), SubResource("Resource_o7krv"), SubResource("Resource_1g8mh"), SubResource("Resource_iy7xg"), SubResource("Resource_rouq4"), SubResource("Resource_50464"), SubResource("Resource_bojfg"), SubResource("Resource_q5wx1"), SubResource("Resource_shnhl"), SubResource("Resource_6oyu5"), SubResource("Resource_oo1wv"), SubResource("Resource_p646e"), SubResource("Resource_h7ukk"), SubResource("Resource_mxf18"), SubResource("Resource_regbv"), SubResource("Resource_negfu"), SubResource("Resource_0lkvy"), SubResource("Resource_h7vsf"), SubResource("Resource_l1g54"), SubResource("Resource_54vhp"), SubResource("Resource_7xtcu"), SubResource("Resource_4rurm"), SubResource("Resource_ar8dx"), SubResource("Resource_ql0wt"), SubResource("Resource_f1w71"), SubResource("Resource_m7o2t"), SubResource("Resource_vpa4i"), SubResource("Resource_xcael"), SubResource("Resource_51il3"), SubResource("Resource_84hqd"), SubResource("Resource_o017e"), SubResource("Resource_lbo4g"), SubResource("Resource_216cx"), SubResource("Resource_68qtp"), SubResource("Resource_6hvfm"), SubResource("Resource_dbxgu"), SubResource("Resource_jkvc8"), SubResource("Resource_x77hi"), SubResource("Resource_nbgam"), SubResource("Resource_wtd8n"), SubResource("Resource_m7mdg"), SubResource("Resource_is6n1"), SubResource("Resource_wbyvh"), SubResource("Resource_djqvd"), SubResource("Resource_4w2fa"), SubResource("Resource_tq21w"), SubResource("Resource_ba8a4"), SubResource("Resource_fe11r"), SubResource("Resource_vq085"), SubResource("Resource_utuap"), SubResource("Resource_acuef"), SubResource("Resource_n1yhn"), SubResource("Resource_xjsem"), SubResource("Resource_us5qy"), SubResource("Resource_6t55v"), SubResource("Resource_67j7t"), SubResource("Resource_6nha1"), SubResource("Resource_vtnx0"), SubResource("Resource_6ea6e"), SubResource("Resource_lmmvq"), SubResource("Resource_bgnsp"), SubResource("Resource_5wail"), SubResource("Resource_sbktq"), SubResource("Resource_r2sr3"), SubResource("Resource_qgk8a"), SubResource("Resource_mbgoa"), SubResource("Resource_w0qh8"), SubResource("Resource_jhr6v"), SubResource("Resource_w7vny"), SubResource("Resource_3lmp6"), SubResource("Resource_lsagj"), SubResource("Resource_ldxhw"), SubResource("Resource_3jr11"), SubResource("Resource_uo7vi"), SubResource("Resource_y85uo"), SubResource("Resource_t58dh"), SubResource("Resource_l5glf"), SubResource("Resource_dl42j"), SubResource("Resource_lmvel"), SubResource("Resource_swmo4"), SubResource("Resource_wx4dc"), SubResource("Resource_lgus7"), SubResource("Resource_dpxfa"), SubResource("Resource_3ibld"), SubResource("Resource_8ifii"), SubResource("Resource_xfk2m"), SubResource("Resource_ww7ag"), SubResource("Resource_40cgc"), SubResource("Resource_5noo0"), SubResource("Resource_sj48t"), SubResource("Resource_bnlvx"), SubResource("Resource_caggf"), SubResource("Resource_tfr05"), SubResource("Resource_0inhv"), SubResource("Resource_0smpf"), SubResource("Resource_ghlxj"), SubResource("Resource_lotdd"), SubResource("Resource_h3khx"), SubResource("Resource_4ur4o"), SubResource("Resource_nnirr"), SubResource("Resource_srs74"), SubResource("Resource_77v37"), SubResource("Resource_qdbea"), SubResource("Resource_7srry"), SubResource("Resource_1q3e5"), SubResource("Resource_afcy3"), SubResource("Resource_n8atu"), SubResource("Resource_5evao"), SubResource("Resource_cj4es"), SubResource("Resource_7sjn6"), SubResource("Resource_nsjnc"), SubResource("Resource_vrkb0"), SubResource("Resource_t4ksx"), SubResource("Resource_keb1n")])
 dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])

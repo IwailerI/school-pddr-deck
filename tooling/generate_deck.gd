@@ -2,8 +2,9 @@
 extends EditorScript
 
 const INPUT_PATH: String = "res://tooling/deck.json"
-const OUTPUT_PATH: String = "res://tooling/output.tres"
+const OUTPUT_PATH: String = "res://resources/decks/prod_ru_v2.tres"
 const RESOURCE_OUTPUT: String = "res://assets/equations/"
+const MAX_WIDTH: int = 660
 
 
 var miss := {}
@@ -38,17 +39,32 @@ func parse_rich_text(text: Array) -> String:
 			var uid := ResourceLoader.get_resource_uid(RESOURCE_OUTPUT + part[1] + ".png")
 			if uid == -1:
 				miss[part[1]] = true
-			res += "[img]%s[/img]" % ResourceUID.id_to_text(uid)
+				res += "[img]%s[/img]" % ResourceUID.id_to_text(-1)
+				continue
+
+			var image: Texture2D = load(ResourceUID.id_to_text(uid))
+			if image.get_width() > MAX_WIDTH:
+				res += "[img width=%s]%s[/img]" % [MAX_WIDTH, ResourceUID.id_to_text(uid)]
+			else:
+				res += "[img]%s[/img]" % ResourceUID.id_to_text(uid)
 		else:
 			assert(false, "idk bro")
 	return res
 
 
 func create_deck(data: Array[StaticCard]) -> Deck:
-	var d := Deck.new()
-	d.name = "Auto generated deck"
+
+	var d: Deck
+	if ResourceLoader.exists(OUTPUT_PATH):
+		d = load(OUTPUT_PATH)
+		print("Loading existing deck")
+	else:
+		d = Deck.new()
+		d.name = "Auto generated deck"
+		d.take_over_path(OUTPUT_PATH)
+		print("Creating new deck")
+
 	d.static_cards = data
-	d.take_over_path(OUTPUT_PATH)
 
 	ResourceSaver.save(d, OUTPUT_PATH)
 
