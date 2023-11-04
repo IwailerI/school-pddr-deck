@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://4mg1pxcwq0wp"]
+[gd_scene load_steps=6 format=3 uid="uid://4mg1pxcwq0wp"]
 
 [ext_resource type="Script" path="res://scenes/lobby/lobby.gd" id="1_2x82t"]
 [ext_resource type="Theme" uid="uid://enhsopwx32o3" path="res://resources/themes/main_theme.tres" id="1_q1mrh"]
 [ext_resource type="PackedScene" uid="uid://b1ehuuhnvba58" path="res://scenes/deck_picker/deck_picker.tscn" id="1_vt2ml"]
-[ext_resource type="Resource" uid="uid://brkea565t3i6d" path="res://resources/decks/prod_ru.tres" id="4_t21sb"]
+[ext_resource type="Resource" uid="uid://brkea565t3i6d" path="res://resources/decks/prod_ru_v1.tres" id="4_5fyxm"]
+[ext_resource type="Resource" uid="uid://ps2rud4p3w3r" path="res://resources/decks/prod_ru_v2.tres" id="5_vhl5q"]
 
 [node name="lobby" type="VBoxContainer"]
 anchors_preset = 15
@@ -29,7 +30,7 @@ size_flags_vertical = 3
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
-decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("4_t21sb")])
+decks = Array[Resource("res://objects/card/deck.gd")]([ExtResource("4_5fyxm"), ExtResource("5_vhl5q")])
 
 [node name="PanelContainer" type="PanelContainer" parent="HBoxContainer"]
 layout_mode = 2

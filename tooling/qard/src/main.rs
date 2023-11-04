@@ -27,6 +27,10 @@ struct Cli {
     /// Whether output json file will be minified or not.
     #[arg(short, long, default_value_t = true)]
     compact: bool,
+
+    /// Force rerender
+    #[arg(short, long, default_value_t = false)]
+    force_rerender: bool,
 }
 
 #[derive(Clone, PartialEq, Eq, Debug)]
@@ -72,8 +76,8 @@ fn main() -> Result<(), String> {
 
     let cards = parse_qard::parse(&source).map_err(|e| format!("{e:?}"))?;
 
-    let rich_cards =
-        latex::enrich_text(cards, &resource_dir, true).map_err(|e| format!("{e:?}"))?;
+    let rich_cards = latex::enrich_text(cards, &resource_dir, true, cli.force_rerender)
+        .map_err(|e| format!("{e:?}"))?;
 
     compiler::compile(rich_cards, &output, !cli.compact).map_err(|e| format!("{e:?}"))?;
 
@@ -359,7 +363,8 @@ mod parse_qard {
                         'Q' => Delim::Question,
                         'A' => Delim::Answer,
                         _ => continue,
-                    })
+                    });
+                    rank = 0;
                 }
                 Some(delim) => match c {
                     '#' => rank += 1,
@@ -373,7 +378,7 @@ mod parse_qard {
                             rank = 0;
                         }
                     },
-                    _ => return None,
+                    _ => delim_type = None,
                 },
             }
         }
@@ -523,15 +528,15 @@ mod parse_qard {
         Q: Переведите 1. $98\micro m$ в $m$ 
         > This is a comment
         > This is a comment
-        A: $0.000098m$ 
+        A: $$0.000098m$$ 
 
         > This is a comment
-        Q: Переведите 1Q##:. $98\micro m$ в $m$ 
+        12. Q: Переведите 1Q##:. $98\micro m$ в $m$ 
         A: $0.000098m$A##:: 
         > This is a comment
 
         > This is a comment
-        Q###: Переведите 1Q Q: $98\micro m$ в $m$ 
+        54645. Q###: Переведите 1Q Q: $98\micro m$ в $m$ 
         >### This is a comment
         > This is not a comment!
         A###: $0.000098m$A::: 
@@ -562,7 +567,7 @@ mod parse_qard {
                     },
                     Card {
                         question: "Переведите 1. $98\\micro m$ в $m$".into(),
-                        answer: "$0.000098m$".into(),
+                        answer: "$$0.000098m$$".into(),
                     },
                     Card {
                         question: "Переведите 1Q##:. $98\\micro m$ в $m$".into(),
@@ -588,6 +593,73 @@ mod parse_qard {
 
             assert_eq!(parse(DATA), Err(ParseError::SyntaxError(1)))
         }
+
+        #[test]
+        fn test_realistic_parse() {
+            const DATA: &str = r"
+            211. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$ A: $\sin \alpha=\frac{a}{c}$
+            212. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \beta =?$ A: $\sin \beta=\frac{b}{c}$
+            213. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \alpha =?$ A: $\tan \alpha=\frac{a}{b}$
+            214. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \beta =?$ A: $\tan \beta=\frac{b}{a}$
+            215. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \alpha =?$ A: $\cos \alpha=\frac{b}{c}$
+            216. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \beta =?$ A: $\cos \beta=\frac{a}{c}$
+            217. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \alpha =?$ A: $\text{ctg} \alpha=\frac{b}{a}$
+            218. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \beta =?$ A: $\text{ctg} \beta=\frac{a}{b}$
+            219. Q: Является ли данный график выражения $y=D_{20}x + D_{12}$ функцией или зависимостью? A: Функция.";
+
+            fn c<S1, S2>(q: S1, a: S2) -> Card
+            where
+                S1: Into<String>,
+                S2: Into<String>,
+            {
+                Card {
+                    answer: a.into(),
+                    question: q.into(),
+                }
+            }
+
+            assert_eq!(
+                parse(DATA),
+                Ok(vec![
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$",
+                        r"$\sin \alpha=\frac{a}{c}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \beta =?$",
+                        r"$\sin \beta=\frac{b}{c}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \alpha =?$",
+                        r"$\tan \alpha=\frac{a}{b}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \beta =?$",
+                        r"$\tan \beta=\frac{b}{a}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \alpha =?$",
+                        r"$\cos \alpha=\frac{b}{c}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \beta =?$",
+                        r"$\cos \beta=\frac{a}{c}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \alpha =?$",
+                        r"$\text{ctg} \alpha=\frac{b}{a}$"
+                    ),
+                    c(
+                        r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \beta =?$",
+                        r"$\text{ctg} \beta=\frac{a}{b}$"
+                    ),
+                    c(
+                        r"Является ли данный график выражения $y=D_{20}x + D_{12}$ функцией или зависимостью?",
+                        r"Функция."
+                    )
+                ])
+            )
+        }
     }
 }
 
@@ -608,8 +680,8 @@ mod latex {
 
     use crate::{Card, RichCard, RichText};
 
-    const BLOCK_MATH_PATTERN: &str = r"\$\$.+\$\$";
-    const INLINE_MATH_PATTERN: &str = r"\$(?:[^$\\]|\\.)+\$";
+    const BLOCK_MATH_PATTERN: &str = r"\$\$.+?\$\$";
+    const INLINE_MATH_PATTERN: &str = r"(?:[^$]|^)(\$(?:[^$\\]|\\.)+\$)(?:[^$]|$)";
 
     #[derive(Debug)]
     pub enum Error {
@@ -624,11 +696,12 @@ mod latex {
     }
 
     /// Searches for all latex expressions, renders them (if needed) and transforms text into
-    /// rich text/
+    /// rich text
     pub fn enrich_text<I>(
         cards: I,
         resources: &Path,
         show_progress: bool,
+        force_rerender: bool,
     ) -> Result<Vec<RichCard>, Error>
     where
         I: IntoIterator<Item = Card>,
@@ -643,22 +716,25 @@ mod latex {
         // get already existing expressions
         let mut already_rendered: HashSet<u64> = HashSet::new();
         fs::create_dir_all(resources)?;
-        for entry in fs::read_dir(resources)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_file() && path.extension() == Some(OsStr::new("png")) {
-                let path = match path.file_stem() {
-                    Some(v) => v,
-                    None => continue,
-                };
-                let path = match path.to_str() {
-                    Some(v) => v,
-                    None => continue,
-                };
-                match hex_to_hash(path) {
-                    Some(v) => already_rendered.insert(v),
-                    None => continue,
-                };
+
+        if !force_rerender {
+            for entry in fs::read_dir(resources)? {
+                let entry = entry?;
+                let path = entry.path();
+                if path.is_file() && path.extension() == Some(OsStr::new("png")) {
+                    let path = match path.file_stem() {
+                        Some(v) => v,
+                        None => continue,
+                    };
+                    let path = match path.to_str() {
+                        Some(v) => v,
+                        None => continue,
+                    };
+                    match hex_to_hash(path) {
+                        Some(v) => already_rendered.insert(v),
+                        None => continue,
+                    };
+                }
             }
         }
 
@@ -689,18 +765,24 @@ mod latex {
                     let convert = |source: &str, target: &mut RichText| {
                         let mut v: Vec<_> = regex_block
                             .find_iter(source)
-                            .chain(regex_inline.find_iter(source))
+                            .map(|x| (x.range(), x.as_str().to_owned()))
+                            .chain(regex_inline.captures_iter(source).map(|x| {
+                                let c = x.get(0).unwrap();
+                                (c.range(), c.as_str().to_owned())
+                            }))
                             .collect();
-                        v.sort_unstable_by(|l, r| l.range().start.cmp(&r.range().start));
+                        v.sort_unstable_by(|l, r| l.0.start.cmp(&r.0.start));
                         let mut i = 0;
-                        for m in v.into_iter() {
-                            let bounds = m.range();
+                        for (range, text) in v.into_iter() {
+                            let bounds = range;
                             if bounds.start > i {
                                 target
                                     .0
                                     .push(RTC::Text(source[i..bounds.start].to_string()))
                             }
-                            target.0.push(RTC::Latex(hash_string(m.as_str())));
+                            target
+                                .0
+                                .push(RTC::Latex(hash_string(text.trim_matches(|c| c != '$'))));
                             i = bounds.end;
                         }
                         if i < source.len() {
@@ -738,9 +820,9 @@ mod latex {
             })
             .chain(strings.into_iter().map(|s| {
                 regex_inline
-                    .find_iter(&s.into())
-                    .map(|m| m.as_str().to_owned())
-                    .collect::<Vec<_>>()
+                    .captures_iter(&s.into())
+                    .map(|m| m.extract::<1>().1[0].to_string())
+                    .collect::<Vec<String>>()
                     .into_iter()
             }))
             .flatten()
@@ -822,8 +904,17 @@ mod latex {
             thread::spawn(move || display(total, receiver));
         }
 
+        let mut bad = vec![];
         for handle in join_handles {
-            handle.join().unwrap().unwrap();
+            let t = handle.join().unwrap().unwrap();
+            bad.extend(t.into_iter());
+        }
+
+        if !bad.is_empty() {
+            println!("Failed to compile following {} expressions:", bad.len());
+            for expr in bad {
+                println!("({}) {expr}", hash_to_hex(hash_string(&expr)));
+            }
         }
 
         Ok(())
@@ -851,11 +942,81 @@ mod latex {
         use super::*;
 
         #[test]
-        fn aaa() {
-            for s in &["a", "Hello world!", "sdfjsd;lf", "Текст на русском"] {
-                let hash = hash_string(s);
-                println!("{hash:016x} - {s}");
-            }
+        fn test_extract_latex() {
+            assert_eq!(
+                extract_latex([
+                    r"Назовите хотя бы 2 способа разложения на множители.",
+                    r"Вынесение общего множителя за скобки, группировка, формула сокращённого умножения, разложения квадратным трёхчленом.",
+                    r"Разложите на множители: $75\alpha+50\beta-25\gamma$",
+                    r"$25\left(3\alpha+2\beta-\gamma\right)$",
+                    r"Разложите на множители: $a(2+b) - 4(2+b)$",
+                    r"$(a-4)(2+b)$",
+                    r"Разложите на множители: $6x+7y+42+xy$",
+                    r"$(6x+xy) + (42+7y) = x(6 + y) + 7(6+y) = (x + 7)(y + 6)$",
+                    r"Разложите на множители: $(x+2)^2 - y^2$",
+                    r"$$\left(x-y+2\right)\left(x+y+2\right)$$",
+                    r"Сумма углов $D_{6}$-угольника?",
+                    r"$180\degree \cdot \left(D_{6}-2\right)$",
+                    r"Сумма углов = $540 \degree$. Сколько углов у этого многоугольников?",
+                    r"$5$",
+                ]),
+                HashSet::from([
+                    r"$75\alpha+50\beta-25\gamma$".to_owned(),
+                    r"$25\left(3\alpha+2\beta-\gamma\right)$".to_owned(),
+                    r"$(a-4)(2+b)$".to_owned(),
+                    r"$a(2+b) - 4(2+b)$".to_owned(),
+                    r"$6x+7y+42+xy$".to_owned(),
+                    r"$(6x+xy) + (42+7y) = x(6 + y) + 7(6+y) = (x + 7)(y + 6)$".to_owned(),
+                    r"$(x+2)^2 - y^2$".to_owned(),
+                    r"$$\left(x-y+2\right)\left(x+y+2\right)$$".to_owned(),
+                    r"$D_{6}$".to_owned(),
+                    r"$180\degree \cdot \left(D_{6}-2\right)$".to_owned(),
+                    r"$540 \degree$".to_owned(),
+                    r"$5$".to_owned(),
+                ]),
+            );
+        }
+
+        #[test]
+        fn test_another_bug() {
+            const DATA: &'static str = r"
+            211. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$ A: $\sin \alpha=\frac{a}{c}$
+            212. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \beta =?$ A: $\sin \beta=\frac{b}{c}$
+            213. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \alpha =?$ A: $\tan \alpha=\frac{a}{b}$
+            214. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \beta =?$ A: $\tan \beta=\frac{b}{a}$
+            215. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \alpha =?$ A: $\cos \alpha=\frac{b}{c}$
+            216. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \beta =?$ A: $\cos \beta=\frac{a}{c}$
+            217. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \alpha =?$ A: $\text{ctg} \alpha=\frac{b}{a}$
+            218. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \beta =?$ A: $\text{ctg} \beta=\frac{a}{b}$
+            219. Q: Является ли данный график выражения $y=D_{20}x + D_{12}$ функцией или зависимостью? A: Функция.";
+
+            assert_eq!(
+                extract_latex(DATA.lines()),
+                HashSet::from([
+                    r"$\triangle ABC$".to_owned(),
+                    r"$\alpha, \beta, \gamma$".to_owned(),
+                    r"$\alpha, \beta, \gamma$".to_owned(),
+                    r"$a, b, c$".to_owned(),
+                    r"$\gamma = 90\degree$".to_owned(),
+                    r"$\sin \alpha =?$".to_owned(),
+                    r"$\sin \beta =?$".to_owned(),
+                    r"$\tan \alpha =?$".to_owned(),
+                    r"$\tan \beta =?$".to_owned(),
+                    r"$\cos \alpha =?$".to_owned(),
+                    r"$\cos \beta =?$".to_owned(),
+                    r"$\text{ctg} \alpha =?$".to_owned(),
+                    r"$\text{ctg} \beta =?$".to_owned(),
+                    r"$\sin \alpha=\frac{a}{c}$".to_owned(),
+                    r"$\sin \beta=\frac{b}{c}$".to_owned(),
+                    r"$\tan \alpha=\frac{a}{b}$".to_owned(),
+                    r"$\tan \beta=\frac{b}{a}$".to_owned(),
+                    r"$\cos \alpha=\frac{b}{c}$".to_owned(),
+                    r"$\cos \beta=\frac{a}{c}$".to_owned(),
+                    r"$\text{ctg} \alpha=\frac{b}{a}$".to_owned(),
+                    r"$\text{ctg} \beta=\frac{a}{b}$".to_owned(),
+                    r"$y=D_{20}x + D_{12}$".to_owned(),
+                ])
+            );
         }
     }
 }
