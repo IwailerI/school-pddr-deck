@@ -31,6 +31,10 @@ struct Cli {
     /// Force rerender
     #[arg(short, long, default_value_t = false)]
     force_rerender: bool,
+
+    /// Verbose debug output
+    #[arg(short, long, default_value_t = false)]
+    verbose: bool,
 }
 
 #[derive(Clone, PartialEq, Eq, Debug)]
@@ -76,9 +80,9 @@ fn main() -> Result<(), String> {
 
     let source = fs::read_to_string(input).map_err(|_| "Unable to open input file.")?;
 
-    let cards = parse_qard::parse(&source).map_err(|e| format!("{e:?}"))?;
+    let cards = parse_qard::parse(&source, cli.verbose).map_err(|e| format!("{e:?}"))?;
 
-    let rich_cards = latex::enrich_text(cards, &resource_dir, true, cli.force_rerender)
+    let rich_cards = latex::enrich_text(cards, &resource_dir, true, cli.force_rerender, cli.verbose)
         .map_err(|e| format!("{e:?}"))?;
 
     compiler::compile(rich_cards, &output, !cli.compact).map_err(|e| format!("{e:?}"))?;
@@ -198,7 +202,7 @@ mod parse_qard {
     /// - Anything before first Q: of the file is ignored.
     /// - Any line inside Q or A of rank n starting with > followed by n # is ignored.
     /// - Line breaks between lines are preserved, but otherwise lines are trimmed.
-    pub fn parse(data: &str) -> Result<Vec<Card>, ParseError> {
+    pub fn parse(data: &str, verbose: bool) -> Result<Vec<Card>, ParseError> {
         use Delim as D;
         use QardLineResult as R;
 
@@ -289,7 +293,7 @@ mod parse_qard {
                 if delim == D::Question {
                     // Check for line with corresponding answer
                     match trim_until_delim(line, Some(rank)) {
-                        Some((substr, D::Answer, _)) => return R::Answer(rank, substr),
+                        Some((substr, D::Answer, _)) => R::Answer(rank, substr),
                         _ => R::Text(line),
                     }
                 } else {
@@ -549,7 +553,7 @@ mod parse_qard {
         A: $0.000098m$A::: 
         ";
             assert_eq!(
-                parse(DATA),
+                parse(DATA, false),
                 Ok(vec![
                     Card {
                         question: "Переведите $36\\frac{km}{h}$ в $\\frac{m}{s}$.".into(),
@@ -593,7 +597,7 @@ mod parse_qard {
             const DATA: &str = r"
             Q: DSKJF";
 
-            assert_eq!(parse(DATA), Err(ParseError::SyntaxError(1)))
+            assert_eq!(parse(DATA, false), Err(ParseError::SyntaxError(1)))
         }
 
         #[test]
@@ -621,7 +625,7 @@ mod parse_qard {
             }
 
             assert_eq!(
-                parse(DATA),
+                parse(DATA, false),
                 Ok(vec![
                     c(
                         r"$\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$",
@@ -704,6 +708,7 @@ mod latex {
         resources: &Path,
         show_progress: bool,
         force_rerender: bool,
+        verbose: bool,
     ) -> Result<Vec<RichCard>, Error>
     where
         I: IntoIterator<Item = Card>,

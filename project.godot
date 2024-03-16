@@ -13,7 +13,7 @@ config_version=5
 config/name="Deck Companion"
 config/tags=PackedStringArray("high_priority")
 run/main_scene="res://scenes/lobby/lobby.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
+config/features=PackedStringArray("4.2", "Forward Plus")
 run/low_processor_mode=true
 boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/image="res://assets/images/icon.png"
@@ -24,6 +24,7 @@ boot_splash/minimum_display_time=1500
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/vsync/vsync_mode=3
 
 [importer_defaults]
 

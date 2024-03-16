@@ -1,0 +1,2677 @@
+[gd_resource type="Resource" script_class="Deck" load_steps=536 format=3 uid="uid://b6844omk1m8hs"]
+
+[ext_resource type="Script" path="res://objects/card/deck.gd" id="1_8cews"]
+[ext_resource type="Texture2D" uid="uid://bfdexs4m4cegl" path="res://assets/images/funny_words.png" id="1_lm65h"]
+[ext_resource type="Script" path="res://objects/card/static_card.gd" id="2_ggncx"]
+
+[sub_resource type="Resource" id="Resource_5w6wy"]
+script = ExtResource("2_ggncx")
+question_text = "Name the smallest natural number."
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_2hkan"]
+script = ExtResource("2_ggncx")
+question_text = "Which numbers are natural?"
+answer_text = "Positive integers."
+
+[sub_resource type="Resource" id="Resource_6fmas"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://bw22ox1yqw5hj[/img] to [img]uid://mp0ruijlfkck[/img]."
+answer_text = "[img]uid://rgdmsd6rub00[/img]"
+
+[sub_resource type="Resource" id="Resource_55lb7"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://bx28qyanu1jmy[/img] to [img]uid://dlvka56sp05t2[/img]"
+answer_text = "[img]uid://bgvolmbbm5xt4[/img]"
+
+[sub_resource type="Resource" id="Resource_bjwxt"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://sjdc2ojvoi4m[/img] to [img]uid://bdh360vdlpltd[/img]"
+answer_text = "[img]uid://cfiqaxwjgkwqy[/img]"
+
+[sub_resource type="Resource" id="Resource_ybfsg"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://bylbus4hlv8eu[/img] to [img]uid://bvi0xi32filyw[/img]"
+answer_text = "[img]uid://cyxkytgfvyuer[/img]"
+
+[sub_resource type="Resource" id="Resource_jpbmv"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://ketemi087ua[/img] to [img]uid://uskjgk21wtdr[/img]"
+answer_text = "[img]uid://bveu332no2oq3[/img]"
+
+[sub_resource type="Resource" id="Resource_w5o2o"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://dgals3ih5wy2a[/img] in Roman numerals."
+answer_text = "[img]uid://su2g324m76id[/img]"
+
+[sub_resource type="Resource" id="Resource_2e0yg"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://cfc0o6bo7s20[/img] in Roman numerals."
+answer_text = "[img]uid://bouvdu3ly6ncj[/img]"
+
+[sub_resource type="Resource" id="Resource_ayx4b"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://7nuj1ryqlmwc[/img] in Roman numerals."
+answer_text = "[img]uid://cjjblgn1hmyrw[/img]"
+
+[sub_resource type="Resource" id="Resource_dnsen"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://beuitt41s2elr[/img] in Roman numerals."
+answer_text = "[img]uid://dwtsarpptvos3[/img]"
+
+[sub_resource type="Resource" id="Resource_ik773"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://cps1kyaq5vqj8[/img] in Roman numerals."
+answer_text = "[img]uid://s41u7nlrm7b1[/img]"
+
+[sub_resource type="Resource" id="Resource_reabc"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://su2g324m76id[/img] in Arabic numerals."
+answer_text = "[img]uid://dgals3ih5wy2a[/img]"
+
+[sub_resource type="Resource" id="Resource_vj73v"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://bouvdu3ly6ncj[/img] in Arabic numerals."
+answer_text = "[img]uid://cfc0o6bo7s20[/img]"
+
+[sub_resource type="Resource" id="Resource_n6qjy"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://cjjblgn1hmyrw[/img] in Arabic numerals."
+answer_text = "[img]uid://7nuj1ryqlmwc[/img]"
+
+[sub_resource type="Resource" id="Resource_8uqow"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://dwtsarpptvos3[/img] in Arabic numerals."
+answer_text = "[img]uid://beuitt41s2elr[/img]"
+
+[sub_resource type="Resource" id="Resource_q4xp3"]
+script = ExtResource("2_ggncx")
+question_text = "Write the number [img]uid://b4dbh7fbpql4p[/img] in Arabic numerals."
+answer_text = "[img]uid://cwws180b5d3ya[/img]"
+
+[sub_resource type="Resource" id="Resource_k5eu0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://1ix64qm1kb8j[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_fsvc3"]
+script = ExtResource("2_ggncx")
+question_text = "What is the sum of the first [img]uid://cfc0o6bo7s20[/img] natural numbers? (Gaussian method)"
+answer_text = "[img]uid://budai61xyaeoe[/img]"
+
+[sub_resource type="Resource" id="Resource_reftb"]
+script = ExtResource("2_ggncx")
+question_text = "Round [img]uid://c6fqu47y13gtt[/img] to the nearest integer."
+answer_text = "[img]uid://cps1kyaq5vqj8[/img]"
+
+[sub_resource type="Resource" id="Resource_xc8ea"]
+script = ExtResource("2_ggncx")
+question_text = "Round the number [img]uid://c1qeykehuk5ff[/img] to the nearest tenth."
+answer_text = "[img]uid://dqr84gbg57cxm[/img]"
+
+[sub_resource type="Resource" id="Resource_gq8bp"]
+script = ExtResource("2_ggncx")
+question_text = "Round the number [img]uid://bcgqei8u85ekt[/img] to the nearest hundred."
+answer_text = "[img]uid://cvj47xiwg0kpg[/img]"
+
+[sub_resource type="Resource" id="Resource_br6tn"]
+script = ExtResource("2_ggncx")
+question_text = "Round the number [img]uid://d25awnluumn6c[/img] to the nearest thousand."
+answer_text = "[img]uid://cipks1ebkqxn4[/img]"
+
+[sub_resource type="Resource" id="Resource_wpuad"]
+script = ExtResource("2_ggncx")
+question_text = "Round the number [img]uid://bx1wsajutdrqe[/img] to the nearest tenth."
+answer_text = "[img]uid://1jr8sth03to4[/img]"
+
+[sub_resource type="Resource" id="Resource_cr0lm"]
+script = ExtResource("2_ggncx")
+question_text = "Name at least 1 basic concept of Euclidean planimetry."
+answer_text = "point/line/plane."
+
+[sub_resource type="Resource" id="Resource_v6y4n"]
+script = ExtResource("2_ggncx")
+question_text = "Given the angle [img]uid://db6p2japj8u3u[/img]. What type of angle is this?"
+answer_text = "Acute angle."
+
+[sub_resource type="Resource" id="Resource_1scif"]
+script = ExtResource("2_ggncx")
+question_text = "Given an angle [img]uid://cmp2li3dpknh2[/img]. What type of angle is this?"
+answer_text = "Right angle."
+
+[sub_resource type="Resource" id="Resource_8tjdb"]
+script = ExtResource("2_ggncx")
+question_text = "Given the angle [img]uid://cmuut23dclpei[/img]. What type of angle is this?"
+answer_text = "Obtuse angle."
+
+[sub_resource type="Resource" id="Resource_122bn"]
+script = ExtResource("2_ggncx")
+question_text = "Given an angle [img]uid://loymb5shqo0b[/img]. What type of angle is this?"
+answer_text = "Straight angle."
+
+[sub_resource type="Resource" id="Resource_xjlhs"]
+script = ExtResource("2_ggncx")
+question_text = "Given the angle [img]uid://b1k4v8wcrb1cx[/img]. What type of angle is this?"
+answer_text = "Convex angle."
+
+[sub_resource type="Resource" id="Resource_kl35x"]
+script = ExtResource("2_ggncx")
+question_text = "Given an angle [img]uid://daukke0linjvd[/img]. What type of angle is this?"
+answer_text = "Complete angle."
+
+[sub_resource type="Resource" id="Resource_5inmo"]
+script = ExtResource("2_ggncx")
+question_text = "Which figure has 2 sides and 1 vertex?"
+answer_text = "at the corner."
+
+[sub_resource type="Resource" id="Resource_amqla"]
+script = ExtResource("2_ggncx")
+question_text = "Sum of the angles of a triangle with sides [img]uid://2reg0qtpgu5w[/img]?"
+answer_text = "[img]uid://d0ptmlr2dyjte[/img]"
+
+[sub_resource type="Resource" id="Resource_6pcnm"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ctx3ogghu8ciu[/img]"
+answer_text = "[img]uid://b8mjujmtjmkby[/img]"
+
+[sub_resource type="Resource" id="Resource_jx6yy"]
+script = ExtResource("2_ggncx")
+question_text = "What does it mean to solve an equation?"
+answer_text = "Find roots or prove that there are no such roots."
+
+[sub_resource type="Resource" id="Resource_3ncdf"]
+script = ExtResource("2_ggncx")
+question_text = "What is defined as a sum of all the numbers in a set divided by their count?"
+answer_text = "Arithmetic mean (average)."
+
+[sub_resource type="Resource" id="Resource_rf71n"]
+script = ExtResource("2_ggncx")
+question_text = "What is a mixed number?"
+answer_text = "The sum of the integer and fractional parts."
+
+[sub_resource type="Resource" id="Resource_hfvq1"]
+script = ExtResource("2_ggncx")
+question_text = "What number consists of a natural number and a common fraction?"
+answer_text = "Mixed number."
+
+[sub_resource type="Resource" id="Resource_ao78s"]
+script = ExtResource("2_ggncx")
+question_text = "Which fraction is improper?"
+answer_text = "A fraction in which the numerator is greater than or equal to the denominator. [img]uid://bvsxnk4bpek68[/img]"
+
+[sub_resource type="Resource" id="Resource_fyfhx"]
+script = ExtResource("2_ggncx")
+question_text = "Represent [img]uid://vnc6r81lhyh8[/img] as a mixed number."
+answer_text = "[img]uid://cc37n00l64l0p[/img]"
+
+[sub_resource type="Resource" id="Resource_hy542"]
+script = ExtResource("2_ggncx")
+question_text = "What is the whole part of [img]uid://vnc6r81lhyh8[/img]?"
+answer_text = "[img]uid://di5y3ndbdxla6[/img]"
+
+[sub_resource type="Resource" id="Resource_l5blx"]
+script = ExtResource("2_ggncx")
+question_text = "Represent [img]uid://7krji315yr8c[/img] as a mixed number."
+answer_text = "[img]uid://f328r615gv0c[/img]"
+
+[sub_resource type="Resource" id="Resource_i3ktl"]
+script = ExtResource("2_ggncx")
+question_text = "What is the whole part of [img]uid://msrtbutvn7hi[/img]?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_h3jfk"]
+script = ExtResource("2_ggncx")
+question_text = "Represent [img]uid://d24fbjwk2kd0l[/img] as an improper fraction."
+answer_text = "[img]uid://c0x62375yhjyp[/img]"
+
+[sub_resource type="Resource" id="Resource_hxcwo"]
+script = ExtResource("2_ggncx")
+question_text = "Represent [img]uid://gmmlew56h1w6[/img] as an improper fraction."
+answer_text = "[img]uid://dwn04dbns3x4m[/img]"
+
+[sub_resource type="Resource" id="Resource_yyino"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://82khqva8vcl[/img] from [img]uid://dvkimbp8h2fvq[/img]"
+answer_text = "[img]uid://54xghgsqki6k[/img]"
+
+[sub_resource type="Resource" id="Resource_85kk3"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://82khqva8vcl[/img] from [img]uid://dvkimbp8h2fvq[/img]"
+answer_text = "[img]uid://drk5s7l3ffb54[/img]"
+
+[sub_resource type="Resource" id="Resource_sag0f"]
+script = ExtResource("2_ggncx")
+question_text = "What is a polygon? (Definition)"
+answer_text = "Part of a plane bounded by a closed polyline."
+
+[sub_resource type="Resource" id="Resource_gvnr1"]
+script = ExtResource("2_ggncx")
+question_text = "What is a disk?"
+answer_text = "Part of the plane bounded by a circle."
+
+[sub_resource type="Resource" id="Resource_hklv8"]
+script = ExtResource("2_ggncx")
+question_text = "What is a circle?"
+answer_text = "A closed line whose points are all equidistant from a given point lying in the same plane."
+
+[sub_resource type="Resource" id="Resource_hn4sv"]
+script = ExtResource("2_ggncx")
+question_text = "What is a chord?"
+answer_text = "A segment connecting [img]uid://dsg7prgqjqbj2[/img] points on a circle."
+
+[sub_resource type="Resource" id="Resource_i16tu"]
+script = ExtResource("2_ggncx")
+question_text = "How to express [img]uid://dgk2gfxdxgd25[/img]"
+answer_text = "[img]uid://db5gm75h5jhf0[/img]"
+
+[sub_resource type="Resource" id="Resource_6y3c5"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://c7hasqg7l1ekj[/img]?"
+answer_text = "[img]uid://cueu7xtxtdmv4[/img] part."
+
+[sub_resource type="Resource" id="Resource_8icxt"]
+script = ExtResource("2_ggncx")
+question_text = "What is the reciprocal of [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "The reciprocal of a given number [img]uid://cv14m2jh2d2fw[/img] is the number whose product with [img]uid://cv14m2jh2d2fw[/img] equals [img]uid://cjsaekmc20eti[/img]."
+
+[sub_resource type="Resource" id="Resource_jkbqs"]
+script = ExtResource("2_ggncx")
+question_text = "What is the inverse of number [img]uid://cv14m2jh2d2fw[/img]?"
+answer_text = "The inverse of a number [img]uid://cv14m2jh2d2fw[/img] is the number whose sum with [img]uid://cv14m2jh2d2fw[/img] equal [img]uid://qbl0jdpfc35d[/img]."
+
+[sub_resource type="Resource" id="Resource_8m0at"]
+script = ExtResource("2_ggncx")
+question_text = "What's greater? [img]uid://di75vohpqoloe[/img] or [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://cvydftgleb7ba[/img]"
+
+[sub_resource type="Resource" id="Resource_8q78c"]
+script = ExtResource("2_ggncx")
+question_text = "What's greater? [img]uid://bdqnjecvbbg40[/img] or [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://cvydftgleb7ba[/img]"
+
+[sub_resource type="Resource" id="Resource_ljgtq"]
+script = ExtResource("2_ggncx")
+question_text = "What's greater? [img]uid://yjm1hj2bbeic[/img] or [img]uid://cvydftgleb7ba[/img]?"
+answer_text = "[img]uid://yjm1hj2bbeic[/img]"
+
+[sub_resource type="Resource" id="Resource_h1jli"]
+script = ExtResource("2_ggncx")
+question_text = "What is a prime number?"
+answer_text = "A natural number that has exactly [img]uid://dsg7prgqjqbj2[/img] natural divisors."
+
+[sub_resource type="Resource" id="Resource_1kx8u"]
+script = ExtResource("2_ggncx")
+question_text = "What is the smallest prime number?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_x0elm"]
+script = ExtResource("2_ggncx")
+question_text = "Can a prime number be even?"
+answer_text = "Yes, for example [img]uid://dsg7prgqjqbj2[/img]."
+
+[sub_resource type="Resource" id="Resource_e3aiy"]
+script = ExtResource("2_ggncx")
+question_text = "Is [img]uid://rl0lkeysabfd[/img] divisible by [img]uid://cdn1iopck7bjs[/img]?"
+answer_text = "Yes, since the sum of the digits is [img]uid://gmi4hkyn4obi[/img] whose sum of the digits is [img]uid://b2pqerdrt7iok[/img], which is equal to [img]uid://dtngav0go7jgh[/img], which is equal to [img]uid://djabkji8yfbsj[/img], which is definitely divisible by 3, since [img]uid://b0qwdhahxoi0p[/img], trust me on this one."
+
+[sub_resource type="Resource" id="Resource_h0ejo"]
+script = ExtResource("2_ggncx")
+question_text = "Is [img]uid://c1pi72f4w1vrm[/img] divisible by [img]uid://b2pqerdrt7iok[/img]?"
+answer_text = "Yes, because the sum of the digits is [img]uid://cma6bdc6beskx[/img], which is divisible by [img]uid://cdn1iopck7bjs[/img], and the last digit is [img]uid://dsg7prgqjqbj2[/img], which is divisible by [img]uid://dsg7prgqjqbj2[/img]."
+
+[sub_resource type="Resource" id="Resource_xysuu"]
+script = ExtResource("2_ggncx")
+question_text = "Is [img]uid://bm3e54lv5grry[/img] divisible by [img]uid://teakw34s8g53[/img]?"
+answer_text = "Yes, because the sum of the digits is [img]uid://cdqcua8dty468[/img], which is divisible by [img]uid://cdn1iopck7bjs[/img] and the last digit is [img]uid://xt1seclevjl7[/img], which is divisible by [img]uid://xt1seclevjl7[/img]. The numbers [img]uid://cdn1iopck7bjs[/img] and [img]uid://xt1seclevjl7[/img] are coprime, and the number is divisible by both [img]uid://cdn1iopck7bjs[/img] and [img]uid://xt1seclevjl7[/img], and the number is divisible by [img]uid://teakw34s8g53[/img]."
+
+[sub_resource type="Resource" id="Resource_y1dsv"]
+script = ExtResource("2_ggncx")
+question_text = "Is [img]uid://bnip7pacic0tc[/img] divisible by [img]uid://di5y3ndbdxla6[/img]?"
+answer_text = "No, because last two digits are [img]uid://cnkqbpwdw0m00[/img] which is not divisible by [img]uid://di5y3ndbdxla6[/img]."
+
+[sub_resource type="Resource" id="Resource_5kagj"]
+script = ExtResource("2_ggncx")
+question_text = "Factor [img]uid://cdqcua8dty468[/img] into prime factors."
+answer_text = "[img]uid://b5u1005q1mc2x[/img], (since [img]uid://bl2bt3nbfnfo[/img]"
+
+[sub_resource type="Resource" id="Resource_fhdua"]
+script = ExtResource("2_ggncx")
+question_text = "Factor [img]uid://cfq0eannb5pkw[/img] into prime factors."
+answer_text = "[img]uid://ct6rqvbqs671l[/img] (since [img]uid://k3wr786o3u14[/img])"
+
+[sub_resource type="Resource" id="Resource_e8122"]
+script = ExtResource("2_ggncx")
+question_text = "Factor [img]uid://ctgc8vcppnhlo[/img] into prime factors."
+answer_text = "[img]uid://bybay74evxxp[/img] (since [img]uid://bohmr6mf7mxgh[/img] )"
+
+[sub_resource type="Resource" id="Resource_5y7nw"]
+script = ExtResource("2_ggncx")
+question_text = "What numbers are coprime?"
+answer_text = "Integers that have no common natural factors other than [img]uid://cjsaekmc20eti[/img]."
+
+[sub_resource type="Resource" id="Resource_1lvej"]
+script = ExtResource("2_ggncx")
+question_text = "How do you define a distance from a point to a line?"
+answer_text = "The length of a perpendicular drawn from a point to a straight line."
+
+[sub_resource type="Resource" id="Resource_x2ib7"]
+script = ExtResource("2_ggncx")
+question_text = "What are adjacent angles?"
+answer_text = "Supplementary angles are two angles in which one side is common, and the other two complement each other to a straight line."
+
+[sub_resource type="Resource" id="Resource_g45v7"]
+script = ExtResource("2_ggncx")
+question_text = "What are vertical angles?"
+answer_text = "A pair of angles with a common vertex, which are formed by the intersection of two lines in such a way that the sides of one of them are a continuation of the sides of the other. In other words, they are opposites."
+
+[sub_resource type="Resource" id="Resource_gutkf"]
+script = ExtResource("2_ggncx")
+question_text = "What is the meaning of life?"
+answer_text = "42 (skip this question)"
+
+[sub_resource type="Resource" id="Resource_5use5"]
+script = ExtResource("2_ggncx")
+question_text = "How many pairs of supplementary angles form [img]uid://dsg7prgqjqbj2[/img] intersecting lines?"
+answer_text = "[img]uid://di5y3ndbdxla6[/img]"
+
+[sub_resource type="Resource" id="Resource_05enx"]
+script = ExtResource("2_ggncx")
+question_text = "How many pairs of vertical angles form [img]uid://dsg7prgqjqbj2[/img] intersecting lines?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_b1pxu"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe is sailing on a brigantine at a speed of [img]uid://d331sqg56sq8l[/img] against the Brazilian Current, whose speed is [img]uid://dsf5bygsretrv[/img]. How fast does Robinson Crusoe sail to get slaves for his plantation?"
+answer_text = "At a speed of [img]uid://cqyhxgjdf87t7[/img] ."
+
+[sub_resource type="Resource" id="Resource_t0ppj"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe is sailing on a sloop with a speed of [img]uid://cqc8nktkvdr5a[/img] on the Canary Current whose speed is [img]uid://byxjbrmkvgcil[/img]. How fast does Robinson Crusoe escape from slavery?"
+answer_text = "At a speed of [img]uid://48060ae2eary[/img] ."
+
+[sub_resource type="Resource" id="Resource_cs7mo"]
+script = ExtResource("2_ggncx")
+question_text = "What is the [img]uid://82khqva8vcl[/img] in [img]uid://bx0fnbae8wi3v[/img] called?"
+answer_text = "Base."
+
+[sub_resource type="Resource" id="Resource_0i4hu"]
+script = ExtResource("2_ggncx")
+question_text = "What is the [img]uid://bs3bnvjqvic3p[/img] in [img]uid://bx0fnbae8wi3v[/img] called?"
+answer_text = "Exponent."
+
+[sub_resource type="Resource" id="Resource_mfmfu"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe, in order to impress his comrades, decided to calculate the distance between London and Edinburgh. The distance on the map is [img]uid://rdw6x02bur8m[/img] and the scale is [img]uid://c7v67ic36u47n[/img]. What is the distance between London and Edinburgh in the Robinson Crusoe universe?"
+answer_text = "[img]uid://bmip4tkdmcngo[/img]"
+
+[sub_resource type="Resource" id="Resource_f1vnn"]
+script = ExtResource("2_ggncx")
+question_text = "What is the distance on the number line between points [img]uid://bs3bnvjqvic3p[/img] and [img]uid://82khqva8vcl[/img]?"
+answer_text = "[img]uid://bhaye4uavltky[/img]"
+
+[sub_resource type="Resource" id="Resource_5sgot"]
+script = ExtResource("2_ggncx")
+question_text = "What is the abscissa?"
+answer_text = "X-axis."
+
+[sub_resource type="Resource" id="Resource_ts2sv"]
+script = ExtResource("2_ggncx")
+question_text = "What is the ordinate?"
+answer_text = "Y-axis."
+
+[sub_resource type="Resource" id="Resource_3gvqa"]
+script = ExtResource("2_ggncx")
+question_text = "Which quadrant is on the bottom right?"
+answer_text = "[img]uid://c3es3ke86arut[/img] quadrant."
+
+[sub_resource type="Resource" id="Resource_ypcuj"]
+script = ExtResource("2_ggncx")
+question_text = "Which quadrant is on the top left?"
+answer_text = "[img]uid://bhxwr3eh30gew[/img] quadrant."
+
+[sub_resource type="Resource" id="Resource_46855"]
+script = ExtResource("2_ggncx")
+question_text = "What is a theorem?"
+answer_text = "A mathematical statement whose truth is established by proof."
+
+[sub_resource type="Resource" id="Resource_pl3x6"]
+script = ExtResource("2_ggncx")
+question_text = "What is an axiom?"
+answer_text = "A mathematical statement that does not require proof."
+
+[sub_resource type="Resource" id="Resource_lldst"]
+script = ExtResource("2_ggncx")
+question_text = "Into how many half planes is the plane divided by 2 intersecting lines."
+answer_text = "[img]uid://di5y3ndbdxla6[/img]"
+
+[sub_resource type="Resource" id="Resource_5q3gl"]
+script = ExtResource("2_ggncx")
+question_text = "What is a criterion?"
+answer_text = "A sufficient condition for an object to belong to a certain class."
+
+[sub_resource type="Resource" id="Resource_ijyrv"]
+script = ExtResource("2_ggncx")
+question_text = "What is a property?"
+answer_text = "A statement or law that describes a certain behavior or characteristic of mathematical objects."
+
+[sub_resource type="Resource" id="Resource_e7r35"]
+script = ExtResource("2_ggncx")
+question_text = "Petya wants to construct a triangle. He measured the lengths of three segments: [img]uid://c2wq1dpqu3hut[/img]. Help Petya determine whether he can construct a triangle with these sides."
+answer_text = "He can."
+
+[sub_resource type="Resource" id="Resource_gb3nd"]
+script = ExtResource("2_ggncx")
+question_text = "What is the type of triangle with sides [img]uid://camihe366aaw0[/img]?"
+answer_text = "Scalene obtuse triangle."
+
+[sub_resource type="Resource" id="Resource_tgt86"]
+script = ExtResource("2_ggncx")
+question_text = "How many common points can [img]uid://dsg7prgqjqbj2[/img] circles have?"
+answer_text = "[img]uid://bp4i8wju6fwsm[/img]."
+
+[sub_resource type="Resource" id="Resource_aibog"]
+script = ExtResource("2_ggncx")
+question_text = "Which circles are concentric?"
+answer_text = "Those who have a common center."
+
+[sub_resource type="Resource" id="Resource_r8vwf"]
+script = ExtResource("2_ggncx")
+question_text = "What is a ring (planimetry figure)?"
+answer_text = "A flat geometric figure bounded by two concentric circles."
+
+[sub_resource type="Resource" id="Resource_b3knb"]
+script = ExtResource("2_ggncx")
+question_text = "What is an angle?"
+answer_text = "Part of the plane bounded by 2 rays with the same vertex."
+
+[sub_resource type="Resource" id="Resource_kwr7t"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://lw6bxffmisku[/img] to arcseconds."
+answer_text = "[img]uid://dbcfwgq2egsmr[/img]"
+
+[sub_resource type="Resource" id="Resource_p6tvn"]
+script = ExtResource("2_ggncx")
+question_text = "What is the bisector of an angle?"
+answer_text = "A ray emanating from the vertex of an angle and dividing that angle into two equal angles."
+
+[sub_resource type="Resource" id="Resource_i8r5g"]
+script = ExtResource("2_ggncx")
+question_text = "What is the median in a triangle?"
+answer_text = "A line segment in a triangle connecting a vertex of the triangle to the midpoint of the side opposite that vertex."
+
+[sub_resource type="Resource" id="Resource_synfo"]
+script = ExtResource("2_ggncx")
+question_text = "What is the height of a triangle?"
+answer_text = "A perpendicular drawn from the vertex of a triangle to a line containing the opposite side."
+
+[sub_resource type="Resource" id="Resource_fryjh"]
+script = ExtResource("2_ggncx")
+question_text = "What is a perpendicular bisector?"
+answer_text = "A line perpendicular to a given segment and passing through its middle.
+
+101. What are corresponding angles? A: These are two angles formed by intersecting two parallel lines with a third, one in the outer region, one in the inner region, and which lie on the same side of the transversal."
+
+[sub_resource type="Resource" id="Resource_526em"]
+script = ExtResource("2_ggncx")
+question_text = "What are alternate angles?"
+answer_text = "These are two angles in the interior region of two parallel lines and on different sides of the transversal. Crossed angles are equal in pairs."
+
+[sub_resource type="Resource" id="Resource_8ntcs"]
+script = ExtResource("2_ggncx")
+question_text = "What are interior opposite angles angles?"
+answer_text = "These are the angles that lie on the same side of the transversal inside parallel lines."
+
+[sub_resource type="Resource" id="Resource_oh2t4"]
+script = ExtResource("2_ggncx")
+question_text = "What is a sampling?"
+answer_text = "The part of the population of elements that is covered by the experiment."
+
+[sub_resource type="Resource" id="Resource_t8t5d"]
+script = ExtResource("2_ggncx")
+question_text = "What is a population?"
+answer_text = "The set of all objects about which it is expected to draw conclusions when studying a specific experiment."
+
+[sub_resource type="Resource" id="Resource_xmnoy"]
+script = ExtResource("2_ggncx")
+question_text = "How to calculate the probability of outcomes of an equally probable event?"
+answer_text = "Divide the number of desired outcomes by the number of all outcomes."
+
+[sub_resource type="Resource" id="Resource_scagn"]
+script = ExtResource("2_ggncx")
+question_text = "What is the probability of an inevitable event?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_bty32"]
+script = ExtResource("2_ggncx")
+question_text = "What is the probability of an impossible event?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_6nu4s"]
+script = ExtResource("2_ggncx")
+question_text = "What is the probability interval for a random event?"
+answer_text = "[img]uid://tw8hjsj5e8po[/img]"
+
+[sub_resource type="Resource" id="Resource_7iq8m"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ys2c5loyufou[/img]"
+answer_text = "[img]uid://cq244v03hxteb[/img]"
+
+[sub_resource type="Resource" id="Resource_3puix"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://vkkg5ujqxdsj[/img]"
+answer_text = "[img]uid://b5yat8x0bdcv8[/img]"
+
+[sub_resource type="Resource" id="Resource_hfrct"]
+script = ExtResource("2_ggncx")
+question_text = "Which polygon is convex?"
+answer_text = "A polygon whose angles are all less than [img]uid://d0ptmlr2dyjte[/img]."
+
+[sub_resource type="Resource" id="Resource_xn5tl"]
+script = ExtResource("2_ggncx")
+question_text = "Which polygon is concave?"
+answer_text = "A polygon that has at least [img]uid://cjsaekmc20eti[/img] angle that is less than [img]uid://d0ptmlr2dyjte[/img]."
+
+[sub_resource type="Resource" id="Resource_wdjxw"]
+script = ExtResource("2_ggncx")
+question_text = "Is a disk concave?"
+answer_text = "No, the disk is convex. (Between any 2 points you can draw a straight line, all points of which will be contained in the figure)"
+
+[sub_resource type="Resource" id="Resource_n0ltc"]
+script = ExtResource("2_ggncx")
+question_text = "Is a circle concave?"
+answer_text = "Yes."
+
+[sub_resource type="Resource" id="Resource_drcby"]
+script = ExtResource("2_ggncx")
+question_text = "State the Pythagorean theorem in words."
+answer_text = "In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides."
+
+[sub_resource type="Resource" id="Resource_h0g4m"]
+script = ExtResource("2_ggncx")
+question_text = "What is the exterior angle of a triangle?"
+answer_text = "[img]uid://br6657fr7rtxn[/img]"
+
+[sub_resource type="Resource" id="Resource_pn4fx"]
+script = ExtResource("2_ggncx")
+question_text = "Where will the center of the inscribed circle in the triangle lie?"
+answer_text = "At the intersection of bisectors."
+
+[sub_resource type="Resource" id="Resource_k6mfa"]
+script = ExtResource("2_ggncx")
+question_text = "Where will the center of the circumscribed circle of the triangle lie?"
+answer_text = "At the intersection of perpendicular bisectors."
+
+[sub_resource type="Resource" id="Resource_kt6dt"]
+script = ExtResource("2_ggncx")
+question_text = "What is a function? Dependency where each argument value belongs to ___ function value."
+answer_text = "At most one."
+
+[sub_resource type="Resource" id="Resource_2scbb"]
+script = ExtResource("2_ggncx")
+question_text = "What is the difference between the domain of definition and the domain of value of a function."
+answer_text = "The domain of the function [img]uid://bw3y5q2iqehf3[/img] is the set of all valid values of the variable [img]uid://cv14m2jh2d2fw[/img]. The function can only be defined for those values for which the expression [img]uid://m00c3ciflloj[/img] is defined."
+
+[sub_resource type="Resource" id="Resource_xlcnj"]
+script = ExtResource("2_ggncx")
+question_text = "Name at least 3 ways of defining a graph."
+answer_text = "Words, table, pictogram, diagram, formula, graph."
+
+[sub_resource type="Resource" id="Resource_8p8xm"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://eq3vu767phr2[/img] Find the point of intersection with the x-axis."
+answer_text = "[img]uid://qvejta2hng0o[/img]"
+
+[sub_resource type="Resource" id="Resource_kb7yh"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://eq3vu767phr2[/img] Find the point of intersection with the y-axis."
+answer_text = "[img]uid://df2er7vaq6k0j[/img]"
+
+[sub_resource type="Resource" id="Resource_h5kwn"]
+script = ExtResource("2_ggncx")
+question_text = "How to find [img]uid://5e14ricor42c[/img] if given points [img]uid://pa58im15dj66[/img] and [img]uid://t8ay0fhvvj8c[/img] of a linear function?"
+answer_text = "[img]uid://bxyexmhe8lt1i[/img]"
+
+[sub_resource type="Resource" id="Resource_jd33v"]
+script = ExtResource("2_ggncx")
+question_text = "Given lines [img]uid://dsdi6kpi1k8xl[/img] and [img]uid://dkoxgsuffkhq8[/img]. Under what condition will they be parallel?"
+answer_text = "[img]uid://cb1447lgnrt5h[/img]"
+
+[sub_resource type="Resource" id="Resource_xyc5v"]
+script = ExtResource("2_ggncx")
+question_text = "Given straight lines [img]uid://dsdi6kpi1k8xl[/img] and [img]uid://dkoxgsuffkhq8[/img]. Under what condition will they be perpendicular?"
+answer_text = "[img]uid://hwcmpf4hmei4[/img]"
+
+[sub_resource type="Resource" id="Resource_bt1hc"]
+script = ExtResource("2_ggncx")
+question_text = "What symmetry does an isosceles triangle have: axial or central?"
+answer_text = "Axial."
+
+[sub_resource type="Resource" id="Resource_wlec4"]
+script = ExtResource("2_ggncx")
+question_text = "What symmetry does a circle have: axial or central?"
+answer_text = "Both."
+
+[sub_resource type="Resource" id="Resource_bqxbu"]
+script = ExtResource("2_ggncx")
+question_text = "What is the standard form of a number?"
+answer_text = "[img]uid://jxpf2lybj4gl[/img]"
+
+[sub_resource type="Resource" id="Resource_fen0d"]
+script = ExtResource("2_ggncx")
+question_text = "Is it possible to represent [img]uid://qbl0jdpfc35d[/img] in standard form?"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_dgoyc"]
+script = ExtResource("2_ggncx")
+question_text = "Express the number [img]uid://c2jlc28suk81q[/img] in standard form."
+answer_text = "[img]uid://bbojisknypc4f[/img]"
+
+[sub_resource type="Resource" id="Resource_kk7pw"]
+script = ExtResource("2_ggncx")
+question_text = "What is the degree of the polynomial [img]uid://b4iqxn1na5s6f[/img]?"
+answer_text = "[img]uid://xt1seclevjl7[/img]"
+
+[sub_resource type="Resource" id="Resource_qxfkx"]
+script = ExtResource("2_ggncx")
+question_text = "What is the degree of the polynomial [img]uid://bf3mx5n4x0cnb[/img]?"
+answer_text = "[img]uid://boe53ymn8g8au[/img]"
+
+[sub_resource type="Resource" id="Resource_bbuko"]
+script = ExtResource("2_ggncx")
+question_text = "What is the degree of the monomial [img]uid://bmgsuam7k8pgb[/img]?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_vu221"]
+script = ExtResource("2_ggncx")
+question_text = "What is the degree of the monomial [img]uid://bvtho4gc0fgob[/img]?"
+answer_text = "[img]uid://boe53ymn8g8au[/img]"
+
+[sub_resource type="Resource" id="Resource_fw5al"]
+script = ExtResource("2_ggncx")
+question_text = "How to determine the degree of a polynomial?"
+answer_text = "Find the greatest of the degrees of the monomials."
+
+[sub_resource type="Resource" id="Resource_ahur4"]
+script = ExtResource("2_ggncx")
+question_text = "Which monomials are similar?"
+answer_text = "Those that differ only in the constant."
+
+[sub_resource type="Resource" id="Resource_afhns"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bue44662j4ety[/img]"
+answer_text = "[img]uid://bjfm4yfyylxwr[/img]."
+
+[sub_resource type="Resource" id="Resource_b848i"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://begvw0xmmhhxj[/img]"
+answer_text = "[img]uid://di4rnethy8ukm[/img]."
+
+[sub_resource type="Resource" id="Resource_eqkuv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://df7wuenei1io3[/img]"
+answer_text = "[img]uid://brpdba7h02epg[/img]."
+
+[sub_resource type="Resource" id="Resource_3vj3i"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dtaufag5dp8sj[/img]"
+answer_text = "[img]uid://ofu4jbworeo5[/img]"
+
+[sub_resource type="Resource" id="Resource_rt6rv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://berk4yafw5krs[/img]"
+answer_text = "[img]uid://c0xrhew8chrcs[/img]"
+
+[sub_resource type="Resource" id="Resource_iw1bb"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bmlauehbiputr[/img]"
+answer_text = "[img]uid://8ebo8ycr0tn7[/img]"
+
+[sub_resource type="Resource" id="Resource_42f1l"]
+script = ExtResource("2_ggncx")
+question_text = "Factor [img]uid://dqb24wex3g7fi[/img]."
+answer_text = "[img width=660]uid://bl2lkik0xps1k[/img]
+or
+[img]uid://4tx5sej7sgot[/img]"
+
+[sub_resource type="Resource" id="Resource_um0up"]
+script = ExtResource("2_ggncx")
+question_text = "Name at least 2 ways of factorization."
+answer_text = "Isolating the common factor, grouping, special factoring formulas, quadratic polynomial expansion."
+
+[sub_resource type="Resource" id="Resource_gd55q"]
+script = ExtResource("2_ggncx")
+question_text = "Factor: [img]uid://cxqbsp6e00wli[/img]"
+answer_text = "[img]uid://kkwnmogwc33a[/img]"
+
+[sub_resource type="Resource" id="Resource_hcmmf"]
+script = ExtResource("2_ggncx")
+question_text = "Factor: [img]uid://b7v03qlkaialt[/img]"
+answer_text = "[img]uid://dai255oumjxwg[/img]"
+
+[sub_resource type="Resource" id="Resource_yjmow"]
+script = ExtResource("2_ggncx")
+question_text = "Factor: [img]uid://ci0654o1x3q6v[/img]"
+answer_text = "[img width=660]uid://cn5brq8u1rfa7[/img]"
+
+[sub_resource type="Resource" id="Resource_3tajr"]
+script = ExtResource("2_ggncx")
+question_text = "Factor: [img]uid://dcoily7b0i3bo[/img]"
+answer_text = "[img]uid://dqjqk47mfhspq[/img]"
+
+[sub_resource type="Resource" id="Resource_kan67"]
+script = ExtResource("2_ggncx")
+question_text = "Sum of angles of a [img]uid://doofvucas5eu[/img]-gon (Polygon with [img]uid://c8bx0r2ai1blx[/img] side)?"
+answer_text = "[img]uid://c81ds6qxilpmg[/img]"
+
+[sub_resource type="Resource" id="Resource_exrog"]
+script = ExtResource("2_ggncx")
+question_text = "Sum of angles is [img]uid://ddviox486wjek[/img]. How many angles does this polygon have?"
+answer_text = "[img]uid://xt1seclevjl7[/img]"
+
+[sub_resource type="Resource" id="Resource_ux1jp"]
+script = ExtResource("2_ggncx")
+question_text = "What is a parallelogram?"
+answer_text = "A quadrilateral whose opposite sides are parallel in pairs."
+
+[sub_resource type="Resource" id="Resource_ifd8f"]
+script = ExtResource("2_ggncx")
+question_text = "How to find the area of a parallelogram with side [img]uid://d2b1kvtet7vpq[/img] and height [img]uid://doofvucas5eu[/img]?"
+answer_text = "[img]uid://g0vq1pkhglti[/img]"
+
+[sub_resource type="Resource" id="Resource_t1mpi"]
+script = ExtResource("2_ggncx")
+question_text = "What is a rectangle?"
+answer_text = "A parallelogram with all angles right."
+
+[sub_resource type="Resource" id="Resource_l8d6w"]
+script = ExtResource("2_ggncx")
+question_text = "What is a square?"
+answer_text = "A rectangle with all sides equal."
+
+[sub_resource type="Resource" id="Resource_4xfkp"]
+script = ExtResource("2_ggncx")
+question_text = "What is a rhombus?"
+answer_text = "A parallelogram with all sides equal."
+
+[sub_resource type="Resource" id="Resource_oqfha"]
+script = ExtResource("2_ggncx")
+question_text = "What is the graph of [img]uid://bjnmmgkpqvluj[/img] ?"
+answer_text = "Branch of a parabola."
+
+[sub_resource type="Resource" id="Resource_nrflu"]
+script = ExtResource("2_ggncx")
+question_text = "What is a square root for number [img]uid://bs3bnvjqvic3p[/img]?"
+answer_text = "The square root of [img]uid://bs3bnvjqvic3p[/img] is the number [img]uid://cv14m2jh2d2fw[/img] that gives [img]uid://bs3bnvjqvic3p[/img] when squared."
+
+[sub_resource type="Resource" id="Resource_bfoqo"]
+script = ExtResource("2_ggncx")
+question_text = "What is the difference between an ordinary square root and an arithmetic root?"
+answer_text = "The arithmetic square root (unlike the ordinary one) is always non-negative."
+
+[sub_resource type="Resource" id="Resource_2lob5"]
+script = ExtResource("2_ggncx")
+question_text = "What is an arithmetic sequence?"
+answer_text = "A sequence of numbers in which each number, starting with the second, is obtained from the previous one by adding to it a constant number."
+
+[sub_resource type="Resource" id="Resource_yesqe"]
+script = ExtResource("2_ggncx")
+question_text = "What is the general relation for a member number [img]uid://vwhvlp81re2s[/img] in an arithmetic progression?"
+answer_text = "[img]uid://bhbnxelh24nld[/img]"
+
+[sub_resource type="Resource" id="Resource_fj1mr"]
+script = ExtResource("2_ggncx")
+question_text = "What is the recurrence relation for the member number [img]uid://vwhvlp81re2s[/img] in an arithmetic progression?"
+answer_text = "[img]uid://q14ld4il7ouu[/img]"
+
+[sub_resource type="Resource" id="Resource_856hk"]
+script = ExtResource("2_ggncx")
+question_text = "What is the difference between a recurrence and a general relation?"
+answer_text = "A recurrence relation expresses each member of a sequence depending on other members, and a general relation expresses each member using its index."
+
+[sub_resource type="Resource" id="Resource_p375m"]
+script = ExtResource("2_ggncx")
+question_text = "Does the arithmetic sequence where [img]uid://bmnclqd0hsnbr[/img] increase?"
+answer_text = "Yes."
+
+[sub_resource type="Resource" id="Resource_poxd5"]
+script = ExtResource("2_ggncx")
+question_text = "How to find the sum of the first N terms of an arithmetic progression?"
+answer_text = "[img]uid://bmp4ygvhc2gij[/img]"
+
+[sub_resource type="Resource" id="Resource_p4tx2"]
+script = ExtResource("2_ggncx")
+question_text = "What is a geometric series?"
+answer_text = "A numerical sequence, each member of which differs from the previous one by a certain constant."
+
+[sub_resource type="Resource" id="Resource_is3ky"]
+script = ExtResource("2_ggncx")
+question_text = "What is the general relation for a member of a geometric progression?"
+answer_text = "[img]uid://dx0dmolckosj6[/img]"
+
+[sub_resource type="Resource" id="Resource_d5tep"]
+script = ExtResource("2_ggncx")
+question_text = "What is the recurrence relation for a geometric series term?"
+answer_text = "[img]uid://ch677hifrnats[/img]"
+
+[sub_resource type="Resource" id="Resource_nt5jd"]
+script = ExtResource("2_ggncx")
+question_text = "Does the geometric series where [img]uid://du1p8cbi15hse[/img] increase?"
+answer_text = "Yes."
+
+[sub_resource type="Resource" id="Resource_mym1v"]
+script = ExtResource("2_ggncx")
+question_text = "What is the sum of the first [img]uid://dw2673886cfd6[/img] terms of the arithmetic progression defines by the formula [img]uid://dura0aerabuoi[/img]?"
+answer_text = "[img]uid://bnglkby6xd877[/img]"
+
+[sub_resource type="Resource" id="Resource_a2t2k"]
+script = ExtResource("2_ggncx")
+question_text = "What is the sum of the smallest [img]uid://xt1seclevjl7[/img] prime numbers?"
+answer_text = "[img]uid://d3ukdfpb2um4v[/img]"
+
+[sub_resource type="Resource" id="Resource_huqlq"]
+script = ExtResource("2_ggncx")
+question_text = "What is the area of a sector of [img]uid://ufmk341f4vrc[/img] and [img]uid://s6ihitrldb2h[/img]?"
+answer_text = "[img]uid://dwwatrwcr3jtc[/img]"
+
+[sub_resource type="Resource" id="Resource_vealp"]
+script = ExtResource("2_ggncx")
+question_text = "How to find the area of an equilateral triangle?"
+answer_text = "[img]uid://bouvoawnlg282[/img]"
+
+[sub_resource type="Resource" id="Resource_3eo31"]
+script = ExtResource("2_ggncx")
+question_text = "How many roots will the equation [img]uid://c8uynq73qn585[/img] have?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_ipg5b"]
+script = ExtResource("2_ggncx")
+question_text = "How many roots will the equation [img]uid://c4lnv8p1t33ji[/img] have?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_j08jr"]
+script = ExtResource("2_ggncx")
+question_text = "How many roots will the equation [img]uid://tylked5gxa54[/img], [img]uid://df0thhlt5xg3m[/img] have?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_0bmbs"]
+script = ExtResource("2_ggncx")
+question_text = "Solve the equation [img]uid://tvke5sefw7p7[/img]."
+answer_text = "[img]uid://dmdqj2mqjwut0[/img]"
+
+[sub_resource type="Resource" id="Resource_bnik7"]
+script = ExtResource("2_ggncx")
+question_text = "Solve the equation [img]uid://b13s6v72rnf1m[/img]."
+answer_text = "[img]uid://domgaktx1d0mv[/img]"
+
+[sub_resource type="Resource" id="Resource_2s4dd"]
+script = ExtResource("2_ggncx")
+question_text = "What is the domain of value and domain of definition of the function [img]uid://dakj1wxi3f8rc[/img]?"
+answer_text = "[img]uid://bqaxcei4hokwl[/img]"
+
+[sub_resource type="Resource" id="Resource_lk42l"]
+script = ExtResource("2_ggncx")
+question_text = "Find the parabolic vertex coordinates of the function [img]uid://brntc5gcb4eqx[/img]"
+answer_text = "[img]uid://tb3ytqt8d810[/img]"
+
+[sub_resource type="Resource" id="Resource_62yyk"]
+script = ExtResource("2_ggncx")
+question_text = "Find the sum of the roots of the equation [img]uid://jjbdbou5qyoj[/img]"
+answer_text = "[img]uid://c6lcs5bhpfl2t[/img]"
+
+[sub_resource type="Resource" id="Resource_dhle0"]
+script = ExtResource("2_ggncx")
+question_text = "Find the sum of the roots of the equation [img]uid://dc6opyt1bnncc[/img]"
+answer_text = "[img]uid://bb6qfiuso7mws[/img]"
+
+[sub_resource type="Resource" id="Resource_1v0ny"]
+script = ExtResource("2_ggncx")
+question_text = "Solve the equation [img]uid://dsfttomaijys1[/img]"
+answer_text = "There are no solutions."
+
+[sub_resource type="Resource" id="Resource_qr1g2"]
+script = ExtResource("2_ggncx")
+question_text = "Solve the equation [img]uid://ingbfl8dkm4j[/img]."
+answer_text = "[img]uid://dk27i2sxhov55[/img]"
+
+[sub_resource type="Resource" id="Resource_1uv8b"]
+script = ExtResource("2_ggncx")
+question_text = "Solve the equation [img]uid://ds4m85gp0qu8r[/img]."
+answer_text = "[img]uid://dq668va2bpdws[/img]"
+
+[sub_resource type="Resource" id="Resource_cp7a8"]
+script = ExtResource("2_ggncx")
+question_text = "Given an isosceles right triangle, opposite the angle [img]uid://dhxm082hd6svd[/img] is a side [img]uid://cnnawsy8g1p4q[/img]. What is the hypotenuse equal to?"
+answer_text = "[img]uid://by2bsmcvhsi4y[/img]"
+
+[sub_resource type="Resource" id="Resource_mtasp"]
+script = ExtResource("2_ggncx")
+question_text = "Given a triangle with angles [img]uid://ufmk341f4vrc[/img], [img]uid://bbi53eju1312f[/img], [img]uid://bbtvygxrsy5bp[/img], opposite the angle [img]uid://ufmk341f4vrc[/img] is a side [img]uid://b16xh7mn4c1rk[/img]. What are the other 2 sides equal to?"
+answer_text = "[img]uid://b2026yhotumdm[/img]."
+
+[sub_resource type="Resource" id="Resource_wrr30"]
+script = ExtResource("2_ggncx")
+question_text = "The longest side of a squared triangle is greater than the sum of the squares of the other two sides. What type of triangle is this?"
+answer_text = "Obtuse triangle."
+
+[sub_resource type="Resource" id="Resource_ctgnk"]
+script = ExtResource("2_ggncx")
+question_text = "The longest side of a squared triangle is smaller than the sum of the squares of the other two sides. What type of triangle is this?"
+answer_text = "Acute triangle."
+
+[sub_resource type="Resource" id="Resource_5sjjv"]
+script = ExtResource("2_ggncx")
+question_text = "What is a trapezoid?"
+answer_text = "A trapezoid is a quadrilateral two sides of which are parallel and the other two sides are not parallel."
+
+[sub_resource type="Resource" id="Resource_wn4r2"]
+script = ExtResource("2_ggncx")
+question_text = "Which trapezoid is isosceles?"
+answer_text = "A trapezoid whose sides are equal."
+
+[sub_resource type="Resource" id="Resource_nwmh0"]
+script = ExtResource("2_ggncx")
+question_text = "Which trapezoid is scalene?"
+answer_text = "A trapezoid that is neither rectangular nor isosceles."
+
+[sub_resource type="Resource" id="Resource_s6h2o"]
+script = ExtResource("2_ggncx")
+question_text = "Which trapezoid is right?"
+answer_text = "A trapezoid with one side perpendicular to the base."
+
+[sub_resource type="Resource" id="Resource_8xux8"]
+script = ExtResource("2_ggncx")
+question_text = "What is the center line in a triangle?"
+answer_text = "A segment connecting the centers of [img]uid://dsg7prgqjqbj2[/img] sides."
+
+[sub_resource type="Resource" id="Resource_6knnr"]
+script = ExtResource("2_ggncx")
+question_text = "What is the center line in a trapezoid?"
+answer_text = "a segment connecting the centers of [img]uid://dsg7prgqjqbj2[/img] of the sides."
+
+[sub_resource type="Resource" id="Resource_idbog"]
+script = ExtResource("2_ggncx")
+question_text = "How to find the area of a trapezoid?"
+answer_text = "[img]uid://c0np2d2cc6f8i[/img]"
+
+[sub_resource type="Resource" id="Resource_nnj1i"]
+script = ExtResource("2_ggncx")
+question_text = "What is a median (in statistics)?"
+answer_text = "The middle point of a sorted sequence."
+
+[sub_resource type="Resource" id="Resource_n81yj"]
+script = ExtResource("2_ggncx")
+question_text = "What is a mode (in statistics)?"
+answer_text = "The most frequent number in a sent."
+
+[sub_resource type="Resource" id="Resource_54k20"]
+script = ExtResource("2_ggncx")
+question_text = "What is an amplitude?"
+answer_text = "The difference between the maximum and minimum value in a set."
+
+[sub_resource type="Resource" id="Resource_qj0uk"]
+script = ExtResource("2_ggncx")
+question_text = "What is the relative frequency of [img]uid://xt1seclevjl7[/img] on [img]uid://pfb8kvhwmvsv[/img]?"
+answer_text = "[img]uid://cr2x61tvois7l[/img]"
+
+[sub_resource type="Resource" id="Resource_gdpdj"]
+script = ExtResource("2_ggncx")
+question_text = "What is the average on [img]uid://bvqx41p88805q[/img]?"
+answer_text = "[img]uid://bnglkby6xd877[/img]"
+
+[sub_resource type="Resource" id="Resource_uhimg"]
+script = ExtResource("2_ggncx")
+question_text = "What is the median on [img]uid://cxfcldgmwgs1y[/img]?"
+answer_text = "[img]uid://b2x64twl0mgk7[/img]"
+
+[sub_resource type="Resource" id="Resource_6oyxq"]
+script = ExtResource("2_ggncx")
+question_text = "What is an algebraic rational expression?"
+answer_text = "Expression which contains a division by a variable."
+
+[sub_resource type="Resource" id="Resource_en4ck"]
+script = ExtResource("2_ggncx")
+question_text = "Determine the range of value [img]uid://b1fdhivebd1k4[/img]"
+answer_text = "[img]uid://bbo1o8djjird0[/img]"
+
+[sub_resource type="Resource" id="Resource_awwx2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cr13dv4cje83[/img]"
+answer_text = "[img]uid://cf4u8672foava[/img]"
+
+[sub_resource type="Resource" id="Resource_1d5tc"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://5o5ikeftk8o2[/img]"
+answer_text = "[img]uid://ccf47ch4b24i4[/img]"
+
+[sub_resource type="Resource" id="Resource_ww76x"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://caxgf416mtnok[/img]"
+answer_text = "[img]uid://dk7iahpa0wini[/img]"
+
+[sub_resource type="Resource" id="Resource_lpj1u"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://b5ld5xpj6px3o[/img]"
+answer_text = "[img]uid://cu4kfqwmdyy4v[/img]"
+
+[sub_resource type="Resource" id="Resource_jttc5"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cchoax7sxxebw[/img]"
+answer_text = "[img]uid://cob51021t7lq6[/img]"
+
+[sub_resource type="Resource" id="Resource_t1rje"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ce5mqjpimq2fk[/img]"
+answer_text = "[img]uid://dyl0x7vtvthj3[/img]"
+
+[sub_resource type="Resource" id="Resource_byoov"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://bm0d7dg28jbi4[/img]"
+answer_text = "[img]uid://dvbp47tgydgig[/img]"
+
+[sub_resource type="Resource" id="Resource_5wqab"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cstbdyguf6bjr[/img]"
+answer_text = "[img]uid://bbmmps5sxalil[/img]"
+
+[sub_resource type="Resource" id="Resource_1yhok"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://cbdwscrf0udc0[/img]"
+answer_text = "[img]uid://bjr8n8pyp3apw[/img]"
+
+[sub_resource type="Resource" id="Resource_xckgy"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://r2e2st71oqpa[/img] with angles [img]uid://b5oc0dj4a8vn2[/img] and sides [img]uid://2reg0qtpgu5w[/img]. [img]uid://b8c441anghyyv[/img]. [img]uid://ddlc4yjp34xwe[/img]"
+answer_text = "[img]uid://de3dlxqlja4nn[/img]"
+
+[sub_resource type="Resource" id="Resource_mkwup"]
+script = ExtResource("2_ggncx")
+question_text = "Is the given graph of [img]uid://cohdvj5anp220[/img] a function or a relation?"
+answer_text = "Function."
+
+[sub_resource type="Resource" id="Resource_20yfw"]
+script = ExtResource("2_ggncx")
+question_text = "Is the given graph of [img]uid://julqdum7qlkg[/img] a function or a relation?"
+answer_text = "Relation."
+
+[sub_resource type="Resource" id="Resource_qq35i"]
+script = ExtResource("2_ggncx")
+question_text = "Is the given graph of [img]uid://d1npn8woev3cf[/img] a function or a relation?"
+answer_text = "Function."
+
+[sub_resource type="Resource" id="Resource_3jklr"]
+script = ExtResource("2_ggncx")
+question_text = "Is the given graph of [img]uid://cj4kq6vvmnnj6[/img] a function or a relation?"
+answer_text = "Relation."
+
+[sub_resource type="Resource" id="Resource_v2ky5"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of a linear function?"
+answer_text = "Line."
+
+[sub_resource type="Resource" id="Resource_nj7ld"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of a quadratic function?"
+answer_text = "Parabola."
+
+[sub_resource type="Resource" id="Resource_ku6nb"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the expression [img]uid://bjnmmgkpqvluj[/img]?"
+answer_text = "Branch of a parabola."
+
+[sub_resource type="Resource" id="Resource_qcb5a"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the inverse proportionality graph?"
+answer_text = "Hyperbole."
+
+[sub_resource type="Resource" id="Resource_pmsxh"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of an exponential function?"
+answer_text = "Exponentioal."
+
+[sub_resource type="Resource" id="Resource_sc2fv"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://8srt4xi511fa[/img]?"
+answer_text = "Sine or cosine."
+
+[sub_resource type="Resource" id="Resource_o37ol"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://bpoej7u8a5gl[/img]?"
+answer_text = "Sine or cosine."
+
+[sub_resource type="Resource" id="Resource_0uxny"]
+script = ExtResource("2_ggncx")
+question_text = "What is a graph of a function?"
+answer_text = "A set of points whose coordinates correspond to the values of the argument and function."
+
+[sub_resource type="Resource" id="Resource_c8xyn"]
+script = ExtResource("2_ggncx")
+question_text = "What are the coordinates of a point?"
+answer_text = "A pair of numbers indicating the location of a point on the coordinate plane."
+
+[sub_resource type="Resource" id="Resource_ur1y1"]
+script = ExtResource("2_ggncx")
+question_text = "Find the axis of symmetry of the function [img]uid://cr030imn4d1o2[/img]."
+answer_text = "[img]uid://c74u6c23i0x1i[/img]"
+
+[sub_resource type="Resource" id="Resource_t5hs0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://jaeyupxtd0b7[/img], find the x coordinate of the parabola vertex."
+answer_text = "[img]uid://dqbiq4areeqpl[/img]"
+
+[sub_resource type="Resource" id="Resource_0kkq0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bboy2617wi5pi[/img], find the x coordinate of the parabola vertex."
+answer_text = "[img]uid://cq70gb0kxeq86[/img]"
+
+[sub_resource type="Resource" id="Resource_eua1m"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dfxoxcb5fclb5[/img]"
+answer_text = "[img]uid://c05ovnfqpd445[/img]"
+
+[sub_resource type="Resource" id="Resource_42gw2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://2slyd7x565ko[/img]"
+answer_text = "[img]uid://b8o04cblc210r[/img]"
+
+[sub_resource type="Resource" id="Resource_7jupu"]
+script = ExtResource("2_ggncx")
+question_text = "What is a tangent?"
+answer_text = "A line that has exactly one common point with a curve."
+
+[sub_resource type="Resource" id="Resource_g7vta"]
+script = ExtResource("2_ggncx")
+question_text = "What is the interposition of the tangent and the radius constructed to the intersection point?"
+answer_text = "They are perpendicular."
+
+[sub_resource type="Resource" id="Resource_cmvh1"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dg8xu41vtcnss[/img]"
+answer_text = "[img]uid://cvp4woad45s2h[/img]"
+
+[sub_resource type="Resource" id="Resource_2dbp4"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://d2wb0jd6p0768[/img]"
+answer_text = "[img]uid://bk3smxbu1q2yx[/img]"
+
+[sub_resource type="Resource" id="Resource_6hrec"]
+script = ExtResource("2_ggncx")
+question_text = "What is vectorial value?"
+answer_text = "A quantity that has a direction."
+
+[sub_resource type="Resource" id="Resource_x2xve"]
+script = ExtResource("2_ggncx")
+question_text = "What is a scalar quantity?"
+answer_text = "A quantity that has no direction."
+
+[sub_resource type="Resource" id="Resource_3r8jw"]
+script = ExtResource("2_ggncx")
+question_text = "What is a scalar quantity?"
+answer_text = "A quantity that has only a numerical value."
+
+[sub_resource type="Resource" id="Resource_bt67c"]
+script = ExtResource("2_ggncx")
+question_text = "What is a vector?"
+answer_text = "Oriented line segment."
+
+[sub_resource type="Resource" id="Resource_nq7mk"]
+script = ExtResource("2_ggncx")
+question_text = "What is the modulus of a vector?"
+answer_text = "Length of a vector."
+
+[sub_resource type="Resource" id="Resource_nge3o"]
+script = ExtResource("2_ggncx")
+question_text = "What is the length of a vector?"
+answer_text = "Length of the directed segment defining the vector."
+
+[sub_resource type="Resource" id="Resource_2k44a"]
+script = ExtResource("2_ggncx")
+question_text = "Which vectors are collinear?"
+answer_text = "Lying on parallel or one straight line."
+
+[sub_resource type="Resource" id="Resource_uuuwr"]
+script = ExtResource("2_ggncx")
+question_text = "Which vectors are like?"
+answer_text = "Collinear vectors that point in the same direction."
+
+[sub_resource type="Resource" id="Resource_v86xu"]
+script = ExtResource("2_ggncx")
+question_text = "Which vectors are unlike?"
+answer_text = "Collinear vectors that do not point in the same direction."
+
+[sub_resource type="Resource" id="Resource_y8fnj"]
+script = ExtResource("2_ggncx")
+question_text = "Which vectors are opposite?"
+answer_text = "[img]uid://dt5j3rarpcisv[/img]"
+
+[sub_resource type="Resource" id="Resource_35gen"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://b0fpeccfgj1m5[/img] mean?"
+answer_text = "Vectors are collinear."
+
+[sub_resource type="Resource" id="Resource_1pf7m"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://cdivhmqvk426[/img] mean?"
+answer_text = "The vectors are opposite."
+
+[sub_resource type="Resource" id="Resource_6dcfl"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://b2oiwtr8fm5c2[/img] mean?"
+answer_text = "The vectors are like vectors."
+
+[sub_resource type="Resource" id="Resource_s82o1"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://d2qu65oyu1fho[/img] mean?"
+answer_text = "The vectors are unlike vectors."
+
+[sub_resource type="Resource" id="Resource_f6qf3"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://cois2tuxbdtm[/img] mean?"
+answer_text = "The vectors are equal."
+
+[sub_resource type="Resource" id="Resource_vicu8"]
+script = ExtResource("2_ggncx")
+question_text = "Given a cube [img]uid://bf2i64edebsi3[/img] Each edge is a vector. Find the sum of vectors. [img]uid://dsjgfvroryhd3[/img]"
+answer_text = "[img]uid://d3f0pvcltnmw6[/img]"
+
+[sub_resource type="Resource" id="Resource_pha5a"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe and Friday are pulling a fallen pirate: one to the east with a force of [img]uid://b5cttwdbi7qc8[/img], the other pushing north with a force of [img]uid://bdwkr3gx5fif5[/img]. What is the overall strength and approximate direction of the defeated pirate?"
+answer_text = "[img]uid://bmp1kol6qxcsc[/img] to the north-east."
+
+[sub_resource type="Resource" id="Resource_g44o2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dxggmfdps4y80[/img]"
+answer_text = "[img]uid://bqx24s0vuvaxa[/img]"
+
+[sub_resource type="Resource" id="Resource_hj6qc"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://txd3a4abf1te[/img]"
+answer_text = "[img]uid://exh264ku00n3[/img]"
+
+[sub_resource type="Resource" id="Resource_j3iho"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b1xvcis64cq68[/img]"
+answer_text = "[img]uid://d2xydxnjex4tq[/img]"
+
+[sub_resource type="Resource" id="Resource_nqve6"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b31g3ah4dun1l[/img]"
+answer_text = "[img]uid://c7qbbd2e7lh8u[/img]"
+
+[sub_resource type="Resource" id="Resource_iphpv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c8nsp0vjp0jmw[/img]"
+answer_text = "[img]uid://3l441e42matj[/img]"
+
+[sub_resource type="Resource" id="Resource_cvmu2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dfg33bx3q072g[/img]"
+answer_text = "[img]uid://68kvmec3ttwc[/img]"
+
+[sub_resource type="Resource" id="Resource_0hu6n"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bqvftjh7q5fsl[/img]"
+answer_text = "[img]uid://3l441e42matj[/img]"
+
+[sub_resource type="Resource" id="Resource_5aojs"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cp5e4ao5kjmyb[/img]"
+answer_text = "[img]uid://d2xydxnjex4tq[/img]"
+
+[sub_resource type="Resource" id="Resource_6vsl1"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dos5hnqi4oij1[/img]"
+answer_text = "[img]uid://exh264ku00n3[/img]"
+
+[sub_resource type="Resource" id="Resource_kbvhh"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cge7cjayvfi7e[/img]"
+answer_text = "[img]uid://bqx24s0vuvaxa[/img]"
+
+[sub_resource type="Resource" id="Resource_vlhxf"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bn84n322atmyv[/img]"
+answer_text = "[img]uid://3l441e42matj[/img]"
+
+[sub_resource type="Resource" id="Resource_1fjqd"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ctui8otbdv82a[/img]"
+answer_text = "[img]uid://c7qbbd2e7lh8u[/img]"
+
+[sub_resource type="Resource" id="Resource_lx0as"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dttb1sggk8suj[/img]"
+answer_text = "[img]uid://3l441e42matj[/img]"
+
+[sub_resource type="Resource" id="Resource_ihxy0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cwmbpr2t6krsq[/img]"
+answer_text = "[img]uid://68kvmec3ttwc[/img]"
+
+[sub_resource type="Resource" id="Resource_iputc"]
+script = ExtResource("2_ggncx")
+question_text = "What is a projection of a vector?"
+answer_text = "The vector projection of a vector [img]uid://bs3bnvjqvic3p[/img] on a nonzero vector [img]uid://82khqva8vcl[/img] is the orthogonal projection of [img]uid://bs3bnvjqvic3p[/img] onto a line parallel to [img]uid://82khqva8vcl[/img]. (A number)"
+
+[sub_resource type="Resource" id="Resource_1dg5j"]
+script = ExtResource("2_ggncx")
+question_text = "What is the geometric projection of a vector?"
+answer_text = "A vector obtained by drawing perpendiculars from the ends of the vector to the selected axis."
+
+[sub_resource type="Resource" id="Resource_m5sv6"]
+script = ExtResource("2_ggncx")
+question_text = "Given a vector [img]uid://cd86ymhkly6r8[/img] find [img]uid://rbjk0kwreywj[/img]"
+answer_text = "[img]uid://dw2673886cfd6[/img]"
+
+[sub_resource type="Resource" id="Resource_58jtp"]
+script = ExtResource("2_ggncx")
+question_text = "How to find the midpoint of a segment?"
+answer_text = "By finding the arithmetic mean of the endpoint coordinates."
+
+[sub_resource type="Resource" id="Resource_1ltxt"]
+script = ExtResource("2_ggncx")
+question_text = "Given a point [img]uid://cwl6m8wjjy1r6[/img] and a vector [img]uid://dvw2y53loo0p2[/img]. Find the coordinates of the midpoint of the segment [img]uid://b5rln8xghi08l[/img]."
+answer_text = "[img]uid://ewa1gvy6qia8[/img]"
+
+[sub_resource type="Resource" id="Resource_2pqsl"]
+script = ExtResource("2_ggncx")
+question_text = "What is the vertex of a parabola?"
+answer_text = "The point of a parabola through which the axis of symmetry passes."
+
+[sub_resource type="Resource" id="Resource_xadd6"]
+script = ExtResource("2_ggncx")
+question_text = "How many vertices does a parabola have?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_fqe2x"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://bmv68bvthfd2i[/img] equal to in [img]uid://by3vj5l66tvg6[/img]?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_06hts"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://cv83go3ouwni4[/img] equal to in [img]uid://by3vj5l66tvg6[/img]?"
+answer_text = "[img]uid://kampw8imf4ry[/img]"
+
+[sub_resource type="Resource" id="Resource_vkx4b"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://bmv68bvthfd2i[/img] and [img]uid://cv83go3ouwni4[/img] from [img]uid://dsndmiv3bvg2j[/img]?"
+answer_text = "[img]uid://o5xri4xvhfk2[/img]"
+
+[sub_resource type="Resource" id="Resource_w8xle"]
+script = ExtResource("2_ggncx")
+question_text = "What is a function increment?"
+answer_text = "[img]uid://cn0buifxjl2mn[/img]"
+
+[sub_resource type="Resource" id="Resource_p53da"]
+script = ExtResource("2_ggncx")
+question_text = "What is a function argument increment?"
+answer_text = "[img]uid://b8qx4rdvykjes[/img]"
+
+[sub_resource type="Resource" id="Resource_itc81"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dte7dyvoyegnh[/img]. What is the graph of this relation?"
+answer_text = "A line."
+
+[sub_resource type="Resource" id="Resource_81udf"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cqbp0w2kwyiip[/img]. Convert to the form [img]uid://fs8twoxp64ji[/img]"
+answer_text = "[img]uid://0j3rj07nqbxi[/img]"
+
+[sub_resource type="Resource" id="Resource_yeq64"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cqbnp12fgklfp[/img]. Convert to the form [img]uid://fs8twoxp64ji[/img]"
+answer_text = "[img]uid://cx6ujgg7wxnxj[/img]"
+
+[sub_resource type="Resource" id="Resource_ic81r"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://duw82jpb10x5[/img]. Convert to the form [img]uid://dte7dyvoyegnh[/img]"
+answer_text = "[img]uid://yexhon2pdq6b[/img]"
+
+[sub_resource type="Resource" id="Resource_pav7o"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://mukrik4mjhdl[/img] [img]uid://bl4kv6lnacxa3[/img]"
+answer_text = "[img]uid://dfbagrbnngu1b[/img]"
+
+[sub_resource type="Resource" id="Resource_n764w"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://mukrik4mjhdl[/img] [img]uid://dk83uf7kxjktk[/img]"
+answer_text = "[img]uid://b5jtcce2gj5vn[/img]"
+
+[sub_resource type="Resource" id="Resource_05h7p"]
+script = ExtResource("2_ggncx")
+question_text = "A line passes through the points [img]uid://ca6q35ojs120x[/img] and [img]uid://dtqgq87hyq0iy[/img]. Express the line in the form [img]uid://eq3vu767phr2[/img]."
+answer_text = "[img]uid://dw6bmwewpvlae[/img]"
+
+[sub_resource type="Resource" id="Resource_txr74"]
+script = ExtResource("2_ggncx")
+question_text = "A line passes through the origin and the point [img]uid://bo0ljc0v87d85[/img]. Express the line in the form [img]uid://eq3vu767phr2[/img]"
+answer_text = "[img]uid://ban15ii6canl[/img]"
+
+[sub_resource type="Resource" id="Resource_di8on"]
+script = ExtResource("2_ggncx")
+question_text = "What would be the graph of [img]uid://dd4uga2wgapgl[/img]"
+answer_text = "A circle with radius [img]uid://bq5xwunp1f2gt[/img] and center at [img]uid://7kolr2mtros0[/img]."
+
+[sub_resource type="Resource" id="Resource_eldpn"]
+script = ExtResource("2_ggncx")
+question_text = "What would be the graph of [img]uid://thb2smk0li5f[/img]"
+answer_text = "A disk with radius [img]uid://bq5xwunp1f2gt[/img] and center at [img]uid://7kolr2mtros0[/img]."
+
+[sub_resource type="Resource" id="Resource_a6wk3"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bgryoqigup0vd[/img]. What is the radius of the circle?"
+answer_text = "[img]uid://kaux4scdydex[/img]"
+
+[sub_resource type="Resource" id="Resource_no8do"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bgryoqigup0vd[/img]. At what point is the center of the circle?"
+answer_text = "[img]uid://bfmkye1f4w7tk[/img]"
+
+[sub_resource type="Resource" id="Resource_fkvbr"]
+script = ExtResource("2_ggncx")
+question_text = "How many points of intersection can a circle and a hyperbola have?"
+answer_text = "[img]uid://c1ux2su52ucxt[/img]"
+
+[sub_resource type="Resource" id="Resource_p4hwi"]
+script = ExtResource("2_ggncx")
+question_text = "How many intersection points can the graphs [img]uid://dmvglag7tb6u8[/img] and [img]uid://oowoot6cvrfi[/img] have?"
+answer_text = "[img]uid://c1ux2su52ucxt[/img]"
+
+[sub_resource type="Resource" id="Resource_p2qkb"]
+script = ExtResource("2_ggncx")
+question_text = "How many intersection points do [img]uid://dfncki1shw32d[/img] and [img]uid://bw88adxfptfsj[/img] have?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_8kgpc"]
+script = ExtResource("2_ggncx")
+question_text = "Given [img]uid://cnnawsy8g1p4q[/img] concentric disjoint circles and a straight line. How many intersection points can there be?"
+answer_text = "[img]uid://bbv3bv7jywk88[/img]"
+
+[sub_resource type="Resource" id="Resource_3q0wd"]
+script = ExtResource("2_ggncx")
+question_text = "What is the graph of the function [img]uid://do1oe4ftorlov[/img]"
+answer_text = "Hyperbola."
+
+[sub_resource type="Resource" id="Resource_6y83t"]
+script = ExtResource("2_ggncx")
+question_text = "How many points of intersection can a parabola and a circle have?"
+answer_text = "[img]uid://c1ux2su52ucxt[/img]"
+
+[sub_resource type="Resource" id="Resource_7ro77"]
+script = ExtResource("2_ggncx")
+question_text = "How many intersection points can 2 circles have?"
+answer_text = "[img]uid://bp4i8wju6fwsm[/img]"
+
+[sub_resource type="Resource" id="Resource_j3reb"]
+script = ExtResource("2_ggncx")
+question_text = "How many intersection points can 2 concentric circles have?"
+answer_text = "[img]uid://bus3ruw5h80j7[/img]"
+
+[sub_resource type="Resource" id="Resource_khcx4"]
+script = ExtResource("2_ggncx")
+question_text = "What is a set?"
+answer_text = "A collection of different elements."
+
+[sub_resource type="Resource" id="Resource_kynml"]
+script = ExtResource("2_ggncx")
+question_text = "Is the set [img]uid://gewml6t0fhwo[/img] infinite or finite?"
+answer_text = "Finite."
+
+[sub_resource type="Resource" id="Resource_tiuxm"]
+script = ExtResource("2_ggncx")
+question_text = "Is the set [img]uid://bpleb87sfmlmt[/img] infinite or finite?"
+answer_text = "Infinite."
+
+[sub_resource type="Resource" id="Resource_2vfbd"]
+script = ExtResource("2_ggncx")
+question_text = "Is the set [img]uid://dvjdivetpw074[/img] infinite or finite?"
+answer_text = "Infinite."
+
+[sub_resource type="Resource" id="Resource_jjlif"]
+script = ExtResource("2_ggncx")
+question_text = "Is the set [img]uid://ft672diddyof[/img] finite or infinite?"
+answer_text = "Finite."
+
+[sub_resource type="Resource" id="Resource_dpxra"]
+script = ExtResource("2_ggncx")
+question_text = "Is the set [img]uid://cq0kjam8636vy[/img] finite or infinite?"
+answer_text = "Infinite."
+
+[sub_resource type="Resource" id="Resource_v4k0h"]
+script = ExtResource("2_ggncx")
+question_text = "How to correctly write the set [img]uid://cdfhgyse05u4t[/img] without an interval?"
+answer_text = "[img]uid://btkwu8eunwrj5[/img]"
+
+[sub_resource type="Resource" id="Resource_gh4q4"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://dbsgqlrie5bq2[/img] mean?"
+answer_text = "Intersection of sets [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] (symmetric difference)."
+
+[sub_resource type="Resource" id="Resource_l0qfe"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://bc06hfmdj1urd[/img] mean?"
+answer_text = "Union of sets [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]."
+
+[sub_resource type="Resource" id="Resource_gc62h"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://bba2pvaq61b4t[/img] mean?"
+answer_text = "Difference of sets A and B."
+
+[sub_resource type="Resource" id="Resource_hn8ox"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://chr5al0trxgm8[/img] mean:"
+answer_text = "The set of natural numbers."
+
+[sub_resource type="Resource" id="Resource_5lvay"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://cps70aesmuqp8[/img] mean:"
+answer_text = "The set of integers."
+
+[sub_resource type="Resource" id="Resource_xpp88"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://drt6nmokv103d[/img] mean:"
+answer_text = "The set of rational numbers."
+
+[sub_resource type="Resource" id="Resource_x4dal"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://cxtc8na51050o[/img] mean:"
+answer_text = "The set of real numbers."
+
+[sub_resource type="Resource" id="Resource_do1xk"]
+script = ExtResource("2_ggncx")
+question_text = "What does [img]uid://crfd0hnx0ca3r[/img] mean:"
+answer_text = "The set of complex numbers."
+
+[sub_resource type="Resource" id="Resource_n8vei"]
+script = ExtResource("2_ggncx")
+question_text = "Define the concept of a set."
+answer_text = "Set is one of the key concepts of mathematics, so it is not defined."
+
+[sub_resource type="Resource" id="Resource_3vjs0"]
+script = ExtResource("2_ggncx")
+question_text = "Which set is defined?"
+answer_text = "A set is defined if any object can be determined whether it belongs to the set or not."
+
+[sub_resource type="Resource" id="Resource_un8wc"]
+script = ExtResource("2_ggncx")
+question_text = "Name at least 1 way to specify a set."
+answer_text = "Either list all elements of the set, or indicate a property that is inherent only to all elements of the set."
+
+[sub_resource type="Resource" id="Resource_13et1"]
+script = ExtResource("2_ggncx")
+question_text = "What types of sets are there?"
+answer_text = "There are finite and infinite sets."
+
+[sub_resource type="Resource" id="Resource_6ma3m"]
+script = ExtResource("2_ggncx")
+question_text = "How many elements does the empty set contain?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_vihe4"]
+script = ExtResource("2_ggncx")
+question_text = "How many elements does the set [img]uid://cexftofdvo18c[/img] contain?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_a11de"]
+script = ExtResource("2_ggncx")
+question_text = "What sets are called equal?"
+answer_text = "Sets consisting of the same elements."
+
+[sub_resource type="Resource" id="Resource_xdxvf"]
+script = ExtResource("2_ggncx")
+question_text = "In what case will set B be a subset of set A?"
+answer_text = "A set B is a subset of a set A if every element of set B is also an element of set A."
+
+[sub_resource type="Resource" id="Resource_smqqh"]
+script = ExtResource("2_ggncx")
+question_text = "What is the intersection of sets A and B?"
+answer_text = "The intersection of sets A and B is a set containing only those elements that belong to both set A and set B."
+
+[sub_resource type="Resource" id="Resource_g0ydc"]
+script = ExtResource("2_ggncx")
+question_text = "How is the intersection of sets A and B notated?"
+answer_text = "A[img]uid://vugfw23k8o41[/img]B."
+
+[sub_resource type="Resource" id="Resource_o367h"]
+script = ExtResource("2_ggncx")
+question_text = "What is the union of sets A and B?"
+answer_text = "The union of sets A and B is the set of elements belonging to set A, or set B, or both sets."
+
+[sub_resource type="Resource" id="Resource_fj0x7"]
+script = ExtResource("2_ggncx")
+question_text = "How is the union of sets A and B notated?"
+answer_text = "A[img]uid://cyllydoa7q1y7[/img]B."
+
+[sub_resource type="Resource" id="Resource_bld0t"]
+script = ExtResource("2_ggncx")
+question_text = "What is the difference between sets A and B?"
+answer_text = "The difference of two sets A and B is a set all of whose elements are elements of set A, but are not elements of set B."
+
+[sub_resource type="Resource" id="Resource_oh5xs"]
+script = ExtResource("2_ggncx")
+question_text = "How is the difference between sets A and B notated?"
+answer_text = "A[img]uid://brnlnnm77ygu3[/img]B."
+
+[sub_resource type="Resource" id="Resource_sejpp"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://mcua7ttdg1pt[/img] equal to?"
+answer_text = "[img]uid://bg01mqfgcrco0[/img]"
+
+[sub_resource type="Resource" id="Resource_42wcd"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://ckc4ipm8mexi5[/img] equal to?"
+answer_text = "[img]uid://te2gxpc5uska[/img]"
+
+[sub_resource type="Resource" id="Resource_u0kpt"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://1ap4mdnvf7r3[/img] equal to?"
+answer_text = "[img]uid://dr3r8l7cxb85p[/img]"
+
+[sub_resource type="Resource" id="Resource_nkf87"]
+script = ExtResource("2_ggncx")
+question_text = "In how many ways can you select an element from the set [img]uid://bnuvlbakopmov[/img] or from the set [img]uid://dp7fntkgibvr0[/img]?"
+answer_text = "[img]uid://ca8bly0qcu6yd[/img]"
+
+[sub_resource type="Resource" id="Resource_3nbt4"]
+script = ExtResource("2_ggncx")
+question_text = "In how many ways can a pair of elements be selected from the sets [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]?"
+answer_text = "[img]uid://b4gmgcgxw0ide[/img]"
+
+[sub_resource type="Resource" id="Resource_622qj"]
+script = ExtResource("2_ggncx")
+question_text = "What is partial permutation of [img]uid://vwhvlp81re2s[/img] by [img]uid://5e14ricor42c[/img] called?"
+answer_text = "A partial permutation of [img]uid://vwhvlp81re2s[/img] by [img]uid://5e14ricor42c[/img] is an ordered set of k distinct elements from some set of distinct n elements."
+
+[sub_resource type="Resource" id="Resource_d68p0"]
+script = ExtResource("2_ggncx")
+question_text = "What is a permutation of n elements?"
+answer_text = "An [img]uid://vwhvlp81re2s[/img]-element permutation is an ordered set of [img]uid://vwhvlp81re2s[/img] distinct elements."
+
+[sub_resource type="Resource" id="Resource_0ictw"]
+script = ExtResource("2_ggncx")
+question_text = "What are combinations of [img]uid://vwhvlp81re2s[/img] elements over [img]uid://uskjgk21wtdr[/img] elements ([img]uid://vwhvlp81re2s[/img] choose [img]uid://uskjgk21wtdr[/img])?"
+answer_text = "Combinations of [img]uid://vwhvlp81re2s[/img] elements over [img]uid://uskjgk21wtdr[/img] elements are called an unordered subset of [img]uid://uskjgk21wtdr[/img] elements of a given set."
+
+[sub_resource type="Resource" id="Resource_yyg2f"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cit17nxitc62k[/img]"
+answer_text = "[img]uid://d4axg5m1edukj[/img]"
+
+[sub_resource type="Resource" id="Resource_qldgt"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c7wy563ybwwao[/img]"
+answer_text = "[img]uid://dxplqgnueewt6[/img]"
+
+[sub_resource type="Resource" id="Resource_3xnkj"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://2ijpna6nuccd[/img]"
+answer_text = "[img]uid://dnaetvsorqca5[/img]"
+
+[sub_resource type="Resource" id="Resource_qq4bh"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bhw21le5yxc0f[/img]"
+answer_text = "[img]uid://ckwygf8e83x2r[/img]"
+
+[sub_resource type="Resource" id="Resource_mitj0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bkou21pgijmfv[/img]"
+answer_text = "[img]uid://5pvrlsnboeh[/img]"
+
+[sub_resource type="Resource" id="Resource_4205d"]
+script = ExtResource("2_ggncx")
+question_text = "Is the equation [img]uid://vcbvuquwubb0[/img] true?"
+answer_text = "Yes."
+
+[sub_resource type="Resource" id="Resource_bycu5"]
+script = ExtResource("2_ggncx")
+question_text = "Is the equation [img]uid://dhd6v7132knj7[/img] true?"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_qoq6o"]
+script = ExtResource("2_ggncx")
+question_text = "Is the equation [img]uid://lglq4lj8k01r[/img] true?"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_fdti1"]
+script = ExtResource("2_ggncx")
+question_text = "Is the equation [img]uid://b0024d4bd0m3a[/img] true?"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_c2ej1"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://drop6ruwmcu8v[/img]"
+answer_text = "[img]uid://vcbvuquwubb0[/img]"
+
+[sub_resource type="Resource" id="Resource_3vfba"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c0shxvxwu11hk[/img]"
+answer_text = "[img]uid://b3xn1an0pl6cn[/img]"
+
+[sub_resource type="Resource" id="Resource_ujiy7"]
+script = ExtResource("2_ggncx")
+question_text = "What are the binomial coefficients of the expression [img]uid://cl3lwbn6xjni1[/img]."
+answer_text = "[img]uid://d3sy8abmmabos[/img]"
+
+[sub_resource type="Resource" id="Resource_qmuac"]
+script = ExtResource("2_ggncx")
+question_text = "What is an experiment (attempt) in statistics?"
+answer_text = "An action whose outcome is not known for sure."
+
+[sub_resource type="Resource" id="Resource_fc5er"]
+script = ExtResource("2_ggncx")
+question_text = "Under what conditions is event [img]uid://bnuvlbakopmov[/img] certain?"
+answer_text = "If [img]uid://bimm05qsocvho[/img]"
+
+[sub_resource type="Resource" id="Resource_5j6ay"]
+script = ExtResource("2_ggncx")
+question_text = "Give an example of a reliable event."
+answer_text = "Any event with probability [img]uid://cjsaekmc20eti[/img]. Other players must evaluate."
+
+[sub_resource type="Resource" id="Resource_oyplt"]
+script = ExtResource("2_ggncx")
+question_text = "Under what conditions is event [img]uid://bnuvlbakopmov[/img] impossible?"
+answer_text = "If [img]uid://c15cl6t0fqprt[/img]"
+
+[sub_resource type="Resource" id="Resource_jtpvn"]
+script = ExtResource("2_ggncx")
+question_text = "Give an example of an impossible event."
+answer_text = "Any event with probability [img]uid://qbl0jdpfc35d[/img]. Other players must evaluate."
+
+[sub_resource type="Resource" id="Resource_vur6c"]
+script = ExtResource("2_ggncx")
+question_text = "What are elementary events (atomic events)?"
+answer_text = "Elementary events are the outcomes of a random experiment, of which exactly one happens."
+
+[sub_resource type="Resource" id="Resource_7ali5"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://b3jbx2f2fbqqn[/img] if [img]uid://bnuvlbakopmov[/img] is an event?"
+answer_text = "Reverse event."
+
+[sub_resource type="Resource" id="Resource_uqrg6"]
+script = ExtResource("2_ggncx")
+question_text = "What is the reverse event of event [img]uid://bnuvlbakopmov[/img]?"
+answer_text = "[img]uid://b3jbx2f2fbqqn[/img]"
+
+[sub_resource type="Resource" id="Resource_voryo"]
+script = ExtResource("2_ggncx")
+question_text = "What is the reverse event of event [img]uid://b3jbx2f2fbqqn[/img]?"
+answer_text = "[img]uid://dwtbts3ssf8fn[/img]"
+
+[sub_resource type="Resource" id="Resource_i6u7o"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe \"made 7 friends\" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson line up all his \"friends\"?"
+answer_text = "[img]uid://ctaafnr7tgcjv[/img]"
+
+[sub_resource type="Resource" id="Resource_bvpfc"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe \"made 7 friends\" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson choose three friends for an intellectual discussion?"
+answer_text = "[img]uid://bbq4b0pdc5lf5[/img]"
+
+[sub_resource type="Resource" id="Resource_4ghdc"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe \"made 7 friends\" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson choose 1 to guard the house and 1 to hunt together?"
+answer_text = "[img]uid://cdd8op88h7r0w[/img]"
+
+[sub_resource type="Resource" id="Resource_yko2w"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe \"made 7 friends\" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. The set [img]uid://bnuvlbakopmov[/img] consists of stones with male names. The set [img]uid://dp7fntkgibvr0[/img] consisting of stones with female names. Define the intersection of the sets [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]."
+answer_text = "[img]uid://biou7cik2lvsu[/img]"
+
+[sub_resource type="Resource" id="Resource_amq3c"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe \"made 7 friends\" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. The set [img]uid://bnuvlbakopmov[/img] consists of stones with male names. The set [img]uid://dp7fntkgibvr0[/img] consists of stones with female names. Name the union of the sets [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]."
+answer_text = "[img width=660]uid://cmsm583s5nth[/img]"
+
+[sub_resource type="Resource" id="Resource_47s16"]
+script = ExtResource("2_ggncx")
+question_text = "During his time on the island, Robinson Crusoe met [img]uid://cjsaekmc20eti[/img] savage who agreed to accept Christianity and [img]uid://bh26huntoj8wp[/img] who did not. What is the statistical probability that a savage of this tribe will agree to accept Christianity?"
+answer_text = "[img]uid://daqdax8kmm8k5[/img]"
+
+[sub_resource type="Resource" id="Resource_h8bkl"]
+script = ExtResource("2_ggncx")
+question_text = "Robinson Crusoe decided to practice shooting a gun. The target area is [img]uid://d2lcm4auye1y1[/img], and the bull's-eye area is [img]uid://djuhnf16a8o4r[/img]. What is the probability that Crusoe will hit the bull's-eye if Crusoe always hits at least the target?"
+answer_text = "[img]uid://cr8o25roqtnxe[/img]"
+
+[sub_resource type="Resource" id="Resource_jyshd"]
+script = ExtResource("2_ggncx")
+question_text = "What are compatible events?"
+answer_text = "Two events are said to be compatible if the occurrence of one of them does not exclude the occurrence of the other in the same experiment. In other words, if [img]uid://cj7eovl2lk0bx[/img]"
+
+[sub_resource type="Resource" id="Resource_irnck"]
+script = ExtResource("2_ggncx")
+question_text = "What events are called incompatible?"
+answer_text = "Multiple events are called incompatible if none of them can occur simultaneously as a result of a single experiment. In other words, if [img]uid://b1jenften34jo[/img]."
+
+[sub_resource type="Resource" id="Resource_y2ps0"]
+script = ExtResource("2_ggncx")
+question_text = "What is the probability of a union of incompatible events?"
+answer_text = "[img]uid://bdvyiqdslyj1o[/img]"
+
+[sub_resource type="Resource" id="Resource_7n4t5"]
+script = ExtResource("2_ggncx")
+question_text = "What is the probability of combining compatible events?"
+answer_text = "[img]uid://wvy4wgsevr4e[/img]"
+
+[sub_resource type="Resource" id="Resource_x8hn3"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that the stick found by Robinson Crusoe is suitable for making one shovel is [img]uid://cao4gvm2q8cvn[/img]. What is the probability that from [img]uid://xt1seclevjl7[/img] sticks he will make exactly [img]uid://dsg7prgqjqbj2[/img] shovels?"
+answer_text = "[img]uid://yro8qxy1vnmc[/img]"
+
+[sub_resource type="Resource" id="Resource_oownj"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that the stick Robinson Crusoe found on the shore today would be suitable for making a shovel is [img]uid://br7hgxq67fhb8[/img]. What is the probability that today Robinson Crusoe will be engaged in farming (to feed himself and Friday), and not wander around in search of another stick?"
+answer_text = "[img]uid://br7hgxq67fhb8[/img], it's written right there."
+
+[sub_resource type="Resource" id="Resource_3obfn"]
+script = ExtResource("2_ggncx")
+question_text = "Is the part of the plane bounded by a parabola a convex or concave figure?"
+answer_text = "Both, one part is concave, the other is convex."
+
+[sub_resource type="Resource" id="Resource_csb6w"]
+script = ExtResource("2_ggncx")
+question_text = "Is a parabola a convex or concave?"
+answer_text = "Concave."
+
+[sub_resource type="Resource" id="Resource_mvk1k"]
+script = ExtResource("2_ggncx")
+question_text = "Compute [img]uid://baot4cfbl1o3y[/img], assume that [img]uid://bl8lrmch08idq[/img]."
+answer_text = "[img]uid://bpw572iji1tbi[/img]"
+
+[sub_resource type="Resource" id="Resource_xudf8"]
+script = ExtResource("2_ggncx")
+question_text = "Which equality is strict?"
+answer_text = "The one with signs \"[img]uid://btw2m2bkhswpd[/img]\" or \"[img]uid://b3jp80st1sw2n[/img]\"."
+
+[sub_resource type="Resource" id="Resource_2s4e2"]
+script = ExtResource("2_ggncx")
+question_text = "Which type of graph point corresponds to the strict inequality (shaded/unshaded)"
+answer_text = "Shaded."
+
+[sub_resource type="Resource" id="Resource_t5itt"]
+script = ExtResource("2_ggncx")
+question_text = "Which interval brackets corresponds to a strict inequality?"
+answer_text = "Round brackets (())."
+
+[sub_resource type="Resource" id="Resource_q83da"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dji07i8rd4hpk[/img] express [img]uid://cv14m2jh2d2fw[/img]."
+answer_text = "[img]uid://kl8tw06fr07t[/img]"
+
+[sub_resource type="Resource" id="Resource_bbe4f"]
+script = ExtResource("2_ggncx")
+question_text = "What is the difference between [img]uid://hh7bxfi3rfo[/img] and [img]uid://ddvnhmma8u1ar[/img]?"
+answer_text = "[img]uid://bnuvlbakopmov[/img] (as  an element) belongs to [img]uid://dp7fntkgibvr0[/img] or [img]uid://bnuvlbakopmov[/img] (as a set) is a subset of [img]uid://dp7fntkgibvr0[/img]."
+
+[sub_resource type="Resource" id="Resource_mkrqk"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://bgostbcf0n6oe[/img]"
+answer_text = "A line."
+
+[sub_resource type="Resource" id="Resource_qiwy6"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://dnty1utr4emp[/img]"
+answer_text = "A parabola.
+386. What is the name of the graph of the function [img width=660]uid://b2xytwnp8htav[/img]A: A branch of a parabola."
+
+[sub_resource type="Resource" id="Resource_c4pbo"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img width=660]uid://c4psnya2h8ms6[/img]"
+answer_text = "A hyperbola."
+
+[sub_resource type="Resource" id="Resource_1qb45"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://w024wavcqv8e[/img]"
+answer_text = "An exponential."
+
+[sub_resource type="Resource" id="Resource_fp00u"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the graph of the function [img]uid://reojyjybjrix[/img]"
+answer_text = "A sine or a cosine."
+
+[sub_resource type="Resource" id="Resource_xdd4r"]
+script = ExtResource("2_ggncx")
+question_text = "What is an exponential equation?"
+answer_text = "An equation with a variable in the exponent."
+
+[sub_resource type="Resource" id="Resource_tt3tc"]
+script = ExtResource("2_ggncx")
+question_text = "Under what conditions are the equations [img]uid://bgq7vkajrfplq[/img] and [img]uid://cmefqinngsjdm[/img] equivalent?"
+answer_text = "[img]uid://7h07ocielj0q[/img]."
+
+[sub_resource type="Resource" id="Resource_8ewqh"]
+script = ExtResource("2_ggncx")
+question_text = "What is [img]uid://bxkdhjei5u1j8[/img] (to within [img]uid://b7pn2j1478qca[/img] exponent)?"
+answer_text = "[img]uid://scot53oir6ws[/img]"
+
+[sub_resource type="Resource" id="Resource_1mnfa"]
+script = ExtResource("2_ggncx")
+question_text = "How many points of intersection can 2 linear functions have?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img], [img]uid://cjsaekmc20eti[/img], [img]uid://bvl2ui47xom6a[/img]"
+
+[sub_resource type="Resource" id="Resource_eubqf"]
+script = ExtResource("2_ggncx")
+question_text = "Compare [img]uid://c0tmao8pequh2[/img] and [img]uid://bfs68xe61nuy2[/img] if [img]uid://rmdh0lyd8anu[/img]."
+answer_text = "Greater if [img]uid://yvybh74umw1w[/img]; lesser if [img]uid://dpr26j2wt7tvq[/img]; equal if [img]uid://dilki1c1abmxp[/img]"
+
+[sub_resource type="Resource" id="Resource_32gc2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cyvsxhetph0r8[/img] , what is [img]uid://cv14m2jh2d2fw[/img] equal to?"
+answer_text = "[img]uid://cefje1d724he5[/img]"
+
+[sub_resource type="Resource" id="Resource_s70dt"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bepfhj5mliqmv[/img]"
+answer_text = "[img]uid://82khqva8vcl[/img]"
+
+[sub_resource type="Resource" id="Resource_hpduv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://mk3ctcj1r3ic[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_yqdp1"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://de8cy6l5amnn4[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_xw4rn"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://lsd7awwc4rh4[/img]"
+answer_text = "[img]uid://bcwmq3k58pyhg[/img]"
+
+[sub_resource type="Resource" id="Resource_flspu"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ce0l1dmrchbf1[/img]"
+answer_text = "[img]uid://clvxggjvgg7vp[/img]"
+
+[sub_resource type="Resource" id="Resource_5eq2a"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cn2ngjrnf3too[/img]"
+answer_text = "[img]uid://cpcg6fvmo08k[/img]"
+
+[sub_resource type="Resource" id="Resource_866bs"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ufycq1uyvoc[/img]"
+answer_text = "[img]uid://ddypiui737l82[/img]"
+
+[sub_resource type="Resource" id="Resource_68v4m"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bo8oo2r41e8sg[/img]"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_50ebw"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b1dnqde5b1ksa[/img]"
+answer_text = "[img]uid://cogbswyj1w6cv[/img]"
+
+[sub_resource type="Resource" id="Resource_vao60"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://d2ihuou4tweg2[/img]"
+answer_text = "[img]uid://cogbswyj1w6cv[/img], :D"
+
+[sub_resource type="Resource" id="Resource_jv2eb"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b4tx3r0nnoww[/img]"
+answer_text = "[img]uid://dctho4rmuw4kx[/img]"
+
+[sub_resource type="Resource" id="Resource_2j84s"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bum5wicekgrpe[/img]"
+answer_text = "[img]uid://c8b6tgouiiq7e[/img]"
+
+[sub_resource type="Resource" id="Resource_ura1j"]
+script = ExtResource("2_ggncx")
+question_text = "What is a logarithmic equation?"
+answer_text = "Equation with variables from which logarithm is being taken."
+
+[sub_resource type="Resource" id="Resource_li0r0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bimsmakwyn4mx[/img]"
+answer_text = "[img]uid://ceyacfqt0dot4[/img]"
+
+[sub_resource type="Resource" id="Resource_33upt"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bv8y6jyum75ao[/img] = ?"
+answer_text = "[img]uid://bs3bnvjqvic3p[/img]"
+
+[sub_resource type="Resource" id="Resource_fjx5r"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://xvw0w0iyhvat[/img] = ?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_eiiu4"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ff8r2la35ykg[/img]"
+answer_text = "[img]uid://c1xikcjtf6n57[/img]"
+
+[sub_resource type="Resource" id="Resource_biltk"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dwb5rgf6wo010[/img]"
+answer_text = "[img]uid://l56dvuqmjgpv[/img]"
+
+[sub_resource type="Resource" id="Resource_dp1t1"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cd80rwwgo7tn5[/img]"
+answer_text = "[img]uid://xt1seclevjl7[/img]"
+
+[sub_resource type="Resource" id="Resource_350k6"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dqoegfdbi4wuf[/img]"
+answer_text = "[img]uid://cdn1iopck7bjs[/img]"
+
+[sub_resource type="Resource" id="Resource_m66mv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://di8msy6tb2rg1[/img]"
+answer_text = "[img]uid://blhjktuy60o2g[/img]"
+
+[sub_resource type="Resource" id="Resource_sskrq"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bcpmu8uqh6vtc[/img]"
+answer_text = "[img]uid://chy6uxfvbjxkg[/img]"
+
+[sub_resource type="Resource" id="Resource_tvmqf"]
+script = ExtResource("2_ggncx")
+question_text = "A man is walking home from the store. His dog runs from him to his house and back to him at double speed. If a person walked [img]uid://jrj3aud7f6rf[/img], what distance did the dog run?"
+answer_text = "[img]uid://bvl245faj1whn[/img]"
+
+[sub_resource type="Resource" id="Resource_rkvyf"]
+script = ExtResource("2_ggncx")
+question_text = "Arrange the sets [img]uid://ck1lhcca45m2i[/img] as they expand."
+answer_text = "[img]uid://mkwgn4qwa5f5[/img]"
+
+[sub_resource type="Resource" id="Resource_kn6t1"]
+script = ExtResource("2_ggncx")
+question_text = "What are the second-place digits called when writing a natural number?"
+answer_text = "Tens."
+
+[sub_resource type="Resource" id="Resource_swwo0"]
+script = ExtResource("2_ggncx")
+question_text = "How many zeros are there at the end of the product of natural numbers from [img]uid://cjsaekmc20eti[/img] to [img]uid://dw2673886cfd6[/img]?"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_3afjb"]
+script = ExtResource("2_ggncx")
+question_text = "What number is a divisible by all other numbers?"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_2gcal"]
+script = ExtResource("2_ggncx")
+question_text = "The weight of the can with milk is [img]uid://y8a66ydvtipn[/img], without milk [img]uid://cfo6tj0nhqyao[/img]. What is the mass of the can half filled?"
+answer_text = "[img]uid://cp4ues7vjg2d2[/img]"
+
+[sub_resource type="Resource" id="Resource_bcbd0"]
+script = ExtResource("2_ggncx")
+question_text = "How many kilograms are in [img]uid://cfc0o6bo7s20[/img] poods? Options: [img]uid://7nuj1ryqlmwc[/img], [img]uid://bv03syn4t2lv0[/img], [img]uid://btculxki4w885[/img]"
+answer_text = "[img]uid://btculxki4w885[/img]"
+
+[sub_resource type="Resource" id="Resource_et00r"]
+script = ExtResource("2_ggncx")
+question_text = "Three hundred times two hundred. How many hundreds did you get?"
+answer_text = "[img]uid://b5071sd4p5pwg[/img] hundreds."
+
+[sub_resource type="Resource" id="Resource_xx25u"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the science that studies plane figures?"
+answer_text = "Planimetry."
+
+[sub_resource type="Resource" id="Resource_dqi3q"]
+script = ExtResource("2_ggncx")
+question_text = "What's more? Oxygen atoms in a water molecule or stars in the solar system?"
+answer_text = "Equal."
+
+[sub_resource type="Resource" id="Resource_cdx06"]
+script = ExtResource("2_ggncx")
+question_text = "How many times will a two-digit number increase if the same number is added to it?"
+answer_text = "101 times."
+
+[sub_resource type="Resource" id="Resource_3vl7g"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the number equal to [img]uid://dxy8ipep6irwp[/img]?"
+answer_text = "Googol."
+
+[sub_resource type="Resource" id="Resource_1sfi3"]
+script = ExtResource("2_ggncx")
+question_text = "How many times is the sixth floor higher than the third?"
+answer_text = "2.5 times."
+
+[sub_resource type="Resource" id="Resource_f7np2"]
+script = ExtResource("2_ggncx")
+question_text = "Which statement is false? [img]uid://5x1rsnxy3eq4[/img]"
+answer_text = "[img]uid://bxq6tiolrs3y8[/img]"
+
+[sub_resource type="Resource" id="Resource_0cjws"]
+script = ExtResource("2_ggncx")
+question_text = "What is the name of the number equal to [img]uid://co456oxvbmvg6[/img]?"
+answer_text = "Trillion."
+
+[sub_resource type="Resource" id="Resource_pcyxr"]
+script = ExtResource("2_ggncx")
+question_text = "Divide four by a half."
+answer_text = "[img]uid://xd3rs2yglnqq[/img]"
+
+[sub_resource type="Resource" id="Resource_hf355"]
+script = ExtResource("2_ggncx")
+question_text = "Which triangle is called the Egyptian triangle?"
+answer_text = "One with sides [img]uid://cst6arc6dr2i2[/img]"
+
+[sub_resource type="Resource" id="Resource_on11r"]
+script = ExtResource("2_ggncx")
+question_text = "Find the difference between the numbers [img]uid://csnfo5lkn56om[/img] and [img]uid://bome2o2gootps[/img]."
+answer_text = "[img]uid://dt1cwhv47wc1b[/img]."
+
+[sub_resource type="Resource" id="Resource_abpm8"]
+script = ExtResource("2_ggncx")
+question_text = "How many vertices does a cube have?"
+answer_text = "[img]uid://xd3rs2yglnqq[/img]"
+
+[sub_resource type="Resource" id="Resource_vrcl6"]
+script = ExtResource("2_ggncx")
+question_text = "How many faces does a cube have?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_qrbfl"]
+script = ExtResource("2_ggncx")
+question_text = "How many edges does a cube have?"
+answer_text = "[img]uid://cwnimj1yas17h[/img]"
+
+[sub_resource type="Resource" id="Resource_40j2a"]
+script = ExtResource("2_ggncx")
+question_text = "Convert [img]uid://dd0fkxaghe2gw[/img] to [img]uid://dlbkxfnk2l02l[/img]."
+answer_text = "[img]uid://i7hisweasubl[/img]"
+
+[sub_resource type="Resource" id="Resource_2mni6"]
+script = ExtResource("2_ggncx")
+question_text = "Three horses galloped [img]uid://cg5ovtwd0gecj[/img]. How far did each horse gallop?"
+answer_text = "[img]uid://cg5ovtwd0gecj[/img]"
+
+[sub_resource type="Resource" id="Resource_hfnlx"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://21cf1xt2px3p[/img]"
+answer_text = "[img]uid://6tpohdelbrxo[/img]"
+
+[sub_resource type="Resource" id="Resource_fd3e3"]
+script = ExtResource("2_ggncx")
+question_text = "Compare [img]uid://bjegb7cqit650[/img] and [img]uid://dsn04xblefiis[/img]."
+answer_text = "[img]uid://nug2i5tg75ec[/img]"
+
+[sub_resource type="Resource" id="Resource_hkecf"]
+script = ExtResource("2_ggncx")
+question_text = "Compare [img]uid://dg2e16s2t2jea[/img] and [img]uid://bumr5wc1yy24n[/img]."
+answer_text = "[img]uid://bkgohovtc62ql[/img]"
+
+[sub_resource type="Resource" id="Resource_118la"]
+script = ExtResource("2_ggncx")
+question_text = "What is the greatest number of obtuse angles in a triangle?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_3t4ds"]
+script = ExtResource("2_ggncx")
+question_text = "Absolute value of [img]uid://b2pqerdrt7iok[/img]?"
+answer_text = "[img]uid://b2pqerdrt7iok[/img]"
+
+[sub_resource type="Resource" id="Resource_yrcs3"]
+script = ExtResource("2_ggncx")
+question_text = "One and a half fish costs one and a half euros. How much do five fish cost?"
+answer_text = "5 euros."
+
+[sub_resource type="Resource" id="Resource_0dm8y"]
+script = ExtResource("2_ggncx")
+question_text = "A bat and a ball cost 1.10 dollars in total. The bat costs 1.00 dollar more than the ball. How much does the ball cost?"
+answer_text = "1.05 dollars and 0.05 dollars respectively."
+
+[sub_resource type="Resource" id="Resource_hiaom"]
+script = ExtResource("2_ggncx")
+question_text = "If it takes [img]uid://xt1seclevjl7[/img] machines [img]uid://xt1seclevjl7[/img] minutes to make [img]uid://xt1seclevjl7[/img] widgets, how long would it take [img]uid://cfc0o6bo7s20[/img] machines to make [img]uid://cfc0o6bo7s20[/img] widgets?"
+answer_text = "[img]uid://xt1seclevjl7[/img] minutes."
+
+[sub_resource type="Resource" id="Resource_fpu3i"]
+script = ExtResource("2_ggncx")
+question_text = "In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes [img]uid://cdpmi7rtoaxwy[/img] days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?"
+answer_text = "[img]uid://bqegx5i2wbaht[/img]"
+
+[sub_resource type="Resource" id="Resource_3nf1t"]
+script = ExtResource("2_ggncx")
+question_text = "A notebook and a cover weight [img]uid://blvpkb7cffnxv[/img] grams total. The notebook weights 100 grams more than the cover. How much does the cover weight?"
+answer_text = "[img]uid://buvvdlmc5031a[/img]"
+
+[sub_resource type="Resource" id="Resource_6pia3"]
+script = ExtResource("2_ggncx")
+question_text = "The Industrial Revolution has begun on the Isle of Robinson Crusoe. If it takes [img]uid://boe53ymn8g8au[/img] machines [img]uid://boe53ymn8g8au[/img] minutes to make [img]uid://boe53ymn8g8au[/img] widgets, how long would it take [img]uid://b72wm76ogi203[/img] machines to make [img]uid://b72wm76ogi203[/img] widgets?"
+answer_text = "[img]uid://b72wm76ogi203[/img] minutes. A: [img]uid://boe53ymn8g8au[/img] minutes"
+
+[sub_resource type="Resource" id="Resource_dq2xa"]
+script = ExtResource("2_ggncx")
+question_text = "The amount of amusingly absurd questions in this game, which replace normal ones, increases double-fold per day. It takes two weeks for the entire project to be overrun by memes. How long would it take for only half of the question to be questionable?"
+answer_text = "[img]uid://kkd5ao3sgmay[/img]"
+
+[sub_resource type="Resource" id="Resource_87i1v"]
+script = ExtResource("2_ggncx")
+question_text = "What reasoning technique is based on the past experience?"
+answer_text = "Empirical reasoning."
+
+[sub_resource type="Resource" id="Resource_eu6ao"]
+script = ExtResource("2_ggncx")
+question_text = "What reasoning technique is based on the past observations?"
+answer_text = "Inductive reasoning."
+
+[sub_resource type="Resource" id="Resource_j5xfk"]
+script = ExtResource("2_ggncx")
+question_text = "What reasoning technique is based on the past conclusions?"
+answer_text = "Deductive reasoning."
+
+[sub_resource type="Resource" id="Resource_axupc"]
+script = ExtResource("2_ggncx")
+question_text = "What is a logical structure which can be verified to be either true or false?"
+answer_text = "A statement."
+
+[sub_resource type="Resource" id="Resource_qndqs"]
+script = ExtResource("2_ggncx")
+question_text = "What are statements which can be used in multiple context by means of parameters or variables called?"
+answer_text = "General statements."
+
+[sub_resource type="Resource" id="Resource_qqjh2"]
+script = ExtResource("2_ggncx")
+question_text = "What does statement [img]uid://bnuvlbakopmov[/img] need to be for [img]uid://dbvr8l8ujm320[/img] (not A) to be true?"
+answer_text = "False."
+
+[sub_resource type="Resource" id="Resource_eaaqv"]
+script = ExtResource("2_ggncx")
+question_text = "What does statement [img]uid://bnuvlbakopmov[/img] need to be for [img]uid://dbvr8l8ujm320[/img] (not A) to be false?"
+answer_text = "True."
+
+[sub_resource type="Resource" id="Resource_1t4cp"]
+script = ExtResource("2_ggncx")
+question_text = "What does statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] value have to be for [img]uid://c1yrcj2w47gmi[/img] ([img]uid://bnuvlbakopmov[/img] or [img]uid://dp7fntkgibvr0[/img]) to be false?"
+answer_text = "Both [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be false."
+
+[sub_resource type="Resource" id="Resource_3tvsp"]
+script = ExtResource("2_ggncx")
+question_text = "What does statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://c1yrcj2w47gmi[/img] ([img]uid://bnuvlbakopmov[/img] or [img]uid://dp7fntkgibvr0[/img]) to be true?"
+answer_text = "Both or at least on of [img]uid://bnuvlbakopmov[/img] or [img]uid://dp7fntkgibvr0[/img] have to be true."
+
+[sub_resource type="Resource" id="Resource_q4ruh"]
+script = ExtResource("2_ggncx")
+question_text = "What does statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://c1yrcj2w47gmi[/img] ([img]uid://bnuvlbakopmov[/img] or [img]uid://dp7fntkgibvr0[/img]) to be false?"
+answer_text = "Both [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be false."
+
+[sub_resource type="Resource" id="Resource_o1a3q"]
+script = ExtResource("2_ggncx")
+question_text = "What do statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://iw7bd8jug6wo[/img] ([img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]) to be true?"
+answer_text = "Both [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be true."
+
+[sub_resource type="Resource" id="Resource_nd8yy"]
+script = ExtResource("2_ggncx")
+question_text = "What do statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://iw7bd8jug6wo[/img] ([img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img]) to be false?"
+answer_text = "Both or at least on of [img]uid://bnuvlbakopmov[/img] or [img]uid://dp7fntkgibvr0[/img] have to be false."
+
+[sub_resource type="Resource" id="Resource_qybdy"]
+script = ExtResource("2_ggncx")
+question_text = "How do you call [img]uid://bnuvlbakopmov[/img] in [img]uid://dexprqcxn2auk[/img] ([img]uid://bnuvlbakopmov[/img] implies B)?"
+answer_text = "Condition."
+
+[sub_resource type="Resource" id="Resource_dbw3h"]
+script = ExtResource("2_ggncx")
+question_text = "How do you call [img]uid://dp7fntkgibvr0[/img] in [img]uid://dexprqcxn2auk[/img] ([img]uid://bnuvlbakopmov[/img] implies B)?"
+answer_text = "Conclusion."
+
+[sub_resource type="Resource" id="Resource_bmhji"]
+script = ExtResource("2_ggncx")
+question_text = "What do statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://f8dmsa5mw0v6[/img] ([img]uid://bnuvlbakopmov[/img] is equivalent to [img]uid://dp7fntkgibvr0[/img]) to be true?"
+answer_text = "[img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to match, formally [img]uid://byuk5kwvtsi5r[/img]."
+
+[sub_resource type="Resource" id="Resource_2ykr8"]
+script = ExtResource("2_ggncx")
+question_text = "What do statements [img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] have to be for [img]uid://f8dmsa5mw0v6[/img] ([img]uid://bnuvlbakopmov[/img] is equivalent to [img]uid://dp7fntkgibvr0[/img]) to be false?"
+answer_text = "[img]uid://bnuvlbakopmov[/img] and [img]uid://dp7fntkgibvr0[/img] must not match, formally [img]uid://batmphw3pqkt1[/img]."
+
+[sub_resource type="Resource" id="Resource_cthfh"]
+script = ExtResource("2_ggncx")
+question_text = "What is a series of logical deductions to arrive at a conclusion from the given conditions called?"
+answer_text = "Logical proof."
+
+[sub_resource type="Resource" id="Resource_qj5mp"]
+script = ExtResource("2_ggncx")
+question_text = "What is the step 1 of the Principle of Mathematical Induction?"
+answer_text = "Induction base."
+
+[sub_resource type="Resource" id="Resource_t67yl"]
+script = ExtResource("2_ggncx")
+question_text = "What is the step 2 of the Principle of Mathematical Induction?"
+answer_text = "Induction assumption."
+
+[sub_resource type="Resource" id="Resource_v5kl2"]
+script = ExtResource("2_ggncx")
+question_text = "What is the step 3 of the Principle of Mathematical Induction?"
+answer_text = "Induction step."
+
+[sub_resource type="Resource" id="Resource_riovt"]
+script = ExtResource("2_ggncx")
+question_text = "What is the step 4 of the Principle of Mathematical Induction?"
+answer_text = "Conclusion."
+
+[sub_resource type="Resource" id="Resource_umb5o"]
+script = ExtResource("2_ggncx")
+question_text = "What needs to be done in Step 1 of the Principle of Mathematical Induction?"
+answer_text = "Statement with [img]uid://n2ewdhwjclq2[/img] ([img]uid://dwss7dvd3as35[/img] is the first valid [img]uid://vwhvlp81re2s[/img] value) needs to be tested."
+
+[sub_resource type="Resource" id="Resource_5frfe"]
+script = ExtResource("2_ggncx")
+question_text = "What needs to be done in Step 2 of the Principle of Mathematical Induction?"
+answer_text = "Statement with [img]uid://qxolxwuiyrx7[/img] is assumed to be true."
+
+[sub_resource type="Resource" id="Resource_sa0s1"]
+script = ExtResource("2_ggncx")
+question_text = "What needs to be done in Step 3 of the Principle of Mathematical Induction?"
+answer_text = "Statement with [img]uid://byjp5gv5cpenq[/img] needs to be proved."
+
+[sub_resource type="Resource" id="Resource_aadhy"]
+script = ExtResource("2_ggncx")
+question_text = "What needs to be done in Step 4 of the Principle of Mathematical Induction?"
+answer_text = "Conclusion that [img]uid://p6xi8rvrkoix[/img] is true for [img]uid://5hxrapngk56g[/img] can be made."
+
+[sub_resource type="Resource" id="Resource_0h3o8"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bk1oxhhqt0i1[/img]"
+answer_text = "[img]uid://ch81e7ld2j1mc[/img]"
+
+[sub_resource type="Resource" id="Resource_krcjs"]
+script = ExtResource("2_ggncx")
+question_text = "[img width=660]uid://dkxa2frcv8jfk[/img]"
+answer_text = "[img]uid://n3vmk4fjv0nk[/img]"
+
+[sub_resource type="Resource" id="Resource_0lmkk"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b5plvsjylej06[/img]"
+answer_text = "[img]uid://b3ik4d2vtv7ww[/img]"
+
+[sub_resource type="Resource" id="Resource_ie64k"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://n3ivav8dn5f7[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_n0ki6"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://hnwmy0c4n4ey[/img] (without using the definition)"
+answer_text = "[img]uid://cmfjyk1l4v1vn[/img]"
+
+[sub_resource type="Resource" id="Resource_p1hjc"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ccbp7y1gp54ko[/img]"
+answer_text = "Yes."
+
+[sub_resource type="Resource" id="Resource_wtpe2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://ddobnqk084kfy[/img]"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_i2nlp"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bom822qf6ju03[/img]"
+answer_text = "No."
+
+[sub_resource type="Resource" id="Resource_2sqbp"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://16kyke2r1r0w[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_6iqnk"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c44jmj2wgj461[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_h7eia"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c1ie8pcrk1isu[/img]"
+answer_text = "[img]uid://bjuswvebtls4c[/img]"
+
+[sub_resource type="Resource" id="Resource_gerr7"]
+script = ExtResource("2_ggncx")
+question_text = "Name binomial coefficients of expression [img]uid://cjh4l4i4yr80s[/img]"
+answer_text = "[img]uid://et72b20ct45p[/img]"
+
+[sub_resource type="Resource" id="Resource_r5k3h"]
+script = ExtResource("2_ggncx")
+question_text = "Name binomial coefficients of expression [img]uid://bgnriy3bt7y7f[/img]"
+answer_text = "[img]uid://cp8mmg3y1ko1q[/img]"
+
+[sub_resource type="Resource" id="Resource_s64ds"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://d15bkqu3xlcay[/img] as a rational fraction [img]uid://co57geahwu7j[/img]"
+answer_text = "[img]uid://blqrgje0v8bj[/img]"
+
+[sub_resource type="Resource" id="Resource_jj74u"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://bdu2ax3kfvenl[/img] as a rational fraction [img]uid://co57geahwu7j[/img]"
+answer_text = "[img]uid://denejhyxspmdl[/img]"
+
+[sub_resource type="Resource" id="Resource_qtj0j"]
+script = ExtResource("2_ggncx")
+question_text = "Express [img]uid://dkam3lpxmdsel[/img] as a rational fraction [img]uid://co57geahwu7j[/img]"
+answer_text = "[img]uid://cpevuedev4jr7[/img]"
+
+[sub_resource type="Resource" id="Resource_obc8m"]
+script = ExtResource("2_ggncx")
+question_text = "What does the symbol [img]uid://cqhprfbceu1mb[/img] mean?"
+answer_text = "There exists at least one."
+
+[sub_resource type="Resource" id="Resource_tphow"]
+script = ExtResource("2_ggncx")
+question_text = "What does the symbol [img]uid://2pg47ax8gsvq[/img] mean?"
+answer_text = "There exists one and only one."
+
+[sub_resource type="Resource" id="Resource_souwb"]
+script = ExtResource("2_ggncx")
+question_text = "What does the symbol [img]uid://xwc4gyo7q60x[/img] mean?"
+answer_text = "For every."
+
+[sub_resource type="Resource" id="Resource_k8end"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability that Daniel Defoe will write a world-famous book?"
+answer_text = "[img]uid://dg4qfj1456j5s[/img]"
+
+[sub_resource type="Resource" id="Resource_ihtj0"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability that Daniel Defoe will write a commercial flop?"
+answer_text = "[img]uid://gfy7fsowy8c6[/img]"
+
+[sub_resource type="Resource" id="Resource_8rna7"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability that the written book will be world famous?"
+answer_text = "[img]uid://oyhictgew71w[/img]"
+
+[sub_resource type="Resource" id="Resource_m4jb8"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability that the written book will not be known worldwide?"
+answer_text = "[img]uid://cqvrc28iy8xxt[/img]"
+
+[sub_resource type="Resource" id="Resource_v7ufj"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability of the union of the events that Daniel Defoe will write a world-famous book and that Daniel Defoe will write a commercially insignificant and unviable?"
+answer_text = "[img]uid://cm5xg8okp8nhn[/img]"
+
+[sub_resource type="Resource" id="Resource_1unlu"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). What is the probability of the union of the events that Daniel Defoe writes a book and will not write a book?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_045m7"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://ddk7gpkv528qt[/img]"
+answer_text = "[img]uid://dg4qfj1456j5s[/img]"
+
+[sub_resource type="Resource" id="Resource_la4vi"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://7s8sgqjjpt1g[/img]"
+answer_text = "[img]uid://gfy7fsowy8c6[/img]"
+
+[sub_resource type="Resource" id="Resource_orl7l"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://b2x6ukltw1ltv[/img]"
+answer_text = "[img]uid://oyhictgew71w[/img]"
+
+[sub_resource type="Resource" id="Resource_7druy"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://bscoo3dxetgj8[/img]"
+answer_text = "[img]uid://c7lodc6t43gyx[/img] or [img]uid://cqvrc28iy8xxt[/img]"
+
+[sub_resource type="Resource" id="Resource_njybt"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://vee6l6odhcxj[/img]"
+answer_text = "[img]uid://cm5xg8okp8nhn[/img]"
+
+[sub_resource type="Resource" id="Resource_i62y5"]
+script = ExtResource("2_ggncx")
+question_text = "The probability that Daniel Defoe will write the book \"Robinson Crusoe\" is equal to 60% ([img]uid://bnuvlbakopmov[/img]), and the probability that the written story will become world famous is 30% ([img]uid://1q378h4t2edt[/img]). [img]uid://pb5dce2rfui2[/img]"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_kwo2h"]
+script = ExtResource("2_ggncx")
+question_text = "In an alternate universe, Friday turned out to be a woman, and Crusoe's rescue from the island never happened. What is the projected population of the island in [img]uid://dw2673886cfd6[/img] years if the reproduction rate of the main characters is [img]uid://c12h2dd5l743y[/img]. (predict using the compound interest formula)"
+answer_text = "about [img]uid://bc1lp71dbpvkm[/img] or exactly [img]uid://b0k0rsclaadxb[/img]."
+
+[sub_resource type="Resource" id="Resource_6klmi"]
+script = ExtResource("2_ggncx")
+question_text = "The goat population on Crusoe Island left much to be desired - only 10 individuals remain. What is the projected population in [img]uid://dw2673886cfd6[/img] years if the goat reproduction rate is 10 (predict using compound interest formula)"
+answer_text = "[img]uid://ba8f81rgkfr2i[/img]"
+
+[sub_resource type="Resource" id="Resource_4aufu"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://vcmwcu0q7fuv[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_sej4b"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://d1p25qnek8gat[/img] = ?"
+answer_text = "[img]uid://cjsaekmc20eti[/img]"
+
+[sub_resource type="Resource" id="Resource_p064g"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dkcatfke46k0h[/img] = ?"
+answer_text = "[img]uid://cj40f16nfmmqw[/img]"
+
+[sub_resource type="Resource" id="Resource_twfr8"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c3lpck241y3tk[/img] = ?"
+answer_text = "[img]uid://drsdwxq380tkp[/img]"
+
+[sub_resource type="Resource" id="Resource_s2gxm"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://beqlkwhjtf646[/img]"
+answer_text = "[img]uid://wfld3qaktxbo[/img]"
+
+[sub_resource type="Resource" id="Resource_gi7g6"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cf8bp3f113fes[/img]"
+answer_text = "[img]uid://dejt54awyjlyd[/img]"
+
+[sub_resource type="Resource" id="Resource_d1gu8"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://du54uhhudpgii[/img]"
+answer_text = "[img]uid://c8cf5p60y4di6[/img]"
+
+[sub_resource type="Resource" id="Resource_qi4rr"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dfqtai5cr07s[/img]"
+answer_text = "[img]uid://c8cf5p60y4di6[/img]"
+
+[sub_resource type="Resource" id="Resource_l2xgf"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://d3ccd3perrigu[/img]"
+answer_text = "[img]uid://cniidx5itedrx[/img]"
+
+[sub_resource type="Resource" id="Resource_mql42"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://8xbr15o3ki7k[/img]"
+answer_text = "[img]uid://cgitbq1ej2vl1[/img]"
+
+[sub_resource type="Resource" id="Resource_5uep0"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cie7kn6ui4xic[/img]"
+answer_text = "[img]uid://cfsskp0n01cx5[/img]"
+
+[sub_resource type="Resource" id="Resource_rpkna"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c6nn85yyx7cok[/img]"
+answer_text = "[img]uid://cnnc44ynd5xqq[/img]"
+
+[sub_resource type="Resource" id="Resource_bxsit"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dpubdqmmkfq2s[/img]"
+answer_text = "[img]uid://5coohfgybfl5[/img]"
+
+[sub_resource type="Resource" id="Resource_qdhqp"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cdr8wrn454f5n[/img]"
+answer_text = "[img]uid://own68hj2bes2[/img]"
+
+[sub_resource type="Resource" id="Resource_r36tp"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://c1go7x2prj5au[/img]"
+answer_text = "[img]uid://npspdhtel48c[/img]"
+
+[sub_resource type="Resource" id="Resource_vclrt"]
+script = ExtResource("2_ggncx")
+question_text = "Name at least 2 types of indeterminate forms."
+answer_text = "[img width=660]uid://dg66xvgbhucrf[/img]"
+
+[sub_resource type="Resource" id="Resource_ki22h"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bt7er2rrtdu86[/img] = ?"
+answer_text = "[img]uid://cip2pqbqccgff[/img]"
+
+[sub_resource type="Resource" id="Resource_3nvxv"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bbdh0xg2hh4op[/img] Which indeterminate form occurs here (if any)?"
+answer_text = "[img]uid://2riq4hk7oaan[/img]"
+
+[sub_resource type="Resource" id="Resource_5rgfp"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bkw6cqbhf3y5l[/img] Which indeterminate form occurs here (if any)?"
+answer_text = "[img]uid://bs5830ja8nhs7[/img]"
+
+[sub_resource type="Resource" id="Resource_dad3y"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://7026k5k434d5[/img] Which indeterminate form occurs here (if any)?"
+answer_text = "[img]uid://cij8jmlpjylj[/img]"
+
+[sub_resource type="Resource" id="Resource_02bd4"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://cngxg0qsh2am3[/img] Which indeterminate form occurs here (if any)?"
+answer_text = "There is no indetermination."
+
+[sub_resource type="Resource" id="Resource_0dplk"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bdyhk7nm6lokg[/img]"
+answer_text = "[img]uid://cm1ujupc4v0nr[/img]"
+
+[sub_resource type="Resource" id="Resource_hew12"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://dijags6tn0gwe[/img]"
+answer_text = "[img]uid://qbl0jdpfc35d[/img]"
+
+[sub_resource type="Resource" id="Resource_evwne"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://daqls61s0uiyj[/img]"
+answer_text = "[img]uid://xt1seclevjl7[/img]"
+
+[sub_resource type="Resource" id="Resource_vhkid"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bbm7rcui80afj[/img]"
+answer_text = "[img]uid://dsg7prgqjqbj2[/img]"
+
+[sub_resource type="Resource" id="Resource_rfdfl"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://bi4h3vunpw7dd[/img]"
+answer_text = "[img]uid://d26b4135i153x[/img]"
+
+[sub_resource type="Resource" id="Resource_k6lk2"]
+script = ExtResource("2_ggncx")
+question_text = "[img]uid://b1pm1gxjl3a1y[/img]"
+answer_text = "[img]uid://sc2twp7maltk[/img]"
+
+[resource]
+script = ExtResource("1_8cews")
+name = "\"Ну Lai tev veicas\""
+icon = ExtResource("1_lm65h")
+static_cards = Array[ExtResource("2_ggncx")]([SubResource("Resource_5w6wy"), SubResource("Resource_2hkan"), SubResource("Resource_6fmas"), SubResource("Resource_55lb7"), SubResource("Resource_bjwxt"), SubResource("Resource_ybfsg"), SubResource("Resource_jpbmv"), SubResource("Resource_w5o2o"), SubResource("Resource_2e0yg"), SubResource("Resource_ayx4b"), SubResource("Resource_dnsen"), SubResource("Resource_ik773"), SubResource("Resource_reabc"), SubResource("Resource_vj73v"), SubResource("Resource_n6qjy"), SubResource("Resource_8uqow"), SubResource("Resource_q4xp3"), SubResource("Resource_k5eu0"), SubResource("Resource_fsvc3"), SubResource("Resource_reftb"), SubResource("Resource_xc8ea"), SubResource("Resource_gq8bp"), SubResource("Resource_br6tn"), SubResource("Resource_wpuad"), SubResource("Resource_cr0lm"), SubResource("Resource_v6y4n"), SubResource("Resource_1scif"), SubResource("Resource_8tjdb"), SubResource("Resource_122bn"), SubResource("Resource_xjlhs"), SubResource("Resource_kl35x"), SubResource("Resource_5inmo"), SubResource("Resource_amqla"), SubResource("Resource_6pcnm"), SubResource("Resource_jx6yy"), SubResource("Resource_3ncdf"), SubResource("Resource_rf71n"), SubResource("Resource_hfvq1"), SubResource("Resource_ao78s"), SubResource("Resource_fyfhx"), SubResource("Resource_hy542"), SubResource("Resource_l5blx"), SubResource("Resource_i3ktl"), SubResource("Resource_h3jfk"), SubResource("Resource_hxcwo"), SubResource("Resource_yyino"), SubResource("Resource_85kk3"), SubResource("Resource_sag0f"), SubResource("Resource_gvnr1"), SubResource("Resource_hklv8"), SubResource("Resource_hn4sv"), SubResource("Resource_i16tu"), SubResource("Resource_6y3c5"), SubResource("Resource_8icxt"), SubResource("Resource_jkbqs"), SubResource("Resource_8m0at"), SubResource("Resource_8q78c"), SubResource("Resource_ljgtq"), SubResource("Resource_h1jli"), SubResource("Resource_1kx8u"), SubResource("Resource_x0elm"), SubResource("Resource_e3aiy"), SubResource("Resource_h0ejo"), SubResource("Resource_xysuu"), SubResource("Resource_y1dsv"), SubResource("Resource_5kagj"), SubResource("Resource_fhdua"), SubResource("Resource_e8122"), SubResource("Resource_5y7nw"), SubResource("Resource_1lvej"), SubResource("Resource_x2ib7"), SubResource("Resource_g45v7"), SubResource("Resource_gutkf"), SubResource("Resource_5use5"), SubResource("Resource_05enx"), SubResource("Resource_b1pxu"), SubResource("Resource_t0ppj"), SubResource("Resource_cs7mo"), SubResource("Resource_0i4hu"), SubResource("Resource_mfmfu"), SubResource("Resource_f1vnn"), SubResource("Resource_5sgot"), SubResource("Resource_ts2sv"), SubResource("Resource_3gvqa"), SubResource("Resource_ypcuj"), SubResource("Resource_46855"), SubResource("Resource_pl3x6"), SubResource("Resource_lldst"), SubResource("Resource_5q3gl"), SubResource("Resource_ijyrv"), SubResource("Resource_e7r35"), SubResource("Resource_gb3nd"), SubResource("Resource_tgt86"), SubResource("Resource_aibog"), SubResource("Resource_r8vwf"), SubResource("Resource_b3knb"), SubResource("Resource_kwr7t"), SubResource("Resource_p6tvn"), SubResource("Resource_i8r5g"), SubResource("Resource_synfo"), SubResource("Resource_fryjh"), SubResource("Resource_526em"), SubResource("Resource_8ntcs"), SubResource("Resource_oh2t4"), SubResource("Resource_t8t5d"), SubResource("Resource_xmnoy"), SubResource("Resource_scagn"), SubResource("Resource_bty32"), SubResource("Resource_6nu4s"), SubResource("Resource_7iq8m"), SubResource("Resource_3puix"), SubResource("Resource_hfrct"), SubResource("Resource_xn5tl"), SubResource("Resource_wdjxw"), SubResource("Resource_n0ltc"), SubResource("Resource_drcby"), SubResource("Resource_h0g4m"), SubResource("Resource_pn4fx"), SubResource("Resource_k6mfa"), SubResource("Resource_kt6dt"), SubResource("Resource_2scbb"), SubResource("Resource_xlcnj"), SubResource("Resource_8p8xm"), SubResource("Resource_kb7yh"), SubResource("Resource_h5kwn"), SubResource("Resource_jd33v"), SubResource("Resource_xyc5v"), SubResource("Resource_bt1hc"), SubResource("Resource_wlec4"), SubResource("Resource_bqxbu"), SubResource("Resource_fen0d"), SubResource("Resource_dgoyc"), SubResource("Resource_kk7pw"), SubResource("Resource_qxfkx"), SubResource("Resource_bbuko"), SubResource("Resource_vu221"), SubResource("Resource_fw5al"), SubResource("Resource_ahur4"), SubResource("Resource_afhns"), SubResource("Resource_b848i"), SubResource("Resource_eqkuv"), SubResource("Resource_3vj3i"), SubResource("Resource_rt6rv"), SubResource("Resource_iw1bb"), SubResource("Resource_42f1l"), SubResource("Resource_um0up"), SubResource("Resource_gd55q"), SubResource("Resource_hcmmf"), SubResource("Resource_yjmow"), SubResource("Resource_3tajr"), SubResource("Resource_kan67"), SubResource("Resource_exrog"), SubResource("Resource_ux1jp"), SubResource("Resource_ifd8f"), SubResource("Resource_t1mpi"), SubResource("Resource_l8d6w"), SubResource("Resource_4xfkp"), SubResource("Resource_oqfha"), SubResource("Resource_nrflu"), SubResource("Resource_bfoqo"), SubResource("Resource_2lob5"), SubResource("Resource_yesqe"), SubResource("Resource_fj1mr"), SubResource("Resource_856hk"), SubResource("Resource_p375m"), SubResource("Resource_poxd5"), SubResource("Resource_p4tx2"), SubResource("Resource_is3ky"), SubResource("Resource_d5tep"), SubResource("Resource_nt5jd"), SubResource("Resource_mym1v"), SubResource("Resource_a2t2k"), SubResource("Resource_huqlq"), SubResource("Resource_vealp"), SubResource("Resource_3eo31"), SubResource("Resource_ipg5b"), SubResource("Resource_j08jr"), SubResource("Resource_0bmbs"), SubResource("Resource_bnik7"), SubResource("Resource_2s4dd"), SubResource("Resource_lk42l"), SubResource("Resource_62yyk"), SubResource("Resource_dhle0"), SubResource("Resource_1v0ny"), SubResource("Resource_qr1g2"), SubResource("Resource_1uv8b"), SubResource("Resource_cp7a8"), SubResource("Resource_mtasp"), SubResource("Resource_wrr30"), SubResource("Resource_ctgnk"), SubResource("Resource_5sjjv"), SubResource("Resource_wn4r2"), SubResource("Resource_nwmh0"), SubResource("Resource_s6h2o"), SubResource("Resource_8xux8"), SubResource("Resource_6knnr"), SubResource("Resource_idbog"), SubResource("Resource_nnj1i"), SubResource("Resource_n81yj"), SubResource("Resource_54k20"), SubResource("Resource_qj0uk"), SubResource("Resource_gdpdj"), SubResource("Resource_uhimg"), SubResource("Resource_6oyxq"), SubResource("Resource_en4ck"), SubResource("Resource_awwx2"), SubResource("Resource_1d5tc"), SubResource("Resource_ww76x"), SubResource("Resource_lpj1u"), SubResource("Resource_jttc5"), SubResource("Resource_t1rje"), SubResource("Resource_byoov"), SubResource("Resource_5wqab"), SubResource("Resource_1yhok"), SubResource("Resource_xckgy"), SubResource("Resource_mkwup"), SubResource("Resource_20yfw"), SubResource("Resource_qq35i"), SubResource("Resource_3jklr"), SubResource("Resource_v2ky5"), SubResource("Resource_nj7ld"), SubResource("Resource_ku6nb"), SubResource("Resource_qcb5a"), SubResource("Resource_pmsxh"), SubResource("Resource_sc2fv"), SubResource("Resource_o37ol"), SubResource("Resource_0uxny"), SubResource("Resource_c8xyn"), SubResource("Resource_ur1y1"), SubResource("Resource_t5hs0"), SubResource("Resource_0kkq0"), SubResource("Resource_eua1m"), SubResource("Resource_42gw2"), SubResource("Resource_7jupu"), SubResource("Resource_g7vta"), SubResource("Resource_cmvh1"), SubResource("Resource_2dbp4"), SubResource("Resource_6hrec"), SubResource("Resource_x2xve"), SubResource("Resource_3r8jw"), SubResource("Resource_bt67c"), SubResource("Resource_nq7mk"), SubResource("Resource_nge3o"), SubResource("Resource_2k44a"), SubResource("Resource_uuuwr"), SubResource("Resource_v86xu"), SubResource("Resource_y8fnj"), SubResource("Resource_35gen"), SubResource("Resource_1pf7m"), SubResource("Resource_6dcfl"), SubResource("Resource_s82o1"), SubResource("Resource_f6qf3"), SubResource("Resource_vicu8"), SubResource("Resource_pha5a"), SubResource("Resource_g44o2"), SubResource("Resource_hj6qc"), SubResource("Resource_j3iho"), SubResource("Resource_nqve6"), SubResource("Resource_iphpv"), SubResource("Resource_cvmu2"), SubResource("Resource_0hu6n"), SubResource("Resource_5aojs"), SubResource("Resource_6vsl1"), SubResource("Resource_kbvhh"), SubResource("Resource_vlhxf"), SubResource("Resource_1fjqd"), SubResource("Resource_lx0as"), SubResource("Resource_ihxy0"), SubResource("Resource_iputc"), SubResource("Resource_1dg5j"), SubResource("Resource_m5sv6"), SubResource("Resource_58jtp"), SubResource("Resource_1ltxt"), SubResource("Resource_2pqsl"), SubResource("Resource_xadd6"), SubResource("Resource_fqe2x"), SubResource("Resource_06hts"), SubResource("Resource_vkx4b"), SubResource("Resource_w8xle"), SubResource("Resource_p53da"), SubResource("Resource_itc81"), SubResource("Resource_81udf"), SubResource("Resource_yeq64"), SubResource("Resource_ic81r"), SubResource("Resource_pav7o"), SubResource("Resource_n764w"), SubResource("Resource_05h7p"), SubResource("Resource_txr74"), SubResource("Resource_di8on"), SubResource("Resource_eldpn"), SubResource("Resource_a6wk3"), SubResource("Resource_no8do"), SubResource("Resource_fkvbr"), SubResource("Resource_p4hwi"), SubResource("Resource_p2qkb"), SubResource("Resource_8kgpc"), SubResource("Resource_3q0wd"), SubResource("Resource_6y83t"), SubResource("Resource_7ro77"), SubResource("Resource_j3reb"), SubResource("Resource_khcx4"), SubResource("Resource_kynml"), SubResource("Resource_tiuxm"), SubResource("Resource_2vfbd"), SubResource("Resource_jjlif"), SubResource("Resource_dpxra"), SubResource("Resource_v4k0h"), SubResource("Resource_gh4q4"), SubResource("Resource_l0qfe"), SubResource("Resource_gc62h"), SubResource("Resource_hn8ox"), SubResource("Resource_5lvay"), SubResource("Resource_xpp88"), SubResource("Resource_x4dal"), SubResource("Resource_do1xk"), SubResource("Resource_n8vei"), SubResource("Resource_3vjs0"), SubResource("Resource_un8wc"), SubResource("Resource_13et1"), SubResource("Resource_6ma3m"), SubResource("Resource_vihe4"), SubResource("Resource_a11de"), SubResource("Resource_xdxvf"), SubResource("Resource_smqqh"), SubResource("Resource_g0ydc"), SubResource("Resource_o367h"), SubResource("Resource_fj0x7"), SubResource("Resource_bld0t"), SubResource("Resource_oh5xs"), SubResource("Resource_sejpp"), SubResource("Resource_42wcd"), SubResource("Resource_u0kpt"), SubResource("Resource_nkf87"), SubResource("Resource_3nbt4"), SubResource("Resource_622qj"), SubResource("Resource_d68p0"), SubResource("Resource_0ictw"), SubResource("Resource_yyg2f"), SubResource("Resource_qldgt"), SubResource("Resource_3xnkj"), SubResource("Resource_qq4bh"), SubResource("Resource_mitj0"), SubResource("Resource_4205d"), SubResource("Resource_bycu5"), SubResource("Resource_qoq6o"), SubResource("Resource_fdti1"), SubResource("Resource_c2ej1"), SubResource("Resource_3vfba"), SubResource("Resource_ujiy7"), SubResource("Resource_qmuac"), SubResource("Resource_fc5er"), SubResource("Resource_5j6ay"), SubResource("Resource_oyplt"), SubResource("Resource_jtpvn"), SubResource("Resource_vur6c"), SubResource("Resource_7ali5"), SubResource("Resource_uqrg6"), SubResource("Resource_voryo"), SubResource("Resource_i6u7o"), SubResource("Resource_bvpfc"), SubResource("Resource_4ghdc"), SubResource("Resource_yko2w"), SubResource("Resource_amq3c"), SubResource("Resource_47s16"), SubResource("Resource_h8bkl"), SubResource("Resource_jyshd"), SubResource("Resource_irnck"), SubResource("Resource_y2ps0"), SubResource("Resource_7n4t5"), SubResource("Resource_x8hn3"), SubResource("Resource_oownj"), SubResource("Resource_3obfn"), SubResource("Resource_csb6w"), SubResource("Resource_mvk1k"), SubResource("Resource_xudf8"), SubResource("Resource_2s4e2"), SubResource("Resource_t5itt"), SubResource("Resource_q83da"), SubResource("Resource_bbe4f"), SubResource("Resource_mkrqk"), SubResource("Resource_qiwy6"), SubResource("Resource_c4pbo"), SubResource("Resource_1qb45"), SubResource("Resource_fp00u"), SubResource("Resource_xdd4r"), SubResource("Resource_tt3tc"), SubResource("Resource_8ewqh"), SubResource("Resource_1mnfa"), SubResource("Resource_eubqf"), SubResource("Resource_32gc2"), SubResource("Resource_s70dt"), SubResource("Resource_hpduv"), SubResource("Resource_yqdp1"), SubResource("Resource_xw4rn"), SubResource("Resource_flspu"), SubResource("Resource_5eq2a"), SubResource("Resource_866bs"), SubResource("Resource_68v4m"), SubResource("Resource_50ebw"), SubResource("Resource_vao60"), SubResource("Resource_jv2eb"), SubResource("Resource_2j84s"), SubResource("Resource_ura1j"), SubResource("Resource_li0r0"), SubResource("Resource_33upt"), SubResource("Resource_fjx5r"), SubResource("Resource_eiiu4"), SubResource("Resource_biltk"), SubResource("Resource_dp1t1"), SubResource("Resource_350k6"), SubResource("Resource_m66mv"), SubResource("Resource_sskrq"), SubResource("Resource_tvmqf"), SubResource("Resource_rkvyf"), SubResource("Resource_kn6t1"), SubResource("Resource_swwo0"), SubResource("Resource_3afjb"), SubResource("Resource_2gcal"), SubResource("Resource_bcbd0"), SubResource("Resource_et00r"), SubResource("Resource_xx25u"), SubResource("Resource_dqi3q"), SubResource("Resource_cdx06"), SubResource("Resource_3vl7g"), SubResource("Resource_1sfi3"), SubResource("Resource_f7np2"), SubResource("Resource_0cjws"), SubResource("Resource_pcyxr"), SubResource("Resource_hf355"), SubResource("Resource_on11r"), SubResource("Resource_abpm8"), SubResource("Resource_vrcl6"), SubResource("Resource_qrbfl"), SubResource("Resource_40j2a"), SubResource("Resource_2mni6"), SubResource("Resource_hfnlx"), SubResource("Resource_fd3e3"), SubResource("Resource_hkecf"), SubResource("Resource_118la"), SubResource("Resource_3t4ds"), SubResource("Resource_yrcs3"), SubResource("Resource_0dm8y"), SubResource("Resource_hiaom"), SubResource("Resource_fpu3i"), SubResource("Resource_3nf1t"), SubResource("Resource_6pia3"), SubResource("Resource_dq2xa"), SubResource("Resource_87i1v"), SubResource("Resource_eu6ao"), SubResource("Resource_j5xfk"), SubResource("Resource_axupc"), SubResource("Resource_qndqs"), SubResource("Resource_qqjh2"), SubResource("Resource_eaaqv"), SubResource("Resource_1t4cp"), SubResource("Resource_3tvsp"), SubResource("Resource_q4ruh"), SubResource("Resource_o1a3q"), SubResource("Resource_nd8yy"), SubResource("Resource_qybdy"), SubResource("Resource_dbw3h"), SubResource("Resource_bmhji"), SubResource("Resource_2ykr8"), SubResource("Resource_cthfh"), SubResource("Resource_qj5mp"), SubResource("Resource_t67yl"), SubResource("Resource_v5kl2"), SubResource("Resource_riovt"), SubResource("Resource_umb5o"), SubResource("Resource_5frfe"), SubResource("Resource_sa0s1"), SubResource("Resource_aadhy"), SubResource("Resource_0h3o8"), SubResource("Resource_krcjs"), SubResource("Resource_0lmkk"), SubResource("Resource_ie64k"), SubResource("Resource_n0ki6"), SubResource("Resource_p1hjc"), SubResource("Resource_wtpe2"), SubResource("Resource_i2nlp"), SubResource("Resource_2sqbp"), SubResource("Resource_6iqnk"), SubResource("Resource_h7eia"), SubResource("Resource_gerr7"), SubResource("Resource_r5k3h"), SubResource("Resource_s64ds"), SubResource("Resource_jj74u"), SubResource("Resource_qtj0j"), SubResource("Resource_obc8m"), SubResource("Resource_tphow"), SubResource("Resource_souwb"), SubResource("Resource_k8end"), SubResource("Resource_ihtj0"), SubResource("Resource_8rna7"), SubResource("Resource_m4jb8"), SubResource("Resource_v7ufj"), SubResource("Resource_1unlu"), SubResource("Resource_045m7"), SubResource("Resource_la4vi"), SubResource("Resource_orl7l"), SubResource("Resource_7druy"), SubResource("Resource_njybt"), SubResource("Resource_i62y5"), SubResource("Resource_kwo2h"), SubResource("Resource_6klmi"), SubResource("Resource_4aufu"), SubResource("Resource_sej4b"), SubResource("Resource_p064g"), SubResource("Resource_twfr8"), SubResource("Resource_s2gxm"), SubResource("Resource_gi7g6"), SubResource("Resource_d1gu8"), SubResource("Resource_qi4rr"), SubResource("Resource_l2xgf"), SubResource("Resource_mql42"), SubResource("Resource_5uep0"), SubResource("Resource_rpkna"), SubResource("Resource_bxsit"), SubResource("Resource_qdhqp"), SubResource("Resource_r36tp"), SubResource("Resource_vclrt"), SubResource("Resource_ki22h"), SubResource("Resource_3nvxv"), SubResource("Resource_5rgfp"), SubResource("Resource_dad3y"), SubResource("Resource_02bd4"), SubResource("Resource_0dplk"), SubResource("Resource_hew12"), SubResource("Resource_evwne"), SubResource("Resource_vhkid"), SubResource("Resource_rfdfl"), SubResource("Resource_k6lk2")])
+dynamic_cards = Array[Resource("res://objects/card/card.gd")]([])

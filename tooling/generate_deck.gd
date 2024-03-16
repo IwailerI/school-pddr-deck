@@ -1,8 +1,8 @@
 @tool
 extends EditorScript
 
-const INPUT_PATH: String = "res://tooling/deck.json"
-const OUTPUT_PATH: String = "res://resources/decks/prod_ru_v2.tres"
+const INPUT_PATH: String = "res://tooling/new_deck.json"
+const OUTPUT_PATH: String = "res://resources/decks/prod_en_v4.tres"
 const RESOURCE_OUTPUT: String = "res://assets/equations/"
 const MAX_WIDTH: int = 660
 

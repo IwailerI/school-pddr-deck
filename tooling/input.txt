@@ -1,165 +1,153 @@
-> 5 класс
+> 5th grade
 
-1. Q: Назовите самое маленькое натуральное число. A: $1$
-2. Q: Какие числа являются натуральными? A: Целые положительные числа.
-3. Q: Переведите $36\frac{km}{h}$ в $\frac{m}{s}$. A: $10\frac{m}{s}$
-4. Q: Переведите $2 ha$ в $m^2$ A: $20000m^2$
-5. Q: Переведите $200 cm^3$ в $ml$ A: $200ml$
-6. Q: Переведите $75kPa$ в $Pa$ A: $75000Pa$ 
-7. Q: Переведите $1.98\mu m$ в $m$ A: $0.000098m$   
-8. Q: Запишите число $50$ римскими цифрами. A: $L$
-9. Q: Запишите число $100$ римскими цифрами. A: $C$
-10. Q: Запишите число $500$ римскими цифрами. A: $D$
-11. Q: Запишите число $1000$ римскими цифрами. A: $M$
-12. Q: Запишите число $90$ римскими цифрами. A: $XC$
-13. Q: Запишите число $L$ арабскими цифрами. A: $50$ 
-14. Q: Запишите число $C$ арабскими цифрами. A: $100$ 
-15. Q: Запишите число $D$ арабскими цифрами. A: $500$ 
-16. Q: Запишите число $M$ арабскими цифрами. A: $1000$ 
-17. Q: Запишите число $DCLXVI$ арабскими цифрами. A: $666$ 
+1. Q: Name the smallest natural number. A: $1$
+2. Q: Which numbers are natural? A: Positive integers.
+3. Q: Convert $36\frac{km}{h}$ to $\frac{m}{s}$. A: $10\frac{m}{s}$
+4. Q: Convert $2 ha$ to $m^2$ A: $20000m^2$
+5. Q: Convert $200 cm^3$ to $ml$ A: $200ml$
+6. Q: Convert $75kPa$ to $Pa$ A: $75000Pa$
+7. Q: Convert $1.98\mu m$ to $m$ A: $0.000098m$
+8. Q: Write the number $50$ in Roman numerals. A: $L$
+9. Q: Write the number $100$ in Roman numerals. A: $C$
+10. Q: Write the number $500$ in Roman numerals. A: $D$
+11. Q: Write the number $1000$ in Roman numerals. A: $M$
+12. Q: Write the number $90$ in Roman numerals. A: $XC$
+13. Q: Write the number $L$ in Arabic numerals. A: $50$
+14. Q: Write the number $C$ in Arabic numerals. A: $100$
+15. Q: Write the number $D$ in Arabic numerals. A: $500$
+16. Q: Write the number $M$ in Arabic numerals. A: $1000$
+17. Q: Write the number $DCLXVI$ in Arabic numerals. A: $666$
 18. Q: $$\frac{0}{D_{20}}=?$$ A: $0$
-19. Q: Чему равна сумма первых $100$ натуральных чисел? (Метод Гаусса) A: $5050$
-20. Q: Округлите число $89.63$ до целого числа. A: $90$
-21. Q: Округлите число $123.45$ до десятой. A: $123.5$
-22. Q: Округлите число $3567.366$ до сотен. A: $3600$
-23. Q: Округлите число $0.0056$ до тысячных. A: $0.006$
-24. Q: Округлите число $42.367$ до десятых. A: $42.4$
-25. Q: Назовите хотя бы 1 основное понятие Евклидовой планиметрии? A: точка / прямая / плоскость.
-
-> Q: Какой это угол? (рисунок) A: острый, тупой, прямой, развёрнутый, открытый, полный.
-
-26. Q: Дан угол $\angle \alpha \in \left[0\degree; 90\degree\right)$. Какого типа этот угол? A: Острый.
-27. Q: Дан угол $\angle \alpha =90\degree$. Какого типа этот угол? A: Прямой.
-28. Q: Дан угол $\angle \alpha \in \left[90\degree; 180\degree\right)$. Какого типа этот угол? A: Тупой.
-29. Q: Дан угол $\angle \alpha=180\degree$. Какого типа этот угол? A: Развёрнутый.
-30. Q: Дан угол $\angle\alpha\in \left[180\degree; 360\degree\right)$. Какого типа этот угол? A: Выпуклый или открытый.
-31. Q: Дан угол $\angle\alpha=360\degree$. Какого типа этот угол? A: Полный.
-32. Q: У какой фигуры 2 стороны и 1 вершина? A: у угла.
-33. Q: Сумма углов треугольника со сторонами $a, b, c$? A: $180\degree$
+19. Q: What is the sum of the first $100$ natural numbers? (Gaussian method) A: $5050$
+20. Q: Round $89.63$ to the nearest integer. A: $90$
+21. Q: Round the number $123.45$ to the nearest tenth. A: $123.5$
+22. Q: Round the number $3567.366$ to the nearest hundred. A: $3600$
+23. Q: Round the number $0.0056$ to the nearest thousand. A: $0.006$
+24. Q: Round the number $42.367$ to the nearest tenth. A: $42.4$
+25. Q: Name at least 1 basic concept of Euclidean planimetry. A: point/line/plane.
+26. Q: Given the angle $\angle \alpha \in \left[0\degree; 90\degree\right)$. What type of angle is this? A: Acute angle.
+27. Q: Given an angle $\angle \alpha =90\degree$. What type of angle is this? A: Right angle.
+28. Q: Given the angle $\angle \alpha \in \left[90\degree; 180\degree\right)$. What type of angle is this? A: Obtuse angle.
+29. Q: Given an angle $\angle \alpha=180\degree$. What type of angle is this? A: Straight angle.
+30. Q: Given the angle $\angle\alpha\in \left[180\degree; 360\degree\right)$. What type of angle is this? A: Convex angle.
+31. Q: Given an angle $\angle\alpha=360\degree$. What type of angle is this? A: Complete angle.
+32. Q: Which figure has 2 sides and 1 vertex? A: at the corner.
+33. Q: Sum of the angles of a triangle with sides $a, b, c$? A: $180\degree$
 34. Q: $12(a+b) + 56(a+b)=?$ A: $68(a+b)$
-35. Q: Что значит решить уравнение? A: Найти корни или доказать что таких нет.
-36. Q: Что определяется как число, равное сумме всех чисел множества, делённой на их количество? A: Среднее арифметическое.
-37. Q: Что такое смешанное число? A: Сумма целой и дробной части.
-38. Q: Какое число состоит из натурального числа и обыкновенной дроби? A: Смешанное.
-39. Q: Какая дробь неправильная? A: Дробь, в которой числитель больше знаменателя или равен ему. $\frac{a}{b}; a \geq b$
-40. Q: Представьте $\frac{17}{4}$ как смешанное число. A:  $4\frac{1}{4}$
-41. Q: Чему равна целая часть $\frac{17}{4}$? A:  $4$
-42. Q: Представьте $\frac{29}{7}$ как смешанное число. A:  $4\frac{1}{7}$
-43. Q: Чему равна целая часть $\frac{69}{11}$? A:  $6$
-44. Q: Представьте $9\frac{5}{8}$ как неправильную дробь. A: $\frac{77}{8}$                 
-45. Q: Представьте $12\frac{2}{5}$ как неправильную дробь. A: $\frac{62}{5}$           
-46. Q: Выразить $b$ из $\frac{a}{b} = \frac{c}{d};$ A: $b=\frac{ad}{c}$
-47. Q: Выразить $b$ из $\frac{a}{b} = \frac{c}{d};$ A: $c=\frac{ad}{b}$
-48. Q: Что такое многоугольник? (Точное определение) A: Часть плоски, ограниченная замкнутой ломаной.
-49. Q: Что такое круг (disk)? A: Часть плоскости ограниченная окружностью.
-50. Q: Что такое окружность (circle)? A: Замкнутая линия все точки которой равноудалены от заданной точки, лежащей в той же плоскости, что и кривая центра.
-51. Q: Что такое хорда? A: Отрезок соединяющий $2$ точки на окружности. 
-52. Q: Как выразить $\pi=?$ A: $$\frac{c}{d}=\frac{c}{2r}$$
-53. Q: Что такое промилле? A: $\frac{1}{1000}$ часть.
-54. Q: Что такое обратное число для $x$? A: Обратное число к данному числу $x$ - это число, произведение которого с $x$ даёт $1$.
-55. Q: Что такое противоположное число для $x$? A: Противоположное число к данному числу $x$ - это число, сумма которого и $x$ даёт $0$.
-56. Q: Что больше? $\frac{4}{6}$ или $70\%$? A: $70\%$
-57. Q: Что больше? $\frac{4}{7}$ или $70\%$? A: $70\%$ 
-58. Q: Что больше? $\frac{8}{5}$ или $70\%$? A: $\frac{8}{5}$
+35. Q: What does it mean to solve an equation? A: Find roots or prove that there are no such roots.
+36. Q: What is defined as a sum of all the numbers in a set divided by their count? A: Arithmetic mean (average).
+37. Q: What is a mixed number? A: The sum of the integer and fractional parts.
+38. Q: What number consists of a natural number and a common fraction? A: Mixed number.
+39. Q: Which fraction is improper? A: A fraction in which the numerator is greater than or equal to the denominator. $\frac{a}{b}; a\geq b$
+40. Q: Represent $\frac{17}{4}$ as a mixed number. A: $4\frac{1}{4}$
+41. Q: What is the whole part of $\frac{17}{4}$? A: $4$
+42. Q: Represent $\frac{29}{7}$ as a mixed number. A: $4\frac{1}{7}$
+43. Q: What is the whole part of $\frac{69}{11}$? A: $6$
+44. Q: Represent $9\frac{5}{8}$ as an improper fraction. A: $\frac{77}{8}$
+45. Q: Represent $12\frac{2}{5}$ as an improper fraction. A: $\frac{62}{5}$
+46. Q: Express $b$ from $\frac{a}{b} = \frac{c}{d};$ A: $b=\frac{ad}{c}$
+47. Q: Express $b$ from $\frac{a}{b} = \frac{c}{d};$ A: $c=\frac{ad}{b}$
+48. Q: What is a polygon? (Definition) A: Part of a plane bounded by a closed polyline.
+49. Q: What is a disk? A: Part of the plane bounded by a circle.
+50. Q: What is a circle? A: A closed line whose points are all equidistant from a given point lying in the same plane.
+51. Q: What is a chord? A: A segment connecting $2$ points on a circle.
+52. Q: How to express $\pi=?$ A: $$\frac{c}{d}=\frac{c}{2r}$$
+53. Q: What is $ppm$? A: $\frac{1}{1000}$ part.
+54. Q: What is the reciprocal of $x$? A: The reciprocal of a given number $x$ is the number whose product with $x$ equals $1$.
+55. Q: What is the inverse of number $x$? A: The inverse of a number $x$ is the number whose sum with $x$ equal $0$.
+56. Q: What's greater? $\frac{4}{6}$ or $70\%$? A: $70\%$
+57. Q: What's greater? $\frac{4}{7}$ or $70\%$? A: $70\%$
+58. Q: What's greater? $\frac{8}{5}$ or $70\%$? A: $\frac{8}{5}$
 
-> 6 класс
+> 6th grade
 
-59. Q: Что такое просто число? A: Натуральное число которое имеет ровно $2$ натуральных делителя.
-60. Q: Какое самое маленькое просто число? A: $2$
-61. Q: Может ли простое число быть чётным? A: Да, например $2$.
-62. Q: Делится ли $12967234269$ на $3$? A: Да, поскольку сумма цифр равна $51$ чья сумма цифр равна $6$, что равно $3 + 3$, что равно $2\cdot3$, что определённо делиться на 3, так как $\frac{2\cdot3}{3} = 2$
-63. Q: Делится ли $1296723426912$ на $6$? A: Да, поскольку сумма цифр равна $54$,  что делится на $3$ и последняя цифра равна $2$, что делится на $2$.
-64. Q: Делится ли $1296723426945$ на $15$? A: Да, поскольку сумма цифр равна $65$, что делится на $3$ и последняя цифра равна $5$, что делится на $5$. Рас числа $3$ и $5$ взаимно простые, и число делится и на $3$ и на $5$, число делится на $15$.
-65. Q: Делится ли $1234$ на $4$? A: Нет, поскольку $34$ не делиться на $4$.
-66. Q: Разложите $60$ на простые множители A: $2^2;3;5$, (так как $2^2\cdot3\cdot5 =60)$
-67. Q: Разложить число $243$ на простые сомножители? A: $3^5$ (так как $3^5=243$)
-68. Q: Разложить число $512$ на простые сомножители? A: $2^9$ (так как  $2^9=512$ )
-69. Q: Какие числа взаимно простые? A: Целые числа, не имеющие никаких общих натуральных делителей, кроме $1$.
-70. Q: Что такое расстояние от точки до прямой? A: Длина перпендикуляра опущенного из точки на прямую.
-71. Q: Что такое смежные углы? A: Углы имеющие общую вершину и одну общую сторону.
-72. Q: Что такое вертикальные углы? A: пара углов с общей вершиной, которые образованы при пересечении двух прямых таким образом, что стороны одного из них являются продолжением сторон другого. Иными словами - они противоположны.
-73. Q: В чём смысл жизни? A: 42 (это вопрос не считается)
-74. Q: Сколько пар смежных углов образуют $2$ пересекающиеся прямые? A: $4$
-75. Q: Сколько пар вертикальных углов образуют $2$ пересекающиеся прямые? A: $2$
-76. Q: Робинзон Крузо плывёт на бригантине со скоростью $12\frac{km}{h}$ против Бразильского течения скорость которого $2\frac{km}{h}$. С какой скоростью Робинзон Крузо плывёт за рабами для своей плантации? A: Со скоростью $10\frac{km}{h}$ .
-77. Q: Робинзон Крузо плывёт на шлюпе со скоростью $7\frac{km}{h}$ по Канарскому течению скорость которого $1\frac{km}{h}$. С какой скоростью Робинзон Крузо сбегает из рабства? A: Со скоростью $8\frac{km}{h}$ .
-78. Q: Как называется $b$ в $b^a$? A: База или основание.
-79. Q: Как называется $a$ в $b^a$? A: Показатель степени.
-80. Q: Робинзон Крузо, чтобы впечатлить своих товарищей, решил посчитать расстояние между Лондоном и Эдинбургом. Расстояние на карте $3cm$, а масштаб - $2.5cm - 250km$. Каково расстояние между Лондоном и Эдинбургом во вселенной Робинзона Крузо? A: $300km$
-81. Q: Чему равно расстояние на числовой прямой между точками $a$ и $b$? A: $|a-b|$
-82. Q: Что такое ось абсцисс? A: Ось x.
-83. Q: Что такое ось ординат? A: Ось y.
-84. Q: Какой квадрант находится справа снизу? A: $IV$ квадрант.
-85. Q: Какой квадрант находится слева сверху? A: $II$ квадрант. 
+59. Q: What is a prime number? A: A natural number that has exactly $2$ natural divisors.
+60. Q: What is the smallest prime number? A: $2$
+61. Q: Can a prime number be even? A: Yes, for example $2$.
+62. Q: Is $12967234269$ divisible by $3$? A: Yes, since the sum of the digits is $51$ whose sum of the digits is $6$, which is equal to $3 + 3$, which is equal to $2\cdot3$, which is definitely divisible by 3, since $\frac{2\cdot3}{3} = 2$, trust me on this one.
+63. Q: Is $1296723426912$ divisible by $6$? A: Yes, because the sum of the digits is $54$, which is divisible by $3$, and the last digit is $2$, which is divisible by $2$.
+64. Q: Is $1296723426945$ divisible by $15$? A: Yes, because the sum of the digits is $60$, which is divisible by $3$ and the last digit is $5$, which is divisible by $5$. The numbers $3$ and $5$ are coprime, and the number is divisible by both $3$ and $5$, and the number is divisible by $15$.
+65. Q: Is $1234$ divisible by $4$? A: No, because last two digits are $34$ which is not divisible by $4$.
+66. Q: Factor $60$ into prime factors. A: $2^2;3;5$, (since $2^2\cdot3\cdot5 =60)$
+67. Q: Factor $243$ into prime factors. A: $3^5$ (since $3^5=243$)
+68. Q: Factor $512$ into prime factors. A: $2^9$ (since $2^9=512$ )
+69. Q: What numbers are coprime? A: Integers that have no common natural factors other than $1$.
+70. Q: How do you define a distance from a point to a line? A: The length of a perpendicular drawn from a point to a straight line.
+71. Q: What are adjacent angles? A: Supplementary angles are two angles in which one side is common, and the other two complement each other to a straight line.
+72. Q: What are vertical angles? A: A pair of angles with a common vertex, which are formed by the intersection of two lines in such a way that the sides of one of them are a continuation of the sides of the other. In other words, they are opposites.
+73. Q: What is the meaning of life? A: 42 (skip this question)
+74. Q: How many pairs of supplementary angles form $2$ intersecting lines? A: $4$
+75. Q: How many pairs of vertical angles form $2$ intersecting lines? A: $2$
+76. Q: Robinson Crusoe is sailing on a brigantine at a speed of $12\frac{km}{h}$ against the Brazilian Current, whose speed is $2\frac{km}{h}$. How fast does Robinson Crusoe sail to get slaves for his plantation? A: At a speed of $10\frac{km}{h}$ .
+77. Q: Robinson Crusoe is sailing on a sloop with a speed of $7\frac{km}{h}$ on the Canary Current whose speed is $1\frac{km}{h}$. How fast does Robinson Crusoe escape from slavery? A: At a speed of $8\frac{km}{h}$ .
+78. Q: What is the $b$ in $b^a$ called? A: Base.
+79. Q: What is the $a$ in $b^a$ called? A: Exponent.
+80. Q: Robinson Crusoe, in order to impress his comrades, decided to calculate the distance between London and Edinburgh. The distance on the map is $3cm$ and the scale is $2.5cm - 250km$. What is the distance between London and Edinburgh in the Robinson Crusoe universe? A: $300km$
+81. Q: What is the distance on the number line between points $a$ and $b$? A: $|a-b|$
+82. Q: What is the abscissa? A: X-axis.
+83. Q: What is the ordinate? A: Y-axis.
+84. Q: Which quadrant is on the bottom right? A: $IV$ quadrant.
+85. Q: Which quadrant is on the top left? A: $II$ quadrant.
 
-> 7 класс
+> 7th grade
 
-85. Q: Что такое теорема? A: Математическое утверждение, истинность которого устанавливается путём доказательства.
-86. Q: Что такое аксиома? A: Математическое утверждение не требующее доказательства.
-87. Q: На сколько полуплоскостей делят плоскость $2$ пересекающиеся прямых? A: $4$
-88. Q: Что такое признак? A: Достаточное условие для принадлежности объекта некоторому классу.
-89. Q: Что такое свойство? A: Утверждение или закон, который описывает определенное поведение или характеристику математических объектов.
-90. Q: Петя хочет построить треугольник. Он измерил длины трех отрезков: $a=5 cm, b=8 cm , c=12 cm$. Помогите Пете определить, сможет ли он построить треугольник с такими сторонами. A: Сможет.
-91. Q: Каков тип треугольника со сторонами $3, 4, 6$? A: Разносторонний тупоугольный треугольник.
-92. Q: Сколько общих точек может быть у $2$ окружностей? A: $0, 1, 2, \infty$.
-93. Q: Какие окружности концентрические? A: Имеющие общий центр.
-94. Q: Что такое кольцо (фигура в планиметрии)? A: Плоская геометрическая фигура, ограниченная двумя концентрическими окружностями.
-95. Q: Что такое угол? A: Часть плоскости ограниченная 2 лучами с одинаковой вершиной.
-96. Q: Переведите $1\degree$ в секунды. A: $3600'$
-97. Q: Что такое биссектриса угла? A: Луч, исходящий из вершины угла и делящий этот угол на два равных угла.
-98. Q: Что такое медиана в треугольнике? A: Отрезок в треугольнике, соединяющий вершину треугольника с серединой стороны, противоположной этой вершине.
-99. Q: Что такое высота в треугольнике? A: Перпендикуляр, опущенный из вершины треугольника на прямую содержащую противоположную сторону.
-100. Q: Что такое серединные перпендикуляр? A: Прямая, перпендикулярная данному отрезку и проходящая через его середину.
+85. Q: What is a theorem? A: A mathematical statement whose truth is established by proof.
+86. Q: What is an axiom? A: A mathematical statement that does not require proof.
+87. Q: Into how many half planes is the plane divided by 2 intersecting lines. A: $4$
+88. Q: What is a criterion? A: A sufficient condition for an object to belong to a certain class.
+89. Q: What is a property? A: A statement or law that describes a certain behavior or characteristic of mathematical objects.
+90. Q: Petya wants to construct a triangle. He measured the lengths of three segments: $a=5 cm, b=8 cm, c=12 cm$. Help Petya determine whether he can construct a triangle with these sides. A: He can.
+91. Q: What is the type of triangle with sides $3, 4, 6$? A: Scalene obtuse triangle.
+92. Q: How many common points can $2$ circles have? A: $0, 1, 2, \infty$.
+93. Q: Which circles are concentric? A: Those who have a common center.
+94. Q: What is a ring (planimetry figure)? A: A flat geometric figure bounded by two concentric circles.
+95. Q: What is an angle? A: Part of the plane bounded by 2 rays with the same vertex.
+96. Q: Convert $1\degree$ to arcseconds. A: $3600'$
+97. Q: What is the bisector of an angle? A: A ray emanating from the vertex of an angle and dividing that angle into two equal angles.
+98. Q: What is the median in a triangle? A: A line segment in a triangle connecting a vertex of the triangle to the midpoint of the side opposite that vertex.
+99. Q: What is the height of a triangle? A: A perpendicular drawn from the vertex of a triangle to a line containing the opposite side.
+100. Q: What is a perpendicular bisector? A: A line perpendicular to a given segment and passing through its middle.
 
-> Q: Что такое соответственные углы (kapshlu)? A: Это два угла, образованные при сечении двух прямых третьей, один во внешней области, один во внутренней области, и которые лежат на одной стороне секущей. ==<------- Спросить у уч. математики на всякий==
-> Q: такое внутренние накрестлежащие углы (iekshejie skershlenti)?  Это два угла во внутренней области двух прямых и на разных сторонах секущей. Накрест лежащие углы попарно равны.  ==<------- Спросить у уч. математики на всякий==
-> Q: Что такое внутренние односторонние углы (iekshijie vienpuslenki)? Это углы, которые лежат по одну сторону от  секущей внутри параллельных прямых.  ==<------- Спросить у уч. математики на всякий==
+101. What are corresponding angles? A: These are two angles formed by intersecting two parallel lines with a third, one in the outer region, one in the inner region, and which lie on the same side of the transversal.
+102. Q: What are alternate angles? A: These are two angles in the interior region of two parallel lines and on different sides of the transversal. Crossed angles are equal in pairs.
+103. Q: What are interior opposite angles angles? A: These are the angles that lie on the same side of the transversal inside parallel lines.
+104. Q: What is a sampling? A: The part of the population of elements that is covered by the experiment.
+105. Q: What is a population? A: The set of all objects about which it is expected to draw conclusions when studying a specific experiment.
+106. Q: How to calculate the probability of outcomes of an equally probable event? A: Divide the number of desired outcomes by the number of all outcomes.
+107. Q: What is the probability of an inevitable event? A: $1$
+108. Q: What is the probability of an impossible event? A: $0$
+109. Q: What is the probability interval for a random event? A: $(0; 1)$
+110. Q: $$-3 \cdot |x| > -15$$ A: $$(-5; 5)$$
+111. Q: $$-3 \cdot |x| < -15$$ A: $$(-\infty; -5) \cup (5, \infty)$$
+112. Q: Which polygon is convex? A: A polygon whose angles are all less than $180\degree$.
+113. Q: Which polygon is concave? A: A polygon that has at least $1$ angle that is less than $180\degree$.
+114. Q: Is a disk concave? A: No, the disk is convex. (Between any 2 points you can draw a straight line, all points of which will be contained in the figure)
+115. Q: Is a circle concave? A: Yes.
+116. Q: State the Pythagorean theorem in words. A: In a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+117. Q: What is the exterior angle of a triangle? A: $180\degree - \alpha = \beta + \gamma$
+118. Q: Where will the center of the inscribed circle in the triangle lie? A: At the intersection of bisectors.
+119. Q: Where will the center of the circumscribed circle of the triangle lie? A: At the intersection of perpendicular bisectors.
+120. Q: What is a function? Dependency where each argument value belongs to ___ function value. A: At most one.
+121. Q: What is the difference between the domain of definition and the domain of value of a function. A: The domain of the function $f$ is the set of all valid values of the variable $x$. The function can only be defined for those values for which the expression $f(x)$ is defined.
+122. Q: Name at least 3 ways of defining a graph. A: Words, table, pictogram, diagram, formula, graph.
+123. Q: $y=kx+b$ Find the point of intersection with the x-axis. A: $\left(-\frac{b}{k}, 0\right)$
+124. Q: $y=kx+b$ Find the point of intersection with the y-axis. A: $\left(0, b\right)$
+125. Q: How to find $k$ if given points $(x_1, y_1)$ and $(x_2, y_2)$ of a linear function? A: $k=\frac{\Delta y}{\Delta x}$
+126. Q: Given lines $f(x)=k_1x+b_1$ and $g(x) = k_2x+b_2$. Under what condition will they be parallel? A: $k_1=k_2$
+127. Q: Given straight lines $f(x)=k_1x+b_1$ and $g(x) = k_2x+b_2$. Under what condition will they be perpendicular? A: $k_1\cdot k_2=-1$
+128. Q: What symmetry does an isosceles triangle have: axial or central? A: Axial.
+129. Q: What symmetry does a circle have: axial or central? A: Both.
+130. Q: What is the standard form of a number? A: $n=a\cdot10^b;1\le|a|<10;b\in\mathbb{Z}$
+131. Q: Is it possible to represent $0$ in standard form? A: No.
+132. Q: Express the number $123456789$ in standard form. A: $1.23456789 \cdot 10^8$
+133. Q: What is the degree of the polynomial $2x^5+7x^2-2x^5−3x^3+7x^2-5x−9$? A: $5$
+134. Q: What is the degree of the polynomial $3x^7−2x^6+5x^3−4x+2$? A: $7$
+135. Q: What is the degree of the monomial $5x^3y^2z$? A: $6$
+136. Q: What is the degree of the monomial $-2a^4b^3$? A: $7$
+137. Q: How to determine the degree of a polynomial? A: Find the greatest of the degrees of the monomials.
+138. Q: Which monomials are similar? A: Those that differ only in the constant.
 
-101. Q: Что такое выборка? A: Часть генеральной совокупности элементов, которая охватывается экспериментом.
-102. Q: Что такое генеральная совокупность? A: Совокупность всех объектов, относительно которых предполагается делать выводы при изучении конкретной задачи.
-103. Q: Как посчитать вероятность исходов равновероятностного события? A: Поделить количество желаемых исходов на количество всех исходов.
-104. Q: Какова вероятность неизбежного события? A: $1$
-105. Q: Какова вероятность невозможного события? A: $0$
-106. Q: Каков интервал вероятности случайного события? A: $(0; 1)$
-107. Q: $$-3 \cdot |x| > -15$$ A: $$(-5; 5)$$
-108. Q: $$-3 \cdot |x| < -15$$ A: $$(-\infty; -5) \cup (5, \infty)$$
-109. Q: Какой многоугольник выпуклый? A: Многоугольник, у которого все углы меньше $180\degree$.
-110. Q: Какой многоугольник вогнутый? A: Многоугольник, который имеет хотя бы $1$ угол, который меньше $180\degree$.
-111. Q: Является ли круг вогнутым? A: Нет, круг выпуклый. (Между 2 любыми точками можно провести прямую, все точки которой будут содержаться в фигуре)
-112. Q: Назовите теорему Пифагора словами. A: В прямоугольном треугольнике квадрат гипотенузы равен сумме квадратов двух других сторон.
-113. Q: Чему равен внешний угол треугольник? A: $180\degree - \alpha = \beta + \gamma$
-
-> Q: Как начертить серединный перпендикуляр отрезка циркулем и линейкой (без засечек)? A: ==Картинка или гифка ==
-
-114. Q: Где будет лежать центр вписанной в треугольник окружности? A: На пересечении биссектрис.
-115. Q: Где будет лежать центр описанной около треугольника окружности? A: На пересечении серединных перпендикуляров.
-116. Q: Что такое функция? Зависимости где каждому значению аргумента принадлежит ___ значение функции. A: Максимум 1.
-
-> Q: Дан график, определить область определение, область значение. ==Нужна картинка==
-
-117. Q: Чем отличается область определения и область значения функции. A: Областью определения функции $f$ называется множество всех допустимых значений переменной $x$. Функция может быть определена только для тех значений, при которых выражение $f(x)$ имеет смысл.
-118. Q: Назовите хотя бы 3 варианта задачи графика. A: Словами, таблицей, пиктограммой, диаграммой, формулой, графиком.
-119. Q: $y=kx+b$ Найти точку пересечения с осью x. A: $\left(-\frac{b}{k}, 0\right)$
-120. Q: $y=kx+b$ Найти точку пересечения с осью y. A: $\left(0, b\right)$
-121. Q: Как найти $k$ если даны 2 точки $(x_1, y_1)$ и $(x_2, y_2)$ линейной функции? A: $k=\frac{\Delta y}{\Delta x}$
-122. Q: Даны прямые $f(x)=k_1x+b_1$ и $g(x) = k_2x+b_2$. При каком условии они будут параллельны? A: $k_1=k_2$
-123. Q: Даны прямые $f(x)=k_1x+b_1$ и $g(x) = k_2x+b_2$. При каком условии они будут перпендикулярны? A: $k_1\cdot k_2=-1$
-124. Q: Какой симметрией обладает равнобедренный треугольник: осевой или центровой? A: Осевой.
-125. Q: Какой симметрией обладает окружность: осевой или центровой? A: И той и другой.
-
-> Q: Картинка с фигурой с только центровой симметрией. Пример: влажки продублированные по кругу.
-
-126. Q: Что такое стандартный вид числа? A: $n=a\cdot10^b;1\le|a|<10;b\in\mathbb{Z}$
-127. Q: Можно ли представить $0$ в стандартном виде? A: Нет.
-128. Q: Представить число $123456789$ в стандартном виде. A: $1.23456789 \cdot 10^8$
-129. Q: Какова степень многочлена $2x^5+7x^2-2x^5−3x^3+7x^2-5x−9$? A: $5$
-130. Q: Какова степень многочлена $3x^7−2x^6+5x^3−4x+2$? A: $7$
-131. Q: Какова степень одночлена $5x^3y^2z$? A: $6$
-132. Q: Какова степень одночлена $-2a^4b^3$? A: $7$
-133. Q: Как определить степень многочлена? A: Найти наибольшую из степеней одночленов.
-134. Q: Какие одночлены являются подобными? A: Те которые отличаются только константой (не отличаются буквенной частью).
-
-> 8 класс
+> 8th grade
 
 142. Q: $(a + b)^2 = ?$ A: $a^2 + 2ab + b^2$.
 143. Q: $(a - b)^2 = ?$ A: $a^2 - 2ab + b^2$.
@@ -167,250 +155,405 @@
 145. Q: $(\sqrt2+ x)^2$ A: $2+2\sqrt2x+x^2$
 146. Q: $(\log_2 8 - z^\frac{1}{2})^2$ A: $9-6\sqrt z+z$
 147. Q: $\left( \left( \lim \limits_{ z\to\infty } \left( 1+\frac{1}{z} \right)^z \right)^{ln(2)} \right)^2 -y^2$ A: $(2-y)(2+y)$
-148. Q: $ax^2 + bx + c$ разложить на множители. 
-A: $$a\left(x - \frac{-b-\sqrt{b^2-4ac}}{2a}\right)\left(x- \frac{-b+\sqrt{b^2-4ac}}{2a}\right)$$
-или 
-$$a(x-x_1)(x-x_2)$$
-149. Q: Назовите хотя бы 2 способа разложения на множители. A: Вынесение общего множителя за скобки, группировка, формула сокращённого умножения, разложения квадратным трёхчленом.
-150. Q: Разложите на множители: $75\alpha+50\beta-25\gamma$ A: $25\left(3\alpha+2\beta-\gamma\right)$
-151. Q: Разложите на множители: $a(2+b) - 4(2+b)$ A: $(a-4)(2+b)$
-152. Q: Разложите на множители: $6x+7y+42+xy$ A: $(6x+xy) + (42+7y) = x(6 + y) + 7(6+y) = (x + 7)(y + 6)$
-153. Q: Разложите на множители: $(x+2)^2 - y^2$ A: $\left(x-y+2\right)\left(x+y+2\right)$
-154. Q: Сумма углов $D_{6}$-угольника? A: $180\degree \cdot \left(D_{6}-2\right)$
-155. Q: Сумма углов = $540 \degree$. Сколько углов у этого многоугольников? A: $5$
-156. Q: Что такое параллелограмм? A: Четырёхугольник, у которого противолежащие стороны попарно параллельны.
-157. Q: Как найти площадь параллелограмма со стороной $D_{4}$ и высотой $D_{6}$? A: $D_{4} \cdot D_{6}$
-158. Q: Что такое прямоугольник? A: Параллелограмм, у которого все углы прямые.
-159. Q: Что такое квадрат? A: Прямоугольник, у которого все стороны равны.
-160. Q: Что такое ромб? A: Параллелограмм, у которого все стороны равны.
-161. Q: Что является графиком  $y=\sqrt{x}$ ? A: Ветвь параболы.
-162. Q: Что такое квадратный корень? A: Квадратный корень из числа a — число x, дающее a при возведении в квадрат.
-163. Q: Чем отличается обычный квадратный корень от арифметического? A: Арифметический квадратный корень (в отличии от обычного ) всегда не отрицателен.
-164. Q: Что такое арифметическая последовательность? A: Последовательность чисел, в которой каждое число, начиная со второго, получается из предыдущего добавлением к нему постоянного числа (шага, или разности прогрессии).
-165. Q: Какая общая формула члена арифметической прогрессии? A: $a_n=a_1+d(n-1)$
-166. Q: Какая рекуррентная формула члена арифметической прогрессии? A: $a_n=d + a_{n-1}$
-167. Q: В чём разница между рекуррентной и общей формулой последовательности? A: Рекуррентная формула выражает каждый член последовательности через другие члены, а общая формула последовательности выражает каждый член через его номер.
-168. Q: Растёт ли арифметическая последовательность где $d=D_{6}$? A: Да.
-169. Q: Как найти сумму первых N членов арифметической прогрессии? A: $$S_{n} = \frac{a_{1} + a_{n}}{1} \cdot n$$
-170. Q: Что такое геометрическая последовательность? A: Числовая последовательность, каждый член которой отличается от предыдущего на определённую константу.
-171. Q: Какая общая формула члена геометрической прогрессии? A: $$b_n=b_1 \cdot q^{n-1}$$
-172. Q: Какая рекуррентная формула члена геометрической прогрессии? A: $$b_n=qb_{n-1}$$
-173. Q: Растёт ли геометрическая последовательность где $q=2D_{20}$? A: Да.
-174. Q: Чему равна сумма первых $10$ членов арифметической прогрессии, заданной по формуле $a_n = 1 + 1\cdot(n-1)$? A: $55$ 
-175. Q: Чему равна сумма наименьших $5$ простых чисел? A: $28$
-176. Q: Чему равна площадь сектора в $30\degree$ а $r=1$? A: $$\frac{\pi}{12}$$
-177. Q: Как найти площадь равностороннего треугольника? A: $$\frac{a^2\sin60\degree}{2}=\frac{a^2\sqrt{3}}{2}$$
-178. Q: Сколько корней будет у уравнения $-x^2+D_6b+D_{20}c=0$? A: $2$
-179. Q: Сколько корней будет у уравнения $10x^2+D_6b+D_{20}c=0$? A: $0$
-180. Q: Сколько корней будет у уравнения $\frac{kx^2}{2}+kx+\frac{k}{2}=0$, $k=D_6$? A: $1$
-181. Q: Решите уравнение $3x^2-8x=0$. A: $$x_{1} = 0; x_{2}=\frac{8}{3}$$
-182. Q: Решите уравнение $16x^2-9=0$. A: $$x=\pm \frac{3}{4}$$
-183. Q: Чему равна область значения и область определения функции $y=x^2$? A: $$D(y) = (-\infty; +\infty); E(y) = [0;+\infty)$$
-184. Q: Найти координаты вершины параболы функции $y = x^2 - 2x + D_{20}$ A: $$(1, D_{20}-1)$$
-185. Q: Найти сумму корней уравнения $kx^2+kx+k=0; k=D_{6}$ A: $-1$
-186. Q: Найти сумму корней уравнения $2x^2+kx+k=0; k=D_{6}$ A: $-D_6\frac{1}{2}$
-187. Q: Решить уравнение $kx^4+kx+k=0; k=D_{100}$ A: Решений нет.
-188. Q: Решить уравнение $4x^2 -100 = 0$. A: $x = \pm5$
-189. Q: Решить уравнение $(x-5)^2 = 81$. A: $x_1 = 14; x_2 = -4$
-190. Q: Дан равнобедренный прямоугольный треугольник, на против угла $45\degree$ сторона $D_{20}$. Чему равна гипотенуза? A: $D_{20}\sqrt{2}$
-191. Q: Дан треугольник с углами $30\degree$, $60\degree$, $90\degree$, на против угла $30\degree$ сторона $D_4$. Чему равны 2 другие стороны на против? A: $60\degree - D_4\sqrt{3}; 90\degree - 2D_4$.
-192. Q: Самая длинная сторона треугольник в квадрате больше суммы квадратов двух других сторон. Какого типа этот треугольник? A: Тупоугольный.
-193. Q: Самая длинная сторона треугольник в квадрате меньше суммы квадратов двух других сторон. Какого типа этот треугольник? A: Остроугольный.
-194. Q: Что такое трапеция? A: Трапеция - четырёхугольник, у которого две стороны параллельны, а две другие стороны не параллельны. 
-195. Q: Какая трапеция равнобедренная? A: Трапеция, у которой боковые стороны равны.
-196. Q: Какая трапеция произвольная? A: Трапеция, которая не является ни прямоугольной, ни равнобедренной.
-197. Q: Какая трапеция прямоугольная? A: Трапеция, у которой одна боковая сторона перпендикулярна основанию.
-198. Q: Что такое центральная линия в треугольнике? A: Отрезок соединяющий центры $2$ сторон.
-199. Q: Что такое центральная линия в трапеции? A: отрезок соединяющий центры $2$ боковых сторон.
-200. Q: Как найти площадь трапеции? A: $$S=\frac{a + b}{2}h$$ 
+148. Q: Factor $ax^2 + bx + c$. A: $$a\left(x - \frac{-b-\sqrt{b^2-4ac}}{2a}\right)\left(x- \frac{-b+\sqrt{b^2-4ac }}{2a}\right)$$ or $$a(x-x_1)(x-x_2)$$
+149. Q: Name at least 2 ways of factorization. A: Isolating the common factor, grouping, special factoring formulas, quadratic polynomial expansion.
+150. Q: Factor: $75\alpha+50\beta-25\gamma$ A: $25\left(3\alpha+2\beta-\gamma\right)$
+151. Q: Factor: $a(2+b) - 4(2+b)$ A: $(a-4)(2+b)$
+152. Q: Factor: $6x+7y+42+xy$ A: $(6x+xy) + (42+7y) = x(6 + y) + 7(6+y) = (x + 7 )(y + 6)$
+153. Q: Factor: $(x+2)^2 - y^2$ A: $\left(x-y+2\right)\left(x+y+2\right)$
+154. Q: Sum of angles of a $D_{6}$-gon (Polygon with $D_6$ side)? A: $180\degree \cdot \left(D_{6}-2\right)$
+155. Q: Sum of angles is $540 \degree$. How many angles does this polygon have? A: $5$
+156. Q: What is a parallelogram? A: A quadrilateral whose opposite sides are parallel in pairs.
+157. Q: How to find the area of a parallelogram with side $D_{4}$ and height $D_{6}$? A: $D_{4} \cdot D_{6}$
+158. Q: What is a rectangle? A: A parallelogram with all angles right.
+159. Q: What is a square? A: A rectangle with all sides equal.
+160. Q: What is a rhombus? A: A parallelogram with all sides equal.
+161. Q: What is the graph of $y=\sqrt{x}$ ? A: Branch of a parabola.
+162. Q: What is a square root for number $a$? A: The square root of $a$ is the number $x$ that gives $a$ when squared.
+163. Q: What is the difference between an ordinary square root and an arithmetic root? A: The arithmetic square root (unlike the ordinary one) is always non-negative.
+164. Q: What is an arithmetic sequence? A: A sequence of numbers in which each number, starting with the second, is obtained from the previous one by adding to it a constant number.
+165. Q: What is the general relation for a member number $n$ in an arithmetic progression? A: $a_n=a_1+d(n-1)$
+166. Q: What is the recurrence relation for the member number $n$ in an arithmetic progression? A: $a_n=d + a_{n-1}$
+167. Q: What is the difference between a recurrence and a general relation? A: A recurrence relation expresses each member of a sequence depending on other members, and a general relation expresses each member using its index.
+168. Q: Does the arithmetic sequence where $d=D_{6}$ increase? A: Yes.
+169. Q: How to find the sum of the first N terms of an arithmetic progression? A: $$S_{n} = \frac{a_{1} + a_{n}}{2} \cdot n$$
+170. Q: What is a geometric series? A: A numerical sequence, each member of which differs from the previous one by a certain constant.
+171. Q: What is the general relation for a member of a geometric progression? A: $$b_n=b_1 \cdot q^{n-1}$$
+172. Q: What is the recurrence relation for a geometric series term? A: $$b_n=q\cdot b_{n-1}$$
+173. Q: Does the geometric series where $q=2D_{20}$ increase? A: Yes.
+174. Q: What is the sum of the first $10$ terms of the arithmetic progression defines by the formula $a_n = 1 + 1\cdot(n-1)$? A: $55$
+175. Q: What is the sum of the smallest $5$ prime numbers? A: $28$
+176. Q: What is the area of a sector of $30\degree$ and $r=1$? A: $$\frac{\pi}{12}$$
+177. Q: How to find the area of an equilateral triangle? A: $$\frac{a^2\sin60\degree}{2}=\frac{a^2\sqrt{3}}{2}$$
+178. Q: How many roots will the equation $-x^2+D_6b+D_{20}c=0$ have? A: $2$
+179. Q: How many roots will the equation $10x^2+D_6b+D_{20}c=0$ have? A: $0$
+180. Q: How many roots will the equation $\frac{kx^2}{2}+kx+\frac{k}{2}=0$, $k=D_6$ have? A: $1$
+181. Q: Solve the equation $3x^2-8x=0$. A: $$x_{1} = 0; x_{2}=\frac{8}{3}$$
+182. Q: Solve the equation $16x^2-9=0$. A: $$x=\pm \frac{3}{4}$$
+183. Q: What is the domain of value and domain of definition of the function $y=x^2$? A: $$D(y) = (-\infty; +\infty); E(y) = [0;+\infty)$$
+184. Q: Find the parabolic vertex coordinates of the function $y = x^2 - 2x + D_{20}$ A: $$(1, D_{20}-1)$$
+185. Q: Find the sum of the roots of the equation $kx^2+kx+k=0; k=D_{6}$ A: $-1$
+186. Q: Find the sum of the roots of the equation $2x^2+kx+k=0; k=D_{6}$ A: $$-{D_6 \over 2}$$
+187. Q: Solve the equation $kx^4+kx+k=0; k=D_{100}$ A: There are no solutions.
+188. Q: Solve the equation $4x^2 -100 = 0$. A: $x = \pm5$
+189. Q: Solve the equation $(x-5)^2 = 81$. A: $x_1 = 14; x_2 = -4$
+190. Q: Given an isosceles right triangle, opposite the angle $45\degree$ is a side $D_{20}$. What is the hypotenuse equal to? A: $D_{20}\sqrt{2}$
+191. Q: Given a triangle with angles $30\degree$, $60\degree$, $90\degree$, opposite the angle $30\degree$ is a side $D_4$. What are the other 2 sides equal to? A: $60\degree - D_4\sqrt{3}; 90\degree - 2D_4$.
+192. Q: The longest side of a squared triangle is greater than the sum of the squares of the other two sides. What type of triangle is this? A: Obtuse triangle.
+193. Q: The longest side of a squared triangle is smaller than the sum of the squares of the other two sides. What type of triangle is this? A: Acute triangle.
+194. Q: What is a trapezoid? A: A trapezoid is a quadrilateral two sides of which are parallel and the other two sides are not parallel.
+195. Q: Which trapezoid is isosceles? A: A trapezoid whose sides are equal.
+196. Q: Which trapezoid is scalene? A: A trapezoid that is neither rectangular nor isosceles.
+197. Q: Which trapezoid is right? A: A trapezoid with one side perpendicular to the base.
+198. Q: What is the center line in a triangle? A: A segment connecting the centers of $2$ sides.
+199. Q: What is the center line in a trapezoid? A: a segment connecting the centers of $2$ of the sides.
+200. Q: How to find the area of a trapezoid? A: $$S=\frac{a + b}{2}h$$
+201. Q: What is a median (in statistics)? A: The middle point of a sorted sequence.
+202. Q: What is a mode (in statistics)? A: The most frequent number in a sent.
+203. Q: What is an amplitude? A: The difference between the maximum and minimum value in a set.
+204. Q: What is the relative frequency of $5$ on $D_{10}$? A: $\frac{1}{10}$
+205. Q: What is the average on $D_{100}$? A: $55$
+206. Q: What is the median on $D_{12}$? A: $6.5$
 
-> Q: Картинка Диаграммы. Что это за диаграмма? A: столбчатая, секторная, пиктограмма, таблица частости. ==КАРТИНКА==
+> 9th grade
 
-201. Q: Что такое медиана (в статистике)? A: Число, которое находится в середине числогого набора, если его монотонно упорядочить.
-202. Q: Что такое мода (в статистике)? A: Значение во множестве наблюдений, которое встречается наиболее часто.
-203. Q: Что такое амплитуда? A: Разница между максимальным и минимальным значением набора.
-204. Q: Чему равно относительная частота числа $5$ на $D_{10}$? A: $\frac{1}{10}$
-205. Q: Чему равно среднее значение на $D_{100}$? A: $55$
-206. Q: Чему равна медиана на $D_{12}$? A: $6.5$
-
-> 9 класс
-
-207. Q: Что такое алгебраическое дробное выражение?: A: Выражения, в которых имеется деление на переменную.
-208. Q: Определить область значения $f(x) = \frac{x-3}{x(x+8)}$ A: $$D(f) = (-\infty;-8)\cup(-8;0)\cup(0; +\infty)$$
+207. Q: What is an algebraic rational expression? A: Expression which contains a division by a variable.
+208. Q: Determine the range of value $f(x) = \frac{x-3}{x(x+8)}$ A: $$D(f) = (-\infty;-8)\cup(- 8;0)\cup(0; +\infty)$$
 209. Q: $$\frac{2x}{x-a}+\frac{x}{a-x}=?$$ A: $$\frac{x}{x-a}$$
-210. Q: $$\frac{1}{4-2a} + \frac{4}{4-a^2}=?$$ A: $$\frac{10 + a}{2(2-a)(2+a)}=\frac{10 + a}{8-2a^2}$$
-211. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$ A: $\sin \alpha=\frac{a}{c}$
-212. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\sin \beta =?$ A: $\sin \beta=\frac{b}{c}$
-213. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \alpha =?$ A: $\tan \alpha=\frac{a}{b}$
-214. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\tan \beta =?$ A: $\tan \beta=\frac{b}{a}$
-215. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \alpha =?$ A: $\cos \alpha=\frac{b}{c}$
-216. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\cos \beta =?$ A: $\cos \beta=\frac{a}{c}$
-217. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \alpha =?$ A: $\text{ctg} \alpha=\frac{b}{a}$
-218. Q: $\triangle ABC$ с углами $\alpha, \beta, \gamma$ и сторонами $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \beta =?$ A: $\text{ctg} \beta=\frac{a}{b}$
-219. Q: Является ли данный график выражения $y=D_{20}x + D_{12}$ функцией или зависимостью? A: Функция.
-220. Q: Является ли данный график выражения $x^2 + y^2 = D_{20}^2$ функцией или зависимостью? A: Зависимость.
-221. Q: Является ли данный график выражения $y=D_{20}$ функцией или зависимостью? A: Функция.
-222. Q: Является ли данный график выражения $x=D_{20}$ функцией или зависимостью? A: Зависимость.
-223. Q: Как называется график линейной функции? A: Прямая.
-224. Q: Как называется график квадратичной функции? A: Парабола.
-225. Q: Как называется график выражения $y=\sqrt{x}$? A: Ветвь параболы.
-226. Q: Как называется график обратной пропорциональности? A: Гипербола.
-227. Q: Как называется график экспоненциальное функции? A: Экспонента.
-228. Q: Как называется график функции $y=\sin x$? A: Синусоида или косинусоида.
-229. Q: Как называется график функции $y=\cos x$? A: Синусоида или косинусоида.
-230. Q: Что такое график функции? A: Множество точек координаты которых соответствуют значениям аргумента и функции.
-231. Q: Что такое координаты точки? A: Пара чисел показывающая местоположение точки на координатной плоскости.
-
-> Q: Дан график параболы. Характеризуйте $a$ и $c$. ==КАРТИНКА==
-
-232. Q: Найдите ось симметрии функции $y=x^2-4x$. A: $$x=2$$
-233. Q: $y=(x-D_6)^2$, найти координату x вершины. A: $$x_0=D_6$$
-234. Q: $y=(x+D_{20})^2$, найти координату x вершины. A: $x_0=-D_{20}$
-235. Q: $x^2-4x-5>0$ A: $$x \in \left(-\infty;-1\right)\cup\left(-1;5\right)\cup\left(5;+\infty\right)$$
+210. Q: $$\frac{1}{4-2a} + \frac{4}{4-a^2}=?$$ A: $$\frac{10 + a}{2(2-a )(2+a)}=\frac{10 + a}{8-2a^2}$$
+211. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\sin \alpha =?$ A: $\sin \alpha=\frac{a}{c}$
+212. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\sin \beta =?$ A: $\sin \beta=\frac{b}{c}$
+213. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\tan \alpha =?$ A: $\tan \alpha=\frac{a}{b}$
+214. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\tan \beta =?$ A: $\tan \beta=\frac{b}{a}$
+215. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\cos \alpha =?$ A: $\cos \alpha=\frac{b}{c}$
+216. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\cos \beta =?$ A: $\cos \beta=\frac{a}{c}$
+217. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \alpha =?$ A: $\text{ctg} \alpha=\frac{b}{a}$
+218. Q: $\triangle ABC$ with angles $\alpha, \beta, \gamma$ and sides $a, b, c$. $\gamma = 90\degree$. $\text{ctg} \beta =?$ A: $\text{ctg} \beta=\frac{a}{b}$
+219. Q: Is the given graph of $y=D_{20}x + D_{12}$ a function or a relation? A: Function.
+220. Q: Is the given graph of $x^2 + y^2 = D_{20}^2$ a function or a relation? A: Relation.
+221. Q: Is the given graph of $y=D_{20}$ a function or a relation? A: Function.
+222. Q: Is the given graph of $x=D_{20}$ a function or a relation? A: Relation.
+223. Q: What is the name of the graph of a linear function? A: Line.
+224. Q: What is the name of the graph of a quadratic function? A: Parabola.
+225. Q: What is the name of the graph of the expression $y=\sqrt{x}$? A: Branch of a parabola.
+226. Q: What is the name of the inverse proportionality graph? A: Hyperbole.
+227. Q: What is the name of the graph of an exponential function? A: Exponentioal.
+228. Q: What is the name of the graph of the function $y=\sin x$? A: Sine or cosine.
+229. Q: What is the name of the graph of the function $y=\cos x$? A: Sine or cosine.
+230. Q: What is a graph of a function? A: A set of points whose coordinates correspond to the values of the argument and function.
+231. Q: What are the coordinates of a point? A: A pair of numbers indicating the location of a point on the coordinate plane.
+232. Q: Find the axis of symmetry of the function $y=x^2-4x$. A: $$x=2$$
+233. Q: $y=(x-D_6)^2$, find the x coordinate of the parabola vertex. A: $$x_0=D_6$$
+234. Q: $y=(x+D_{20})^2$, find the x coordinate of the parabola vertex. A: $x_0=-D_{20}$
+235. Q: $x^2-4x-5>0$ A: $$x \in \left(-\infty;-1\right)\cup\left(-1;5\right)\cup\left (5;+\infty\right)$$
 236. Q: $9-4x^2 \ge 0$ A: $$x \in \left[-1.5, 1.5\right]$$
-237. Q: Что такое касательная? A: Прямая которая имеет ровно одну общую точку с окружностью.
-238. Q: Какое взаимное расположение касательной и радиуса проведённого в точку пересечения? A: Они перпендикулярны.
+237. Q: What is a tangent? A: A line that has exactly one common point with a curve.
+238. Q: What is the interposition of the tangent and the radius constructed to the intersection point? A: They are perpendicular.
 
->10 класс
+>10th grade
 
 240. Q: $(x-3)(x-5) \le 0$ A: $$x \in \left[3; 5\right]$$
-241. Q: $\frac{x+5}{x-2} \ge 0$ A: $$x \in \left(-\infty;-5\right] \cup \left(2;+\infty\right)$$
-242. Q: Что такое векториальная величина? A: Величина которая имеет направление.
-243. Q: Что такое векториальная величина? A: Величина, которая кроме числового значения имеет и направление.
-244. Q: Что такое скалярная величина? A: Величина которая не имеет направления.
-245. Q: Что такое скалярная величина? A: Величина, которая имеет только числовое значение.
-246. Q: Что такое вектор? A: Ориентированный отрезок.
-247. Q: Что такое модуль вектора? A: Длина отрезка или длина вектора.
-248. Q: Что такое длина вектора? A: Длина отрезка.
-249. Q: Что такое длина вектора? A: Длина направленного отрезка, определяющего вектор.
-250. Q: Какие вектора коллинеарны? A: Лежащие на параллельных или одной прямой.
-251. Q: Какие вектора сонаправленные? A: Коллинеарные векторы, которые направлены в одну сторону.
-252. Q: Какие вектора противоположно направленные? A: Коллинеарные векторы, которые не направлены в одну сторону.
-253. Q: Какие вектора противоположные? A: $\vec{v}=-\vec{u}$
-254. Q: Какие вектора противоположные? A: Q: Какие вектора противоположные? A: Вектора с равными модулями и противоположными направлениями.
-255. Q: Что значит $\vec{v}\parallel\vec{u}$? A: Вектора коллинеарны
-256. Q: Что значит $\vec{v} = -\vec{u}$ A: Вектора противоположны.
-257. Q: Что значит $\vec{v}\uparrow\uparrow\vec{u}$ A: Вектора сонаправленны.
-258. Q: Что значит $\vec{v}\uparrow\downarrow\vec{u}$ A: Вектора противонаправлены.
-259. Q: Что значит $\vec{v} = \vec{u}$ A: Вектора равны.
+241. Q: $$\frac{x+5}{x-2} \ge 0$$ A: $$x \in \left(-\infty;-5\right] \cup \left(2;+\infty \right)$$
+242. Q: What is vectorial value? A: A quantity that has a direction.
+243. Q: What is a scalar quantity? A: A quantity that has no direction.
+244. Q: What is a scalar quantity? A: A quantity that has only a numerical value.
+245. Q: What is a vector? A: Oriented line segment.
+246. Q: What is the modulus of a vector? A: Length of a vector.
+247. Q: What is the length of a vector? A: Length of the directed segment defining the vector.
+248. Q: Which vectors are collinear? A: Lying on parallel or one straight line.
+249. Q: Which vectors are like? A: Collinear vectors that point in the same direction.
+250. Q: Which vectors are unlike? A: Collinear vectors that do not point in the same direction.
+251. Q: Which vectors are opposite? A: $\vec{v}=-\vec{u}$
+252. Q: What does $\vec{v}\parallel\vec{u}$ mean? A: Vectors are collinear.
+253. Q: What does $\vec{v} = -\vec{u}$ mean? A: The vectors are opposite.
+254. Q: What does $\vec{v}\uparrow\uparrow\vec{u}$ mean? A: The vectors are like vectors.
+255. Q: What does $\vec{v}\uparrow\downarrow\vec{u}$ mean? A: The vectors are unlike vectors.
+256. Q: What does $\vec{v} = \vec{u}$ mean? A: The vectors are equal.
 
->Q: Картинка треугольника. Сложение векторов треугольником. ==-Что может быть хуже, чем 1 картинка? - ПЯТЬ картинок!==
->Q: Картинка паралелограмма. Сложение векторов паралелограмам.
->Q: Картинка треугольника. Сложение и вычитание векторов треугольником.
->Q: Картинка паралелограмма. Сложение и вычитание векторов паралелограмам
->Q: Картинка куба. Каждое ребро - вектор. Найти сумму векторов. $$\overrightarrow{AB}+\overrightarrow{B_1C_1} + \overrightarrow{CC_1} + \overrightarrow{B_1A_1} + \overrightarrow{B_1B} = \overrightarrow{AD}$$
 
-260. Q: Робинзон Крузо и Пятница тянут поверженного пирата: один на восток, с силой $3N$, другой толкает на север с силой $4N$. Какова общая сила и примерное направление поверженного пирата? A: $5N$ на северо-восток.
-261. Q: $$\sin 30\degree = ?$$ A: $$\frac{1}{2}$$ 
-262. Q: $$\sin 45\degree = ?$$ A: $$\frac{\sqrt{2}}{2}$$
-263. Q: $$\sin 60\degree = ?$$ A: $$\frac{\sqrt{3}}{2}$$
-264. Q: $$\sin 90\degree = ?$$ A: $$1$$
-265. Q: $$\sin 0\degree = ?$$ A: $$0$$
-266. Q: $$\sin 270\degree = ?$$ A: $$-1$$
-267. Q: $$\sin 180\degree = ?$$ A: $$0$$
-268. Q: $$\cos 30\degree = ?$$ A: $$\frac{\sqrt{3}}{2}$$ 
-269. Q: $$\cos 45\degree = ?$$ A: $$\frac{\sqrt{2}}{2}$$
-270. Q: $$\cos 60\degree = ?$$ A: $$\frac{1}{2}$$
-271. Q: $$\cos 90\degree = ?$$ A: $$0$$
-272. Q: $$\cos 0\degree = ?$$ A: $$1$$
-273. Q: $$\cos 270\degree = ?$$ A: $$0$$
-274. Q: $$\cos 180\degree = ?$$ A: $$-1$$
-275. Q: Что такое проекция вектора? A: Число, которое равно длине геометрической проекции вектора, если направления геометрической проекции и оси совпадают или число противоположное длине геометрической проекции, если направления геометрической проекции и оси противоположны.
-276. Q: Что такое геометрическая проекция вектора? A: Вектор, полученный путем проведения перпендикуляров из концов вектора к выбранной оси.
-277. Q: Дан вектор $\vec{a} = \left(8, 6\right)$ найти $|\vec{a}|$ A: $10$
-278. Q: Как найти середину отрезка? A: Нужно найти среднее арифметическое координат начала и конца вектора.
-279. Q: Дана точка $A(10, 346)$ и вектор $\overrightarrow{AB}(32, -46)$. Найти координаты середины отрезка $AB$. A: $(26, 323)$
-280. Q: Что такое вершина параболы? A: Точка параболы, через которую проходит ось симметрии.
-282. Q: Сколько вершин у параболы? A: $1$
-283. Q: Чему равно $x_0$ в $y = x^2 - 4$? A: $0$
-284. Q: Чему равно $y_0$ в $y = x^2 - 4$? A: $-4$
-285. Q: Выразите $x_0$ и $y_0$ из $f(x) = ax^2 + bx + c$? A: $$x_0=\frac{-b}{2a}; y_0 = f(x_0)$$
-> Q: Картинка: окружность c центром I квадранте, Оби оси являются касательными. Дан вектор от касательной с осью y до центра окружности длинны 3 и вектор от центра окружности до касательной с осью x длинны 3. Найти сумму векторов. A: $(3, -3)$
+257. Q: Given a cube $ABCDA_1B_1C_1D_1$ Each edge is a vector. Find the sum of vectors. $$\overrightarrow{AB}+\overrightarrow{B_1C_1} + \overrightarrow{CC_1} + \overrightarrow{B_1A_1} + \overrightarrow{B_1B} = ?$$ A: $$\overrightarrow{AD}$$
+258. Q: Robinson Crusoe and Friday are pulling a fallen pirate: one to the east with a force of $3N$, the other pushing north with a force of $4N$. What is the overall strength and approximate direction of the defeated pirate? A: $5N$ to the north-east.
+259. Q: $$\sin 30\degree = ?$$ A: $$\frac{1}{2}$$
+260. Q: $$\sin 45\degree = ?$$ A: $$\frac{\sqrt{2}}{2}$$
+261. Q: $$\sin 60\degree = ?$$ A: $$\frac{\sqrt{3}}{2}$$
+262. Q: $$\sin 90\degree = ?$$ A: $$1$$
+263. Q: $$\sin 0\degree = ?$$ A: $$0$$
+264. Q: $$\sin 270\degree = ?$$ A: $$-1$$
+265. Q: $$\sin 180\degree = ?$$ A: $$0$$
+266. Q: $$\cos 30\degree = ?$$ A: $$\frac{\sqrt{3}}{2}$$
+267. Q: $$\cos 45\degree = ?$$ A: $$\frac{\sqrt{2}}{2}$$
+268. Q: $$\cos 60\degree = ?$$ A: $$\frac{1}{2}$$
+269. Q: $$\cos 90\degree = ?$$ A: $$0$$
+270. Q: $$\cos 0\degree = ?$$ A: $$1$$
+271. Q: $$\cos 270\degree = ?$$ A: $$0$$
+272. Q: $$\cos 180\degree = ?$$ A: $$-1$$
+273. Q: What is a projection of a vector? A: The vector projection of a vector $a$ on a nonzero vector $b$ is the orthogonal projection of $a$ onto a line parallel to $b$. (A number)
+274. Q: What is the geometric projection of a vector? A: A vector obtained by drawing perpendiculars from the ends of the vector to the selected axis.
+275. Q: Given a vector $\vec{a} = \left(8, 6\right)$ find $|\vec{a}|$ A: $10$
+276. Q: How to find the midpoint of a segment? A: By finding the arithmetic mean of the endpoint coordinates.
+277. Q: Given a point $A(10, 346)$ and a vector $\overrightarrow{AB}(32, -46)$. Find the coordinates of the midpoint of the segment $AB$. A: $(26, 323)$
+278. Q: What is the vertex of a parabola? A: The point of a parabola through which the axis of symmetry passes.
+279. Q: How many vertices does a parabola have? A: $1$
+280. Q: What is $x_0$ equal to in $y = x^2 - 4$? A: $0$
+281. Q: What is $y_0$ equal to in $y = x^2 - 4$? A: $-4$
+282. Q: Express $x_0$ and $y_0$ from $f(x) = ax^2 + bx + c$? A: $$x_0=\frac{-b}{2a}; y_0 = f(x_0)$$
+283. Q: What is a function increment? A: $\Delta y = y_2 - y_1$
+284. Q: What is a function argument increment? A: $\Delta x = x_2 - x_1$
+285. Q: $ax + by + c = 0$. What is the graph of this relation? A: A line.
+286. Q: $2x + 5y + 10 = 0$. Convert to the form $y = kx + b$ A: $$y=-\frac{2}{5}x-2$$
+287. Q: $-4x + y - 6= 0$. Convert to the form $y = kx + b$ A: $$y=4x+6$$
+288. Q: $y=3x+7$. Convert to the form $ax + by + c = 0$ A: $$y = -3x + y - 7= 0$$
+289. Q: $$f(x)=\begin{cases}2x-6 & \text{if }x\in[-2;3) \\ 5-x & \text{if }x\in[3 ;+\infty)\end{cases}$$ $D(f) = ?$ A: $$D(f)=[-2;+\infty)$$
+290. Q:$$f(x)=\begin{cases}2x-6 & \text{if }x\in[-2;3) \\ 5-x & \text{if }x\in[3 ;+\infty)\end{cases}$$ $E(f) = ?$ A: $$E(f) = (-\infty; 2]$$
+291. Q: A line passes through the points $(7; 1)$ and $(1; 7)$. Express the line in the form $y=kx+b$. A: $y=-x+8$
+292. Q: A line passes through the origin and the point $(14; 10)$. Express the line in the form $y=kx+b$ A: $y=1.4x = \frac{7}{5}x$
+293. Q: What would be the graph of $(x-a)^2 + (y-b)^2 = r^2$ A: A circle with radius $r$ and center at $(a, b)$.
+294. Q: What would be the graph of $(x-a)^2 + (y-b)^2 \le r^2$ A: A disk with radius $r$ and center at $(a, b)$.
+295. Q: $(x-D_6) + (y+D_{10}) = D_{100}$. What is the radius of the circle? A: $\sqrt{D_{100}}$
+296. Q: $(x-D_6) + (y+D_{10}) = D_{100}$. At what point is the center of the circle? A: $(D_6; -D_{10})$
+297. Q: How many points of intersection can a circle and a hyperbola have? A: $0, 1, 2, 3, 4$
+298. Q: How many intersection points can the graphs $xy-bx=a$ and $(x-c)^2 + (y-d)^2 = e$ have? A: $0, 1, 2, 3, 4$
+299. Q: How many intersection points do $x^2+y^2=D_{20}$ and $y=D_{12}$ have? A: $2$
+300. Q: Given $D_{20}$ concentric disjoint circles and a straight line. How many intersection points can there be? A: $[0, 2\cdot D_{20}]$
+301. Q: What is the graph of the function $xy = D_{20}$ A: Hyperbola.
+302. Q: How many points of intersection can a parabola and a circle have? A: $0, 1, 2, 3, 4$
+303. Q: How many intersection points can 2 circles have? A: $0, 1, 2, \infty$
+304. Q: How many intersection points can 2 concentric circles have? A: $0,\infty$
+305. Q: What is a set? A: A collection of different elements.
+306. Q: Is the set $\{1, 5\}$ infinite or finite? A: Finite.
+307. Q: Is the set $[1; 5]$ infinite or finite? A: Infinite.
+308. Q: Is the set $(1; 5]$ infinite or finite? A: Infinite.
+309. Q: Is the set $(\mathbb{R} \setminus \mathbb{Q}) \cap \mathbb{Z}$ finite or infinite? A: Finite.
+310. Q: Is the set $(\mathbb{R} \setminus \mathbb{Q}) \cup \mathbb{Z}$ finite or infinite? A: Infinite.
+311. Q: How to correctly write the set $\left[2, 8\right) \cap \mathbb{Z}$ without an interval? A: $\left\{2, 3, 4, 5, 6, 7\right\}$
+312. Q: What does $A\cap B$ mean? A: Intersection of sets $A$ and $B$ (symmetric difference).
+313. Q: What does $A\cup B$ mean? A: Union of sets $A$ and $B$.
+314. Q: What does $A \setminus B$ mean? A: Difference of sets A and B.
+315. Q: What does $\mathbb{N}$ mean: A: The set of natural numbers.
+316. Q: What does $\mathbb{Z}$ mean: A: The set of integers.
+317. Q: What does $\mathbb{Q}$ mean: A: The set of rational numbers.
+318. Q: What does $\mathbb{R}$ mean: A: The set of real numbers.
+319. Q: What does $\mathbb{C}$ mean: A: The set of complex numbers.
+320. Q: Define the concept of a set. A: Set is one of the key concepts of mathematics, so it is not defined.
+321. Q: Which set is defined? A: A set is defined if any object can be determined whether it belongs to the set or not.
+322. Q: Name at least 1 way to specify a set. A: Either list all elements of the set, or indicate a property that is inherent only to all elements of the set.
+323. Q: What types of sets are there? A: There are finite and infinite sets.
+324. Q: How many elements does the empty set contain? A: $0$
+325. Q: How many elements does the set $\emptyset$ contain? A: $0$
+326. Q: What sets are called equal? A: Sets consisting of the same elements.
+327. Q: In what case will set B be a subset of set A? A: A set B is a subset of a set A if every element of set B is also an element of set A.
+328. Q: What is the intersection of sets A and B? A: The intersection of sets A and B is a set containing only those elements that belong to both set A and set B.
+329. Q: How is the intersection of sets A and B notated? A: A$\cap$B.
+330. Q: What is the union of sets A and B? A: The union of sets A and B is the set of elements belonging to set A, or set B, or both sets.
+331. Q: How is the union of sets A and B notated? A: A$\cup$B.
+332. Q: What is the difference between sets A and B? A: The difference of two sets A and B is a set all of whose elements are elements of set A, but are not elements of set B.
+333. Q: How is the difference between sets A and B notated? A: A$\setminus$B.
+334. Q: What is $n!$ equal to? A: $$n! =\prod_{i=1}^ni=1\cdot2\cdot3\ldots (n-1)\cdot n$$
+335. Q: What is $5!$ equal to? A: $120$
+336. Q: What is $6!$ equal to? A: $720$
+337. Q: In how many ways can you select an element from the set $A$ or from the set $B$? A: $|A| + |B|$
+338. Q: In how many ways can a pair of elements be selected from the sets $A$ and $B$? A: $|A|\cdot|B|$
+339. Q: What is partial permutation of $n$ by $k$ called? A: A partial permutation of $n$ by $k$ is an ordered set of k distinct elements from some set of distinct n elements.
+340. Q: What is a permutation of n elements? A: An $n$-element permutation is an ordered set of $n$ distinct elements.
+341. Q: What are combinations of $n$ elements over $m$ elements ($n$ choose $m$)? A: Combinations of $n$ elements over $m$ elements are called an unordered subset of $m$ elements of a given set.
+342. Q: $$\frac{A_n^k}{P_k}=?$$ A: $$\frac{A_n^k}{P_k}=C_n^k$$
+343. Q: $$P_n=?$$ A: $$P_n=n!$$
+344. Q: $$A_n^m=?$$ A: $$A_n^m=\frac{n!}{(n-m)!}$$
+345. Q: $$C_n^m=?$$ A: $$C_n^m=\frac{n!}{(n-m)!m!}$$
+346. Q: $$C_n^{n-k}=?$$ A: $$C_n^{n-k}=C_n^k$$
+347. Q: Is the equation $$C_{n+1}^k=C_n^{k-1}+C_n^k$$ true? A: Yes.
+348. Q: Is the equation $$C_{n+1}^k=C_n^{k+1}+C_n^k$$ true? A: No.
+349. Q: Is the equation $$C_{n+1}^k=C_{n-1}^{k-1}+C_{n-1}^k$$ true? A: No.
+350. Q: Is the equation $$C_{n+1}^n=C_k^{k-1}+C_k^k$$ true? A: No.
+351. Q: $$C_{n+1}^k=?$$ A: $$C_{n+1}^k=C_n^{k-1}+C_n^k$$
+352. Q: $$\sum_{i=0}^nC_n^i=?$$ A: $$\sum_{i=0}^nC_n^i=2^n$$
+353. Q: What are the binomial coefficients of the expression $(a+b)^5$. A: $1;5;10;5;1$
+354. Q: What is an experiment (attempt) in statistics? A: An action whose outcome is not known for sure.
+355. Q: Under what conditions is event $A$ certain? A: If $P(A)=1$
+356. Q: Give an example of a reliable event. A: Any event with probability $1$. Other players must evaluate.
+357. Q: Under what conditions is event $A$ impossible? A: If $P(B) =0$
+358. Q: Give an example of an impossible event. A: Any event with probability $0$. Other players must evaluate.
+359. Q: What are elementary events (atomic events)? A: Elementary events are the outcomes of a random experiment, of which exactly one happens.
+360. Q: What is $\overline{A}$ if $A$ is an event? A: Reverse event.
+361. Q: What is the reverse event of event $A$? A: $\overline{A}$
+362. Q: What is the reverse event of event $\overline{A}$? A: $\overline{\overline{A}}=A$
+363. Q: Robinson Crusoe "made 7 friends" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson line up all his “friends”? A: $$P_7=5040$$
+364. Q: Robinson Crusoe "made 7 friends" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson choose three friends for an intellectual discussion? A: $$A_7^3 = 210$$
+365. Q: Robinson Crusoe "made 7 friends" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. In how many ways can Robinson choose 1 to guard the house and 1 to hunt together? A: $$C_7^2=21$$
+366. Q: Robinson Crusoe "made 7 friends" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. The set $A$ consists of stones with male names. The set $B$ consisting of stones with female names. Define the intersection of the sets $A$ and $B$. A: $A\cap B = \emptyset$
+367. Q: Robinson Crusoe "made 7 friends" from stones and remaining ink. Their names are Alvin, Oscar, William, Betty, Charles, Matthew and Susan. The set $A$ consists of stones with male names. The set $B$ consists of stones with female names. Name the union of the sets $A$ and $B$. A: $$A\cup B = \left\{\text{Alvin}, \text{Oscar}, \text{William}, \text{Betty}, \text{Charles}, \text{Matthew}, \text{Susan}\right\}$$
+368. Q: During his time on the island, Robinson Crusoe met $1$ savage who agreed to accept Christianity and $97$ who did not. What is the statistical probability that a savage of this tribe will agree to accept Christianity? A: $$P=\frac{1}{98}$$
+369. Q: Robinson Crusoe decided to practice shooting a gun. The target area is $1m^2$, and the bull's-eye area is $1dm^2$. What is the probability that Crusoe will hit the bull's-eye if Crusoe always hits at least the target? A: $1\%$
+370. Q: What are compatible events? A: Two events are said to be compatible if the occurrence of one of them does not exclude the occurrence of the other in the same experiment. In other words, if $P(A \cap B) > 0$
+371. Q: What events are called incompatible? A: Multiple events are called incompatible if none of them can occur simultaneously as a result of a single experiment. In other words, if $P(A\cap B)=0$.
+372. Q: What is the probability of a union of incompatible events? A: $$P(A\cup B)=P(A) + P(B); \text{if } P(A\cap B)=0$$
+373. Q: What is the probability of combining compatible events? A: $$P(A\cap B)=P(A) + P(B) - P(A\cap B)$$
+> 12+ grade
+374. Q: The probability that the stick found by Robinson Crusoe is suitable for making one shovel is $\frac{1}{2}$. What is the probability that from $5$ sticks he will make exactly $2$ shovels? A: $$\left(\frac{1}{2}\right)^5\cdot C_5^2 = \frac{10}{32}=\frac{5}{16}$$
+375. Q: The probability that the stick Robinson Crusoe found on the shore today would be suitable for making a shovel is $0.67$. What is the probability that today Robinson Crusoe will be engaged in farming (to feed himself and Friday), and not wander around in search of another stick? A: $0.67$, it’s written right there.
+376. Q: Is the part of the plane bounded by a parabola a convex or concave figure? A: Both, one part is concave, the other is convex.
+377. Q: Is a parabola a convex or concave? A: Concave.
+378. Q: Compute $\pi \left(\sin^2 \left(2\alpha\right) + \cos^2 \left(2\alpha\right)\right)|x| < \ln e^{15}$, assume that $\pi \approx 3$. A: $x \in (-\infty; -5) \cup (5, \infty)$
+379. Q: Which equality is strict? A: The one with signs "$<$" or "$>$".
+380. Q: Which type of graph point corresponds to the strict inequality (shaded/unshaded) A: Shaded.
+381. Q: Which interval brackets corresponds to a strict inequality? A: Round brackets (()).
+382. Q: $122 < -2x < 466$ express $x$. A: $-233 < x < -61$
+383. Q: What is the difference between $A \in B$ and $A \subset B$? A: $A$ (as  an element) belongs to $B$ or $A$ (as a set) is a subset of $B$.
+384. Q: What is the name of the graph of the function $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3}x - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$ A: A line.
+385. Q: What is the name of the graph of the function $$f\left(y\right)=\frac{\sum_{k=24}^{334}xk^{\frac{1}{17}}}{\log_\pi e^3}x - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$ A: A parabola.
+386. What is the name of the graph of the function $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e ^3} - \frac{\cos^21.5\pi\cdot x^{0.5\sin^2\alpha+0.5\cos^2\alpha}}{\lim\limits_{z\to\infty}\left( 1+\frac{1}{z}\right)^z}$$A: A branch of a parabola.
+387. Q: What is the name of the graph of the function $$f\left(y\right)=\frac{x^{\cos5\pi}\cdot\sum_{k=24}^{334}k^{\frac{1 }{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z }\right)^z}$$A: A hyperbola.
+388. Q: What is the name of the graph of the function $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{x}{17}}}{\log_\pi e^3} - \frac{\cos ^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: An exponential.
+389. Q: What is the name of the graph of the function $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi\cdot\cos x}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^ z}$$ A: A sine or a cosine.
+390. Q: What is an exponential equation? A: An equation with a variable in the exponent.
+391. Q: Under what conditions are the equations $a^{f(x)} = a^{g(x)}$ and $f(x) = g(x)$ equivalent? A: $a > 0 \land a \ne 1$.
+392. Q: What is $2^{1000}$ (to within $\pm3$ exponent)? A: $1.07 \cdot 10^{300}$
+393. Q: How many points of intersection can 2 linear functions have? A: $0$, $1$, $+\infty$
+394. Q: Compare $a^b$ and $a^c$ if $b > c$. A: Greater if $a > 1$; lesser if $a < 1$; equal if $a = 1$
+395. Q: $a = b^x$ , what is $x$ equal to? A: $x = \log_ba$
+396. Q: $a^{\log_ab}=?$ A: $b$
+397. Q: $\log_a1=?$ A: $0$
+398. Q: $\log_aa=?$ A: $1$
+399. Q: $\log_c(a \cdot b) = ?$ A: $\log_ca + \log_cb$
+400. Q: $\log_c(\frac{a}{b}) = ?$ A: $\log_ca - \log_cb$
+401. Q: $\log_ab^c = ?$ A: $c\log_ab$
+402. Q: $\log_ax^{2n}= ?$ A: $2n \cdot \log_a\left|x\right|$
+403. Q: $2 + 2 \cdot 2 = ?$ A: $6$
+404. Q: $5 + 5 \cdot 5 = ?$ A: $30$
+405. Q: $5 \cdot 5 + 5 = ?$ A: $30$, :D
+406. Q: $\log_a\sqrt[n]{b}=?$ A: $\frac{\log_ab}{n}=\frac{1}{n}\log_ab$
+407. Q: $\frac{\log_cb}{\log_ca} = ?$ A: $\log_ab$
+408. Q: What is a logarithmic equation? A: Equation with variables from which logarithm is being taken. 
+409. Q: $a^n \cdot a^m = ?$ A: $a^{n+m}$
+410. Q: $a^1$ = ? A: $a$
+411. Q: $a^0$ = ? A: $1$
+412. Q: $\left(\frac{a}{b}\right)^{-n}=?$ A: $\left(\frac{b}{a}\right)^n$
+413. Q: $2^x = 8192; x = ?$ A: $x=13$
+414. Q: $0.5^x = 0.03125; x=?$ A: $5$
+415. Q: $0.228^x = 0.011852352; x=?$ A: $3$
+416. Q: $0.9^x = 0.16677181699666569; x=?$ A: $17$
+417. Q: $x^2 - 169 = 0; x = ?$ A: $\pm13$
+418. Q: A man is walking home from the store. His dog runs from him to his house and back to him at double speed. If a person walked $2346m$, what distance did the dog run? A: $4692m$
+419. Q: Arrange the sets $\mathbb{Z}, \mathbb{N}, \mathbb{Q}, \mathbb{R}$ as they expand. A: $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
+420. Q: What are the second-place digits called when writing a natural number? A: Tens.
+421. Q: How many zeros are there at the end of the product of natural numbers from $1$ to $10$? A: $2$
+422. Q: What number is a divisible by all other numbers? A: $0$
+423. Q: The weight of the can with milk is $32kg$, without milk $2kg$. What is the mass of the can half filled? A: $17kg$
+424. Q: How many kilograms are in $100$ poods? Options: $500$, $640$, $1638$ A: $1638$
+425. Q: Three hundred times two hundred. How many hundreds did you get? A: $600$ hundreds.
+426. Q: What is the name of the science that studies plane figures? A: Planimetry.
+427. Q: What's more? Oxygen atoms in a water molecule or stars in the solar system? A: Equal.
+428. Q: How many times will a two-digit number increase if the same number is added to it? A: 101 times.
+429. Q: What is the name of the number equal to $10^{100}$? A: Googol.
+430. Q: How many times is the sixth floor higher than the third? A: 2.5 times.
+431. Q: Which statement is false? $0\in \mathbb{N}; 0\in \mathbb{Z}; 0\in \mathbb{R}; 0\in \mathbb{Q}$ A: $0\notin \mathbb{N}$
+432. Q: What is the name of the number equal to $10^{12}$? A: Trillion.
+433. Q: Divide four by a half. A: $8$
+434. Q: Which triangle is called the Egyptian triangle? A: One with sides $3,4,5$
+435. Q: Find the difference between the numbers $-9$ and $-7$. A: $\pm2$.
+436. Q: How many vertices does a cube have? A: $8$
+437. Q: How many faces does a cube have? A: $6$
+438. Q: How many edges does a cube have? A: $12$
+439. Q: Convert $124ppm$ to $ppt$. A: $124ppm=1.24\cdot 10^8 ppt=124\cdot10^6ppt$
+440. Q: Three horses galloped $90km$. How far did each horse gallop? A: $90km$
+441. Q: $\tau=?$ A: $\tau=2\pi$
+442. Q: Compare $\sin 30\degree$ and $\sin 40\degree$. A: $\sin 40\degree > \sin 30\degree$
+443. Q: Compare $\cos 30\degree$ and $\cos 40\degree$. A: $\cos 40\degree < \cos 30\degree$
+444. Q: What is the greatest number of obtuse angles in a triangle? A: $1$
+445. Q: Absolute value of $6$? A: $6$
+446. Q: One and a half fish costs one and a half euros. How much do five fish cost? A: 5 euros.
+447. Q: A bat and a ball cost \$1.10 in total. The bat costs \$1.00 more than the ball. How much does the ball cost? A: \$1.05 and  \$0.05 respectively.
+448. Q: If it takes $5$ machines $5$ minutes to make $5$ widgets, how long would it take $100$ machines to make $100$ widgets? A: $5$ minutes.
+449. Q: In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes $64$ days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? A: $63$
+450. Q: A notebook and a cover weight $110$ grams total. The notebook weights 100 grams more then the cover. How much does the cover weight? A: $0.05g$
+451. Q: The Industrial Revolution has begun on the Isle of Robinson Crusoe. If it takes $7$ machines $7$ minutes to make $7$ widgets, how long would it take $1001$ machines to make $1001$ widgets? A: $7$ minutes
+452. Q: The amount of amusingly absurd questions in this game, which replace normal ones, increases double-fold per day. It takes two weeks for the entire project to be overrun by memes. How long would it take for only half of the question to be questionable? A: $13$
+453. Q: What reasoning technique is based on the past experience? A: Empirical reasoning.
+454. Q: What reasoning technique is based on the past observations? A: Inductive reasoning.
+455. Q: What reasoning technique is based on the past conclusions? A: Deductive reasoning.
 
-286. Q: Что такое приращение функции? A: $\Delta y = y_2 - y_1$
-287. Q: Что такое приращение аргумента функции? A: $\Delta x = x_2 - x_1$
-288. Q: $ax + by + c = 0$. Чем является график данного соотношения? A: Прямая.
-289. Q: Чем является график $ax + by + c = 0$? A: Прямая.
-290. Q: $2x + 5y + 10 = 0$. Преобразовать в вид $y = kx + b$ A: $$y=-\frac{2}{5}x-2$$
-291. Q: $-4x + y - 6= 0$. Преобразовать в вид $y = kx + b$ A: $$y=4x+6$$
-292. Q: $y=3x+7$. Преобразовать в вид $ax + by + c = 0$ A: $$y = -3x + y - 7= 0$$
-293. Q: $$f(x)=\begin{cases}2x-6 & \text{if }x\in[-2;3) \\ 5-x & \text{if }x\in[3;+\infty)\end{cases}$$ $D(f) = ?$ A: $$D(f)=[-2;+\infty)$$
-294. Q:$$f(x)=\begin{cases}2x-6 & \text{if }x\in[-2;3) \\ 5-x & \text{if }x\in[3;+\infty)\end{cases}$$ $E(f) = ?$ A: $$E(f) = (-\infty; 2]$$
+456. Q: What is a logical structure which can be verified to be either true or false? A: A statement.
 
-296. Q: Прямая проходит через точки $(7; 1)$ и $(1; 7)$. Представить прямую в виде $y=kx+b$. A: $y=-x+8$
-297. Q: Прямая проходит через начало координат и точку $(14; 10)$. Представить прямую в виде $y=kx+b$ A: $y=1.4x = \frac{7}{5}x$
+457. Q: What are statements which can be used in multiple context by means of parameters or variables called? A: General statements.
 
-> Q: дан график $f(x)$, области пронумерованы. Какие области ялвяются решением $f(x) > 0$ ==скорее всего пока скип==
+458. Q: What does statement $A$ need to be for $\lnot A$ (not A) to be true? A: False.
+459. Q: What does statement $A$ need to be for $\lnot A$ (not A) to be false? A: True.
+460. Q: What does statements $A$ and $B$ value have to be for $A\lor B$ ($A$ or $B$) to be false? A: Both $A$ and $B$ have to be false.
+461. Q: What does statements $A$ and $B$ have to be for $A\lor B$ ($A$ or $B$) to be true? A: Both or at least on of $A$ or $B$ have to be true.
+462. Q: What does statements $A$ and $B$ have to be for $A\lor B$ ($A$ or $B$) to be false? A: Both $A$ and $B$ have to be false.
+463. Q: What do statements $A$ and $B$ have to be for $A\land B$ ($A$ and $B$) to be true? A: Both $A$ and $B$ have to be true.
+464. Q: What do statements $A$ and $B$ have to be for $A\land B$ ($A$ and $B$) to be false? A: Both or at least on of $A$ or $B$ have to be false.
+465. Q: How do you call $A$ in $A \implies B$ ($A$ implies B)? A: Condition.
+466. Q: How do you call $B$ in $A \implies B$ ($A$ implies B)? A: Conclusion.
+467. Q: What do statements $A$ and $B$ have to be for $A \iff B$ ($A$ is equivalent to $B$) to be true? A: $A$ and $B$ have to match, formally $(A \land B) \lor \lnot(A \lor B)$.
+468. Q: What do statements $A$ and $B$ have to be for $A \iff B$ ($A$ is equivalent to $B$) to be false? A: $A$ and $B$ must not match, formally $(A \land \lnot B) \lor (\lnot A \land B)$.
+469. Q: What is a series of logical deductions to arrive at a conclusion from the given conditions called? A: Logical proof.
+470. Q: What is the step 1 of the Principle of Mathematical Induction? A: Induction base.
+471. Q: What is the step 2 of the Principle of Mathematical Induction? A: Induction assumption.
+472. Q: What is the step 3 of the Principle of Mathematical Induction? A: Induction step.
+473. Q: What is the step 4 of the Principle of Mathematical Induction? A: Conclusion.
+474. Q: What needs to be done in Step 1 of the Principle of Mathematical Induction? A: Statement with $n=p$ ($p$ is the first valid $n$ value) needs to be tested.
+475. Q: What needs to be done in Step 2 of the Principle of Mathematical Induction? A: Statement with $n=k ~|~ k>p$ is assumed to be true.
+476. Q: What needs to be done in Step 3 of the Principle of Mathematical Induction? A: Statement with $n=k+1 ~|~ S(k) ~|~ k >p$ needs to be proved.
+477. Q: What needs to be done in Step 4 of the Principle of Mathematical Induction? A: Conclusion that $S(k)$ is true for $\forall k  ~|~ k > p \land k \in \mathbb{N}$ can be made.
+478. Q: $$\sum_{i=0}^n C_n^i=?$$ A: $2^n$
+479. Q: $C^0_7+C^1_7+C^2_7+C^3_7+C^4_7+C^5_7+C^6_7+C^7_7$ A: $2^7 = 128$
+480. Q: $C^k_n+C^{k+1}_n=?$ A: $C^{k+1}_{n+1}$
+481. Q: $$\frac{C^{17}_{21}}{C^4_{20}+C^3_{20}}$$ A: $1$
+482. Q: $C^{n-k}_n=?$ (without using the definition) A: $C^{k}_n$
+483. Q: $$C^{17}_{21}\stackrel?=C^{4}_{21}$$ A: Yes.
+484. Q: $$C^{17}_{21} \stackrel?= C^{4}_{17}$$ A: No.
+485. Q: $$C^{4}_{8}\stackrel?=C^{2}_{4}$$ A: No.
+486. Q: $C^{8}_{4}=?$ A: $0$
+487. Q: $C^k_n ~|~ n > k = ?$ A: $0$
+488. Q: $C^k_n+C^{k+1}_n=?\cdot C^k_n$ A: $\frac{n+1}{k-1}$
+489. Q: Name binomial coefficients of expression $(j-a)^4$ A: $1, -4, 6, -4, 1$
+490. Q: Name binomial coefficients of expression $(j+a)^5$ A: $1, 5, 10, 10, 5, 1$
+491. Q: Express $0,(15)$ as a rational fraction $\frac{a}{b}$ A: $\frac{15}{99}$
+492. Q: Express $0,(4)$ as a rational fraction $\frac{a}{b}$ A: $\frac{4}{9}$
+493. Q: Express $5,(24)$ as a rational fraction $\frac{a}{b}$ A: $\frac{519}{99}$
+494. Q: What does the symbol $\exists$ mean? A: There exists at least one.
+495. Q: What does the symbol $\exists!$ mean? A: There exists one and only one.
+496. Q: What does the symbol $\forall$ mean? A: For every.
+497. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability that Daniel Defoe will write a world-famous book? A: $0.18$
+498. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability that Daniel Defoe will write a commercial flop? A: $0.42$
+499. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability that the written book will be world famous? A: $0.3$
+500. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability that the written book will not be known worldwide? A: $0.7$
+501. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability of the union of the events that Daniel Defoe will write a world-famous book and that Daniel Defoe will write a commercially insignificant and unviable? A: $0.6$
 
-298. Q: Чем будет являться график зависимости $(x-a)^2 + (y-b)^2 = r^2$ A: Окружность с радиусом $r$ и центром в $(a, b)$.
-299. Q: Чем будет являться график зависимости $(x-a)^2 + (y-b)^2 \le r^2$ A: Круг с радиусом $r$ и центром в $(a, b)$.
-300. Q: $(x-D_6) + (y+D_{10}) = D_{100}$. Каков радиус окружности? A: $\sqrt{D_{100}}$
-301. Q: $(x-D_6) + (y+D_{10}) = D_{100}$. В какой точке находится центр окружности? A: $(D_6; -D_{10})$
-302. Q: Сколько может быть точек пересечения у окружности и гиперболы? A: $0, 1, 2, 3, 4$
-303. Q: Сколько может быть точек пересечения у графиков $xy-bx=a$  и $(x-c)^2 + (y-d)^2 = e$ A: $0, 1, 2, 3, 4$
-304. Q: Сколько точек пересечению у $x^2+y^2=D_{20}$ и $y=D_{12}$ A: $2$
-305. Q: Даны $D_{20}$ концентрических не совпадающих окружностей и 1 прямая. Сколько может быть точек пересечения? A: $[0, 2\cdot D_{20}]$
-306. Q: Чем является график функции $xy = D_{20}$ A: Гипербола.
-307. Q: Сколько может быть точек пересечения у параболы и окружности? A: $0, 1, 2, 3, 4$
-308. Q: Сколько точек пересечения может быть у 2 окружностей? A: $0, 1, 2, \infty$
-309. Q: Сколько точек пересечения может быть у 2 концентрических окружностей? A: $0, \infty$
-310. Q: Что такое множество? A: набор разных элементов
-311. Q: Является ли множество $\{1, 5\}$ бесконечным или конечным? A: конечное
-312. Q: Является ли множество $[1; 5]$ бесконечным или конечным? A: бесконечное 
-313. Q: Является ли множество $(1; 5]$ бесконечным или конечным? A: бесконечное
-314. Q: Является ли множество $(\mathbb{R} \setminus \mathbb{Q}) \cap \mathbb{Z}$? A: конечное
-315. Q: Является ли множество $(\mathbb{R} \setminus \mathbb{Q}) \cup \mathbb{Z}$? A: бесконечное
-316. Q: Как правильно записать множество $\left[2, 8\right) \cap \mathbb{Z}$ без интервала? A: $\left\{2, 3, 4, 5, 6, 7\right\}$
-317. Q: Что означает $A\cap B$? A: пересечение множеств A и B (симметричная разность)
-318. Q: Что означает $A\cup B$? A: объединение множеств A и B
-319. Q: Что означает $A \setminus B$? A: Разность множеств A и B
-320. Q: Что означает $\mathbb{N}$: A: множество натуральных чисел.
-321. Q: Что означает $\mathbb{Z}$: A: множество целых чисел.
-322. Q: Что означает $\mathbb{Q}$: A: множество рациональных чисел.
-323. Q: Что означает $\mathbb{R}$: A: множество действительных чисел.
-324. Q: Что означает $\mathbb{C}$: A: множество комплексных чисел.
-
-> 12+ класс
-
-325. Q: Является ли часть плоскости ограниченная параболой выпуклой или вогнутой фигурой? A: выпуклой.
-326. Q: Является ли парабола выпуклой или вогнутой фигурой? A: вогнутая.
-327. Q: Решение $\pi \left(\sin^2 \left(2\alpha\right) + \cos^2 \left(2\alpha\right)\right)|x| < \ln e^{15}$, предположим что ($\pi \approx 3$). A: $x \in (-\infty; -5) \cup (5, \infty)$
-328. Q: Какое равенство является строгим? A: С > или <
-329. Q: Какая точка соответствует строгому неравенству (закрашенная/незакрашеная) A: закрашенная
-330. Q: Какая скобка интервала соответствует строгому неравенству? A: ()
-331. Q: $122 < -2x < 466$ выразите x A: $-233 < x < -61$
-332. Q: Чем отличается $A \in B$ от $A \subset B$? A: A (элемент) принаждлежит B и A (множество) является подмножеством B. ==(?)==
-333. Q: Как называется график функции $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3}x - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: прямая
-334. Q: Как называется график функции $$f\left(y\right)=\frac{\sum_{k=24}^{334}xk^{\frac{1}{17}}}{\log_\pi e^3}x - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: парабола
-335. Как называется график функции $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi\cdot x^{0.5\sin^2\alpha+0.5\cos^2\alpha}}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: ветвь параболы
-336. Q: Как называется график функции $$f\left(y\right)=\frac{x^{\cos5\pi}\cdot\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: гипербола
-337. Q: Как называется график функции $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{x}{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: экспонента
-338. Q: Как называется график функции $$f\left(y\right)=\frac{\sum_{k=24}^{334}k^{\frac{1}{17}}}{\log_\pi e^3} - \frac{\cos^21.5\pi\cdot\cos x}{\lim\limits_{z\to\infty}\left(1+\frac{1}{z}\right)^z}$$A: синусоида или косинусоида
-
-339. Q: Что такое экспоненциальное уравнение? A: Уравнение с переменной в показателе.
-340. Q: При каких условиях уравнения $a^{f(x)} = a^{g(x)}$ и $f(x) = g(x)$  эквивалентны? A: $a > 0$ и $a \ne 1$.
-341. Q: Чему равно $2^{1000}$ (с точностью до $\pm3$ в экспоненте)? A: $1.07 \cdot 10^{300}$
-342. Q: Сколько может быть точек пересечения у 2 линейных функций? A: $0$, $1$, $+\infty$
-343. Q: Сравнить $a^b$ и $a^c$, если $b > c$. A: > если a > 1; < если a < 1; = если a = 1
-344. Q: $a  = b^x$ , чему равен $x$? A: $x = \log_ba$
-345. Q: $a^{\log_ab}=?$ A: $b$
-346. Q: $\log_a1=?$ A: $0$
-347. Q: $\log_aa=?$ A: $1$
-348. Q: $\log_c(a \cdot b) = ?$ A: $\log_ca + \log_cb$
-349. Q: $\log_c(\frac{a}{b}) = ?$ A: $\log_ca - \log_cb$
-350. Q: $\log_ab^c = ?$ A: $c\log_ab$
-351. Q: $\log_ax^{2n}= ?$ A: $2n \cdot \log_a\left|x\right|$
-352. Q: $2 + 2 \cdot 2 = ?$ A: $6
-353. Q: $5 + 5 \cdot 5 = ?$ A: $30$
-354. Q: $5 \cdot 5 + 5 = ?$ A: $30$, :D
-355. Q: $\log_a\sqrt[n]{b}=?$ A: $\frac{\log_ab}{n}=\frac{1}{n}\log_ab$
-356. Q: $\frac{\log_cb}{\log_ca} = ?$ A: $\log_ab$
-357. Q: Что такое логарифмическое уравнение? A: Уравнение с логарифмируемыми переменными.
-358. Q: $a^n \cdot a^m = ?$ A: $a^{n+m}$
-359. Q: $a^1$ = ? A: $1$
-360. Q: $\left(\frac{a}{b}\right)^{-n}=?$ A: $\left(\frac{b}{a}\right)^n$
-361. Q: $2^x = 8192; x = ?$ A: $13$
-362. Q: $0,5^x = 0.03125; x=?$ A: $5$
-363. Q: $x^2 - 169 = 0; x = ?$ A: $\pm13$
-364. Q: How much wood would a woodchuck chuck if a woodchuck could chuck wood? A: A woodchuck would chuck all the wood he could chuck if a woodchuck could chuck wood. ($361.9237001\text{cm}^3$)
-365. Q: Человек идёт от магазина домой. Его собака бегает от него до дома и обратно до него с двойной скоростью. Если человек прошёл ростояние $2346m$, какое ростояние прошла собака? A: $4692m$
+502. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). What is the probability of the union of the events that Daniel Defoe writes a book and will not write a book? A: $1$
+503. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(B) = ?$ A: $0.18$
+504. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(\overline{B}) = ?$ A: $0.42$
+505. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(B|A) = ?$ A: $0.3$
+506. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(\overline{B}|A) = ?$ A: $700000ppm$ or $0.7$
+507. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(B\cup\overline{B}) = ?$ A: $0.6$
+508. Q: The probability that Daniel Defoe will write the book "Robinson Crusoe" is equal to 60% ($A$), and the probability that the written story will become world famous is 30% ($B~|~A$). $P(A\cup\overline{A}) = ?$ A: $1$
+509. Q: In an alternate universe, Friday turned out to be a woman, and Crusoe's rescue from the island never happened. What is the projected population of the island in $10$ years if the reproduction rate of the main characters is $0.2$. (predict using the compound interest formula) A: about $12.4$ or exactly $2\cdot(1+0.2)^{10}$.
+510. Q: The goat population on Crusoe Island left much to be desired - only 10 individuals remain. What is the projected population in $10$ years if the goat reproduction rate is 10 (predict using compound interest formula) A: $$10\cdot(1+10)^{10}=10\cdot 11^{10} = 259374246010$$
+511. Q: $\text{const} ^\prime=?$ A: $0$
+512. Q: $x^\prime$ = ? A: $1$
+513. Q: $(𝑥^𝑛)^\prime$ = ? A: $𝑛 \cdot 𝑥^{n−1}$
+514. Q: $(\sqrt{𝑥})^\prime$ = ? A: $${\frac{1}{2\sqrt{x}}}$$ 
+515. Q: $(\sin{𝑥})^\prime=?$ A: $\cos{x}$  
+516. Q: $(\cos{x})^\prime=?$ A: $-\sin{x}$
+517. Q: $(e^x)^\prime=?$ A: $e^x$ 
+518. Q: $$\left(\left(\lim\limits_{z\to\infty}\left(1+\frac1z\right)^z\right)^x\right)^\prime = ?$$  A: $e^x$
+519. Q: $$(\ln{x})^\prime=?$$ A: $$\frac1x$$
+520. Q: $(\text{const} \cdot f(x))^\prime=?$ A: $\text{const}\cdot f^\prime(x)$
+521. Q: $(f(x)+g(x))^\prime=?$ A: $f^\prime(x)+g^\prime(x)$ 
+522. Q: $(f(x)-g(x))^\prime=?$ A: $f^\prime(x)-g^\prime(x)$
+523. Q: $(f(x)\cdot g(x))^\prime=?$ A: $f^\prime(x)\cdot g(x)+f(x)\cdot g^\prime(x)$
+524. Q: $$\left(\frac{f(x)}{g(x)}\right)^\prime=?$$ A: $$\frac{f^\prime(x)\cdot g(x) - f(x) \cdot g^\prime(x)}{g^2(x)}$$
+525. Q: $$f^\prime_{x=x_0}(x)=?$$ A: $$\lim\limits_{\Delta x \to 0}\left(\frac{\Delta f(x_0)}{\Delta x}\right)$$
+526. Q: Name at least 2 types of indeterminate forms. A: $$\left[\frac\infty\infty\right],~ \left[\frac00\right],~\left[\infty - \infty\right],~\left[0^0\right],~\left[1^\infty\right],~\left[\infty^0\right],~\left[0\cdot \infty\right]$$
+527. Q: $(3x^7)^\prime$ = ? A: $21x^6$
+528. Q: $$\lim\limits_{x ~\to~-1}\frac{x^2-4x-5}{x^2-2x-3}$$ Which indeterminate form occurs here (if any)? A: $\left[\frac00\right]$
+529. Q: $$\lim\limits_{x ~\to ~+\infty}\frac{5\sqrt{(x+1)}-1}{\sqrt{(x+1)}}$$ Which indeterminate form occurs here (if any)? A: $\left[\frac\infty\infty\right]$
+530. Q: $$\lim\limits_{x \to 1}\left(\frac{1}{x-1}-\frac{2}{x^2-1}\right)$$ Which indeterminate form occurs here (if any)? A: $\left[\infty - \infty\right]$
+531. Q: $$\lim\limits_{x \to 2}\frac{x^2-4x+1}{3-x}$$ Which indeterminate form occurs here (if any)? A: There is no indetermination.
+532. Q: $$\lim\limits_{x \to 2}\frac{x^2-4x+1}{3-x}=?$$ A: $-3$
+533. Q: $$\lim\limits_{x \to 2}\frac{x^2-x-2}{x-3}=?$$ A: $0$
+534. Q: $$\lim\limits_{x \to 1}(5x^4-3x^3+x^2-3x+5)$$ A: $5$
+535. Q: $(2x+3)^\prime$ A: $2$
+536. Q: $(x^2)^\prime$ A: $2x$
+537. Q: $(x^3)^\prime$ A: $3x^2$
